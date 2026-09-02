@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRWR — International Registry of World Records (Design 7)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F2EC;
+    --panel:#EAE6D9;
+    --ink:#13161C;
+    --navy:#151B26;
+    --navy-2:#0D1119;
+    --ink-soft:rgba(19,22,28,0.64);
+    --ink-faint:rgba(19,22,28,0.42);
+    --gold:#D9A73B;
+    --gold-deep:#B98A26;
+    --line:rgba(19,22,28,0.14);
+    --line-dark:rgba(255,255,255,0.14);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--bg); color:var(--ink); font-family:'Inter', sans-serif; line-height:1.55; cursor:default;}
+  h1,h2,h3,h4,.disp{font-family:'Oswald', sans-serif; text-transform:uppercase; letter-spacing:0.01em;}
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:1280px; margin:0 auto; padding:0 40px;}
+  img.photo{display:block; width:100%; height:100%; object-fit:cover; filter:saturate(0.9) contrast(1.06);}
+
+  .scroll-progress{position:fixed; top:0; left:0; height:3px; background:var(--gold); z-index:1000; width:0%;}
+  .cursor-glow{position:fixed; width:400px; height:400px; border-radius:50%; pointer-events:none; z-index:5; background:radial-gradient(circle, rgba(217,167,59,0.10), transparent 70%); transform:translate(-50%,-50%); transition:opacity .3s ease; opacity:0;}
+
+  /* header */
+  header{background:transparent; position:absolute; top:0; left:0; right:0; z-index:40;}
+  header.solid{background:var(--navy); position:sticky;}
+  header .bar{display:flex; align-items:center; justify-content:space-between; height:88px;}
+  .logo{display:flex; align-items:center; gap:10px; color:#fff; font-family:'Oswald',sans-serif; font-weight:600; font-size:19px; text-transform:uppercase; letter-spacing:0.02em;}
+  .logo-mark{width:30px; height:30px; background:var(--gold); clip-path:polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); transition:transform .5s ease;}
+  .logo:hover .logo-mark{transform:rotate(180deg);}
+  nav.dnav{display:flex; gap:2px;}
+  nav.dnav a{color:rgba(255,255,255,0.82); font-size:13px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; padding:10px 14px; transition:color .2s ease;}
+  nav.dnav a:hover{color:var(--gold);}
+  .header-right{display:flex; align-items:center; gap:16px;}
+  .lang-sm{color:rgba(255,255,255,0.7); font-size:12.5px; font-weight:600;}
+  .btn-gold{
+    background:var(--gold); color:var(--navy-2); font-size:12.5px; font-weight:700; letter-spacing:0.03em; text-transform:uppercase;
+    padding:13px 22px; transition:background .25s ease; position:relative; overflow:hidden;
+  }
+  .btn-gold:hover{background:#fff;}
+  .ripple{position:absolute; border-radius:50%; background:rgba(21,27,38,0.3); transform:scale(0); animation:rippleAnim .6s ease-out; pointer-events:none;}
+  @keyframes rippleAnim{ to{transform:scale(3); opacity:0;} }
+
+  /* hero */
+  .hero{position:relative; height:100vh; min-height:760px; overflow:hidden;}
+  .hero-bg{position:absolute; inset:0;}
+  .hero-bg::after{content:''; position:absolute; inset:0; background:linear-gradient(0deg, rgba(13,17,25,0.15) 0%, transparent 45%), linear-gradient(180deg, rgba(13,17,25,0.4) 0%, rgba(13,17,25,0.05) 30%);}
+  .hero-top-note{position:absolute; top:150px; right:40px; z-index:2; max-width:420px; text-align:right;}
+  .hero-top-note p{color:rgba(255,255,255,0.92); font-family:'Oswald',sans-serif; font-weight:500; font-size:19px; text-transform:uppercase; line-height:1.35; letter-spacing:0.005em;}
+  .hero-bottom{position:absolute; left:0; right:0; bottom:0; z-index:2; padding-bottom:64px;}
+  .hero-clients{color:rgba(255,255,255,0.75); font-size:13px; margin-bottom:20px; max-width:340px;}
+  .hero h1{color:#fff; font-size:64px; font-weight:600; letter-spacing:0; line-height:1.02; max-width:820px; margin-bottom:34px;}
+  .btn-gold-lg{
+    background:var(--gold); color:var(--navy-2); font-size:13.5px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase;
+    padding:17px 30px; display:inline-block; transition:background .25s ease, transform .25s ease; position:relative; overflow:hidden;
+  }
+  .btn-gold-lg:hover{background:#fff; transform:translateY(-2px);}
+
+  .ruler{height:32px; background:var(--navy); position:relative; overflow:hidden;}
+  .ruler-track{position:absolute; top:0; left:0; display:flex; height:100%; animation:rulerScroll 22s linear infinite;}
+  .ruler-track span{display:block; width:60px; height:100%; border-left:1px solid rgba(255,255,255,0.18); position:relative; flex:none;}
+  .ruler-track span::after{content:''; position:absolute; left:29px; top:8px; width:1px; height:8px; background:rgba(255,255,255,0.3);}
+  @keyframes rulerScroll{ to{ transform:translateX(-1800px); } }
+
+  /* mega title band */
+  .mega-title{background:var(--navy-2); padding:34px 0; overflow:hidden; border-bottom:1px solid var(--line-dark);}
+  .mega-track{display:flex; width:max-content; animation:megaScroll 26s linear infinite;}
+  .mega-track:hover{animation-play-state:paused;}
+  .mega-item{
+    display:flex; align-items:center; gap:22px; padding:0 42px; white-space:nowrap;
+    font-family:'Oswald', sans-serif; font-weight:700; font-size:clamp(28px, 4.4vw, 58px); letter-spacing:0.01em;
+  }
+  .mega-item .m-irwr{color:var(--gold);}
+  .mega-item .m-rest{color:#fff;}
+  .mega-item .m-star{color:rgba(255,255,255,0.25); font-size:0.5em;}
+  @keyframes megaScroll{ to{ transform:translateX(-50%); } }
+
+  .reveal{opacity:0; transform:translateY(26px); transition:opacity .7s cubic-bezier(.2,.7,.3,1), transform .7s cubic-bezier(.2,.7,.3,1);}
+  .reveal.in{opacity:1; transform:translateY(0);}
+
+  /* dark catalog section */
+  .catalog{background:var(--navy-2); padding:100px 0; position:relative; overflow:hidden;}
+  .compass{
+    position:absolute; right:-60px; bottom:-60px; width:420px; height:420px; opacity:0.06;
+    background:radial-gradient(circle, transparent 60%, rgba(255,255,255,0.4) 61%, transparent 62%);
+    border-radius:50%;
+  }
+  .catalog h2{color:#fff; font-size:52px; text-align:center; margin-bottom:60px; letter-spacing:0.01em;}
+
+  .cgrid{display:grid; grid-template-columns:1fr 1fr; gap:24px; position:relative; z-index:1;}
+  .ccard{
+    position:relative; border-radius:2px; overflow:hidden; height:340px; padding:26px;
+    display:flex; flex-direction:column; justify-content:space-between;
+    transition:transform .4s cubic-bezier(.2,.8,.25,1);
+  }
+  .ccard:hover{transform:translateY(-6px);}
+  .ccard .cph{position:absolute; inset:0; z-index:0;}
+  .ccard .cph::after{content:''; position:absolute; inset:0; background:linear-gradient(0deg, rgba(13,17,25,0.88) 10%, rgba(13,17,25,0.15) 60%);}
+  .ccard .cph img{transition:transform .6s cubic-bezier(.2,.8,.25,1);}
+  .ccard:hover .cph img{transform:scale(1.08);}
+  .ctags{position:relative; z-index:2; display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
+  .ctag{border:1px solid rgba(255,255,255,0.35); color:#fff; font-size:10.5px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; padding:6px 10px;}
+  .cbottom{position:relative; z-index:2;}
+  .cbottom h3{color:#fff; font-size:28px; font-weight:600; line-height:1.12; margin-bottom:12px;}
+  .cbottom p{color:rgba(255,255,255,0.72); font-size:13px; margin-bottom:20px; max-width:420px;}
+  .crow{display:flex; gap:12px;}
+  .btn-line{border:1px solid rgba(255,255,255,0.5); color:#fff; font-size:11.5px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; padding:11px 18px; transition:background .25s ease, border-color .25s ease;}
+  .btn-line:hover{background:rgba(255,255,255,0.1); border-color:#fff;}
+
+  @media (max-width:900px){ .cgrid{grid-template-columns:1fr;} }
+
+  /* org / submission band */
+  .submit-band{background:var(--navy-2); border-top:1px solid var(--line-dark);}
+  .sb-head{padding:70px 0 40px;}
+  .sb-head h2{color:#fff; font-size:42px; margin-bottom:26px; max-width:600px; line-height:1.06;}
+  .sb-inner{display:flex; justify-content:space-between; align-items:flex-end; gap:30px; flex-wrap:wrap;}
+  .sb-text{color:rgba(255,255,255,0.72); font-size:14.5px; max-width:440px;}
+  .triptych{display:grid; grid-template-columns:0.7fr 1.3fr 0.9fr; gap:4px; height:340px;}
+  .triptych .tph{overflow:hidden; position:relative;}
+  .triptych .tph img{transition:transform .6s ease;}
+  .triptych .tph:hover img{transform:scale(1.06);}
+
+  @media (max-width:900px){ .triptych{grid-template-columns:1fr; height:auto;} .triptych .tph{height:220px;} }
+
+  /* trusted by strip */
+  .trusted{padding:70px 0; overflow:hidden;}
+  .trusted h2{text-align:center; font-size:28px; color:var(--navy); margin-bottom:36px;}
+  .logo-track{display:flex; gap:0; width:max-content; animation:logoScroll 24s linear infinite;}
+  .logo-item{
+    border:1px solid var(--line); padding:26px 44px; display:flex; align-items:center; justify-content:center;
+    font-family:'Oswald',sans-serif; font-weight:600; font-size:17px; color:var(--ink-soft); white-space:nowrap; gap:8px;
+  }
+  @keyframes logoScroll{ to{ transform:translateX(-50%); } }
+
+  /* about band */
+  .about-band{padding:20px 0 130px;}
+  .about-grid{display:grid; grid-template-columns:1.3fr 0.7fr; gap:40px; align-items:start;}
+  .about-grid h2{font-size:38px; line-height:1.12; color:var(--navy); margin-bottom:24px;}
+  .about-grid h2 em{font-style:normal; color:var(--gold-deep);}
+  .about-cols{display:grid; grid-template-columns:1fr 1fr; gap:30px; margin-bottom:40px;}
+  .about-cols p{font-size:14px; color:var(--ink-soft);}
+  .goals h4{font-family:'Oswald',sans-serif; font-size:14px; letter-spacing:0.06em; margin-bottom:14px; color:var(--navy);}
+  .goals ul{list-style:none;}
+  .goals li{font-size:13.5px; padding:6px 0 6px 20px; position:relative; color:var(--ink-soft);}
+  .goals li::before{content:''; position:absolute; left:0; top:12px; width:7px; height:7px; background:var(--gold);}
+  .about-mark{width:180px; height:180px; opacity:0.5; margin-left:auto;
+    background:conic-gradient(from 0deg, var(--panel), transparent 30%, var(--panel) 60%, transparent 90%); border-radius:50%;
+    animation:markSpin 24s linear infinite;}
+  @keyframes markSpin{ to{ transform:rotate(360deg); } }
+
+  .statrow{display:grid; grid-template-columns:repeat(3,1fr); border:1px solid var(--line); margin-top:20px;}
+  .sitem{padding:30px 26px; border-right:1px solid var(--line); transition:background .3s ease;}
+  .sitem:last-child{border-right:none;}
+  .sitem:hover{background:var(--panel);}
+  .sitem .num{font-family:'Oswald',sans-serif; font-size:44px; font-weight:600; color:var(--gold-deep);}
+  .sitem .lbl{font-size:12.5px; color:var(--ink-soft); margin-top:6px;}
+
+  @media (max-width:1000px){ .about-grid, .about-cols, .statrow{grid-template-columns:1fr;} .statrow .sitem{border-right:none; border-bottom:1px solid var(--line);} .about-mark{display:none;} }
+
+  /* cta */
+  .cta-band{background:var(--navy-2); padding:100px 0; text-align:center;}
+  .cta-band h2{color:#fff; font-size:38px; max-width:600px; margin:0 auto 18px;}
+  .cta-band p{color:rgba(255,255,255,0.65); max-width:440px; margin:0 auto 32px; font-size:14.5px; font-family:'Inter',sans-serif; text-transform:none;}
+
+  footer{padding:50px 0 34px; border-top:1px solid var(--line);}
+  footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:24px;}
+  .fcols{display:flex; gap:56px;}
+  .fcol h4{font-family:'Oswald',sans-serif; font-size:12px; letter-spacing:0.05em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:14px;}
+  .fcol a{display:block; font-size:13.5px; color:var(--ink-soft); margin-bottom:9px; width:max-content; position:relative;}
+  .fcol a::after{content:''; position:absolute; left:0; right:100%; bottom:-2px; height:1px; background:var(--ink); transition:right .3s ease;}
+  .fcol a:hover{color:var(--ink);}
+  .fcol a:hover::after{right:0;}
+
+  .totop{position:fixed; right:26px; bottom:26px; width:46px; height:46px; border-radius:50%; background:var(--navy); color:#fff; display:flex; align-items:center; justify-content:center; z-index:60; opacity:0; pointer-events:none; transform:translateY(10px) scale(0.85); transition:opacity .3s ease, transform .3s ease;}
+  .totop.show{opacity:1; pointer-events:auto; transform:translateY(0) scale(1);}
+  .totop:hover{background:var(--gold); color:var(--navy-2);}
+
+  @media (max-width:900px){
+    nav.dnav, .lang-sm{display:none;}
+    .hero h1{font-size:34px;}
+    .hero-top-note{display:none;}
+    .catalog h2{font-size:32px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<header id="siteHeader">
+  <div class="wrap">
+    <div class="bar">
+      <div class="logo"><span class="logo-mark"></span> IRWR</div>
+      <nav class="dnav">
+        <a href="#catalog">Records</a>
+        <a href="#holders">Record Holders</a>
+        <a href="#about">About IRWR</a>
+        <a href="#">Contacts</a>
+      </nav>
+      <div class="header-right">
+        <div class="lang-sm">EN</div>
+        <a href="#" class="btn-gold" data-ripple>Verify a Record</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-bg" id="heroBg"><img class="photo" src="https://picsum.photos/seed/irwr7-arena/1800/1200" alt=""></div>
+  <div class="hero-top-note">
+    <p>Drawing on independent witnesses, documented evidence, and a permanent public archive, we turn achievement into a lasting record</p>
+  </div>
+  <div class="hero-bottom">
+    <div class="wrap">
+      <div class="hero-clients">Recent record holders: L. Al Farsi, A. Yerlanov &amp; D. Baizakov, W. De Groot, and record holders across 61 countries</div>
+      <h1>World record documentation<br>for achievers everywhere</h1>
+      <a href="#catalog" class="btn-gold-lg" data-ripple>View the archive</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="mega-title">
+  <div class="mega-track" id="megaTrack"></div>
+</section>
+
+<div class="ruler"><div class="ruler-track" id="rulerTrack"></div></div>
+
+<section class="catalog reveal" id="catalog">
+  <div class="compass"></div>
+  <div class="wrap">
+    <h2>Featured Records</h2>
+    <div class="cgrid">
+
+      <div class="ccard reveal">
+        <div class="cph"><img class="photo" src="https://picsum.photos/seed/irwr7-calligraphy/700/700" alt=""></div>
+        <div class="ctags"><span class="ctag">Craft</span><span class="ctag">Verified</span></div>
+        <div class="cbottom">
+          <h3>Longest continuous<br>calligraphy scroll</h3>
+          <p>412.6 metres, hand-inked over eleven days and witnessed by an independent panel in the UAE.</p>
+          <div class="crow"><a href="#" class="btn-line">Holder profile</a><a href="#" class="btn-gold">View entry</a></div>
+        </div>
+      </div>
+
+      <div class="ccard reveal">
+        <div class="cph"><img class="photo" src="https://picsum.photos/seed/irwr7-puzzle/700/700" alt=""></div>
+        <div class="ctags"><span class="ctag">Speed</span><span class="ctag">Verified</span></div>
+        <div class="cbottom">
+          <h3>Fastest 1,000-piece<br>puzzle, team of two</h3>
+          <p>Completed in 17 minutes 4 seconds by a Kazakhstani pair under supervised, timed conditions.</p>
+          <div class="crow"><a href="#" class="btn-line">Holder profile</a><a href="#" class="btn-gold">View entry</a></div>
+        </div>
+      </div>
+
+      <div class="ccard reveal">
+        <div class="cph"><img class="photo" src="https://picsum.photos/seed/irwr7-carpet/700/700" alt=""></div>
+        <div class="ctags"><span class="ctag">Craft</span><span class="ctag">Coming soon</span></div>
+        <div class="cbottom">
+          <h3>Largest hand-woven<br>ceremonial carpet</h3>
+          <p>Eighteen artisans, six months of weaving — currently under independent panel review.</p>
+          <div class="crow"><a href="#" class="btn-line">Holder profile</a><a href="#" class="btn-gold">Learn more</a></div>
+        </div>
+      </div>
+
+      <div class="ccard reveal">
+        <div class="cph"><img class="photo" src="https://picsum.photos/seed/irwr7-garden/700/700" alt=""></div>
+        <div class="ctags"><span class="ctag">Nature</span><span class="ctag">Verified</span></div>
+        <div class="cbottom">
+          <h3>Heaviest home-grown<br>vegetable</h3>
+          <p>A 412.8kg giant pumpkin, weighed and certified by agricultural inspectors on site.</p>
+          <div class="crow"><a href="#" class="btn-line">Holder profile</a><a href="#" class="btn-gold">View entry</a></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="submit-band reveal" id="holders">
+  <div class="sb-head wrap">
+    <h2>Record holders behind<br>this quarter's archive</h2>
+    <div class="sb-inner">
+      <p class="sb-text">Every one of these entries carries a name, a country, and a permanent IRWR index number — reviewed the same way, regardless of category.</p>
+      <a href="#" class="btn-gold-lg" data-ripple>Browse all holders</a>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="triptych">
+      <div class="tph"><img class="photo" src="https://picsum.photos/seed/irwr7-holder1/500/900" alt=""></div>
+      <div class="tph"><img class="photo" src="https://picsum.photos/seed/irwr7-holderteam/900/900" alt=""></div>
+      <div class="tph"><img class="photo" src="https://picsum.photos/seed/irwr7-holder2/600/900" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<section class="trusted reveal">
+  <div class="wrap">
+    <h2>Recognized in</h2>
+  </div>
+  <div class="logo-track" id="logoTrack">
+    <div class="logo-item">✦ UAE</div>
+    <div class="logo-item">✦ Kazakhstan</div>
+    <div class="logo-item">✦ Turkey</div>
+    <div class="logo-item">✦ Netherlands</div>
+    <div class="logo-item">✦ Japan</div>
+    <div class="logo-item">✦ Brazil</div>
+    <div class="logo-item">✦ South Africa</div>
+    <div class="logo-item">✦ Canada</div>
+    <div class="logo-item">✦ UAE</div>
+    <div class="logo-item">✦ Kazakhstan</div>
+    <div class="logo-item">✦ Turkey</div>
+    <div class="logo-item">✦ Netherlands</div>
+    <div class="logo-item">✦ Japan</div>
+    <div class="logo-item">✦ Brazil</div>
+    <div class="logo-item">✦ South Africa</div>
+    <div class="logo-item">✦ Canada</div>
+  </div>
+</section>
+
+<section class="about-band reveal" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <h2><em>IRWR</em> — an independent registry with global reach</h2>
+        <div class="about-cols">
+          <p>IRWR documents and verifies extraordinary achievement submitted through GBR. We've built a review network spanning dozens of countries to keep the process fast and credible.</p>
+          <p>Every accepted claim is checked against the same evidentiary standard — witnesses, measurement, and a documented trail — before it reaches the public archive.</p>
+        </div>
+        <div class="goals">
+          <h4>Our Goals</h4>
+          <ul>
+            <li>Set a consistent, transparent evidentiary standard</li>
+            <li>Expand the independent reviewer network</li>
+            <li>Build partnerships with national record bodies</li>
+            <li>Keep the public archive free and searchable</li>
+            <li>Support record holders through the full process</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-mark"></div>
+    </div>
+    <div class="statrow">
+      <div class="sitem"><div class="num">1,284+</div><div class="lbl">records on file</div></div>
+      <div class="sitem"><div class="num">61</div><div class="lbl">countries represented</div></div>
+      <div class="sitem"><div class="num">34</div><div class="lbl">official categories</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band reveal">
+  <div class="wrap">
+    <h2>Hold a record? See it entered into the official archive.</h2>
+    <p>Submit evidence through GBR, and the registry team will guide the claim from review to a permanent IRWR index number.</p>
+    <a href="#" class="btn-gold-lg" data-ripple>Start a submission</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="logo" style="color:var(--ink);"><span class="logo-mark"></span> IRWR</div>
+    <div class="fcols">
+      <div class="fcol">
+        <h4>Registry</h4>
+        <a href="#">World Records</a>
+        <a href="#">Record Holders</a>
+        <a href="#">Countries</a>
+        <a href="#">Categories</a>
+      </div>
+      <div class="fcol">
+        <h4>Organization</h4>
+        <a href="#">About IRWR</a>
+        <a href="#">Global Best Records</a>
+        <a href="#">Verify a Record</a>
+        <a href="#">Archive</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="totop" id="toTop">↑</div>
+
+<script>
+  // ruler ticks
+  const rulerTrack = document.getElementById('rulerTrack');
+  for(let i=0;i<60;i++){ const s=document.createElement('span'); rulerTrack.appendChild(s); }
+
+  // mega title marquee — two identical halves for a perfectly seamless loop
+  const megaTrack = document.getElementById('megaTrack');
+  const megaItem = '<span class="mega-item"><span class="m-irwr">IRWR</span> <span class="m-rest">INTERNATIONAL REGISTER WORLD RECORD</span> <span class="m-star">✦</span></span>';
+  const megaHalf = megaItem.repeat(4);
+  megaTrack.innerHTML = '<span style="display:flex;">' + megaHalf + '</span><span style="display:flex;">' + megaHalf + '</span>';
+
+  const progressBar = document.getElementById('scrollProgress');
+  window.addEventListener('scroll', ()=>{
+    const h = document.documentElement;
+    const pct = (h.scrollTop) / (h.scrollHeight - h.clientHeight) * 100;
+    progressBar.style.width = pct + '%';
+    document.getElementById('toTop').classList.toggle('show', h.scrollTop > 700);
+    document.getElementById('siteHeader').classList.toggle('solid', h.scrollTop > 60);
+    document.getElementById('heroBg').style.transform = 'translateY(' + (h.scrollTop*0.15) + 'px) scale(1.05)';
+  });
+  document.getElementById('toTop').addEventListener('click', ()=> window.scrollTo({top:0, behavior:'smooth'}));
+
+  const glow = document.getElementById('cursorGlow');
+  document.addEventListener('mousemove', (e)=>{ glow.style.left=e.clientX+'px'; glow.style.top=e.clientY+'px'; glow.style.opacity=1; });
+  document.addEventListener('mouseleave', ()=> glow.style.opacity = 0);
+
+  document.querySelectorAll('[data-ripple]').forEach(btn=>{
+    btn.addEventListener('click', function(e){
+      const r=document.createElement('span'); r.className='ripple';
+      const rect=this.getBoundingClientRect();
+      r.style.left=(e.clientX-rect.left)+'px'; r.style.top=(e.clientY-rect.top)+'px';
+      r.style.width=r.style.height=Math.max(rect.width, rect.height)+'px';
+      this.appendChild(r); setTimeout(()=> r.remove(), 650); e.preventDefault();
+    });
+  });
+
+  const revealObs = new IntersectionObserver((entries)=>{
+    entries.forEach(entry=>{ if(entry.isIntersecting){ entry.target.classList.add('in'); revealObs.unobserve(entry.target); } });
+  }, {threshold:0.1});
+  document.querySelectorAll('.reveal').forEach(el=> revealObs.observe(el));
+</script>
+
+</body>
+</html>
