@@ -32,6 +32,8 @@ include — no npm, no bundler step for it.
 ```
 /IRWR
   build.js                 # ~40-line Node script, no deps: stitches partials into pages
+  /scripts
+    generate-data.js         # seeded word-bank generator, writes js/data.js (~350 records)
   /src
     /partials/              header.html, footer.html, marquee.html, ruler.html
     /pages/                 home.html, records.html, holders.html, countries.html,
@@ -46,7 +48,9 @@ include — no npm, no bundler step for it.
     main.js                  shared behaviors: scroll-progress, cursor-glow, ripple,
                               reveal-on-scroll, marquee population, mobile nav toggle,
                               header solid-on-scroll, animated counters, 3D-tilt on cards
-    data.js                  single source of truth: ~35 record objects (below)
+    data.js                  single source of truth: ~350 generated record objects (below),
+                              committed to git; generate-data.js is a dev-time tool, not
+                              loaded at runtime
     records.js, holders.js,  page-specific logic (filtering, search, pagination,
     countries.js, search.js, verify lookup) — one small file per page that needs it
     verify.js, archive.js
@@ -62,11 +66,24 @@ chrome (nav links, footer) means editing one partial, not 10 files.
 
 ## Data model
 
-One array in `js/data.js`, ~35 objects:
+**Provenance:** `js/data.js` is 100% invented content. `GBR-BOOK-NEW-PRINT-vers3.pdf`
+(the printed GBR records almanac, in the user's Downloads) was reviewed only to
+calibrate realistic scale and prose format — it names real people and real
+achievements, none of which are reused. No name, organization, exact figure,
+or sentence from that book appears in IRWR's dataset; only its per-category
+volume (~30–40 entries) and one-paragraph descriptive style are echoed, in
+IRWR's own invented content.
+
+**Scale:** ~35 records per category × 10 categories ≈ 350 records total,
+generated (not hand-authored) by a small deterministic script,
+`scripts/generate-data.js`, from word banks — see the plan for the generator
+design. This is a ~10x increase from the original 35-record draft.
+
+One array in `js/data.js`, generated objects of this shape:
 
 ```js
 {
-  id: "IRWR-00417",        // IRWR-##### format
+  id: "IRWR-00417",        // IRWR-##### format, sequential across all records
   title: "Longest continuous calligraphy scroll",
   category: "culture",      // one of the 10 category slugs
   holderName: "L. Al Farsi",
@@ -75,7 +92,7 @@ One array in `js/data.js`, ~35 objects:
   date: "2026-03-14",
   status: "verified",       // verified | pending
   description: "412.6 metres, hand-inked over eleven days...",
-  photoSeed: "irwr7-calligraphy"   // picsum.photos seed, matches design7 pattern
+  photoSeed: "irwr-culture-calligraphy-3"   // unique picsum.photos seed
 }
 ```
 
@@ -84,9 +101,12 @@ Search, Verify, Archive, Home's featured strip) reads this one array
 client-side. Holders are derived by grouping records on `holderName`;
 countries are derived by grouping on `country`. No backend, no duplication.
 
-Distribution: ~35 records spread across the 10 categories (3–4 each), roughly
-12–15 distinct countries, mostly `verified` with a handful `pending` (mirrors
-design7's "Coming soon" tag) to give status filtering something to show.
+Distribution: ~350 records spread evenly across the 10 categories (35 each),
+drawn from a pool of 20 countries (so most countries hold multiple records —
+good for the Countries page's bars and the globe's markers), mostly
+`status: "verified"` with a smaller share `"pending"` (mirrors design7's
+"Coming soon" tag) to give status filtering something to show. Exactly 4
+records are flagged `featured: true` for Home's catalog strip.
 
 ## Pages
 
@@ -212,3 +232,5 @@ After all pages are built:
 - No CMS/templating framework beyond the one local `build.js` partial-stitcher.
 - No medallion 3D hero — rejected direction, replaced with abstract
   particles/geometry per above.
+- No real names, organizations, or verbatim text from `GBR-BOOK-NEW-PRINT-vers3.pdf`
+  anywhere in `js/data.js` — that book informed scale and prose format only.
