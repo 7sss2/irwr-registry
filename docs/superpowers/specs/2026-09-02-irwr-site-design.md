@@ -1,4 +1,4 @@
-# IRWR Commercial Site — Design Spec
+# IRWR Commercial Site — Full Spec (Design + 3D)
 
 ## Context
 
@@ -24,8 +24,10 @@ reference only — no text is copied. Findings that shape this spec:
 ## Architecture
 
 **Static HTML, generated from partials by a small local build script.** No
-framework, no runtime dependency, no server required — output is plain
-`.html` files deployable anywhere or opened directly.
+framework, no bundler, no server required — output is plain `.html` files
+deployable anywhere or opened directly. Three.js is the one exception to
+"no dependency," loaded via CDN `<script>` tag (r128) like a normal library
+include — no npm, no bundler step for it.
 
 ```
 /IRWR
@@ -43,11 +45,15 @@ framework, no runtime dependency, no server required — output is plain
   /js
     main.js                  shared behaviors: scroll-progress, cursor-glow, ripple,
                               reveal-on-scroll, marquee population, mobile nav toggle,
-                              header solid-on-scroll, animated counters
+                              header solid-on-scroll, animated counters, 3D-tilt on cards
     data.js                  single source of truth: ~35 record objects (below)
     records.js, holders.js,  page-specific logic (filtering, search, pagination,
     countries.js, search.js, verify lookup) — one small file per page that needs it
     verify.js, archive.js
+    bg3d.js                  shared floating 3D background (all pages)
+    hero3d.js                 3D hero scene (home page)
+    globe3d.js                3D globe (countries page)
+    categoryIcons3d.js        3D icons per category tile (categories page)
   *.html                    generated output (build.js writes these to repo root)
 ```
 
@@ -85,19 +91,28 @@ design7's "Coming soon" tag) to give status filtering something to show.
 ## Pages
 
 All pages share header, footer, marquee ticker, ruler divider, scroll-progress
-bar, cursor-glow, and reveal-on-scroll — per the brief's "in every corner"
-requirement. Below is what's unique per page.
+bar, cursor-glow, reveal-on-scroll, and the shared floating 3D background
+(`bg3d.js`) — per the brief's "in every corner" requirement. Below is what's
+unique per page.
 
 1. **Home** — design7 as-is, ported into partials. Stat numbers (1,284+ / 61
-   / 34) animate via count-up when scrolled into view.
+   / 34) animate via count-up when scrolled into view. Hero section uses
+   `hero3d.js` — abstract 3D scene (particles / geometric shapes), NOT a
+   medallion.
 2. **World Records** (`records.html`) — grid of record cards with category
-   filter chips (client-side, animated re-flow on filter change).
+   filter chips (client-side, animated re-flow on filter change). Cards use
+   3D-tilt on hover.
 3. **Record Holders** (`holders.html`) — profile cards (photo, name, country,
-   category, IRWR ID); hover reveals their record's headline stat.
+   category, IRWR ID); hover reveals their record's headline stat; 3D-tilt
+   on hover.
 4. **Countries** (`countries.html`) — list of countries with record counts;
-   count bars animate their width in on scroll.
-5. **Categories** (`categories.html`) — 10 tiles (one per category), photo
-   parallax/zoom on hover, links into Records filtered by that category.
+   count bars animate their width in on scroll. Includes a 3D globe
+   (`globe3d.js`) with markers per country; hover/click on a marker
+   highlights the matching country in the list.
+5. **Categories** (`categories.html`) — 10 tiles (one per category), each
+   with a small 3D icon (`categoryIcons3d.js`, one primitive shape per
+   category) that rotates on hover, plus photo parallax/zoom; links into
+   Records filtered by that category.
 6. **Search** (`search.html`) — single input, live client-side filter across
    name/country/category/ID, instant result list, no page reload.
 7. **Verify Record** (`verify.html`) — IRWR ID input → looks up `data.js` →
@@ -119,11 +134,54 @@ GBR is also linked from the main footer/nav across every page (per brief step
 
 Already covered above per-page (filter chips, hover-reveal cards, animated
 count bars, parallax tiles, live search, certificate lookup, pagination +
-combined filters, animated chain diagram). Shared across all pages: ripple on
-gold/line buttons, reveal-on-scroll for every section, cursor-glow, hover
-underline/lift on cards and links, mobile nav becomes a slide-in/hamburger
-menu under 900px (matching design7's existing `@media (max-width:900px)`
-breakpoint, extended with an actual toggle instead of just hiding nav).
+combined filters, animated chain diagram, 3D globe, 3D category icons).
+Shared across all pages: ripple on gold/line buttons, reveal-on-scroll for
+every section, cursor-glow, hover underline/lift + 3D-tilt on cards and
+links, mobile nav becomes a slide-in/hamburger menu under 900px (matching
+design7's existing `@media (max-width:900px)` breakpoint, extended with an
+actual toggle instead of just hiding nav), floating 3D background objects.
+
+## 3D layer — implementation notes
+
+**Tech:** Three.js (r128, CDN `<script>` include, no bundler).
+
+**General rules:**
+- One reusable canvas/renderer per page where possible — avoid stacking
+  multiple WebGL contexts.
+- 3D elements are `position: fixed`/`absolute`, `pointer-events: none`
+  except interactive zones (cards, globe).
+- Lazy init after `DOMContentLoaded`; graceful fallback (static
+  gradient) if WebGL is unavailable.
+- Colors pulled from `tokens.css` (navy/gold) — no off-palette hues.
+- On mobile (≤414px), simplify or disable `bg3d.js` and `hero3d.js` if FPS
+  suffers; keep card tilt and category icons since they're cheap.
+
+**Components:**
+
+1. **`bg3d.js` — sitewide floating background.** 3–5 low-poly wireframe
+   objects (rings/crystals), parallax on scroll (Y-offset + slow rotate).
+   Included via partial on every page. Keep extra-light on list-heavy pages
+   (Records/Archive).
+2. **`hero3d.js` — home hero.** Abstract scene: particle field or a small
+   group of geometric shapes (TorusKnot/Icosahedron), slow auto-rotation +
+   mouse-parallax. Explicitly NOT a medallion (rejected direction).
+3. **Card 3D-tilt.** Not Three.js — CSS `perspective` +
+   `transform: rotateX/rotateY` driven by cursor position, delegated hover
+   listener added in `main.js`. Applied to cards on Records, Holders,
+   Categories.
+4. **`globe3d.js` — countries page.** Three.js sphere with point markers per
+   country (grouped from `data.js`). Slow auto-rotation, drag to rotate
+   manually, hover/click marker highlights matching country in the adjacent
+   list.
+5. **`categoryIcons3d.js` — category tiles.** 10 simple 3D primitives (one
+   per category, e.g. sphere for sport, cube for architecture). Rendered via
+   **one shared `WebGLRenderer` with per-tile `Scene`/`Camera` pairs**, each
+   drawn into its tile's canvas via `renderer.setScissor`/`setViewport` per
+   frame — not 10 separate WebGL contexts, per the general rule above. Each
+   icon rotates on hover.
+
+**Build order:** `bg3d.js` → `hero3d.js` → CSS tilt (in `main.js`) →
+`categoryIcons3d.js` → `globe3d.js` (most complex, last).
 
 ## Verification plan (brief step 5)
 
@@ -137,6 +195,10 @@ After all pages are built:
 - Click-through every internal link (nav, footer, card CTAs, category tiles)
   to confirm no dead `#` links remain outside of intentionally-stubbed ones
   (e.g. admin login submit).
+- FPS check on all 3D components, especially list-heavy pages
+  (Records/Archive) and the globe.
+- Confirm mobile fallback/simplification behavior for `bg3d.js` and
+  `hero3d.js` on 414px/375px.
 - Report: what was checked, what was fixed, any known remaining gaps.
 
 ## Explicit non-goals (scope guard)
@@ -148,3 +210,5 @@ After all pages are built:
 - No image assets to source/optimize — picsum.photos placeholders throughout,
   matching design7's existing pattern.
 - No CMS/templating framework beyond the one local `build.js` partial-stitcher.
+- No medallion 3D hero — rejected direction, replaced with abstract
+  particles/geometry per above.
