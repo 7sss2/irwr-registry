@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verify a Record — IRWR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="verify">
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+<canvas id="bg3d-canvas"></canvas>
+<header id="siteHeader">
+  <div class="wrap">
+    <div class="bar">
+      <a href="index.html" class="logo"><span class="logo-mark"></span> IRWR</a>
+      <nav class="dnav" id="dnav">
+        <a href="records.html" data-page="records">World Records</a>
+        <a href="holders.html" data-page="holders">Record Holders</a>
+        <a href="countries.html" data-page="countries">Countries</a>
+        <a href="categories.html" data-page="categories">Categories</a>
+        <a href="archive.html" data-page="archive">Archive</a>
+        <a href="about.html" data-page="about">About IRWR</a>
+      </nav>
+      <div class="header-right">
+        <a href="search.html" class="lang-sm" data-page="search">Search</a>
+        <div class="lang-sm">EN</div>
+        <a href="verify.html" class="btn-gold" data-ripple data-page="verify">Verify a Record</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav">
+    <a href="records.html" data-page="records">World Records</a>
+    <a href="holders.html" data-page="holders">Record Holders</a>
+    <a href="countries.html" data-page="countries">Countries</a>
+    <a href="categories.html" data-page="categories">Categories</a>
+    <a href="search.html" data-page="search">Search</a>
+    <a href="archive.html" data-page="archive">Archive</a>
+    <a href="about.html" data-page="about">About IRWR</a>
+    <a href="verify.html" class="btn-gold" data-page="verify">Verify a Record</a>
+  </nav>
+</header>
+
+<main><h1>Verify a Record</h1></main>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html" class="logo" style="color:var(--ink);"><span class="logo-mark"></span> IRWR</a>
+    <div class="fcols">
+      <div class="fcol">
+        <h4>Registry</h4>
+        <a href="records.html">World Records</a>
+        <a href="holders.html">Record Holders</a>
+        <a href="countries.html">Countries</a>
+        <a href="categories.html">Categories</a>
+        <a href="search.html">Search</a>
+        <a href="archive.html">Archive</a>
+      </div>
+      <div class="fcol">
+        <h4>Organization</h4>
+        <a href="about.html">About IRWR</a>
+        <a href="https://globalbestrecords.org/" target="_blank" rel="noopener">Global Best Records ↗</a>
+        <a href="verify.html">Verify a Record</a>
+        <a href="admin.html">GBR Admin</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="totop" id="toTop">↑</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/bg3d.js"></script>
+<script src="js/verify.js"></script>
+</body>
+</html>
