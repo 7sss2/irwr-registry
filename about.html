@@ -49,7 +49,58 @@
   </nav>
 </header>
 
-<main><h1>About IRWR</h1></main>
+<main>
+<section class="mega-title">
+  <div class="mega-track" id="megaTrack"></div>
+</section>
+<div class="ruler"><div class="ruler-track" id="rulerTrack"></div></div>
+
+<section class="about-band reveal">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <h2><em>IRWR</em> is the certifying registry behind every GBR-submitted claim</h2>
+        <div class="about-cols">
+          <p>IRWR reviews and catalogs the record claims submitted through GBR (Global Best Records). Every claim moves through the same evidentiary standard, regardless of category or country of origin.</p>
+          <p>Once a claim is accepted, it receives a permanent IRWR index number and enters the public archive — searchable, verifiable, and never removed.</p>
+        </div>
+        <div class="goals">
+          <h4>Our Goals</h4>
+          <ul>
+            <li>Apply one consistent evidentiary standard to every category</li>
+            <li>Grow an independent panel of category reviewers</li>
+            <li>Keep the public archive free, searchable, and permanent</li>
+            <li>Issue a verifiable IRWR ID for every accepted claim</li>
+            <li>Support claimants from first submission through certification</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-mark"></div>
+    </div>
+    <div class="statrow">
+      <div class="sitem"><div class="num" id="statRecords">0</div><div class="lbl">records on file</div></div>
+      <div class="sitem"><div class="num" id="statCountries">0</div><div class="lbl">countries represented</div></div>
+      <div class="sitem"><div class="num" id="statCategories">0</div><div class="lbl">official categories</div></div>
+    </div>
+  </div>
+</section>
+<section class="reveal">
+  <div class="wrap">
+    <h2 style="text-align:center; font-size:32px; color:var(--navy);">How a claim becomes a record</h2>
+    <div class="chain">
+      <div class="chain-link reveal">GBR</div><div class="chain-arrow">→</div>
+      <div class="chain-link reveal">IRWR</div><div class="chain-arrow">→</div>
+      <div class="chain-link reveal">RECORD</div><div class="chain-arrow">→</div>
+      <div class="chain-link reveal">IRWR ID</div><div class="chain-arrow">→</div>
+      <div class="chain-link reveal">VERIFICATION</div>
+    </div>
+    <div class="gbr-card">
+      <div><h3 style="color:var(--navy); font-size:20px;">Global Best Records</h3><p style="color:var(--ink-soft); font-size:13.5px; max-width:420px;">IRWR's parent organization, based in the UAE. Claims originate through GBR before entering IRWR's review process.</p></div>
+      <a href="https://globalbestrecords.org/" target="_blank" rel="noopener" class="btn-line">Visit globalbestrecords.org ↗</a>
+    </div>
+  </div>
+</section>
+</main>
 
 <footer>
   <div class="wrap">
@@ -80,6 +131,6 @@
 <script src="js/data.js"></script>
 <script src="js/main.js"></script>
 <script src="js/bg3d.js"></script>
-
+<script src="js/about.js"></script>
 </body>
 </html>

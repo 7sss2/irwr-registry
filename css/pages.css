@@ -156,3 +156,12 @@
 .search-row{display:grid; grid-template-columns:70px 1fr 140px 100px; gap:16px; align-items:center; padding:16px 0; border-bottom:1px solid var(--line);}
 .search-row img{width:56px; height:56px; object-fit:cover;}
 .search-empty{padding:40px 0; color:var(--ink-faint);}
+
+/* about: chain diagram and GBR card */
+.chain{display:flex; align-items:center; justify-content:center; gap:10px; flex-wrap:wrap; padding:50px 0;}
+.chain-link{border:1px solid var(--line); padding:18px 22px; font-family:'Oswald',sans-serif; font-size:13px; text-transform:uppercase; letter-spacing:0.04em;}
+.chain-link:nth-child(odd){background:var(--navy); color:#fff;}
+.chain-link:nth-child(even){background:var(--gold); color:var(--navy-2);}
+.chain-arrow{color:var(--ink-faint); font-size:18px;}
+.gbr-card{border:1px solid var(--line); padding:30px; display:flex; justify-content:space-between; align-items:center; margin:30px 0 100px; gap:20px; flex-wrap:wrap;}
+@media (max-width:700px){ .chain{flex-direction:column;} .chain-arrow{transform:rotate(90deg);} }

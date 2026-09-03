@@ -17,7 +17,7 @@ const pages = [
   { slug: 'search',     src: 'search.html',     title: 'Search',         page: 'search',      scripts: ['search.js'] },
   { slug: 'verify',     src: 'verify.html',     title: 'Verify a Record', page: 'verify',     scripts: ['verify.js'] },
   { slug: 'archive',    src: 'archive.html',    title: 'Archive',         page: 'archive',    scripts: ['archive.js'] },
-  { slug: 'about',      src: 'about.html',      title: 'About IRWR',      page: 'about',      scripts: [] },
+  { slug: 'about',      src: 'about.html',      title: 'About IRWR',      page: 'about',      scripts: ['about.js'] },
   { slug: 'admin',      src: 'admin.html',      title: 'GBR Admin',       page: 'admin',      scripts: [] },
 ];
 
