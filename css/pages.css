@@ -1,1 +1,99 @@
 /* page-specific rules, added per page task */
+
+/* home: hero */
+.hero{position:relative; height:100vh; min-height:760px; overflow:hidden;}
+.hero-bg{position:absolute; inset:0;}
+.hero-bg::after{content:''; position:absolute; inset:0; background:linear-gradient(0deg, rgba(13,17,25,0.15) 0%, transparent 45%), linear-gradient(180deg, rgba(13,17,25,0.4) 0%, rgba(13,17,25,0.05) 30%);}
+.hero-top-note{position:absolute; top:150px; right:40px; z-index:2; max-width:420px; text-align:right;}
+.hero-top-note p{color:rgba(255,255,255,0.92); font-family:'Oswald',sans-serif; font-weight:500; font-size:19px; text-transform:uppercase; line-height:1.35; letter-spacing:0.005em;}
+.hero-bottom{position:absolute; left:0; right:0; bottom:0; z-index:2; padding-bottom:64px;}
+.hero-clients{color:rgba(255,255,255,0.75); font-size:13px; margin-bottom:20px; max-width:340px;}
+.hero h1{color:#fff; font-size:64px; font-weight:600; letter-spacing:0; line-height:1.02; max-width:820px; margin-bottom:34px;}
+
+/* home: dark catalog section */
+.catalog{background:var(--navy-2); padding:100px 0; position:relative; overflow:hidden;}
+.compass{
+  position:absolute; right:-60px; bottom:-60px; width:420px; height:420px; opacity:0.06;
+  background:radial-gradient(circle, transparent 60%, rgba(255,255,255,0.4) 61%, transparent 62%);
+  border-radius:50%;
+}
+.catalog h2{color:#fff; font-size:52px; text-align:center; margin-bottom:60px; letter-spacing:0.01em;}
+
+.cgrid{display:grid; grid-template-columns:1fr 1fr; gap:24px; position:relative; z-index:1;}
+.ccard{
+  position:relative; border-radius:2px; overflow:hidden; height:340px; padding:26px;
+  display:flex; flex-direction:column; justify-content:space-between;
+  transition:transform .4s cubic-bezier(.2,.8,.25,1);
+}
+.ccard:hover{transform:translateY(-6px);}
+.ccard .cph{position:absolute; inset:0; z-index:0;}
+.ccard .cph::after{content:''; position:absolute; inset:0; background:linear-gradient(0deg, rgba(13,17,25,0.88) 10%, rgba(13,17,25,0.15) 60%);}
+.ccard .cph img{transition:transform .6s cubic-bezier(.2,.8,.25,1);}
+.ccard:hover .cph img{transform:scale(1.08);}
+.ctags{position:relative; z-index:2; display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end;}
+.ctag{border:1px solid rgba(255,255,255,0.35); color:#fff; font-size:10.5px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; padding:6px 10px;}
+.cbottom{position:relative; z-index:2;}
+.cbottom h3{color:#fff; font-size:28px; font-weight:600; line-height:1.12; margin-bottom:12px;}
+.cbottom p{color:rgba(255,255,255,0.72); font-size:13px; margin-bottom:20px; max-width:420px;}
+.crow{display:flex; gap:12px;}
+
+@media (max-width:900px){ .cgrid{grid-template-columns:1fr;} }
+
+/* home: org / submission band */
+.submit-band{background:var(--navy-2); border-top:1px solid var(--line-dark);}
+.sb-head{padding:70px 0 40px;}
+.sb-head h2{color:#fff; font-size:42px; margin-bottom:26px; max-width:600px; line-height:1.06;}
+.sb-inner{display:flex; justify-content:space-between; align-items:flex-end; gap:30px; flex-wrap:wrap;}
+.sb-text{color:rgba(255,255,255,0.72); font-size:14.5px; max-width:440px;}
+.triptych{display:grid; grid-template-columns:0.7fr 1.3fr 0.9fr; gap:4px; height:340px;}
+.triptych .tph{overflow:hidden; position:relative;}
+.triptych .tph img{transition:transform .6s ease;}
+.triptych .tph:hover img{transform:scale(1.06);}
+
+@media (max-width:900px){ .triptych{grid-template-columns:1fr; height:auto;} .triptych .tph{height:220px;} }
+
+/* home: trusted by strip */
+.trusted{padding:70px 0; overflow:hidden;}
+.trusted h2{text-align:center; font-size:28px; color:var(--navy); margin-bottom:36px;}
+.logo-track{display:flex; gap:0; width:max-content; animation:logoScroll 24s linear infinite;}
+.logo-item{
+  border:1px solid var(--line); padding:26px 44px; display:flex; align-items:center; justify-content:center;
+  font-family:'Oswald',sans-serif; font-weight:600; font-size:17px; color:var(--ink-soft); white-space:nowrap; gap:8px;
+}
+@keyframes logoScroll{ to{ transform:translateX(-50%); } }
+
+/* home: about band */
+.about-band{padding:20px 0 130px;}
+.about-grid{display:grid; grid-template-columns:1.3fr 0.7fr; gap:40px; align-items:start;}
+.about-grid h2{font-size:38px; line-height:1.12; color:var(--navy); margin-bottom:24px;}
+.about-grid h2 em{font-style:normal; color:var(--gold-deep);}
+.about-cols{display:grid; grid-template-columns:1fr 1fr; gap:30px; margin-bottom:40px;}
+.about-cols p{font-size:14px; color:var(--ink-soft);}
+.goals h4{font-family:'Oswald',sans-serif; font-size:14px; letter-spacing:0.06em; margin-bottom:14px; color:var(--navy);}
+.goals ul{list-style:none;}
+.goals li{font-size:13.5px; padding:6px 0 6px 20px; position:relative; color:var(--ink-soft);}
+.goals li::before{content:''; position:absolute; left:0; top:12px; width:7px; height:7px; background:var(--gold);}
+.about-mark{width:180px; height:180px; opacity:0.5; margin-left:auto;
+  background:conic-gradient(from 0deg, var(--panel), transparent 30%, var(--panel) 60%, transparent 90%); border-radius:50%;
+  animation:markSpin 24s linear infinite;}
+@keyframes markSpin{ to{ transform:rotate(360deg); } }
+
+.statrow{display:grid; grid-template-columns:repeat(3,1fr); border:1px solid var(--line); margin-top:20px;}
+.sitem{padding:30px 26px; border-right:1px solid var(--line); transition:background .3s ease;}
+.sitem:last-child{border-right:none;}
+.sitem:hover{background:var(--panel);}
+.sitem .num{font-family:'Oswald',sans-serif; font-size:44px; font-weight:600; color:var(--gold-deep);}
+.sitem .lbl{font-size:12.5px; color:var(--ink-soft); margin-top:6px;}
+
+@media (max-width:1000px){ .about-grid, .about-cols, .statrow{grid-template-columns:1fr;} .statrow .sitem{border-right:none; border-bottom:1px solid var(--line);} .about-mark{display:none;} }
+
+/* home: cta */
+.cta-band{background:var(--navy-2); padding:100px 0; text-align:center;}
+.cta-band h2{color:#fff; font-size:38px; max-width:600px; margin:0 auto 18px;}
+.cta-band p{color:rgba(255,255,255,0.65); max-width:440px; margin:0 auto 32px; font-size:14.5px; font-family:'Inter',sans-serif; text-transform:none;}
+
+@media (max-width:900px){
+  .hero h1{font-size:34px;}
+  .hero-top-note{display:none;}
+  .catalog h2{font-size:32px;}
+}
