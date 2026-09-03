@@ -125,3 +125,12 @@
 .hcard .hmeta{position:relative; z-index:1; font-size:12px; opacity:0.8;}
 @media (max-width:900px){ .hgrid{grid-template-columns:1fr 1fr;} }
 @media (max-width:500px){ .hgrid{grid-template-columns:1fr;} }
+
+/* countries: list with animated bars */
+.country-list{padding:30px 0 60px; display:flex; flex-direction:column; gap:2px;}
+.country-row{display:grid; grid-template-columns:200px 1fr 60px; align-items:center; gap:16px; padding:14px 0; border-bottom:1px solid var(--line); transition:background .2s ease;}
+.country-row.highlight{background:var(--panel);}
+.country-bar-track{height:8px; background:var(--line); position:relative;}
+.country-bar{position:absolute; inset:0; width:0; background:var(--gold-deep); transition:width 1s cubic-bezier(.2,.7,.3,1);}
+.country-count{text-align:right; font-family:'Oswald',sans-serif; font-weight:600; color:var(--navy);}
+#globeHost{width:100%; height:420px; margin:30px 0;}
