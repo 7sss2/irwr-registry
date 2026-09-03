@@ -56,7 +56,7 @@ const ORG_SUFFIXES = ['Collective','Guild','Cooperative','Society','Response Tea
 
 const CATEGORY_BANKS = {
   sport: { label: 'Sport',
-    actions: ['Fastest completion of', 'Longest unbroken run of', 'Most repetitions in', 'Highest verified score in', 'Longest continuous', 'Most consecutive', 'Farthest distance covered in', 'Quickest recorded time in'],
+    actions: ['Fastest completion of', 'Longest unbroken run of', 'Most repetitions in', 'Highest verified score in', 'Longest continuous instance of', 'Most consecutive completions of', 'Farthest distance covered in', 'Quickest recorded time in'],
     subjects: ['a solo desert ultramarathon', 'an indoor rowing marathon', 'a treadmill relay by a team of four', 'a stair-climbing ascent', 'an open-water relay swim', 'a blindfolded via ferrata climb', 'a static plank hold', 'a one-hour free-throw session'],
     unit: 'km', min: 3, max: 600 },
   economy: { label: 'Economy',
@@ -68,7 +68,7 @@ const CATEGORY_BANKS = {
     subjects: ['hand-inked calligraphy scroll', 'ceremonial carpet weaving project', 'folk-instrument solo performance', 'community sand mural', 'traditional dance relay', 'poetry recitation marathon', 'puppet theatre production', 'street-mural collaboration'],
     unit: 'metres', min: 20, max: 900 },
   education: { label: 'Education',
-    actions: ['Fastest completion of', 'Longest unbroken chain of', 'Largest simultaneous', 'Most participants in', 'Highest verified score in', 'Quickest recorded result in', 'Most consecutive correct answers in', 'Largest single-session'],
+    actions: ['Fastest completion of', 'Longest unbroken chain of', 'Largest simultaneous staging of', 'Most participants in', 'Highest verified score in', 'Quickest recorded result in', 'Most consecutive correct answers in', 'Largest single-session staging of'],
     subjects: ['a 1,000-piece jigsaw puzzle, team of two', 'a mental-arithmetic relay', 'a spelling bee', 'a public-speaking marathon', 'a memory-recall challenge', 'a coding hackathon sprint', 'a chess-simul exhibition', 'a language-immersion bootcamp'],
     unit: 'participants', min: 2, max: 9000 },
   transport: { label: 'Transport',
@@ -88,7 +88,7 @@ const CATEGORY_BANKS = {
     subjects: ['ceremonial guard rotation', 'field-hospital assembly exercise', 'humanitarian demining operation', 'disaster-relief logistics drop', 'peacekeeping training rotation', 'search-and-rescue training exercise', 'humanitarian supply-convoy relay', 'coastal-patrol training rotation'],
     unit: 'hectares', min: 5, max: 120 },
   humanbody: { label: 'Human Body',
-    actions: ['Most consecutive days of', 'Longest supervised', 'Fastest recorded recitation in', 'Highest verified count in', 'Longest continuous', 'Most repetitions in', 'Quickest recorded result in', 'Longest documented'],
+    actions: ['Most consecutive days of', 'Longest supervised instance of', 'Fastest recorded recitation in', 'Highest verified count in', 'Longest continuous instance of', 'Most repetitions in', 'Quickest recorded result in', 'Longest documented instance of'],
     subjects: ['a verified daily 10km walk', 'a static breath-hold, supervised', 'a memory-recitation challenge', 'a supervised cold-exposure session', 'a continuous meditation sit', 'a supervised fasting period', 'a hearing-range test', 'a flexibility demonstration'],
     unit: 'days', min: 1, max: 1500 },
   extreme: { label: 'Extreme',
