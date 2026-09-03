@@ -1,0 +1,13 @@
+:root{
+  --bg:#F4F2EC;
+  --panel:#EAE6D9;
+  --ink:#13161C;
+  --navy:#151B26;
+  --navy-2:#0D1119;
+  --ink-soft:rgba(19,22,28,0.64);
+  --ink-faint:rgba(19,22,28,0.42);
+  --gold:#D9A73B;
+  --gold-deep:#B98A26;
+  --line:rgba(19,22,28,0.14);
+  --line-dark:rgba(255,255,255,0.14);
+}
