@@ -147,3 +147,12 @@
 .cat-tile .cat-count{position:relative; z-index:1; color:rgba(255,255,255,0.7); font-size:12px;}
 @media (max-width:1100px){ .cat-grid{grid-template-columns:repeat(3,1fr);} }
 @media (max-width:600px){ .cat-grid{grid-template-columns:1fr 1fr;} }
+
+/* search: live filter */
+.search-box{padding:150px 0 20px;}
+.search-box input{width:100%; font-size:32px; font-family:'Oswald',sans-serif; border:none; border-bottom:2px solid var(--line); padding:14px 0; background:transparent; outline:none;}
+.search-box input:focus{border-color:var(--gold);}
+.search-results{padding:30px 0 100px; display:flex; flex-direction:column; gap:2px;}
+.search-row{display:grid; grid-template-columns:70px 1fr 140px 100px; gap:16px; align-items:center; padding:16px 0; border-bottom:1px solid var(--line);}
+.search-row img{width:56px; height:56px; object-fit:cover;}
+.search-empty{padding:40px 0; color:var(--ink-faint);}
