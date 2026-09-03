@@ -20,7 +20,7 @@
   camera.position.z = 12;
 
   const gold = 0xD9A73B;
-  const navy = 0x2A3550;
+  const navy = 0x151B26;
   const shapes = [];
   const geometries = [
     new THREE.TorusGeometry(1.2, 0.08, 8, 40),
