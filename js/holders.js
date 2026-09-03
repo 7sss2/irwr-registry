@@ -21,4 +21,5 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     `;
   }).join('');
+  IRWR.initTilt('.hcard');
 });
