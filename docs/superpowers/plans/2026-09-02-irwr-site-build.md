@@ -207,7 +207,7 @@ const pages = [
   { slug: 'search',     src: 'search.html',     title: 'Search',         page: 'search',      scripts: ['search.js'] },
   { slug: 'verify',     src: 'verify.html',     title: 'Verify a Record', page: 'verify',     scripts: ['verify.js'] },
   { slug: 'archive',    src: 'archive.html',    title: 'Archive',         page: 'archive',    scripts: ['archive.js'] },
-  { slug: 'about',      src: 'about.html',      title: 'About IRWR',      page: 'about',      scripts: [] },
+  { slug: 'about',      src: 'about.html',      title: 'About IRWR',      page: 'about',      scripts: ['about.js'] },
   { slug: 'admin',      src: 'admin.html',      title: 'GBR Admin',       page: 'admin',      scripts: [] },
 ];
 
@@ -1434,9 +1434,14 @@ git commit -m "Add Archive page with combined category/country filters and pagin
 
 **Files:**
 - Create: `src/pages/about.html`
+- Create: `js/about.js`
 - Modify: `css/pages.css` (add `.chain`, `.chain-link`, `.chain-arrow`, `.gbr-card`)
 
-**Interfaces:** none beyond shared `.reveal`.
+**Interfaces:**
+- Consumes: `IRWR_RECORDS`, `IRWR.CATEGORIES`, `IRWR.initCounters` (Task 3).
+- Produces: none.
+
+**Note (plan correction):** the stat-row numbers (records on file / countries represented / categories) cannot be hardcoded — the dataset's actual record and country counts have already changed twice during planning (35 → 350 → the current real-records dataset) and would go stale again on any future dataset edit. This task computes them from `IRWR_RECORDS` at page load instead of embedding a number in the plan/markup.
 
 - [ ] **Step 1: Write CSS**
 
@@ -1478,9 +1483,9 @@ git commit -m "Add Archive page with combined category/country filters and pagin
       <div class="about-mark"></div>
     </div>
     <div class="statrow">
-      <div class="sitem"><div class="num" data-count="35">0</div><div class="lbl">records on file</div></div>
-      <div class="sitem"><div class="num" data-count="15">0</div><div class="lbl">countries represented</div></div>
-      <div class="sitem"><div class="num" data-count="10">0</div><div class="lbl">official categories</div></div>
+      <div class="sitem"><div class="num" id="statRecords">0</div><div class="lbl">records on file</div></div>
+      <div class="sitem"><div class="num" id="statCountries">0</div><div class="lbl">countries represented</div></div>
+      <div class="sitem"><div class="num" id="statCategories">0</div><div class="lbl">official categories</div></div>
     </div>
   </div>
 </section>
@@ -1503,16 +1508,35 @@ git commit -m "Add Archive page with combined category/country filters and pagin
 </main>
 ```
 
-- [ ] **Step 3: Rebuild and verify**
+- [ ] **Step 3: Write `js/about.js`**
+
+```js
+document.addEventListener('DOMContentLoaded', () => {
+  const statRecords = document.getElementById('statRecords');
+  const statCountries = document.getElementById('statCountries');
+  const statCategories = document.getElementById('statCategories');
+  if (!statRecords || !statCountries || !statCategories) return;
+
+  statRecords.dataset.count = IRWR_RECORDS.length;
+  statCountries.dataset.count = new Set(IRWR_RECORDS.map((r) => r.country)).size;
+  statCategories.dataset.count = IRWR.CATEGORIES.length;
+
+  IRWR.initCounters('.statrow .num');
+});
+```
+
+Note: this page's stat numbers are intentionally excluded from `main.js`'s sitewide `IRWR.initCounters('.num[data-count]')` call (Task 3) — they have no `data-count` attribute in the static markup, only an `id`, so that automatic call finds nothing to animate on this page. `about.js` sets the `data-count` values itself (computed from the live dataset) and then calls `IRWR.initCounters` on the more specific `.statrow .num` selector, after the values are set. `about.js` runs after `main.js` (script tag order in the shell), so this ordering is safe — no reliance on the auto-init on this page.
+
+- [ ] **Step 4: Rebuild and verify**
 
 Run: `node build.js`, open `about.html`.
-Expected: stat counters animate; the 5-link chain diagram reveals link-by-link as it's scrolled into view (each `.chain-link` has `.reveal`, so the shared `IntersectionObserver` staggers them individually); GBR outbound link opens in a new tab.
+Expected: stat counters animate up from 0 to the *actual* current record/country/category counts (not a hardcoded number — confirm the records count matches `IRWR_RECORDS.length` and isn't stuck at 0 or a stale figure); the 5-link chain diagram reveals link-by-link as it's scrolled into view (each `.chain-link` has `.reveal`, so the shared `IntersectionObserver` staggers them individually); GBR outbound link opens in a new tab.
 
-- [ ] **Step 4: Commit**
+- [ ] **Step 5: Commit**
 
 ```bash
-git add src/pages/about.html css/pages.css about.html
-git commit -m "Add About IRWR page with GBR chain diagram and outbound GBR link"
+git add src/pages/about.html js/about.js css/pages.css about.html
+git commit -m "Add About IRWR page with GBR chain diagram, live stat counts, and outbound GBR link"
 ```
 
 ---
