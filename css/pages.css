@@ -165,3 +165,12 @@
 .chain-arrow{color:var(--ink-faint); font-size:18px;}
 .gbr-card{border:1px solid var(--line); padding:30px; display:flex; justify-content:space-between; align-items:center; margin:30px 0 100px; gap:20px; flex-wrap:wrap;}
 @media (max-width:700px){ .chain{flex-direction:column;} .chain-arrow{transform:rotate(90deg);} }
+
+/* admin: login form */
+.admin-form{max-width:380px; margin:0 auto; padding:180px 0 120px;}
+.admin-form h1{font-size:26px; text-align:center; margin-bottom:8px;}
+.admin-form .admin-note{text-align:center; color:var(--ink-faint); font-size:12.5px; margin-bottom:30px;}
+.admin-form label{display:block; font-size:12px; text-transform:uppercase; letter-spacing:0.04em; color:var(--ink-soft); margin-bottom:6px;}
+.admin-form input{width:100%; border:1px solid var(--line); padding:12px 14px; margin-bottom:18px; font-size:14px;}
+.admin-form input:focus{outline:none; border-color:var(--gold);}
+.admin-form button{width:100%;}
