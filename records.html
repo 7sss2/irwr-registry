@@ -49,7 +49,27 @@
   </nav>
 </header>
 
-<main><h1>World Records</h1></main>
+<main>
+<section class="mega-title">
+  <div class="mega-track" id="megaTrack"></div>
+</section>
+<div class="ruler"><div class="ruler-track" id="rulerTrack"></div></div>
+
+<section class="page-banner reveal">
+  <div class="wrap">
+    <h1>World Records</h1>
+    <p>Every entry in the IRWR catalog, filterable by category. Verified entries carry a permanent IRWR index number; pending entries are under active panel review.</p>
+  </div>
+</section>
+<section class="reveal">
+  <div class="wrap">
+    <div class="filter-row" id="filterRow">
+      <button class="chip active" data-category="">All</button>
+    </div>
+    <div class="rgrid" id="recordsGrid"></div>
+  </div>
+</section>
+</main>
 
 <footer>
   <div class="wrap">
