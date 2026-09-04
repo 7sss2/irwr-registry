@@ -27,17 +27,25 @@ const CATEGORIES = [
 const ISO3 = {
   Argentina: 'ARG', Australia: 'AUS', Belarus: 'BLR', Brazil: 'BRA', Canada: 'CAN',
   China: 'CHN', Colombia: 'COL', Croatia: 'HRV', Denmark: 'DNK', Estonia: 'EST',
-  Finland: 'FIN', France: 'FRA', Germany: 'DEU', 'Great Britain': 'GBR', Greece: 'GRC',
+  Finland: 'FIN', France: 'FRA', Germany: 'DEU', Greece: 'GRC',
   Guatemala: 'GTM', Hungary: 'HUN', Iceland: 'ISL', India: 'IND', Indonesia: 'IDN',
   Israel: 'ISR', Italy: 'ITA', Jamaica: 'JAM', Japan: 'JPN', Kazakhstan: 'KAZ',
   Kenya: 'KEN', Latvia: 'LVA', Mexico: 'MEX', Netherlands: 'NLD', Nigeria: 'NGA',
   Norway: 'NOR', Portugal: 'PRT', Russia: 'RUS', 'Saudi Arabia': 'SAU', Singapore: 'SGP',
-  'South Africa': 'ZAF', 'South Korea': 'KOR', Spain: 'ESP', Sweden: 'SWE',
-  Switzerland: 'CHE', Taiwan: 'TWN', Turkey: 'TUR', UAE: 'ARE', UK: 'GBR',
-  USA: 'USA', Ukraine: 'UKR', 'United Kingdom': 'GBR',
+  'South Africa': 'ZAF', 'South Korea': 'KOR', Spain: 'ESP', Sweden: 'SWE', 'United Kingdom': 'GBR',
+  Switzerland: 'CHE', Taiwan: 'TWN', Turkey: 'TUR', UAE: 'ARE',
+  USA: 'USA', Ukraine: 'UKR',
 };
 function countryCode(country) {
   return ISO3[country] || '';
+}
+
+// The source book refers to the UK inconsistently ("UK", "Great Britain",
+// "United Kingdom") — normalize to one canonical name so Countries/Archive
+// group them together instead of splitting one country into three rows.
+const COUNTRY_ALIASES = { 'Great Britain': 'United Kingdom', UK: 'United Kingdom' };
+function canonicalCountry(country) {
+  return COUNTRY_ALIASES[country] || country;
 }
 
 function slugify(str) {
@@ -55,8 +63,8 @@ CATEGORY_ORDER.forEach((slug) => {
       title: r.title,
       category: r.category,
       holderName: r.holderName,
-      country: r.country,
-      countryCode: countryCode(r.country),
+      country: canonicalCountry(r.country),
+      countryCode: countryCode(canonicalCountry(r.country)),
       date: r.date,
       status: 'verified',
       description: `${r.description} Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID ${irwrId}.`,
