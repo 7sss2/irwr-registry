@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentPage = 1;
 
   IRWR.CATEGORIES.forEach((c) => categoryFilter.add(new Option(c.label, c.slug)));
-  [...new Set(IRWR_RECORDS.map((r) => r.country))].sort().forEach((c) => countryFilter.add(new Option(c, c)));
+  [...new Set(IRWR_RECORDS.map((r) => r.country))].filter(Boolean).sort().forEach((c) => countryFilter.add(new Option(c, c)));
 
   function render() {
     const filtered = IRWR.filterRecords(IRWR_RECORDS, {

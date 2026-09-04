@@ -55,7 +55,13 @@
 
   function animate() {
     requestAnimationFrame(animate);
+    // Scissor test stays enabled for the per-tile draws below, so a plain
+    // clear() here would only wipe the last tile's leftover scissor box
+    // from the previous frame — disable it first for a full-canvas clear,
+    // otherwise a scrolled-away tile leaves a ghost trail on the canvas.
+    renderer.setScissorTest(false);
     renderer.clear();
+    renderer.setScissorTest(true);
     entries.forEach((entry) => {
       entry.mesh.rotation.y += entry.hovering ? 0.04 : 0.005;
       entry.mesh.rotation.x += entry.hovering ? 0.02 : 0.002;
