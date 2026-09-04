@@ -49,7 +49,27 @@
   </nav>
 </header>
 
-<main><h1>Archive</h1></main>
+<main>
+<section class="mega-title">
+  <div class="mega-track" id="megaTrack"></div>
+</section>
+<div class="ruler"><div class="ruler-track" id="rulerTrack"></div></div>
+
+<section class="page-banner reveal">
+  <div class="wrap"><h1>Archive</h1><p>The full, paginated IRWR record archive. Every entry is originally recognized by GBR and registered in IRWR under its index number.</p></div>
+</section>
+<section class="wrap">
+  <div class="archive-controls">
+    <select id="categoryFilter"><option value="">All categories</option></select>
+    <select id="countryFilter"><option value="">All countries</option></select>
+  </div>
+  <table class="archive-table">
+    <thead><tr><th>ID</th><th>Title</th><th>Holder</th><th>Country</th><th>Category</th><th>Date</th><th>Status</th></tr></thead>
+    <tbody id="archiveBody"></tbody>
+  </table>
+  <div class="pagination" id="pagination"></div>
+</section>
+</main>
 
 <footer>
   <div class="wrap">

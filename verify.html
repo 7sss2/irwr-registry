@@ -49,7 +49,22 @@
   </nav>
 </header>
 
-<main><h1>Verify a Record</h1></main>
+<main>
+<section class="mega-title">
+  <div class="mega-track" id="megaTrack"></div>
+</section>
+<div class="ruler"><div class="ruler-track" id="rulerTrack"></div></div>
+
+<section class="verify-form wrap reveal">
+  <h1>Verify a Record</h1>
+  <p style="margin:14px 0 26px; color:var(--ink-soft);">Enter an IRWR index number to confirm a record is on file.</p>
+  <form id="verifyForm">
+    <input type="text" id="verifyInput" placeholder="IRWR-00001">
+    <div style="margin-top:20px;"><button type="submit" class="btn-gold-lg" data-ripple>Verify</button></div>
+  </form>
+</section>
+<section class="verify-result wrap" id="verifyResult"></section>
+</main>
 
 <footer>
   <div class="wrap">
