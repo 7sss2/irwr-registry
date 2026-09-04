@@ -8,13 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <div class="hcard reveal in tilt">
         <div class="hface">
-          <div class="hph"><img class="photo" src="https://picsum.photos/seed/${r.photoSeed}-holder/500/700" alt=""></div>
-          <div class="hname">${name}</div>
-          <div class="hmeta">${r.country} · ${r.category} · ${r.id}</div>
+          <div class="hph"><img class="photo" src="https://picsum.photos/seed/${encodeURIComponent(r.photoSeed)}-holder/500/700" alt=""></div>
+          <div class="hname">${IRWR.escapeHtml(name)}</div>
+          <div class="hmeta">${IRWR.escapeHtml(r.country)} · ${IRWR.escapeHtml(r.category)} · ${IRWR.escapeHtml(r.id)}</div>
         </div>
         <div class="hface hback">
           <div>
-            <div class="hname">${r.title}</div>
+            <div class="hname">${IRWR.escapeHtml(r.title)}</div>
             <div class="hmeta">${records.length} record${records.length > 1 ? 's' : ''} on file</div>
           </div>
         </div>

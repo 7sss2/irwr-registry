@@ -89,4 +89,5 @@ body[data-page] nav.dnav a[data-page].active, body[data-page] .mnav a[data-page]
 .tilt{transform-style:preserve-3d; transition:transform .15s ease-out;}
 
 #bg3d-canvas{position:fixed; inset:0; z-index:0; pointer-events:none;}
-body > main, body > header, body > footer, .mega-title, .ruler{position:relative; z-index:1;}
+body > main, body > footer, .mega-title, .ruler{position:relative; z-index:1;}
+body > header{position:relative; z-index:40;}

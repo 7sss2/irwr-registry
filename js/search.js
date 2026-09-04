@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function render(query) {
     if (!query.trim()) { results.innerHTML = '<div class="search-empty">Start typing to search the registry.</div>'; return; }
     const matches = IRWR.searchRecords(IRWR_RECORDS, query);
-    if (!matches.length) { results.innerHTML = `<div class="search-empty">No records match "${query}".</div>`; return; }
+    if (!matches.length) { results.innerHTML = `<div class="search-empty">No records match "${IRWR.escapeHtml(query)}".</div>`; return; }
     results.innerHTML = matches.map((r) => `
       <div class="search-row">
-        <img class="photo" src="https://picsum.photos/seed/${r.photoSeed}/120/120" alt="">
-        <div><strong>${r.title}</strong><div>${r.holderName} · ${r.country}</div></div>
-        <div>${r.category}</div>
-        <div>${r.id}</div>
+        <img class="photo" src="https://picsum.photos/seed/${encodeURIComponent(r.photoSeed)}/120/120" alt="">
+        <div><strong>${IRWR.escapeHtml(r.title)}</strong><div>${IRWR.escapeHtml(r.holderName)} · ${IRWR.escapeHtml(r.country)}</div></div>
+        <div>${IRWR.escapeHtml(r.category)}</div>
+        <div>${IRWR.escapeHtml(r.id)}</div>
       </div>
     `).join('');
   }

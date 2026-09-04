@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     .map(([country, records]) => {
       const pct = Math.round((records.length / max) * 100);
       return `
-        <div class="country-row" data-country="${country}">
-          <div>${country}</div>
+        <div class="country-row" data-country="${IRWR.escapeHtml(country)}">
+          <div>${IRWR.escapeHtml(country)}</div>
           <div class="country-bar-track"><div class="country-bar" data-pct="${pct}"></div></div>
           <div class="country-count">${records.length}</div>
         </div>

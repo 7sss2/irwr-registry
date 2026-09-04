@@ -1,5 +1,12 @@
 window.IRWR = window.IRWR || {};
 
+// escape dynamic values before interpolating into innerHTML templates (XSS guard)
+IRWR.escapeHtml = function (str) {
+  return String(str).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   // ruler ticks
   const rulerTrack = document.getElementById('rulerTrack');
@@ -55,12 +62,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // reveal-on-scroll
+  // reveal-on-scroll — threshold:0 fires as soon as any part of the target is
+  // visible. A ratio-based threshold (e.g. 0.1) can never fire for a JS-populated
+  // grid section that ends up many viewport-heights tall (records/holders grids),
+  // since the visible fraction of the whole element can never reach 10%.
   const revealObs = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) { entry.target.classList.add('in'); revealObs.unobserve(entry.target); }
     });
-  }, { threshold: 0.1 });
+  }, { threshold: 0 });
   document.querySelectorAll('.reveal').forEach((el) => revealObs.observe(el));
 
   // mobile nav toggle
