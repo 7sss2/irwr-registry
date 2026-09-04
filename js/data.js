@@ -11,6 +11,7 @@
     "status": "verified",
     "description": "In 1979, Wildmarie Guy completed a 34-kilometer continuous swim across the English Channel in 13 hours and 55 minutes during the \"Solidarity Swim\" between the UK and France. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00001.",
     "photoSeed": "irwr-sport-longest-continuous-english-channel-swim",
+    "photo": null,
     "featured": false
   },
   {
@@ -24,6 +25,7 @@
     "status": "verified",
     "description": "Kenyan runner Paul Tergat set a marathon world record of 2 hours, 4 minutes and 55 seconds over the full 42.195-kilometer distance at the 2003 Berlin Marathon. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00002.",
     "photoSeed": "irwr-sport-fastest-marathon-time",
+    "photo": "images/records/IRWR-00002.jpg",
     "featured": false
   },
   {
@@ -37,6 +39,7 @@
     "status": "verified",
     "description": "Usain Bolt ran the 100 meters in 9.58 seconds at the 2009 World Athletics Championships, the fastest time ever recorded for the distance. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00003.",
     "photoSeed": "irwr-sport-fastest-100-meter-sprint",
+    "photo": "images/records/IRWR-00003.jpg",
     "featured": true
   },
   {
@@ -50,6 +53,7 @@
     "status": "verified",
     "description": "British strongman Eddie Hall lifted 500 kilograms at a 2016 world strength championship, the heaviest deadlift ever recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00004.",
     "photoSeed": "irwr-sport-heaviest-deadlift-recorded",
+    "photo": "images/records/IRWR-00004.jpg",
     "featured": false
   },
   {
@@ -63,6 +67,7 @@
     "status": "verified",
     "description": "Pavel Konovalov of Russia swam 88 meters in ice water in 2024, setting the mark for distance covered under ice-swimming conditions. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00005.",
     "photoSeed": "irwr-sport-longest-ice-swim-distance",
+    "photo": null,
     "featured": false
   },
   {
@@ -76,6 +81,7 @@
     "status": "verified",
     "description": "American ultrarunner Thomas Freimut covered 303.5 kilometers in a single 24-hour race in 1997, the longest recorded distance for the format. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00006.",
     "photoSeed": "irwr-sport-farthest-distance-run-in-24-hours",
+    "photo": null,
     "featured": false
   },
   {
@@ -89,6 +95,7 @@
     "status": "verified",
     "description": "South Korean speed skater Shin Kyong covered 500 meters in 33.61 seconds in 2013, the fastest time recorded for the distance. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00007.",
     "photoSeed": "irwr-sport-fastest-500-meter-speed-skate",
+    "photo": "images/records/IRWR-00007.jpg",
     "featured": false
   },
   {
@@ -102,6 +109,7 @@
     "status": "verified",
     "description": "Artem Kucherenko of Russia performed 67 pull-ups in a single minute in 2020, the highest count recorded for the exercise. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00008.",
     "photoSeed": "irwr-sport-most-pull-ups-in-one-minute",
+    "photo": null,
     "featured": false
   },
   {
@@ -115,6 +123,7 @@
     "status": "verified",
     "description": "American athlete Irene Kuran reached a height of 11.2 meters on a trampoline jump in 2018, the highest ever recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00009.",
     "photoSeed": "irwr-sport-highest-trampoline-jump",
+    "photo": null,
     "featured": false
   },
   {
@@ -128,6 +137,7 @@
     "status": "verified",
     "description": "Russian swimmer Svetlana Romashina won 21 gold medals at the World Synchronized Swimming Championships between 2005 and 2017, more than any other competitor. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00010.",
     "photoSeed": "irwr-sport-most-world-synchronized-swimming-golds",
+    "photo": "images/records/IRWR-00010.jpg",
     "featured": false
   },
   {
@@ -141,6 +151,7 @@
     "status": "verified",
     "description": "Cristiano Ronaldo has scored 870 goals in official football matches worldwide, the most of any player in the sport's history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00011.",
     "photoSeed": "irwr-sport-all-time-leading-goal-scorer-in-football",
+    "photo": "images/records/IRWR-00011.jpg",
     "featured": false
   },
   {
@@ -154,6 +165,7 @@
     "status": "verified",
     "description": "In a 2017 UEFA Champions League match, Cristiano Ronaldo scored three goals in just 6 minutes, the fastest hat-trick in the competition's history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00012.",
     "photoSeed": "irwr-sport-fastest-champions-league-hat-trick",
+    "photo": "images/records/IRWR-00012.jpg",
     "featured": false
   },
   {
@@ -167,6 +179,7 @@
     "status": "verified",
     "description": "Ronaldo has scored 145 goals across the UEFA Cup, Champions League, and Europa League combined, more than any other player in those competitions' history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00013.",
     "photoSeed": "irwr-sport-most-goals-in-european-club-competitions",
+    "photo": "images/records/IRWR-00013.jpg",
     "featured": false
   },
   {
@@ -180,6 +193,7 @@
     "status": "verified",
     "description": "Cristiano Ronaldo is the only footballer to have scored a goal at five separate FIFA World Cup tournaments, in 2006, 2010, 2014, 2018, and 2022. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00014.",
     "photoSeed": "irwr-sport-only-player-to-score-in-five-world-cups",
+    "photo": "images/records/IRWR-00014.jpg",
     "featured": false
   },
   {
@@ -193,6 +207,7 @@
     "status": "verified",
     "description": "Ronaldo is the only footballer to have scored in three separate UEFA Champions League finals, in 2008, 2014, and 2017. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00015.",
     "photoSeed": "irwr-sport-only-player-to-score-in-three-champions-league-fi",
+    "photo": "images/records/IRWR-00015.jpg",
     "featured": false
   },
   {
@@ -206,6 +221,7 @@
     "status": "verified",
     "description": "Cristiano Ronaldo scored a hat-trick against Atletico Madrid in a 2019 match at the age of 33 years and 130 days. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00016.",
     "photoSeed": "irwr-sport-hat-trick-scored-at-age-33",
+    "photo": "images/records/IRWR-00016.jpg",
     "featured": false
   },
   {
@@ -219,6 +235,7 @@
     "status": "verified",
     "description": "Cristiano Ronaldo is the only footballer to have won a national league championship in each of England, Spain, and Italy. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00017.",
     "photoSeed": "irwr-sport-only-player-to-win-titles-in-three-different-leag",
+    "photo": "images/records/IRWR-00017.jpg",
     "featured": false
   },
   {
@@ -232,6 +249,7 @@
     "status": "verified",
     "description": "During a 2013 match between Real Madrid and Manchester United, Cristiano Ronaldo recorded a vertical jump of 2.93 meters, the highest measured in the sport. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00018.",
     "photoSeed": "irwr-sport-highest-vertical-jump-in-football",
+    "photo": "images/records/IRWR-00018.jpg",
     "featured": false
   },
   {
@@ -245,6 +263,7 @@
     "status": "verified",
     "description": "Cristiano Ronaldo became the first athlete in history to accumulate a net worth of over one billion US dollars. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00019.",
     "photoSeed": "irwr-sport-first-athlete-to-become-a-billionaire",
+    "photo": "images/records/IRWR-00019.jpg",
     "featured": false
   },
   {
@@ -258,6 +277,7 @@
     "status": "verified",
     "description": "Japanese athlete Hideto Yamada threw a baseball 135.6 meters (445 feet) in 2012, the longest throw ever recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00020.",
     "photoSeed": "irwr-sport-longest-baseball-throw",
+    "photo": "images/records/IRWR-00020.jpg",
     "featured": false
   },
   {
@@ -271,6 +291,7 @@
     "status": "verified",
     "description": "American swimmer Michael Phelps won 23 Olympic gold medals between 2004 and 2016, more than any other Olympian. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00021.",
     "photoSeed": "irwr-sport-most-olympic-gold-medals-won",
+    "photo": "images/records/IRWR-00021.jpg",
     "featured": false
   },
   {
@@ -284,6 +305,7 @@
     "status": "verified",
     "description": "Russian bandy player Maria Konstantinova scored 11 goals in a single game in 2013, the most ever recorded in the sport. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00022.",
     "photoSeed": "irwr-sport-most-goals-scored-in-a-single-bandy-match",
+    "photo": null,
     "featured": false
   },
   {
@@ -297,6 +319,7 @@
     "status": "verified",
     "description": "Russian gymnast Alexey Nemov won 12 Olympic medals in artistic gymnastics between 1996 and 2004, more than any other competitor. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00023.",
     "photoSeed": "irwr-sport-most-olympic-medals-in-artistic-gymnastics",
+    "photo": "images/records/IRWR-00023.jpg",
     "featured": false
   },
   {
@@ -310,6 +333,7 @@
     "status": "verified",
     "description": "American athlete Robert Gibbons cleared a standing high jump of 1.55 meters without a running start in 1980, the highest ever recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00024.",
     "photoSeed": "irwr-sport-highest-standing-high-jump",
+    "photo": null,
     "featured": false
   },
   {
@@ -323,6 +347,7 @@
     "status": "verified",
     "description": "French runner Jean-Luc Bonnet completed a marathon route on Mont Blanc in 3 hours, 2 minutes and 5 seconds in 2012, the fastest time recorded for a mountain marathon. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00025.",
     "photoSeed": "irwr-sport-fastest-mountain-marathon",
+    "photo": null,
     "featured": false
   },
   {
@@ -336,6 +361,7 @@
     "status": "verified",
     "description": "Australian skateboarder Simon Baker skated continuously for 24 hours and 15 minutes in 2014, the longest such session on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00026.",
     "photoSeed": "irwr-sport-longest-continuous-skateboarding-session",
+    "photo": null,
     "featured": false
   },
   {
@@ -349,6 +375,7 @@
     "status": "verified",
     "description": "Chinese race walker Che Zheng completed 50 kilometers in 3 hours, 32 minutes and 33 seconds in 2019, the fastest recorded time for the distance. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00027.",
     "photoSeed": "irwr-sport-fastest-50-kilometer-race-walk",
+    "photo": "images/records/IRWR-00027.jpg",
     "featured": false
   },
   {
@@ -362,6 +389,7 @@
     "status": "verified",
     "description": "Canadian snowboarder Robert Vaughn launched 10.4 meters high off a ramp jump in 2016, the highest recorded snowboard ramp jump. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00028.",
     "photoSeed": "irwr-sport-highest-snowboard-ramp-jump",
+    "photo": null,
     "featured": false
   },
   {
@@ -375,6 +403,7 @@
     "status": "verified",
     "description": "Alexander Ovechkin scored over 900 goals in NHL regular-season play for the Washington Capitals, more than any other player in league history excluding playoffs. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00029.",
     "photoSeed": "irwr-sport-most-nhl-regular-season-goals",
+    "photo": "images/records/IRWR-00029.jpg",
     "featured": false
   },
   {
@@ -388,6 +417,7 @@
     "status": "verified",
     "description": "Kazakhstani para-swimmer Aknazar Mutalipov, who has one arm and one leg amputated, swam 20 kilometers across a narrow isthmus of Lake Balkhash in 12 hours in 2025, in the Karaganda region under difficult weather conditions. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00030.",
     "photoSeed": "irwr-sport-first-para-swimmer-to-cross-lake-balkhash-isthmus",
+    "photo": "images/records/IRWR-00030.jpg",
     "featured": false
   },
   {
@@ -401,6 +431,7 @@
     "status": "verified",
     "description": "ICBC holds over USD 5.5 trillion in total assets as of 2024, making it the largest bank in the world by that measure. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00031.",
     "photoSeed": "irwr-economy-largest-bank-by-total-assets",
+    "photo": null,
     "featured": false
   },
   {
@@ -414,6 +445,7 @@
     "status": "verified",
     "description": "Walmart generated roughly USD 600 billion in annual turnover as of 2023, making it the world's largest retail hypermarket chain. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00032.",
     "photoSeed": "irwr-economy-largest-retail-chain-by-turnover",
+    "photo": null,
     "featured": false
   },
   {
@@ -427,6 +459,7 @@
     "status": "verified",
     "description": "Dubai World Central, a project begun in 2006 and slated for completion in 2030, has cost more than USD 33 billion, making it the most expensive construction project underway. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00033.",
     "photoSeed": "irwr-economy-most-expensive-construction-project",
+    "photo": null,
     "featured": false
   },
   {
@@ -440,6 +473,7 @@
     "status": "verified",
     "description": "Saudi Aramco carried a market capitalization of about USD 2 trillion in 2023, making it the world's largest oil company by market value. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00034.",
     "photoSeed": "irwr-economy-largest-oil-company-by-market-value",
+    "photo": "images/records/IRWR-00034.jpg",
     "featured": false
   },
   {
@@ -453,6 +487,7 @@
     "status": "verified",
     "description": "Walmart employed more than 2.3 million people worldwide in 2024, more than any other company. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00035.",
     "photoSeed": "irwr-economy-largest-company-by-employee-count",
+    "photo": null,
     "featured": false
   },
   {
@@ -466,6 +501,7 @@
     "status": "verified",
     "description": "Saudi Aramco raised USD 25.6 billion in its December 2019 initial public offering, the largest IPO ever conducted. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00036.",
     "photoSeed": "irwr-economy-largest-ipo-in-history",
+    "photo": "images/records/IRWR-00036.jpg",
     "featured": false
   },
   {
@@ -479,6 +515,7 @@
     "status": "verified",
     "description": "Apple sold more than 100 million iPhone 12 units in its first year on the market (2020), making it the most profitable smartphone model in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00037.",
     "photoSeed": "irwr-economy-most-profitable-smartphone-model",
+    "photo": "images/records/IRWR-00037.jpg",
     "featured": false
   },
   {
@@ -492,6 +529,7 @@
     "status": "verified",
     "description": "Amazon brought in more than USD 500 million in sales on Black Friday in November 2023, the highest single-day revenue ever recorded by a company. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00038.",
     "photoSeed": "irwr-economy-highest-single-day-revenue",
+    "photo": "images/records/IRWR-00038.jpg",
     "featured": false
   },
   {
@@ -505,6 +543,7 @@
     "status": "verified",
     "description": "Amazon posted approximately USD 600 billion in annual revenue in 2024, making it the largest internet company in the world by that measure. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00039.",
     "photoSeed": "irwr-economy-largest-internet-company-by-revenue",
+    "photo": "images/records/IRWR-00039.jpg",
     "featured": false
   },
   {
@@ -518,6 +557,7 @@
     "status": "verified",
     "description": "ByteDance, the owner of TikTok, raised USD 5 billion in startup funding between 2021 and 2023, the largest such round on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00040.",
     "photoSeed": "irwr-economy-largest-startup-funding-round",
+    "photo": "images/records/IRWR-00040.jpg",
     "featured": false
   },
   {
@@ -531,6 +571,7 @@
     "status": "verified",
     "description": "SoftBank Vision Fund 2 managed roughly USD 30 billion in capital between 2020 and 2024, making it the largest venture capital fund in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00041.",
     "photoSeed": "irwr-economy-largest-venture-capital-fund",
+    "photo": null,
     "featured": false
   },
   {
@@ -544,6 +585,7 @@
     "status": "verified",
     "description": "Coupang went public in 2021, about four years after its founding, the fastest a company has gone from founding to IPO. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00042.",
     "photoSeed": "irwr-economy-fastest-company-to-reach-ipo",
+    "photo": "images/records/IRWR-00042.jpg",
     "featured": false
   },
   {
@@ -557,6 +599,7 @@
     "status": "verified",
     "description": "Stripe was valued at roughly USD 95 billion as of 2024, making it the most valuable fintech company in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00043.",
     "photoSeed": "irwr-economy-most-valuable-fintech-company",
+    "photo": "images/records/IRWR-00043.jpg",
     "featured": false
   },
   {
@@ -570,6 +613,7 @@
     "status": "verified",
     "description": "Alipay had more than 1.3 billion active users as of 2024, making it the largest mobile payment platform in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00044.",
     "photoSeed": "irwr-economy-largest-mobile-payment-platform",
+    "photo": "images/records/IRWR-00044.jpg",
     "featured": false
   },
   {
@@ -583,6 +627,7 @@
     "status": "verified",
     "description": "China produced about 136 million tons of wheat in 2023, roughly 17% of global output, led by Henan, Hebei, and Shandong provinces, making it the world's top wheat producer. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00045.",
     "photoSeed": "irwr-economy-largest-annual-wheat-harvest",
+    "photo": null,
     "featured": false
   },
   {
@@ -596,6 +641,7 @@
     "status": "verified",
     "description": "The United States produced about 400 million tons of corn in 2023, primarily from Iowa, Illinois, and Nebraska, for both food and bioethanol use, the largest corn harvest of any country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00046.",
     "photoSeed": "irwr-economy-largest-annual-corn-harvest",
+    "photo": null,
     "featured": false
   },
   {
@@ -609,6 +655,7 @@
     "status": "verified",
     "description": "India produced about 131 million tons of rice in 2023, led by Punjab, Uttar Pradesh, and Bihar, the largest rice harvest of any country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00047.",
     "photoSeed": "irwr-economy-largest-annual-rice-harvest",
+    "photo": null,
     "featured": false
   },
   {
@@ -622,6 +669,7 @@
     "status": "verified",
     "description": "Brazil produced about 10.2 million tons of beef in 2023, led by the states of Mato Grosso, Parana, and Minas Gerais, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00048.",
     "photoSeed": "irwr-economy-largest-beef-production",
+    "photo": "images/records/IRWR-00048.jpg",
     "featured": false
   },
   {
@@ -635,6 +683,7 @@
     "status": "verified",
     "description": "A ram named \"Million,\" owned by Kuanysh Myktybayev of Kazakhstan, weighed 231 kilograms in 2023, the heaviest ram on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00049.",
     "photoSeed": "irwr-economy-heaviest-ram-on-record",
+    "photo": null,
     "featured": false
   },
   {
@@ -648,6 +697,7 @@
     "status": "verified",
     "description": "India produced about 200 million tons of milk in 2023, driven by its White Revolution dairy program and large cattle and buffalo population, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00050.",
     "photoSeed": "irwr-economy-largest-milk-production",
+    "photo": null,
     "featured": false
   },
   {
@@ -661,6 +711,7 @@
     "status": "verified",
     "description": "China produced about 65 million tons of tomatoes in 2023, led by Shandong and Henan provinces, the largest tomato harvest of any country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00051.",
     "photoSeed": "irwr-economy-largest-tomato-harvest",
+    "photo": null,
     "featured": false
   },
   {
@@ -674,6 +725,7 @@
     "status": "verified",
     "description": "The United States exported about 0.7 million tons of peanuts in 2023, led by Georgia, Texas, and Alabama, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00052.",
     "photoSeed": "irwr-economy-largest-peanut-exports",
+    "photo": null,
     "featured": false
   },
   {
@@ -687,6 +739,7 @@
     "status": "verified",
     "description": "The Aktobe Ferroalloy Plant in Kazakhstan produced more than 150 tons of ferrochrome in a single four-hour smelting cycle in 2025, the largest such output on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00053.",
     "photoSeed": "irwr-economy-largest-ferrochrome-output-in-one-smelting-cycl",
+    "photo": "images/records/IRWR-00053.jpg",
     "featured": false
   },
   {
@@ -700,6 +753,7 @@
     "status": "verified",
     "description": "China produced about 500,000 tons of honey in 2023, with beekeeping concentrated in Sichuan, Yunnan, and Henan provinces, making it the world leader in honey output. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00054.",
     "photoSeed": "irwr-economy-largest-honey-production",
+    "photo": null,
     "featured": false
   },
   {
@@ -713,6 +767,7 @@
     "status": "verified",
     "description": "The United States produced roughly 370 million cubic meters of wood for agricultural and construction use in 2023, mainly softwood from the Pacific Northwest and Southeast, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00055.",
     "photoSeed": "irwr-economy-largest-wood-production",
+    "photo": null,
     "featured": false
   },
   {
@@ -726,6 +781,7 @@
     "status": "verified",
     "description": "India had about 7 million agricultural tractors in operation as of 2024, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00056.",
     "photoSeed": "irwr-economy-largest-agricultural-tractor-fleet",
+    "photo": null,
     "featured": false
   },
   {
@@ -739,6 +795,7 @@
     "status": "verified",
     "description": "The Ever Ace, built by Samsung Heavy Industries in South Korea and operated by Taiwan's Evergreen Marine, is 400 meters long with a capacity of 23,992 TEU, making it the largest-capacity container ship at its 2021 launch. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00057.",
     "photoSeed": "irwr-economy-largest-container-ship",
+    "photo": "images/records/IRWR-00057.jpg",
     "featured": false
   },
   {
@@ -752,6 +809,7 @@
     "status": "verified",
     "description": "Wonder of the Seas, built in France and operated by Royal Caribbean, measures 362 meters and can carry up to 6,980 passengers, making it the world's largest cruise ship upon its 2022 commissioning. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00058.",
     "photoSeed": "irwr-economy-largest-cruise-ship",
+    "photo": null,
     "featured": false
   },
   {
@@ -765,6 +823,7 @@
     "status": "verified",
     "description": "The 30-meter yacht History Supreme, designed by Stuart Hughes and plated in gold and platinum with precious-stone decoration, cost about USD 4.5 billion, making it the most expensive yacht ever built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00059.",
     "photoSeed": "irwr-economy-most-expensive-yacht",
+    "photo": "images/records/IRWR-00059.jpg",
     "featured": false
   },
   {
@@ -778,6 +837,7 @@
     "status": "verified",
     "description": "The Knock Nevis, built in Norway in 1979 and decommissioned in 2009, measured 458.45 meters with a deadweight of 564,763 tons, making it the largest oil tanker ever built by deadweight. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00060.",
     "photoSeed": "irwr-economy-largest-oil-tanker-by-deadweight",
+    "photo": null,
     "featured": false
   },
   {
@@ -791,6 +851,7 @@
     "status": "verified",
     "description": "Hyundai Heavy Industries built the container ship MSC Gulsun in about 12 months in 2019, the fastest construction time recorded for a vessel of its size. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00061.",
     "photoSeed": "irwr-economy-fastest-construction-of-a-large-vessel",
+    "photo": "images/records/IRWR-00061.jpg",
     "featured": false
   },
   {
@@ -804,6 +865,7 @@
     "status": "verified",
     "description": "The AmaMagna, launched in 2019, is 144 meters long and carries up to 196 passengers, roughly twice the length of a conventional river cruise ship and purpose-built for European rivers. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00062.",
     "photoSeed": "irwr-economy-longest-river-cruise-ship",
+    "photo": null,
     "featured": false
   },
   {
@@ -817,6 +879,7 @@
     "status": "verified",
     "description": "The Dockwise Vanguard, launched in 2013, measures 275 by 70 meters and can carry 110,000 tons, making it the largest floating dock in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00063.",
     "photoSeed": "irwr-economy-largest-floating-dock",
+    "photo": "images/records/IRWR-00063.jpg",
     "featured": false
   },
   {
@@ -830,6 +893,7 @@
     "status": "verified",
     "description": "Hyundai Heavy Industries operates a shipyard covering more than 1.5 million square meters, the largest in the world, capable of building several major ships simultaneously. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00064.",
     "photoSeed": "irwr-economy-largest-shipyard-by-area",
+    "photo": null,
     "featured": false
   },
   {
@@ -843,6 +907,7 @@
     "status": "verified",
     "description": "The MV Boka Vanguard, operated by Dockwise for transporting heavy industrial equipment, has a deadweight of 100,000 tons, the heaviest semi-submersible vessel in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00065.",
     "photoSeed": "irwr-economy-heaviest-semi-submersible-vessel",
+    "photo": "images/records/IRWR-00065.jpg",
     "featured": false
   },
   {
@@ -856,6 +921,7 @@
     "status": "verified",
     "description": "The DSV Limiting Factor reached a depth of up to 11,000 meters in the Mariana Trench in 2019, and remains the only reusable submersible capable of diving that deep. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00066.",
     "photoSeed": "irwr-economy-deepest-diving-manned-submersible",
+    "photo": "images/records/IRWR-00066.jpg",
     "featured": false
   },
   {
@@ -869,6 +935,7 @@
     "status": "verified",
     "description": "Leonardo da Vinci's \"Salvator Mundi\" sold for USD 450.3 million at Christie's auction house in 2017, the highest price ever paid for a painting at auction. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00067.",
     "photoSeed": "irwr-culture-most-expensive-painting-sold-at-auction",
+    "photo": null,
     "featured": true
   },
   {
@@ -882,6 +949,7 @@
     "status": "verified",
     "description": "Artist Sacha Jafri's \"The Journey of Humanity,\" completed in the UAE in 2021, covers 17,000 square meters, making it the largest painting ever created. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00068.",
     "photoSeed": "irwr-culture-largest-painting-in-the-world",
+    "photo": null,
     "featured": false
   },
   {
@@ -895,6 +963,7 @@
     "status": "verified",
     "description": "A 70-by-38-meter portrait of WWII hero Bauyrzhan Momyshuly, covering 2,660 square meters and made with the help of more than 3,000 participants, was completed in Astana in 2025, making it the largest portrait in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00069.",
     "photoSeed": "irwr-culture-largest-portrait-ever-created",
+    "photo": "images/records/IRWR-00069.jpg",
     "featured": false
   },
   {
@@ -908,6 +977,7 @@
     "status": "verified",
     "description": "Documenta Fifteen ran continuously in Germany in 2022, featuring more than 1,500 artists over what the source describes as its longest run of any major art exhibition. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00070.",
     "photoSeed": "irwr-culture-longest-running-art-exhibition",
+    "photo": null,
     "featured": false
   },
   {
@@ -921,6 +991,7 @@
     "status": "verified",
     "description": "The Louvre in Paris has 72,735 square meters of exhibition space, making it the largest art gallery in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00071.",
     "photoSeed": "irwr-culture-largest-art-gallery-by-exhibition-space",
+    "photo": null,
     "featured": false
   },
   {
@@ -934,6 +1005,7 @@
     "status": "verified",
     "description": "More than 1 million reproductions of Edvard Munch's \"The Scream\" have been sold, more than any other single work of art. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00072.",
     "photoSeed": "irwr-culture-best-selling-art-reproduction",
+    "photo": null,
     "featured": false
   },
   {
@@ -947,6 +1019,7 @@
     "status": "verified",
     "description": "Organizers in Kamysty village, Kostanay region, built 2,301 snow figures over 6 days in December 2023, the largest number of snow sculptures created for a single project. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00073.",
     "photoSeed": "irwr-culture-most-snow-figures-built",
+    "photo": null,
     "featured": false
   },
   {
@@ -960,6 +1033,7 @@
     "status": "verified",
     "description": "Agatha Christie's play \"The Mousetrap\" has run continuously in Britain since 1952, making it the longest-running theatrical production in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00074.",
     "photoSeed": "irwr-culture-longest-running-theatrical-production",
+    "photo": null,
     "featured": false
   },
   {
@@ -973,6 +1047,7 @@
     "status": "verified",
     "description": "\"The Lion King\" has earned more than USD 1.8 billion on Broadway, making it the highest-grossing musical in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00075.",
     "photoSeed": "irwr-culture-highest-grossing-musical",
+    "photo": null,
     "featured": false
   },
   {
@@ -986,6 +1061,7 @@
     "status": "verified",
     "description": "The National Centre for the Performing Arts in China has a stage covering 12,000 square meters, the largest performance stage in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00076.",
     "photoSeed": "irwr-culture-largest-performance-stage",
+    "photo": null,
     "featured": false
   },
   {
@@ -999,6 +1075,7 @@
     "status": "verified",
     "description": "A 2005 staging of the Ramayana in Indonesia involved 8,000 performers, the largest number of participants ever assembled for a single theatrical production. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00077.",
     "photoSeed": "irwr-culture-largest-cast-in-a-theatrical-production",
+    "photo": null,
     "featured": false
   },
   {
@@ -1012,6 +1089,7 @@
     "status": "verified",
     "description": "A total of 1,492 people danced ballet at the same time in Buenos Aires in 2018, the largest simultaneous ballet performance on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00078.",
     "photoSeed": "irwr-culture-most-people-dancing-ballet-simultaneously",
+    "photo": null,
     "featured": false
   },
   {
@@ -1025,6 +1103,7 @@
     "status": "verified",
     "description": "Michael Jackson's \"Thriller\" has sold more than 70 million copies worldwide, making it the best-selling music album of all time. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00079.",
     "photoSeed": "irwr-culture-best-selling-music-album",
+    "photo": "images/records/IRWR-00079.jpg",
     "featured": false
   },
   {
@@ -1038,6 +1117,7 @@
     "status": "verified",
     "description": "Jean-Michel Jarre's 1997 concert in Moscow drew an estimated 3.5 million spectators, the largest audience ever recorded for a single concert. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00080.",
     "photoSeed": "irwr-culture-largest-concert-audience",
+    "photo": "images/records/IRWR-00080.jpg",
     "featured": false
   },
   {
@@ -1051,6 +1131,7 @@
     "status": "verified",
     "description": "Israeli child prodigy Eitan Matlis composed a symphony at age 7, making him the youngest known composer of a symphony. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00081.",
     "photoSeed": "irwr-culture-youngest-composer-of-a-symphony",
+    "photo": null,
     "featured": false
   },
   {
@@ -1064,6 +1145,7 @@
     "status": "verified",
     "description": "A performance of John Cage's organ piece Organ²/ASLSP began in Halberstadt, Germany, in 2001 and is scheduled to conclude in 2640, making it the longest musical performance ever staged. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00082.",
     "photoSeed": "irwr-culture-longest-musical-performance",
+    "photo": "images/records/IRWR-00082.jpg",
     "featured": false
   },
   {
@@ -1077,6 +1159,7 @@
     "status": "verified",
     "description": "Canadian rock band Helix played continuously for 27 hours and 3 minutes in 2004, the longest continuous concert on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00083.",
     "photoSeed": "irwr-culture-longest-continuous-rock-concert",
+    "photo": "images/records/IRWR-00083.jpg",
     "featured": false
   },
   {
@@ -1090,6 +1173,7 @@
     "status": "verified",
     "description": "The Rakhmadiyev State Philharmonic Ethno-ensemble \"Korkyt,\" led by Sholpan Korganbek, performed 80 pieces of world ethnic music continuously for 4 hours and 20 minutes without sheet music or a conductor, in Astana in 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00084.",
     "photoSeed": "irwr-culture-longest-unscripted-ethnic-music-performance",
+    "photo": null,
     "featured": false
   },
   {
@@ -1103,6 +1187,7 @@
     "status": "verified",
     "description": "The Diamond Sutra, printed in China in 868 AD, is the oldest surviving dated book in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00085.",
     "photoSeed": "irwr-culture-oldest-surviving-book",
+    "photo": "images/records/IRWR-00085.jpg",
     "featured": false
   },
   {
@@ -1116,6 +1201,7 @@
     "status": "verified",
     "description": "The Library of Congress holds more than 170 million items, making it the largest library in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00086.",
     "photoSeed": "irwr-culture-largest-library-by-holdings",
+    "photo": "images/records/IRWR-00086.jpg",
     "featured": false
   },
   {
@@ -1129,6 +1215,7 @@
     "status": "verified",
     "description": "Miguel de Cervantes' \"Don Quixote\" has sold an estimated 500 million copies, making it the most popular book in the world outside of religious texts. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00087.",
     "photoSeed": "irwr-culture-most-popular-non-religious-book",
+    "photo": "images/records/IRWR-00087.jpg",
     "featured": false
   },
   {
@@ -1142,6 +1229,7 @@
     "status": "verified",
     "description": "Leonardo da Vinci's Codex Leicester sold for USD 30.8 million to Bill Gates, making it the most expensive manuscript ever sold. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00088.",
     "photoSeed": "irwr-culture-most-expensive-manuscript-sold",
+    "photo": null,
     "featured": false
   },
   {
@@ -1155,6 +1243,7 @@
     "status": "verified",
     "description": "The Finnish Folklore Collection held by the Kalevala Institute contains more than 2 million folk songs and legends, the largest such archive in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00089.",
     "photoSeed": "irwr-culture-largest-folklore-collection",
+    "photo": "images/records/IRWR-00089.jpg",
     "featured": false
   },
   {
@@ -1168,6 +1257,7 @@
     "status": "verified",
     "description": "More than 6.5 billion copies of \"Quotes from Chairman Mao Zedong,\" known as the \"Red Book,\" have been published in China, making it the most-printed book in history apart from religious texts. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00090.",
     "photoSeed": "irwr-culture-most-published-non-religious-book",
+    "photo": null,
     "featured": false
   },
   {
@@ -1181,6 +1271,7 @@
     "status": "verified",
     "description": "The Bible has been fully translated into more than 700 languages and partially into more than 3,000 languages, more than any other book. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00091.",
     "photoSeed": "irwr-culture-most-translated-book",
+    "photo": null,
     "featured": false
   },
   {
@@ -1194,6 +1285,7 @@
     "status": "verified",
     "description": "Toppan Printing produced \"Shiki no Kusabana\" (\"Flowers of the Four Seasons\") in Japan in 2013, measuring just 0.75 by 0.75 millimeters, the smallest printed book on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00092.",
     "photoSeed": "irwr-culture-smallest-printed-book",
+    "photo": null,
     "featured": false
   },
   {
@@ -1207,6 +1299,7 @@
     "status": "verified",
     "description": "A 429-page edition of \"The Prophet Mohamed,\" produced in Dubai in 2012, measures 5 by 8.06 meters and weighs about 1,500 kilograms, making it the largest book ever printed. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00093.",
     "photoSeed": "irwr-culture-largest-printed-book",
+    "photo": "images/records/IRWR-00093.jpg",
     "featured": false
   },
   {
@@ -1220,6 +1313,7 @@
     "status": "verified",
     "description": "The Bay Psalm Book, the first book printed in colonial America (1640), sold for USD 14.2 million at auction in 2013, the highest price ever paid for a printed book. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00094.",
     "photoSeed": "irwr-culture-most-expensive-printed-book-sold-at-auction",
+    "photo": null,
     "featured": false
   },
   {
@@ -1233,6 +1327,7 @@
     "status": "verified",
     "description": "The British Library holds a copy of the woodcut-printed Diamond Sutra from 868 AD, cataloged as the oldest known printed book. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00095.",
     "photoSeed": "irwr-culture-oldest-printed-book-held-in-a-library",
+    "photo": null,
     "featured": false
   },
   {
@@ -1246,6 +1341,7 @@
     "status": "verified",
     "description": "HarperCollins published an \"Agatha Christie Collection\" volume in 2020 spanning 7,232 pages, the longest single printed publication on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00096.",
     "photoSeed": "irwr-culture-longest-single-printed-publication",
+    "photo": null,
     "featured": false
   },
   {
@@ -1259,6 +1355,7 @@
     "status": "verified",
     "description": "More than 12 million copies of \"Harry Potter and the Deathly Hallows\" were printed and distributed within a single week of its 2007 release across the US, Canada, and UK, the fastest large-scale book print run on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00097.",
     "photoSeed": "irwr-culture-fastest-book-print-run",
+    "photo": "images/records/IRWR-00097.jpg",
     "featured": false
   },
   {
@@ -1272,6 +1369,7 @@
     "status": "verified",
     "description": "The IKEA catalogue was printed in more than 200 million copies annually until it was discontinued in 2020, making it the most widely distributed print advertising campaign in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00098.",
     "photoSeed": "irwr-culture-most-printed-advertising-catalogue",
+    "photo": null,
     "featured": false
   },
   {
@@ -1285,6 +1383,7 @@
     "status": "verified",
     "description": "The Oce JetStream 4300, made by Canon Group, prints at up to 300 meters per minute, more than 3,200 pages per minute, making it the fastest printing press in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00099.",
     "photoSeed": "irwr-culture-fastest-printing-press",
+    "photo": null,
     "featured": false
   },
   {
@@ -1298,6 +1397,7 @@
     "status": "verified",
     "description": "The hand-sewn, crystal-covered \"Happy Birthday, Mr. President\" dress worn by Marilyn Monroe in 1962 and designed by Jean Louis sold for USD 4.8 million at Julien's Auctions in 2016, the highest price paid for a dress. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00100.",
     "photoSeed": "irwr-culture-most-expensive-dress-ever-sold",
+    "photo": null,
     "featured": false
   },
   {
@@ -1311,6 +1411,7 @@
     "status": "verified",
     "description": "Ethno-designer Gulyaim Akumbayeva led a team of 44 people to create a 3.79-meter traditional \"Kimeshek\" headdress decorated with 2,025 pearls and beads and 55 silver coins, in Pavlodar in 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00101.",
     "photoSeed": "irwr-culture-largest-traditional-kazakh-women-s-headdress",
+    "photo": null,
     "featured": false
   },
   {
@@ -1324,6 +1425,7 @@
     "status": "verified",
     "description": "Balmain designer Olivier Rousteing conceived and staged a full haute couture collection in 48 hours in 2018 as part of the #BalmainArmyChallenge, the fastest turnaround from idea to catwalk in the industry. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00102.",
     "photoSeed": "irwr-culture-fastest-haute-couture-collection-produced",
+    "photo": null,
     "featured": false
   },
   {
@@ -1337,6 +1439,7 @@
     "status": "verified",
     "description": "Maria Paraskevopoulou of Greece wore a wedding veil measuring 6,962 meters in 2018, the longest wedding veil on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00103.",
     "photoSeed": "irwr-culture-longest-wedding-veil",
+    "photo": null,
     "featured": false
   },
   {
@@ -1350,6 +1453,7 @@
     "status": "verified",
     "description": "Master Akmaral Dauylbayeva, with roughly 1,250 artisans from across Kazakhstan, created a 5.2-meter-tall traditional \"Saukele\" wedding headdress with a 560-meter veil bearing 31 ethnic motifs, unveiled in Turkestan in October 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00104.",
     "photoSeed": "irwr-culture-largest-traditional-kazakh-wedding-headdress",
+    "photo": null,
     "featured": false
   },
   {
@@ -1363,6 +1467,7 @@
     "status": "verified",
     "description": "Zamira Soltanov of the Shanyrak Center organized the raising of a 128-square-meter Kazakh state flag to a height of 180 meters using a single drone, in Pavlodar in August 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00105.",
     "photoSeed": "irwr-culture-highest-drone-raised-national-flag",
+    "photo": "images/records/IRWR-00105.jpg",
     "featured": false
   },
   {
@@ -1376,6 +1481,7 @@
     "status": "verified",
     "description": "Ajio Luxe staged a 2020 fashion show in Mumbai featuring 3,083 models on the runway simultaneously, the largest fashion show ever held by that measure. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00106.",
     "photoSeed": "irwr-culture-largest-fashion-show-by-model-count",
+    "photo": null,
     "featured": false
   },
   {
@@ -1389,6 +1495,7 @@
     "status": "verified",
     "description": "Designer Rene Strauss and jeweler Martin Katz created a wedding dress set with 150 carats of diamonds, valued at USD 12 million and reportedly guarded by armed security, the most expensive wedding dress on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00107.",
     "photoSeed": "irwr-culture-most-expensive-wedding-dress",
+    "photo": null,
     "featured": false
   },
   {
@@ -1402,6 +1509,7 @@
     "status": "verified",
     "description": "The Galeries Lafayette department store in Paris built a 1,800-square-meter fashion window display in 2012 featuring hundreds of mannequins and animated characters, the largest such storefront showcase. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00108.",
     "photoSeed": "irwr-culture-largest-fashion-storefront-display",
+    "photo": "images/records/IRWR-00108.jpg",
     "featured": false
   },
   {
@@ -1415,6 +1523,7 @@
     "status": "verified",
     "description": "Spanish retailer ZARA can take a garment from design concept to store shelves in as little as 5 days, the fastest production and distribution cycle in the fashion industry. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00109.",
     "photoSeed": "irwr-culture-fastest-fast-fashion-production-cycle",
+    "photo": null,
     "featured": false
   },
   {
@@ -1428,6 +1537,7 @@
     "status": "verified",
     "description": "The \"Passion Diamond Shoes,\" set with 236 diamonds including two 15-carat stones, were valued at USD 17 million by Jada Dubai and Passion Jewellers in Dubai in 2018, the most expensive shoes ever made. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00110.",
     "photoSeed": "irwr-culture-most-expensive-pair-of-shoes",
+    "photo": "images/records/IRWR-00110.jpg",
     "featured": false
   },
   {
@@ -1441,6 +1551,7 @@
     "status": "verified",
     "description": "Turkish Airlines staged a fashion show with 15 models aboard an aircraft flying at 37,000 feet (11,278 meters) in 2016, the highest-altitude fashion show on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00111.",
     "photoSeed": "irwr-culture-highest-altitude-fashion-show",
+    "photo": null,
     "featured": false
   },
   {
@@ -1454,6 +1565,7 @@
     "status": "verified",
     "description": "A gold-thread-embroidered jacket worn by Michael Jackson during his \"Bad\" tour sold for USD 892,500 at a London auction in 2011, the highest price paid for a jacket. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00112.",
     "photoSeed": "irwr-culture-most-expensive-jacket-sold-at-auction",
+    "photo": null,
     "featured": false
   },
   {
@@ -1467,6 +1579,7 @@
     "status": "verified",
     "description": "Designer Nurgul Abaykhan led 660 artisans in the \"Alaman Kurak\" project, assembling traditional Kazakh patchwork quilts covering 1,366.8 square meters, in Almaty in 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00113.",
     "photoSeed": "irwr-culture-largest-collection-of-traditional-kazakh-patchw",
+    "photo": null,
     "featured": false
   },
   {
@@ -1480,6 +1593,7 @@
     "status": "verified",
     "description": "British designer Anne Andrews created a wedding dress with an 8,095-meter train, hand-sewn with reinforced computerized embroidery on lightweight synthetic fabric, the longest wedding dress train on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00114.",
     "photoSeed": "irwr-culture-longest-wedding-dress-train",
+    "photo": null,
     "featured": false
   },
   {
@@ -1493,6 +1607,7 @@
     "status": "verified",
     "description": "The House of Mouawad's \"1001 Nights Diamond Purse,\" hand-set with more than 4,500 diamonds, is valued at USD 3.8 million, the most expensive handbag ever made. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00115.",
     "photoSeed": "irwr-culture-most-expensive-handbag",
+    "photo": null,
     "featured": false
   },
   {
@@ -1506,6 +1621,7 @@
     "status": "verified",
     "description": "Nike Turkey built a working-scale pair of shoes measuring 5.46 meters long using 3D-modeled, reinforced materials, the largest pair of shoes on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00116.",
     "photoSeed": "irwr-culture-largest-pair-of-shoes",
+    "photo": null,
     "featured": false
   },
   {
@@ -1519,6 +1635,7 @@
     "status": "verified",
     "description": "Indian designer Nina Khan hand-embroidered a wedding dress with 1.4 million rhinestones, using CAD-optimized placement, the most rhinestones ever applied to a single garment. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00117.",
     "photoSeed": "irwr-culture-wedding-dress-with-the-most-rhinestones",
+    "photo": null,
     "featured": false
   },
   {
@@ -1532,6 +1649,7 @@
     "status": "verified",
     "description": "The Samsung Textile Tech sewing machine, using automated robotic threading and real-time quality sensors, can produce 150 t-shirts per hour, the fastest sewing machine on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00118.",
     "photoSeed": "irwr-culture-fastest-sewing-machine",
+    "photo": null,
     "featured": false
   },
   {
@@ -1545,6 +1663,7 @@
     "status": "verified",
     "description": "The company ROMANTIK, led by general director Izbasarova G., assembled a basket of more than 10,000 roses at Zhetysu Park in Astana on June 1, 2024, the largest single-basket rose bouquet on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00119.",
     "photoSeed": "irwr-culture-largest-rose-bouquet-in-a-single-basket",
+    "photo": null,
     "featured": false
   },
   {
@@ -1558,6 +1677,7 @@
     "status": "verified",
     "description": "IGNOU enrolled more than 4 million students as of 2023, mostly through distance learning, making it the largest university in the world by student count. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00120.",
     "photoSeed": "irwr-education-largest-university-by-enrollment",
+    "photo": null,
     "featured": true
   },
   {
@@ -1571,6 +1691,7 @@
     "status": "verified",
     "description": "The City Montessori School in Lucknow enrolled about 55,000 students as of 2023, making it the largest single school in the world by enrollment. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00121.",
     "photoSeed": "irwr-education-largest-school-by-enrollment",
+    "photo": "images/records/IRWR-00121.jpg",
     "featured": false
   },
   {
@@ -1584,6 +1705,7 @@
     "status": "verified",
     "description": "The Lycee International de Saint-Germain-en-Laye offers instruction in more than 15 languages as of 2023, making it the most multilingual school in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00122.",
     "photoSeed": "irwr-education-most-multilingual-educational-institution",
+    "photo": null,
     "featured": false
   },
   {
@@ -1597,6 +1719,7 @@
     "status": "verified",
     "description": "MIT has run a continuous engineering and science education program since 1861, one of the longest unbroken academic programs of its kind. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00123.",
     "photoSeed": "irwr-education-longest-running-continuous-engineering-progra",
+    "photo": "images/records/IRWR-00123.jpg",
     "featured": false
   },
   {
@@ -1610,6 +1733,7 @@
     "status": "verified",
     "description": "Latvia recorded a literacy rate of 99.9% in 2023, among the highest of any country in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00124.",
     "photoSeed": "irwr-education-one-of-the-world-s-highest-literacy-rates",
+    "photo": null,
     "featured": false
   },
   {
@@ -1623,6 +1747,7 @@
     "status": "verified",
     "description": "China's higher education enrollment grew from about 10 million students in 2000 to more than 50 million by 2023, the fastest expansion of a national university system on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00125.",
     "photoSeed": "irwr-education-fastest-growth-in-higher-education-enrollment",
+    "photo": null,
     "featured": false
   },
   {
@@ -1636,6 +1761,7 @@
     "status": "verified",
     "description": "China's National Open University online platform served more than 30 million users as of 2023, making it the largest distance-learning program in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00126.",
     "photoSeed": "irwr-education-largest-distance-learning-platform",
+    "photo": null,
     "featured": false
   },
   {
@@ -1649,6 +1775,7 @@
     "status": "verified",
     "description": "Harvard University counts more than 160 Nobel laureates among its graduates and faculty as of 2023, more than any other university. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00127.",
     "photoSeed": "irwr-education-most-nobel-laureates-produced",
+    "photo": "images/records/IRWR-00127.jpg",
     "featured": false
   },
   {
@@ -1662,6 +1789,7 @@
     "status": "verified",
     "description": "Stanford University offered more than 2,000 online courses (MOOCs) as of 2023, more than any other single institution. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00128.",
     "photoSeed": "irwr-education-most-online-courses-from-a-single-institution",
+    "photo": null,
     "featured": false
   },
   {
@@ -1675,6 +1803,7 @@
     "status": "verified",
     "description": "Orbital Marine Power's SR2000 turbine, tested off Orkney, Scotland, in 2023, has a 2 MW capacity and generated 3,250 MWh in a single test cycle, the most powerful tidal turbine on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00129.",
     "photoSeed": "irwr-education-most-powerful-tidal-turbine",
+    "photo": "images/records/IRWR-00129.jpg",
     "featured": false
   },
   {
@@ -1688,6 +1817,7 @@
     "status": "verified",
     "description": "A Purdue University team built a robot that solved a Rubik's Cube in 0.103 seconds at the SPARK Competition in December 2024, the fastest solve on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00130.",
     "photoSeed": "irwr-education-fastest-robot-to-solve-a-rubik-s-cube",
+    "photo": null,
     "featured": false
   },
   {
@@ -1701,6 +1831,7 @@
     "status": "verified",
     "description": "The ELI 10 PW facility, built by the Extreme Light Infrastructure organization, houses the most powerful laser system in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00131.",
     "photoSeed": "irwr-education-most-powerful-laser",
+    "photo": "images/records/IRWR-00131.jpg",
     "featured": false
   },
   {
@@ -1714,6 +1845,7 @@
     "status": "verified",
     "description": "The LUMI supercomputer, launched in Kajaani, Finland, in June 2022 by the EuroHPC Joint Undertaking, uses 362,496 CPU cores and 10,240 GPUs to reach a peak of 531 petaflops, making it Europe's most powerful supercomputer. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00132.",
     "photoSeed": "irwr-education-most-powerful-european-supercomputer",
+    "photo": null,
     "featured": false
   },
   {
@@ -1727,6 +1859,7 @@
     "status": "verified",
     "description": "Microsoft's \"Eagle\" supercomputer, built with HPE and NVIDIA and housed at Oak Ridge National Laboratory, ranked 4th on the TOP500 list in May 2023 with a peak performance of 846.84 petaflops. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00133.",
     "photoSeed": "irwr-education-top-ranked-arm-based-supercomputer",
+    "photo": null,
     "featured": false
   },
   {
@@ -1740,6 +1873,7 @@
     "status": "verified",
     "description": "IBM unveiled its 433-qubit Osprey quantum processor in New York in November 2022, more than three times the qubit count of its previous Eagle chip and the most powerful quantum processor at the time. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00134.",
     "photoSeed": "irwr-education-most-powerful-quantum-processor-at-launch",
+    "photo": null,
     "featured": false
   },
   {
@@ -1753,6 +1887,7 @@
     "status": "verified",
     "description": "IBM introduced its 127-qubit Eagle processor in November 2021, the company's first quantum chip to exceed 100 qubits, using a \"heavy-hex lattice\" architecture. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00135.",
     "photoSeed": "irwr-education-first-quantum-chip-to-exceed-100-qubits",
+    "photo": null,
     "featured": false
   },
   {
@@ -1766,6 +1901,7 @@
     "status": "verified",
     "description": "IBM unveiled its 1,121-qubit Condor processor in December 2023, more than double the qubit count of Osprey and, at the time, the largest superconducting quantum chip built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00136.",
     "photoSeed": "irwr-education-largest-superconducting-quantum-chip",
+    "photo": null,
     "featured": false
   },
   {
@@ -1779,6 +1915,7 @@
     "status": "verified",
     "description": "Bright Horizons Family Solutions operated more than 1,000 childcare and early-education centers worldwide as of 2023, serving over 200,000 children, the largest kindergarten network in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00137.",
     "photoSeed": "irwr-education-largest-kindergarten-network",
+    "photo": "images/records/IRWR-00137.jpg",
     "featured": false
   },
   {
@@ -1792,6 +1929,7 @@
     "status": "verified",
     "description": "Coursera drew on more than 4,000 instructors from top universities worldwide as of 2023, more than any comparable distance-learning platform. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00138.",
     "photoSeed": "irwr-education-most-educators-on-a-distance-learning-platfor",
+    "photo": null,
     "featured": false
   },
   {
@@ -1805,6 +1943,7 @@
     "status": "verified",
     "description": "The UN Sustainable Development Solutions Network connected more than 500 universities across 150 countries as of 2023, the largest network of its kind focused on sustainability education and research. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00139.",
     "photoSeed": "irwr-education-largest-sustainability-education-network",
+    "photo": null,
     "featured": false
   },
   {
@@ -1818,6 +1957,7 @@
     "status": "verified",
     "description": "USTC enrolled more than 10,000 students in AI-focused programs as of 2023, making it one of Asia's largest centers for artificial intelligence education. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00140.",
     "photoSeed": "irwr-education-largest-university-ai-training-program",
+    "photo": null,
     "featured": false
   },
   {
@@ -1831,6 +1971,7 @@
     "status": "verified",
     "description": "Founded in 1088, the University of Bologna is the oldest university in the world still in continuous operation. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00141.",
     "photoSeed": "irwr-education-oldest-continuously-operating-university",
+    "photo": null,
     "featured": false
   },
   {
@@ -1844,6 +1985,7 @@
     "status": "verified",
     "description": "Special Education School 518 in Russia enrolled more than 2,000 children with special needs as of 2023, making it the largest such inclusive school in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00142.",
     "photoSeed": "irwr-education-largest-school-for-children-with-special-need",
+    "photo": null,
     "featured": false
   },
   {
@@ -1857,6 +1999,7 @@
     "status": "verified",
     "description": "As of 2023, 100% of Estonian schools were connected to the internet and used electronic diaries and distance-learning tools, making Estonia the world leader in school digitalization. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00143.",
     "photoSeed": "irwr-education-most-digitalized-national-school-system",
+    "photo": "images/records/IRWR-00143.jpg",
     "featured": false
   },
   {
@@ -1870,6 +2013,7 @@
     "status": "verified",
     "description": "The World Education Summit in India drew more than 10,000 specialists from 150 countries in 2023, the largest international gathering of its kind focused on education. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00144.",
     "photoSeed": "irwr-education-largest-international-education-conference",
+    "photo": null,
     "featured": false
   },
   {
@@ -1883,6 +2027,7 @@
     "status": "verified",
     "description": "A mass waltz lesson with 614 participants was held in Kosshy, Akmola region, Kazakhstan, in 2025, the largest dance lesson on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00145.",
     "photoSeed": "irwr-education-largest-dance-lesson",
+    "photo": null,
     "featured": false
   },
   {
@@ -1896,6 +2041,7 @@
     "status": "verified",
     "description": "The OECD's Programme for International Student Assessment (PISA) tests the reading, math, and science skills of 15-year-olds across more than 80 countries, the largest such data project in education. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00146.",
     "photoSeed": "irwr-education-largest-education-data-assessment-project",
+    "photo": null,
     "featured": false
   },
   {
@@ -1909,6 +2055,7 @@
     "status": "verified",
     "description": "The University of Phoenix issued more than 40,000 online diplomas in 2023, more than any other American online university. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00147.",
     "photoSeed": "irwr-education-most-online-diplomas-issued-in-a-year",
+    "photo": null,
     "featured": false
   },
   {
@@ -1922,6 +2069,7 @@
     "status": "verified",
     "description": "Jeanne Calment of France lived 122 years and 164 days, from 1875 to 1997, the longest confirmed human lifespan on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00148.",
     "photoSeed": "irwr-education-longest-confirmed-human-lifespan",
+    "photo": "images/records/IRWR-00148.jpg",
     "featured": false
   },
   {
@@ -1935,6 +2083,7 @@
     "status": "verified",
     "description": "Robert Wadlow of the United States reached a height of 2.72 meters due to acromegaly (gigantism), making him the tallest person ever reliably recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00149.",
     "photoSeed": "irwr-education-tallest-person-in-recorded-history",
+    "photo": null,
     "featured": false
   },
   {
@@ -1948,6 +2097,7 @@
     "status": "verified",
     "description": "John Brower Minnoch of the United States reached a peak recorded weight of 635 kilograms, the heaviest human body weight ever documented. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00150.",
     "photoSeed": "irwr-education-heaviest-person-on-record",
+    "photo": null,
     "featured": false
   },
   {
@@ -1961,6 +2111,7 @@
     "status": "verified",
     "description": "Edward O'Bara of the United States remained in a coma for 42 years, from 1970 to 2012, the longest medically documented coma. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00151.",
     "photoSeed": "irwr-education-longest-recorded-coma",
+    "photo": "images/records/IRWR-00151.jpg",
     "featured": false
   },
   {
@@ -1974,6 +2125,7 @@
     "status": "verified",
     "description": "Timothy Ray Brown, known as the \"Berlin Patient,\" became the first person cured of HIV following a bone marrow transplant in 2007. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00152.",
     "photoSeed": "irwr-education-first-person-cured-of-hiv",
+    "photo": null,
     "featured": false
   },
   {
@@ -1987,6 +2139,7 @@
     "status": "verified",
     "description": "Bella Hunter of the United States had a medically documented pregnancy lasting 375 days in 1945-1946, the longest on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00153.",
     "photoSeed": "irwr-education-longest-documented-human-pregnancy",
+    "photo": "images/records/IRWR-00153.jpg",
     "featured": false
   },
   {
@@ -2000,6 +2153,7 @@
     "status": "verified",
     "description": "A baby girl named Kecubi was born in Japan in 2018 weighing just 245 grams and was successfully discharged, the smallest surviving newborn on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00154.",
     "photoSeed": "irwr-education-smallest-surviving-newborn",
+    "photo": "images/records/IRWR-00154.jpg",
     "featured": false
   },
   {
@@ -2013,6 +2167,7 @@
     "status": "verified",
     "description": "A 1951 operation in Chicago to remove an ovarian tumor lasted 96 hours, the longest surgery on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00155.",
     "photoSeed": "irwr-education-longest-recorded-surgery",
+    "photo": "images/records/IRWR-00155.jpg",
     "featured": false
   },
   {
@@ -2026,6 +2181,7 @@
     "status": "verified",
     "description": "Dr. Christiaan Barnard performed the world's first successful human heart transplant in South Africa in 1967. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00156.",
     "photoSeed": "irwr-education-first-successful-heart-transplant",
+    "photo": null,
     "featured": false
   },
   {
@@ -2039,6 +2195,7 @@
     "status": "verified",
     "description": "Isabelle Dinoire of France received the world's first partial face transplant in 2005. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00157.",
     "photoSeed": "irwr-education-first-partial-face-transplant",
+    "photo": null,
     "featured": false
   },
   {
@@ -2052,6 +2209,7 @@
     "status": "verified",
     "description": "Akiande Jade Essa of Nigeria performed a supervised surgical operation at age 7 in 2000, making her the youngest known surgeon. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00158.",
     "photoSeed": "irwr-education-youngest-surgeon-to-perform-an-operation",
+    "photo": null,
     "featured": false
   },
   {
@@ -2065,6 +2223,7 @@
     "status": "verified",
     "description": "Zolgensma, a single-dose gene therapy for spinal muscular atrophy, is priced at more than USD 2.1 million per treatment, the most expensive medical treatment in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00159.",
     "photoSeed": "irwr-education-most-expensive-medical-treatment",
+    "photo": null,
     "featured": false
   },
   {
@@ -2078,6 +2237,7 @@
     "status": "verified",
     "description": "The WHO's Smallpox Eradication Program, completed in 1980, made smallpox the first infectious disease ever eradicated through vaccination, one of the largest vaccination campaigns in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00160.",
     "photoSeed": "irwr-education-first-disease-eradicated-by-vaccination",
+    "photo": null,
     "featured": false
   },
   {
@@ -2091,6 +2251,7 @@
     "status": "verified",
     "description": "The Smart Tissue robot performed the first surgical operation carried out by a fully autonomous robot in the United States in 2016. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00161.",
     "photoSeed": "irwr-education-first-operation-by-a-fully-autonomous-robot",
+    "photo": null,
     "featured": false
   },
   {
@@ -2104,6 +2265,7 @@
     "status": "verified",
     "description": "The Frontier supercomputer at Oak Ridge National Laboratory became the first system to exceed 1 exaflop of performance, more than a quintillion operations per second. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00162.",
     "photoSeed": "irwr-education-first-exascale-supercomputer",
+    "photo": "images/records/IRWR-00162.jpg",
     "featured": false
   },
   {
@@ -2117,6 +2279,7 @@
     "status": "verified",
     "description": "Ameca, built by UK-based Engineered Arts, is regarded as the most expressive humanoid robot, reproducing human emotions and facial expressions with high accuracy. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00163.",
     "photoSeed": "irwr-education-most-expressive-humanoid-ai-robot",
+    "photo": "images/records/IRWR-00163.jpg",
     "featured": false
   },
   {
@@ -2130,6 +2293,7 @@
     "status": "verified",
     "description": "OpenAI's GPT-4, tested by legal-technology firm Casetext, became the first AI system to pass a US oral legal ethics and case-analysis exam at a level comparable to law students. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00164.",
     "photoSeed": "irwr-education-first-ai-to-pass-a-us-oral-legal-exam",
+    "photo": null,
     "featured": false
   },
   {
@@ -2143,6 +2307,7 @@
     "status": "verified",
     "description": "The city of Shenzhen connected more than 2 million IoT devices into a single system managing transport, utilities, and security, the largest such smart-city network in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00165.",
     "photoSeed": "irwr-education-largest-smart-city-iot-network",
+    "photo": null,
     "featured": false
   },
   {
@@ -2156,6 +2321,7 @@
     "status": "verified",
     "description": "The Blue Brain Project, part of the Human Brain Project, built the first digital model of human brain activity at the level of individual neural columns. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00166.",
     "photoSeed": "irwr-education-first-digital-model-of-human-brain-activity",
+    "photo": null,
     "featured": false
   },
   {
@@ -2169,6 +2335,7 @@
     "status": "verified",
     "description": "Ziva, developed by Ziva Dynamics and used by NVIDIA, is the first fully animated digital human twin capable of realistic movement and facial expression. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00167.",
     "photoSeed": "irwr-education-first-fully-digital-human-twin",
+    "photo": "images/records/IRWR-00167.jpg",
     "featured": false
   },
   {
@@ -2182,6 +2349,7 @@
     "status": "verified",
     "description": "The AI system Mika was appointed a company director at spirits maker Dictador in 2023, the first artificial intelligence to hold such a corporate role. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00168.",
     "photoSeed": "irwr-education-first-ai-appointed-as-a-company-director",
+    "photo": "images/records/IRWR-00168.jpg",
     "featured": false
   },
   {
@@ -2195,6 +2363,7 @@
     "status": "verified",
     "description": "The Jiuzhang 2.0 quantum computer, developed at the University of Science and Technology of China, solves certain AI-related computations up to 10^24 times faster than classical computers. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00169.",
     "photoSeed": "irwr-education-fastest-quantum-computer-for-ai-problems",
+    "photo": null,
     "featured": false
   },
   {
@@ -2208,6 +2377,7 @@
     "status": "verified",
     "description": "The Bugatti Chiron Super Sport 300+ reached 490.48 km/h (304.77 mph) in 2019, the fastest recorded top speed for a production car. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00170.",
     "photoSeed": "irwr-transport-fastest-production-car",
+    "photo": "images/records/IRWR-00170.jpg",
     "featured": false
   },
   {
@@ -2221,6 +2391,7 @@
     "status": "verified",
     "description": "More than 50 million Toyota Corollas have been sold since the model launched in 1966, making it the best-selling car nameplate in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00171.",
     "photoSeed": "irwr-transport-best-selling-car-in-history",
+    "photo": "images/records/IRWR-00171.jpg",
     "featured": false
   },
   {
@@ -2234,6 +2405,7 @@
     "status": "verified",
     "description": "Eric Cline drove his Tesla Model S 150,000 kilometers on its original battery without a replacement by 2021, the highest recorded mileage on an unreplaced electric car battery. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00172.",
     "photoSeed": "irwr-transport-highest-mileage-on-an-original-ev-battery",
+    "photo": null,
     "featured": false
   },
   {
@@ -2247,6 +2419,7 @@
     "status": "verified",
     "description": "A UK team replaced the engine of a Lamborghini Huracan in just 20 minutes in 2020, the fastest recorded engine swap. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00173.",
     "photoSeed": "irwr-transport-fastest-car-engine-replacement",
+    "photo": null,
     "featured": false
   },
   {
@@ -2260,6 +2433,7 @@
     "status": "verified",
     "description": "Tesla's Model S Plaid battery pack, built from 4680-format cells, holds about 100 kWh of capacity, the largest production EV battery as of 2021. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00174.",
     "photoSeed": "irwr-transport-largest-electric-car-battery",
+    "photo": null,
     "featured": false
   },
   {
@@ -2273,6 +2447,7 @@
     "status": "verified",
     "description": "The Peel P50, produced in Britain starting in 1962, measures just 134 centimeters long, the smallest production car ever made. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00175.",
     "photoSeed": "irwr-transport-smallest-production-car",
+    "photo": "images/records/IRWR-00175.jpg",
     "featured": false
   },
   {
@@ -2286,6 +2461,7 @@
     "status": "verified",
     "description": "German cyclist Heinz Stucke rode more than 40,075 kilometers, the equivalent of the Earth's circumference, over a 52-year journey from 1962 to 2014. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00176.",
     "photoSeed": "irwr-transport-longest-cycling-journey",
+    "photo": "images/records/IRWR-00176.jpg",
     "featured": false
   },
   {
@@ -2299,6 +2475,7 @@
     "status": "verified",
     "description": "The 2,000-horsepower Lotus Evija, released in 2020, has a top speed rating of 350 km/h, the fastest of any production electric car by that measure. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00177.",
     "photoSeed": "irwr-transport-fastest-electric-car-top-speed-rating",
+    "photo": "images/records/IRWR-00177.jpg",
     "featured": false
   },
   {
@@ -2312,6 +2489,7 @@
     "status": "verified",
     "description": "The Mercedes-Benz G 63 AMG 6x6, released in 2013, weighs about 4.1 tons, the heaviest production SUV built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00178.",
     "photoSeed": "irwr-transport-heaviest-production-suv",
+    "photo": "images/records/IRWR-00178.jpg",
     "featured": false
   },
   {
@@ -2325,6 +2503,7 @@
     "status": "verified",
     "description": "The Rolls-Royce Boat Tail was valued at USD 28 million upon its 2021 release, the most expensive new car ever sold. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00179.",
     "photoSeed": "irwr-transport-most-expensive-car",
+    "photo": null,
     "featured": false
   },
   {
@@ -2338,6 +2517,7 @@
     "status": "verified",
     "description": "The Rimac Nevera reached a recorded track speed of 412 km/h in 2021, the fastest electric car on a closed track. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00180.",
     "photoSeed": "irwr-transport-fastest-electric-car-on-a-track",
+    "photo": "images/records/IRWR-00180.jpg",
     "featured": false
   },
   {
@@ -2351,6 +2531,7 @@
     "status": "verified",
     "description": "The 2020 Toyota Prius Prime was rated at 22 grams of CO2 per kilometer, the lowest emissions rating among cars in its class. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00181.",
     "photoSeed": "irwr-transport-lowest-co2-emissions-rating",
+    "photo": null,
     "featured": false
   },
   {
@@ -2364,6 +2545,7 @@
     "status": "verified",
     "description": "The BelAZ 75710 mining truck, built in Belarus and released in 2013, can carry 450 tons, making it the largest truck in the world by capacity. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00182.",
     "photoSeed": "irwr-transport-largest-truck-by-carrying-capacity",
+    "photo": "images/records/IRWR-00182.jpg",
     "featured": false
   },
   {
@@ -2377,6 +2559,7 @@
     "status": "verified",
     "description": "The Porsche 911, in production as a racing platform since 1964, has recorded more than 30,000 race victories, more than any other car model. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00183.",
     "photoSeed": "irwr-transport-most-successful-racing-car-model",
+    "photo": "images/records/IRWR-00183.jpg",
     "featured": false
   },
   {
@@ -2390,6 +2573,7 @@
     "status": "verified",
     "description": "More than 1.7 million Tesla Model 3 vehicles had been sold by 2023, making it the best-selling electric car model in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00184.",
     "photoSeed": "irwr-transport-best-selling-electric-car",
+    "photo": null,
     "featured": false
   },
   {
@@ -2403,6 +2587,7 @@
     "status": "verified",
     "description": "Toyota Motor Corporation produced more than 10.5 million vehicles in 2023, more than any other automaker. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00185.",
     "photoSeed": "irwr-transport-world-s-largest-car-manufacturer",
+    "photo": null,
     "featured": false
   },
   {
@@ -2416,6 +2601,7 @@
     "status": "verified",
     "description": "The Mercedes-Maybach S 650 Pullman, released in 2015, measures 6.5 meters long, the longest production car built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00186.",
     "photoSeed": "irwr-transport-longest-production-car",
+    "photo": "images/records/IRWR-00186.jpg",
     "featured": false
   },
   {
@@ -2429,6 +2615,7 @@
     "status": "verified",
     "description": "Volkswagen's Wolfsburg plant, operating since 1938, covers about 6.5 million square meters, making it the largest car assembly plant in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00187.",
     "photoSeed": "irwr-transport-largest-car-assembly-plant",
+    "photo": "images/records/IRWR-00187.jpg",
     "featured": false
   },
   {
@@ -2442,6 +2629,7 @@
     "status": "verified",
     "description": "The Porsche 911 GT2 RS set a production-car lap record at the Nurburgring of 6 minutes 43.3 seconds in 2017. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00188.",
     "photoSeed": "irwr-transport-fastest-production-car-lap-at-the-nurburgring",
+    "photo": null,
     "featured": false
   },
   {
@@ -2455,6 +2643,7 @@
     "status": "verified",
     "description": "The Detroit International Auto Show (NAIAS), held annually since 1907, drew more than 800,000 visitors before the pandemic, making it the largest auto show by attendance. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00189.",
     "photoSeed": "irwr-transport-largest-auto-show-by-attendance",
+    "photo": "images/records/IRWR-00189.jpg",
     "featured": false
   },
   {
@@ -2468,6 +2657,7 @@
     "status": "verified",
     "description": "Alphabet subsidiary Waymo's self-driving taxi fleet logged more than 20 million kilometers of autonomous driving between 2018 and 2023, more than any other self-driving program. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00190.",
     "photoSeed": "irwr-transport-most-autonomous-miles-driven-without-human-in",
+    "photo": "images/records/IRWR-00190.jpg",
     "featured": false
   },
   {
@@ -2481,6 +2671,7 @@
     "status": "verified",
     "description": "The Robocar TT test prototype reached a top speed of 290 km/h in 2022, the fastest recorded speed for a fully autonomous car. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00191.",
     "photoSeed": "irwr-transport-fastest-autonomous-car",
+    "photo": "images/records/IRWR-00191.jpg",
     "featured": false
   },
   {
@@ -2494,6 +2685,7 @@
     "status": "verified",
     "description": "Tesla's Gigafactory in Shanghai, opened in 2019 and continuously expanded, runs more than 80% of its production processes through robotics, making it the most automated car factory in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00192.",
     "photoSeed": "irwr-transport-most-automated-car-factory",
+    "photo": null,
     "featured": false
   },
   {
@@ -2507,6 +2699,7 @@
     "status": "verified",
     "description": "Tesla's V4 Supercharger, introduced in 2023, can charge an electric vehicle to 80% capacity in 15 minutes, the fastest charging rate available. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00193.",
     "photoSeed": "irwr-transport-fastest-ev-charging-technology",
+    "photo": null,
     "featured": false
   },
   {
@@ -2520,6 +2713,7 @@
     "status": "verified",
     "description": "China had more than 12 million electric vehicles on its roads as of 2023, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00194.",
     "photoSeed": "irwr-transport-largest-national-electric-vehicle-fleet",
+    "photo": null,
     "featured": false
   },
   {
@@ -2533,6 +2727,7 @@
     "status": "verified",
     "description": "BMW's Dingolfing plant operated more than 1,600 industrial robots as of 2023, making it one of the most heavily automated car factories in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00195.",
     "photoSeed": "irwr-transport-most-robotic-car-factory",
+    "photo": null,
     "featured": false
   },
   {
@@ -2546,6 +2741,7 @@
     "status": "verified",
     "description": "Baidu's Apollo self-driving program completed a continuous autonomous test drive of 6,200 kilometers on public roads in 2021, the longest on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00196.",
     "photoSeed": "irwr-transport-longest-continuous-autonomous-test-drive",
+    "photo": "images/records/IRWR-00196.jpg",
     "featured": false
   },
   {
@@ -2559,6 +2755,7 @@
     "status": "verified",
     "description": "The Lucid Air Dream Edition, released in 2021, achieved a range of 837 kilometers (520 miles) on a single charge, the longest of any production EV at the time. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00197.",
     "photoSeed": "irwr-transport-longest-range-production-electric-car",
+    "photo": "images/records/IRWR-00197.jpg",
     "featured": false
   },
   {
@@ -2572,6 +2769,7 @@
     "status": "verified",
     "description": "A Toyota factory achieved a robotic vehicle-mounting time of 9 minutes per vehicle in 2022, among the fastest such assembly steps recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00198.",
     "photoSeed": "irwr-transport-fastest-robotic-vehicle-assembly-step",
+    "photo": null,
     "featured": false
   },
   {
@@ -2585,6 +2783,7 @@
     "status": "verified",
     "description": "The Tesla Supercharger network reached more than 40,000 charging points worldwide by 2024, the largest EV fast-charging network in operation. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00199.",
     "photoSeed": "irwr-transport-largest-ev-charging-network",
+    "photo": null,
     "featured": false
   },
   {
@@ -2598,6 +2797,7 @@
     "status": "verified",
     "description": "Japan's JR-Maglev L0 Series test train reached 603 km/h on April 21, 2015, the fastest speed ever recorded by a train. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00200.",
     "photoSeed": "irwr-transport-fastest-train-speed-recorded",
+    "photo": "images/records/IRWR-00200.jpg",
     "featured": false
   },
   {
@@ -2611,6 +2811,7 @@
     "status": "verified",
     "description": "China's CRH high-speed train formation, made up of 16 carriages spanning about 415 meters, is the longest high-speed train in regular service, as of 2021. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00201.",
     "photoSeed": "irwr-transport-longest-high-speed-train",
+    "photo": null,
     "featured": false
   },
   {
@@ -2624,6 +2825,7 @@
     "status": "verified",
     "description": "Tanggula Station, opened in 2006, sits 5,068 meters above sea level, the highest railway station in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00202.",
     "photoSeed": "irwr-transport-highest-railway-station-in-the-world",
+    "photo": "images/records/IRWR-00202.jpg",
     "featured": false
   },
   {
@@ -2637,6 +2839,7 @@
     "status": "verified",
     "description": "Mining company BHP operated a 682-wagon freight train roughly 7.3 kilometers long in Australia in 2022, the longest freight train on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00203.",
     "photoSeed": "irwr-transport-longest-freight-train",
+    "photo": null,
     "featured": false
   },
   {
@@ -2650,6 +2853,7 @@
     "status": "verified",
     "description": "The Trans-Siberian Railway, built in Russia between 1891 and 1916, runs 9,289 kilometers, the longest single railway line in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00204.",
     "photoSeed": "irwr-transport-longest-railway-line",
+    "photo": "images/records/IRWR-00204.jpg",
     "featured": false
   },
   {
@@ -2663,6 +2867,7 @@
     "status": "verified",
     "description": "The Shanghai Maglev, launched in 2004, runs at speeds up to 431 km/h, the fastest scheduled commercial train service in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00205.",
     "photoSeed": "irwr-transport-fastest-commercial-train-service",
+    "photo": null,
     "featured": false
   },
   {
@@ -2676,6 +2881,7 @@
     "status": "verified",
     "description": "The Pilatus Railway in Switzerland, opened in 1889, climbs a maximum gradient of 48%, the steepest railway line in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00206.",
     "photoSeed": "irwr-transport-steepest-railway-line",
+    "photo": "images/records/IRWR-00206.jpg",
     "featured": false
   },
   {
@@ -2689,6 +2895,7 @@
     "status": "verified",
     "description": "Indian Railways ran a passenger train 1,900 meters long with 44 cars in 2023, the longest passenger train in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00207.",
     "photoSeed": "irwr-transport-longest-passenger-train",
+    "photo": "images/records/IRWR-00207.jpg",
     "featured": false
   },
   {
@@ -2702,6 +2909,7 @@
     "status": "verified",
     "description": "The California High-Speed Rail project, under construction since 2015, has a projected cost exceeding USD 80 billion, making it the most expensive rail project in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00208.",
     "photoSeed": "irwr-transport-most-expensive-rail-project",
+    "photo": null,
     "featured": false
   },
   {
@@ -2715,6 +2923,7 @@
     "status": "verified",
     "description": "Beijing Subway Line 10, opened in 2008, runs 57 kilometers underground, the longest underground metro line in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00209.",
     "photoSeed": "irwr-transport-longest-underground-railway-line",
+    "photo": "images/records/IRWR-00209.jpg",
     "featured": false
   },
   {
@@ -2728,6 +2937,7 @@
     "status": "verified",
     "description": "A team of pizzaiolos known as \"Big Mama\" made a pizza covering 1,261.65 square meters in Naples, Italy, in 2012, the largest pizza on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00210.",
     "photoSeed": "irwr-cooking-largest-pizza-ever-made",
+    "photo": null,
     "featured": true
   },
   {
@@ -2741,6 +2951,7 @@
     "status": "verified",
     "description": "The Japan Sushi Association organized a 2,521-meter-long line of sushi in Tokyo in 2013, the longest ever assembled. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00211.",
     "photoSeed": "irwr-cooking-longest-line-of-sushi",
+    "photo": null,
     "featured": false
   },
   {
@@ -2754,6 +2965,7 @@
     "status": "verified",
     "description": "Organizer Bagration-ULAN assembled a Caprese salad measuring 100.13 meters long in Ust-Kamenogorsk, Kazakhstan, on August 30, 2023, the largest on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00212.",
     "photoSeed": "irwr-cooking-largest-caprese-salad",
+    "photo": null,
     "featured": false
   },
   {
@@ -2767,6 +2979,7 @@
     "status": "verified",
     "description": "The Chocoversum chocolate museum created a 5.3-ton chocolate sculpture in Cologne, Germany, in 2014, the largest chocolate sculpture on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00213.",
     "photoSeed": "irwr-cooking-largest-chocolate-sculpture",
+    "photo": null,
     "featured": false
   },
   {
@@ -2780,6 +2993,7 @@
     "status": "verified",
     "description": "The Fleur restaurant at Mandalay Bay in Las Vegas sold a hamburger for USD 5,000 in 2011, the most expensive hamburger ever offered. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00214.",
     "photoSeed": "irwr-cooking-most-expensive-hamburger",
+    "photo": null,
     "featured": false
   },
   {
@@ -2793,6 +3007,7 @@
     "status": "verified",
     "description": "Maison Rince prepared a 234-kilogram portion of foie gras in Toulouse, France, in 2017, the largest single serving on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00215.",
     "photoSeed": "irwr-cooking-largest-portion-of-foie-gras",
+    "photo": null,
     "featured": false
   },
   {
@@ -2806,6 +3021,7 @@
     "status": "verified",
     "description": "A team of pastry chefs in Guatemala baked a 27.4-ton birthday cake in 2011, the largest birthday cake ever made. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00216.",
     "photoSeed": "irwr-cooking-world-s-largest-birthday-cake",
+    "photo": null,
     "featured": false
   },
   {
@@ -2819,6 +3035,7 @@
     "status": "verified",
     "description": "A meat processing plant in Rome produced a sausage 3.7 kilometers long in 2016, the longest sausage on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00217.",
     "photoSeed": "irwr-cooking-longest-sausage",
+    "photo": null,
     "featured": false
   },
   {
@@ -2832,6 +3049,7 @@
     "status": "verified",
     "description": "The Balkhash Health and Medical Sanatorium and HICHGARDEN Coffee Shop made a 36-meter hot dog in Priozersk, Karaganda region, Kazakhstan, on December 14, 2024, the longest on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00218.",
     "photoSeed": "irwr-cooking-longest-hot-dog",
+    "photo": null,
     "featured": false
   },
   {
@@ -2845,6 +3063,7 @@
     "status": "verified",
     "description": "Black Bear Lodge restaurant in Sydney made a 1,164-kilogram cheeseburger in 2017, the largest cheeseburger on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00219.",
     "photoSeed": "irwr-cooking-largest-cheeseburger",
+    "photo": null,
     "featured": false
   },
   {
@@ -2858,6 +3077,7 @@
     "status": "verified",
     "description": "The OKADZAKI sushi restaurant chain made a Philadelphia-style sushi roll over 200 meters long in Astana, Kazakhstan, in 2024, the largest sushi roll on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00220.",
     "photoSeed": "irwr-cooking-largest-sushi-roll",
+    "photo": null,
     "featured": false
   },
   {
@@ -2871,6 +3091,7 @@
     "status": "verified",
     "description": "The Cafe de Colombia Coffee Company filled a cup holding 3,700 liters of coffee in 2019, the largest cup of coffee on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00221.",
     "photoSeed": "irwr-cooking-largest-cup-of-coffee",
+    "photo": null,
     "featured": false
   },
   {
@@ -2884,6 +3105,7 @@
     "status": "verified",
     "description": "The Akimat of Kamysty district organized 48 hours of continuous baking to produce 2,100 kilograms of traditional Kazakh bauyrsak pastries in Kamysty village, Kostanay region, on November 7, 2024, the largest batch on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00222.",
     "photoSeed": "irwr-cooking-largest-batch-of-traditional-kazakh-bauyrsak",
+    "photo": "images/records/IRWR-00222.jpg",
     "featured": false
   },
   {
@@ -2897,6 +3119,7 @@
     "status": "verified",
     "description": "The Burj Khalifa in Dubai, designed by Adrian Smith of Skidmore, Owings & Merrill and completed in 2010, stands 828 meters tall, the tallest building ever constructed, using an innovative tubular structure to resist wind and earthquake loads. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00223.",
     "photoSeed": "irwr-architecture-tallest-building-in-the-world",
+    "photo": "images/records/IRWR-00223.jpg",
     "featured": false
   },
   {
@@ -2910,6 +3133,7 @@
     "status": "verified",
     "description": "Frank Gehry's Guggenheim Museum Bilbao, completed in 1997 and covering 24,000 square meters, is built from titanium and glass in an organic, asymmetrical shape achieved through early 3D modeling. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00224.",
     "photoSeed": "irwr-architecture-most-distinctive-titanium-clad-museum-form",
+    "photo": "images/records/IRWR-00224.jpg",
     "featured": false
   },
   {
@@ -2923,6 +3147,7 @@
     "status": "verified",
     "description": "The Beijing National Stadium, known as the \"Bird's Nest\" and designed by Jacques Herzog and Pierre de Meuron for the 2008 Olympics, uses an intricate mesh of steel resembling interwoven branches, engineered to withstand seismic loads while seating 80,000 people. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00225.",
     "photoSeed": "irwr-architecture-most-complex-woven-steel-stadium-structure",
+    "photo": "images/records/IRWR-00225.jpg",
     "featured": false
   },
   {
@@ -2936,6 +3161,7 @@
     "status": "verified",
     "description": "Jorn Utzon's Sydney Opera House, completed in 1973 with 1.8 hectares of shell-shaped concrete roof, is regarded for its nature-inspired form built from complex curved concrete segments. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00226.",
     "photoSeed": "irwr-architecture-most-distinctive-shell-roof-performance-ve",
+    "photo": "images/records/IRWR-00226.jpg",
     "featured": false
   },
   {
@@ -2949,6 +3175,7 @@
     "status": "verified",
     "description": "Jean Nouvel's Institut du Monde Arabe in Paris, completed in 1987, features a facade of 240 mechanical light-responsive apertures, an early landmark in adaptive building skins. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00227.",
     "photoSeed": "irwr-architecture-most-advanced-adaptive-facade-system",
+    "photo": "images/records/IRWR-00227.jpg",
     "featured": false
   },
   {
@@ -2962,6 +3189,7 @@
     "status": "verified",
     "description": "London's Tower Bridge, designed by Horace Jones and John Wolfe Barry and completed in 1894, combines a bascule drawbridge with a suspension bridge, balancing lifting mechanisms with structural stability. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00228.",
     "photoSeed": "irwr-architecture-one-of-the-first-combined-drawbridge-and-s",
+    "photo": "images/records/IRWR-00228.jpg",
     "featured": false
   },
   {
@@ -2975,6 +3203,7 @@
     "status": "verified",
     "description": "Renzo Piano's glass-clad Shard, completed in London in 2012, rises 310 meters and is considered the first modern spire-shaped skyscraper in the city's historic core, engineered to manage wind load and light reflection. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00229.",
     "photoSeed": "irwr-architecture-tallest-modern-skyscraper-in-historic-lond",
+    "photo": null,
     "featured": false
   },
   {
@@ -2988,6 +3217,7 @@
     "status": "verified",
     "description": "Frank Gehry's Louis Vuitton Foundation building in Paris, completed in 2014, uses sail-like panels of curved glass, made possible by innovative glass-forming methods. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00230.",
     "photoSeed": "irwr-architecture-most-complex-curved-glass-museum-facade",
+    "photo": "images/records/IRWR-00230.jpg",
     "featured": false
   },
   {
@@ -3001,6 +3231,7 @@
     "status": "verified",
     "description": "Kazakh philanthropist Sapar Iskakov opened the \"Wall of Memory\" memorial complex in Amangeldy village, Kostanay region, on August 5, 2025, containing 200 capsules of soil from burial sites in 42 countries honoring notable ancestors of the Kazakh people across more than 2,600 years of history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00231.",
     "photoSeed": "irwr-architecture-only-memorial-holding-soil-from-42-countri",
+    "photo": "images/records/IRWR-00231.jpg",
     "featured": false
   },
   {
@@ -3014,6 +3245,7 @@
     "status": "verified",
     "description": "Marina Bay Sands, a 2,561-room, three-tower hotel designed by Moshe Safdie and completed in 2010, holds an infinity pool on its 57th floor, 191 meters above the ground, within a sky park engineered to span all three towers. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00232.",
     "photoSeed": "irwr-architecture-highest-infinity-pool",
+    "photo": "images/records/IRWR-00232.jpg",
     "featured": false
   },
   {
@@ -3027,6 +3259,7 @@
     "status": "verified",
     "description": "Gardens by the Bay, designed by Grant Associates and Wilkinson Eyre and completed in 2012, spans 101 hectares and includes artificial \"supertrees\" and climate-controlled glass domes, the largest greenhouse dome complex of its kind. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00233.",
     "photoSeed": "irwr-architecture-largest-glass-greenhouse-dome-complex",
+    "photo": null,
     "featured": false
   },
   {
@@ -3040,6 +3273,7 @@
     "status": "verified",
     "description": "The Lakhta Center Tower in St. Petersburg, designed by Gordon Bennett of RMJM and completed in 2018, rises 462 meters and was engineered to withstand the region's severe climate and strong winds. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00234.",
     "photoSeed": "irwr-architecture-tallest-building-engineered-for-extreme-no",
+    "photo": null,
     "featured": false
   },
   {
@@ -3053,6 +3287,7 @@
     "status": "verified",
     "description": "Zaha Hadid's MAXXI museum of contemporary art in Rome, completed in 2010, uses complex, non-standard reinforced concrete forms to create smooth, intersecting interior spaces. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00235.",
     "photoSeed": "irwr-architecture-most-fluid-concrete-museum-structure",
+    "photo": "images/records/IRWR-00235.jpg",
     "featured": false
   },
   {
@@ -3066,6 +3301,7 @@
     "status": "verified",
     "description": "Frank Lloyd Wright's Guggenheim Museum in New York, completed in 1959, is built around an internal spiral ramp, an engineering solution for a stable structure with an open interior. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00236.",
     "photoSeed": "irwr-architecture-first-museum-built-around-a-spiral-ramp",
+    "photo": null,
     "featured": false
   },
   {
@@ -3079,6 +3315,7 @@
     "status": "verified",
     "description": "The Burj Al Arab in Dubai, designed by Tom Wright and completed in 1999, stands 321 meters tall on its own artificial island and offers only luxury suite accommodations. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00237.",
     "photoSeed": "irwr-architecture-first-all-suite-hotel-on-an-artificial-isl",
+    "photo": null,
     "featured": false
   },
   {
@@ -3092,6 +3329,7 @@
     "status": "verified",
     "description": "Santiago Calatrava's Turning Torso in Malmo, completed in 2005, rises 190 meters with a spiraling twisted form, an early example of a fully rotated tower design. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00238.",
     "photoSeed": "irwr-architecture-pioneering-twisted-residential-tower",
+    "photo": "images/records/IRWR-00238.jpg",
     "featured": false
   },
   {
@@ -3105,6 +3343,7 @@
     "status": "verified",
     "description": "Ludwig Mies van der Rohe's Farnsworth House, completed in 1951 on the banks of the Fox River in Illinois, uses all-glass walls supported by exposed steel columns, a defining structure of architectural modernism. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00239.",
     "photoSeed": "irwr-architecture-landmark-all-glass-modernist-house",
+    "photo": "images/records/IRWR-00239.jpg",
     "featured": false
   },
   {
@@ -3118,6 +3357,7 @@
     "status": "verified",
     "description": "Norman Foster's Gherkin at 30 St Mary Axe in London, completed in 2003, rises 180 meters in a distinctive tapered, aerodynamic form that became one of the city's most recognizable skyscrapers. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00240.",
     "photoSeed": "irwr-architecture-iconic-aerodynamic-london-skyscraper",
+    "photo": "images/records/IRWR-00240.jpg",
     "featured": false
   },
   {
@@ -3131,6 +3371,7 @@
     "status": "verified",
     "description": "Jewel Changi Airport, designed by Moshe Safdie and completed in 2019, covers 137,000 square meters under a glass dome housing a 40-meter indoor waterfall, the tallest indoor waterfall in the world, serving an airport that handles over 70 million passengers a year. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00241.",
     "photoSeed": "irwr-architecture-highest-indoor-waterfall-in-an-airport",
+    "photo": "images/records/IRWR-00241.jpg",
     "featured": false
   },
   {
@@ -3144,6 +3385,7 @@
     "status": "verified",
     "description": "Jean Nouvel's Louvre Abu Dhabi, completed in 2017 on Saadiyat Island, is topped by a multi-layered floating dome engineered to produce a \"rain of light\" effect inside the museum. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00242.",
     "photoSeed": "irwr-architecture-most-elaborate-filtered-light-museum-dome",
+    "photo": "images/records/IRWR-00242.jpg",
     "featured": false
   },
   {
@@ -3157,6 +3399,7 @@
     "status": "verified",
     "description": "The Akashi-Kaikyo Bridge in Japan, opened in 1998 with a total length of 3,911 meters and a central span of 1,991 meters, is engineered to withstand major earthquakes and strong winds. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00243.",
     "photoSeed": "irwr-architecture-longest-central-span-of-a-suspension-bridg",
+    "photo": "images/records/IRWR-00243.jpg",
     "featured": false
   },
   {
@@ -3170,6 +3413,7 @@
     "status": "verified",
     "description": "The Danyang-Kunshan Grand Bridge in China, opened in 2011, spans 164.8 kilometers across water and swampy terrain, the longest bridge of any kind in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00244.",
     "photoSeed": "irwr-architecture-longest-bridge-in-the-world",
+    "photo": "images/records/IRWR-00244.jpg",
     "featured": false
   },
   {
@@ -3183,6 +3427,7 @@
     "status": "verified",
     "description": "A 178-meter-high railway viaduct in Germany, opened in 1916 and associated with engineer Fritz Leonhardt's later structural work for Deutsche Bahn, is recognized as a historic engineering landmark for its height. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00245.",
     "photoSeed": "irwr-architecture-highest-railway-bridge-of-its-era",
+    "photo": null,
     "featured": false
   },
   {
@@ -3196,6 +3441,7 @@
     "status": "verified",
     "description": "The Varazdin Bridge in Croatia, opened in 2008, has a central steel arch span of 355 meters, one of the longest steel arch spans built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00246.",
     "photoSeed": "irwr-architecture-longest-steel-central-arch-span",
+    "photo": null,
     "featured": false
   },
   {
@@ -3209,6 +3455,7 @@
     "status": "verified",
     "description": "The Ponte Vecchio in Florence, reconstructed in 1345 with shops built directly onto the bridge, is the oldest surviving bridge of its kind still lined with commercial storefronts. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00247.",
     "photoSeed": "irwr-architecture-oldest-bridge-lined-with-shops",
+    "photo": "images/records/IRWR-00247.jpg",
     "featured": false
   },
   {
@@ -3222,6 +3469,7 @@
     "status": "verified",
     "description": "The Millau Viaduct in France, designed by Norman Foster and opened in 2004, has a pylon height of 343 meters, taller than the Eiffel Tower, making it one of the tallest bridges in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00248.",
     "photoSeed": "irwr-architecture-tallest-bridge-pylon-in-the-world",
+    "photo": "images/records/IRWR-00248.jpg",
     "featured": false
   },
   {
@@ -3235,6 +3483,7 @@
     "status": "verified",
     "description": "The Rio Angel Bridge in Mexico, opened in 2012 with a central span of 576 meters, is the longest suspension bridge in Latin America, connecting two key regions of the country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00249.",
     "photoSeed": "irwr-architecture-longest-suspension-bridge-in-latin-america",
+    "photo": "images/records/IRWR-00249.jpg",
     "featured": false
   },
   {
@@ -3248,6 +3497,7 @@
     "status": "verified",
     "description": "The Brooklyn Bridge, engineered by John Roebling and Washington Roebling and opened in 1883, spans 1,825 meters and was one of the first steel suspension bridges of its scale, becoming an enduring symbol of New York. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00250.",
     "photoSeed": "irwr-architecture-one-of-the-first-major-steel-suspension-br",
+    "photo": "images/records/IRWR-00250.jpg",
     "featured": false
   },
   {
@@ -3261,6 +3511,7 @@
     "status": "verified",
     "description": "The John Carroll Bridge in Canada, built by Timberworks and opened in 2017, measures 390 meters and is constructed entirely of wood using modern eco-friendly techniques, the longest all-timber bridge on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00251.",
     "photoSeed": "irwr-architecture-longest-bridge-built-entirely-of-wood",
+    "photo": null,
     "featured": false
   },
   {
@@ -3274,6 +3525,7 @@
     "status": "verified",
     "description": "The Twist Bridge in Denmark, designed by Bjarke Ingels Group with engineer COWI and opened in 2015, tilts at a 45-degree angle, the steepest pedestrian bridge design on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00252.",
     "photoSeed": "irwr-architecture-steepest-pedestrian-bridge",
+    "photo": null,
     "featured": false
   },
   {
@@ -3287,6 +3539,7 @@
     "status": "verified",
     "description": "The F-35 Lightning II fighter jet program has cost more than USD 1.7 trillion over its lifetime, the most expensive military aviation project in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00253.",
     "photoSeed": "irwr-military-most-expensive-military-aviation-program",
+    "photo": null,
     "featured": false
   },
   {
@@ -3300,6 +3553,7 @@
     "status": "verified",
     "description": "The Lockheed SR-71 Blackbird, developed in the United States during the 1960s, could fly faster than 3,500 km/h (Mach 3.3), making it the fastest military aircraft ever built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00254.",
     "photoSeed": "irwr-military-fastest-military-aircraft",
+    "photo": "images/records/IRWR-00254.jpg",
     "featured": false
   },
   {
@@ -3313,6 +3567,7 @@
     "status": "verified",
     "description": "The Soviet-built Project 941 \"Akula\" (Typhoon-class) submarine measures 175 meters long with a displacement of about 48,000 tons, the largest submarine class ever constructed. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00255.",
     "photoSeed": "irwr-military-largest-submarine-ever-built",
+    "photo": null,
     "featured": false
   },
   {
@@ -3326,6 +3581,7 @@
     "status": "verified",
     "description": "Russia's RS-28 Sarmat intercontinental ballistic missile has a range of up to 18,000 kilometers and speeds exceeding Mach 20, making it the fastest such missile developed. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00256.",
     "photoSeed": "irwr-military-fastest-intercontinental-ballistic-missile",
+    "photo": "images/records/IRWR-00256.jpg",
     "featured": false
   },
   {
@@ -3339,6 +3595,7 @@
     "status": "verified",
     "description": "The Chinese People's Liberation Army has more than 2 million active personnel as of 2025, the largest standing army in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00257.",
     "photoSeed": "irwr-military-largest-army-by-personnel",
+    "photo": null,
     "featured": false
   },
   {
@@ -3352,6 +3609,7 @@
     "status": "verified",
     "description": "The USS Gerald R. Ford (CVN-78), built in the United States, displaces about 100,000 tons and measures 337 meters long, the largest aircraft carrier ever built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00258.",
     "photoSeed": "irwr-military-largest-aircraft-carrier",
+    "photo": null,
     "featured": false
   },
   {
@@ -3365,6 +3623,7 @@
     "status": "verified",
     "description": "The German-made Rheinmetall Rh-120 L/55, a 120mm gun used on the Leopard 2A7 tank, is regarded as the most powerful and precise production tank gun in service. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00259.",
     "photoSeed": "irwr-military-most-powerful-production-tank-gun",
+    "photo": "images/records/IRWR-00259.jpg",
     "featured": false
   },
   {
@@ -3378,6 +3637,7 @@
     "status": "verified",
     "description": "The siege of Sarajevo lasted 1,425 days from 1992 to 1996, the longest sustained artillery siege of a city in the 20th century. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00260.",
     "photoSeed": "irwr-military-longest-artillery-siege-of-a-city-in-the-20th-",
+    "photo": null,
     "featured": false
   },
   {
@@ -3391,6 +3651,7 @@
     "status": "verified",
     "description": "The United States accounted for more than 39% of global arms exports as of 2024 according to SIPRI data, making it the world's largest defense exporter. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00261.",
     "photoSeed": "irwr-military-largest-defense-exporter",
+    "photo": "images/records/IRWR-00261.jpg",
     "featured": false
   },
   {
@@ -3404,6 +3665,7 @@
     "status": "verified",
     "description": "NASA's Voyager 1 probe, launched in 1977, had traveled more than 24 billion kilometers from Earth as of 2025, farther than any other human-made object. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00262.",
     "photoSeed": "irwr-military-farthest-human-made-object-from-earth",
+    "photo": "images/records/IRWR-00262.jpg",
     "featured": false
   },
   {
@@ -3417,6 +3679,7 @@
     "status": "verified",
     "description": "NASA's Parker Solar Probe has reached speeds over 690,000 km/h while approaching the Sun, the fastest speed ever achieved by a human-made spacecraft. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00263.",
     "photoSeed": "irwr-military-fastest-spacecraft",
+    "photo": "images/records/IRWR-00263.jpg",
     "featured": false
   },
   {
@@ -3430,6 +3693,7 @@
     "status": "verified",
     "description": "Yuri Gagarin became the first human to travel into space, orbiting Earth aboard Vostok-1 on April 12, 1961. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00264.",
     "photoSeed": "irwr-military-first-human-in-space",
+    "photo": "images/records/IRWR-00264.jpg",
     "featured": false
   },
   {
@@ -3443,6 +3707,7 @@
     "status": "verified",
     "description": "NASA's Saturn V rocket, used from 1967 to 1973, stood 110 meters tall and could carry a payload of up to 140 metric tons, the largest rocket ever successfully launched. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00265.",
     "photoSeed": "irwr-military-largest-rocket-ever-launched",
+    "photo": "images/records/IRWR-00265.jpg",
     "featured": false
   },
   {
@@ -3456,6 +3721,7 @@
     "status": "verified",
     "description": "Neil Armstrong became the first person to walk on the Moon during NASA's Apollo 11 mission on July 20, 1969. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00266.",
     "photoSeed": "irwr-military-first-person-to-walk-on-the-moon",
+    "photo": "images/records/IRWR-00266.jpg",
     "featured": false
   },
   {
@@ -3469,6 +3735,7 @@
     "status": "verified",
     "description": "NASA astronaut Frank Rubio spent 371 continuous days aboard the International Space Station from 2022 to 2023, the longest single spaceflight by an American astronaut. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00267.",
     "photoSeed": "irwr-military-longest-single-space-mission-by-a-nasa-astrona",
+    "photo": "images/records/IRWR-00267.jpg",
     "featured": false
   },
   {
@@ -3482,6 +3749,7 @@
     "status": "verified",
     "description": "The International Space Station has cost an estimated USD 150 billion to build and operate, making it the most expensive space program in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00268.",
     "photoSeed": "irwr-military-most-expensive-space-program",
+    "photo": null,
     "featured": false
   },
   {
@@ -3495,6 +3763,7 @@
     "status": "verified",
     "description": "SpaceX's Dragon C2+ mission in 2012 delivered the first cargo to the International Space Station by a private company, the first private orbital mission of its kind. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00269.",
     "photoSeed": "irwr-military-first-private-orbital-cargo-mission",
+    "photo": "images/records/IRWR-00269.jpg",
     "featured": false
   },
   {
@@ -3508,6 +3777,7 @@
     "status": "verified",
     "description": "NASA's Sojourner rover, part of the 1997 Pathfinder mission, was the first rover to successfully operate on another planet. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00270.",
     "photoSeed": "irwr-military-first-successful-planetary-rover",
+    "photo": null,
     "featured": false
   },
   {
@@ -3521,6 +3791,7 @@
     "status": "verified",
     "description": "The James Webb Space Telescope, launched in December 2021, has a 6.5-meter unfolded primary mirror, the largest mirror ever flown on a space telescope. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00271.",
     "photoSeed": "irwr-military-largest-orbital-space-telescope",
+    "photo": "images/records/IRWR-00271.jpg",
     "featured": false
   },
   {
@@ -3534,6 +3805,7 @@
     "status": "verified",
     "description": "Jeanne Calment of France is the oldest person in recorded history, having lived 122 years and 164 days between 1875 and 1997. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00272.",
     "photoSeed": "irwr-humanbody-longest-confirmed-human-lifespan",
+    "photo": "images/records/IRWR-00272.jpg",
     "featured": false
   },
   {
@@ -3547,6 +3819,7 @@
     "status": "verified",
     "description": "Robert Wadlow of the United States reached a height of 2.72 meters as a result of acromegaly (gigantism), making him the tallest man ever medically documented. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00273.",
     "photoSeed": "irwr-humanbody-tallest-man-in-recorded-history",
+    "photo": null,
     "featured": false
   },
   {
@@ -3560,6 +3833,7 @@
     "status": "verified",
     "description": "John Brower Minnoch of the United States weighed 635 kilograms at his peak, the heaviest weight ever documented in medical history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00274.",
     "photoSeed": "irwr-humanbody-heaviest-man-in-medical-history",
+    "photo": null,
     "featured": false
   },
   {
@@ -3573,6 +3847,7 @@
     "status": "verified",
     "description": "Edward O'Bara of the United States remained in a coma for 42 years, from 1970 to 2012, the longest medically recorded coma. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00275.",
     "photoSeed": "irwr-humanbody-longest-medically-recorded-coma",
+    "photo": "images/records/IRWR-00275.jpg",
     "featured": false
   },
   {
@@ -3586,6 +3861,7 @@
     "status": "verified",
     "description": "Timothy Ray Brown, known as \"The Berlin Patient,\" was the first person cured of HIV, following a bone marrow transplant in 2007. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00276.",
     "photoSeed": "irwr-humanbody-first-person-cured-of-hiv",
+    "photo": null,
     "featured": false
   },
   {
@@ -3599,6 +3875,7 @@
     "status": "verified",
     "description": "Bella Hunter of the United States had a medically confirmed pregnancy lasting 375 days in 1945-1946, the longest ever documented. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00277.",
     "photoSeed": "irwr-humanbody-longest-medically-confirmed-pregnancy",
+    "photo": "images/records/IRWR-00277.jpg",
     "featured": false
   },
   {
@@ -3612,6 +3889,7 @@
     "status": "verified",
     "description": "A baby girl named Kekubi, born in Japan in 2018 weighing just 245 grams, is the lightest infant known to have survived and been successfully discharged from hospital. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00278.",
     "photoSeed": "irwr-humanbody-lightest-surviving-infant",
+    "photo": null,
     "featured": false
   },
   {
@@ -3625,6 +3903,7 @@
     "status": "verified",
     "description": "A 96-hour operation to remove an ovarian tumor, performed in Chicago in 1951, stands as the longest and most complex surgical procedure on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00279.",
     "photoSeed": "irwr-humanbody-longest-and-most-complex-surgical-operation",
+    "photo": "images/records/IRWR-00279.jpg",
     "featured": false
   },
   {
@@ -3638,6 +3917,7 @@
     "status": "verified",
     "description": "Truett Hanes of the United States performed 10,001 pull-ups in 24 hours on April 1-2, 2025, setting the men's world record for the event. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00280.",
     "photoSeed": "irwr-extreme-most-pull-ups-in-24-hours-men",
+    "photo": "images/records/IRWR-00280.jpg",
     "featured": false
   },
   {
@@ -3651,6 +3931,7 @@
     "status": "verified",
     "description": "Olivia Vinson completed 7,079 pull-ups in 24 hours on March 29-30, 2025, in Perth, Australia, setting the women's world record for the event. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00281.",
     "photoSeed": "irwr-extreme-most-pull-ups-in-24-hours-women",
+    "photo": "images/records/IRWR-00281.jpg",
     "featured": false
   },
   {
@@ -3664,6 +3945,7 @@
     "status": "verified",
     "description": "Aibar Yerzhanov and Yerzhan Zhakayev of Kazakhstan manually towed a fully refueled Airbus A320 weighing over 77 tons a distance of 30 meters using a towing cable, on April 10, 2025, in Astana, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00282.",
     "photoSeed": "irwr-extreme-farthest-manual-tow-of-an-airliner",
+    "photo": "images/records/IRWR-00282.jpg",
     "featured": false
   },
   {
@@ -3677,6 +3959,7 @@
     "status": "verified",
     "description": "Hafthor Julius Bjornsson of Iceland deadlifted 505 kilograms on July 26, 2025, in Germany, then raised the mark to 510 kilograms on September 6, 2025, in Birmingham, UK. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00283.",
     "photoSeed": "irwr-extreme-heaviest-deadlift",
+    "photo": "images/records/IRWR-00283.jpg",
     "featured": false
   },
   {
@@ -3690,6 +3973,7 @@
     "status": "verified",
     "description": "Oleksiy Novikov of Ukraine lifted 550 kilograms in a partial deadlift, raising the barbell from a 45-centimeter platform, on March 15, 2025, in Kyiv, Ukraine. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00284.",
     "photoSeed": "irwr-extreme-heaviest-partial-deadlift",
+    "photo": "images/records/IRWR-00284.jpg",
     "featured": false
   },
   {
@@ -3703,6 +3987,7 @@
     "status": "verified",
     "description": "Mikhail Shivlyakov of Russia carried 600 kilograms up three steps in the power stairs event in 17.8 seconds on May 21, 2025, in Moscow, Russia. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00285.",
     "photoSeed": "irwr-extreme-fastest-power-stairs-climb",
+    "photo": null,
     "featured": false
   },
   {
@@ -3716,6 +4001,7 @@
     "status": "verified",
     "description": "Josh Albert of the United States reached the summit of Mount Everest without supplemental oxygen in 20 hours and 36 minutes on May 18, 2025, in Nepal. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00286.",
     "photoSeed": "irwr-extreme-fastest-everest-ascent-without-supplemental-oxy",
+    "photo": null,
     "featured": false
   },
   {
@@ -3729,6 +4015,7 @@
     "status": "verified",
     "description": "Julia Bachmann of Germany held a plank position for 5 hours and 7 minutes on February 14, 2025, in Berlin, Germany. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00287.",
     "photoSeed": "irwr-extreme-longest-plank-hold",
+    "photo": null,
     "featured": false
   },
   {
@@ -3742,6 +4029,7 @@
     "status": "verified",
     "description": "Martin Thierry of France pulled an 18-ton truck 20 meters using only his teeth and a safety rope, on June 6, 2025, in Lyon, France. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00288.",
     "photoSeed": "irwr-extreme-heaviest-vehicle-pulled-by-teeth",
+    "photo": null,
     "featured": false
   },
   {
@@ -3755,6 +4043,7 @@
     "status": "verified",
     "description": "Stuntman Yernar Zhasuzak of Kazakhstan stood on two galloping horses moving at 60 km/h over a distance of 2 kilometers, a record announced by the Ethno-Cultural Center \"TOPJARGAN\" on September 20, 2025, at the Hippodrome of Almaty, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00289.",
     "photoSeed": "irwr-extreme-fastest-standing-ride-on-two-galloping-horses",
+    "photo": "images/records/IRWR-00289.jpg",
     "featured": false
   },
   {
@@ -3768,6 +4057,7 @@
     "status": "verified",
     "description": "Sanjay Kumar of India lifted a 180-kilogram barbell with one hand on April 9, 2025, in New Delhi, India. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00290.",
     "photoSeed": "irwr-extreme-heaviest-one-handed-barbell-lift",
+    "photo": null,
     "featured": false
   },
   {
@@ -3781,6 +4071,7 @@
     "status": "verified",
     "description": "Mark Stevenson of Canada stayed in an ice bath for 4 hours and 21 minutes on January 2, 2025, in Toronto, Canada, with a medical team present confirming no signs of hypothermia. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00291.",
     "photoSeed": "irwr-extreme-longest-ice-bath-immersion",
+    "photo": "images/records/IRWR-00291.jpg",
     "featured": false
   },
   {
@@ -3794,6 +4085,7 @@
     "status": "verified",
     "description": "Timur Spatayev of Kazakhstan, himself weighing 85 kilograms, lifted and carried a live camel weighing 320 kilograms over a distance of 28 meters on April 11, 2021, in Shymkent, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00292.",
     "photoSeed": "irwr-extreme-heaviest-live-camel-carried",
+    "photo": "images/records/IRWR-00292.jpg",
     "featured": false
   },
   {
@@ -3807,6 +4099,7 @@
     "status": "verified",
     "description": "Anita Kovacs of Hungary ran 421 kilometers, the equivalent of 10 marathons, without sleep or rest over 60 hours under continuous medical accompaniment, on August 12-15, 2025, in Budapest, Hungary. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00293.",
     "photoSeed": "irwr-extreme-longest-ultramarathon-without-sleep-or-rest",
+    "photo": null,
     "featured": false
   },
   {
@@ -3820,6 +4113,7 @@
     "status": "verified",
     "description": "The \"ULY-ALAMAN BAIGE\" traditional equestrian ultramarathon, organized by Badelkhan Kamalkhanuly of Kazakhstan, saw 132 riders on Kazakh \"Kazanat\" breed horses cover 140 kilometers without stopping to rest or change horses, on August 2, 2023, in Aksuat village, Abay region, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00294.",
     "photoSeed": "irwr-extreme-longest-kazakh-breed-horse-ultramarathon-withou",
+    "photo": "images/records/IRWR-00294.jpg",
     "featured": false
   },
   {
@@ -3833,6 +4127,7 @@
     "status": "verified",
     "description": "David Lynch of Great Britain held the front of a car off the ground with one hand in an extended position for 46.2 seconds, on May 22, 2025, in Manchester, UK. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00295.",
     "photoSeed": "irwr-extreme-longest-one-handed-hold-of-a-car",
+    "photo": null,
     "featured": false
   },
   {
@@ -3846,6 +4141,7 @@
     "status": "verified",
     "description": "Kenji Saito of Japan climbed 15 meters of vertical wall in 3.92 seconds on March 17, 2025, in Osaka, Japan, breaking the IFSC world record for speed climbing. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00296.",
     "photoSeed": "irwr-extreme-fastest-vertical-wall-climb",
+    "photo": null,
     "featured": false
   },
   {
@@ -3859,6 +4155,7 @@
     "status": "verified",
     "description": "Marina Gonzalez of Spain performed 3,217 push-ups in one hour on July 11, 2025, in Madrid, Spain. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00297.",
     "photoSeed": "irwr-extreme-most-push-ups-in-one-hour-women",
+    "photo": null,
     "featured": false
   },
   {
@@ -3872,6 +4169,7 @@
     "status": "verified",
     "description": "Sergey Tsyrulnikov of Kazakhstan bent 9 steel horseshoes in 54.9 seconds on October 4, 2025, at the \"ALCRAFT\" International Exhibition of Crafts in Almaty, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00298.",
     "photoSeed": "irwr-extreme-most-steel-horseshoes-bent-in-under-a-minute",
+    "photo": "images/records/IRWR-00298.jpg",
     "featured": false
   },
   {
@@ -3885,6 +4183,7 @@
     "status": "verified",
     "description": "Vladimir Mbassi bench pressed 234 kilograms at an IPF event on May 28, 2025, in Malaga, Spain. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00299.",
     "photoSeed": "irwr-extreme-heaviest-bench-press",
+    "photo": null,
     "featured": false
   },
   {
@@ -3898,6 +4197,7 @@
     "status": "verified",
     "description": "Bauyrzhan Kamaliyev of Kazakhstan towed a 24-ton TERREX Barys amphibious armored personnel carrier a distance of 10 meters on June 16, 2025, in Astana, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00300.",
     "photoSeed": "irwr-extreme-farthest-manual-tow-of-an-armored-personnel-car",
+    "photo": "images/records/IRWR-00300.jpg",
     "featured": false
   },
   {
@@ -3911,6 +4211,7 @@
     "status": "verified",
     "description": "Aigul Yerzhanova of Kazakhstan, aged over 55, manually towed two pickup trucks with a combined weight of 8 tons a distance of 58 meters on October 5, 2025, in Astana, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00301.",
     "photoSeed": "irwr-extreme-farthest-manual-tow-of-two-pickup-trucks-women-",
+    "photo": null,
     "featured": false
   },
   {
@@ -3924,6 +4225,7 @@
     "status": "verified",
     "description": "Serviceman Rauan Abylkhanov of Kazakhstan ran 600 kilometers in 124 hours and 38 minutes, with rest breaks and medical support permitted, on September 25, 2025, from the Akmola region to Astana, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00302.",
     "photoSeed": "irwr-extreme-longest-extreme-ultramarathon",
+    "photo": "images/records/IRWR-00302.jpg",
     "featured": false
   },
   {
@@ -3937,6 +4239,7 @@
     "status": "verified",
     "description": "Veteran athlete Murat Nurgazin of Kazakhstan had a 100-kilogram concrete block smashed with a 10-kilogram sledgehammer while positioned on his chest on a wrestling bridge, in November 2025, in Astana, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00303.",
     "photoSeed": "irwr-extreme-fastest-concrete-block-break-by-sledgehammer-on",
+    "photo": "images/records/IRWR-00303.jpg",
     "featured": false
   }
 ];

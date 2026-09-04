@@ -7,6 +7,14 @@ IRWR.escapeHtml = function (str) {
   }[c]));
 };
 
+// A record's real photo (verified against the source, see scripts/photo-manifest.json)
+// takes priority; records without one fall back to a picsum.photos placeholder.
+IRWR.photoUrl = function (record, seedSuffix, w, h) {
+  if (record.photo) return record.photo;
+  const seed = encodeURIComponent(record.photoSeed) + (seedSuffix || '');
+  return `https://picsum.photos/seed/${seed}/${w}/${h}`;
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   // ruler ticks
   const rulerTrack = document.getElementById('rulerTrack');

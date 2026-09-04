@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   const byCountry = IRWR.groupBy('country');
-  const max = Math.max(...Object.values(byCountry).map((r) => r.length));
+  const top10 = Object.entries(byCountry).sort((a, b) => b[1].length - a[1].length).slice(0, 10);
+  const max = Math.max(...top10.map(([, records]) => records.length));
   const list = document.getElementById('countryList');
 
-  const rows = Object.entries(byCountry)
-    .sort((a, b) => b[1].length - a[1].length)
+  const rows = top10
     .map(([country, records]) => {
       const pct = Math.round((records.length / max) * 100);
       return `

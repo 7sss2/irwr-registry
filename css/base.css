@@ -10,8 +10,15 @@ img.photo{display:block; width:100%; height:100%; object-fit:cover; filter:satur
 .cursor-glow{position:fixed; width:400px; height:400px; border-radius:50%; pointer-events:none; z-index:5; background:radial-gradient(circle, rgba(217,167,59,0.10), transparent 70%); transform:translate(-50%,-50%); transition:opacity .3s ease; opacity:0;}
 
 /* header */
-header{background:transparent; position:absolute; top:0; left:0; right:0; z-index:40;}
-header.solid{background:var(--navy); position:sticky;}
+/* Always opaque + sticky: a transparent/absolute header (as in the original
+   design) only reads correctly when the section directly beneath it is dark
+   (a hero image or a dark page-banner). search.html/verify.html/about.html
+   have no such banner, so a transparent header there sat directly over the
+   light page background with unreadable light-on-light nav text. Solid navy
+   at all times, on every page, in every scroll state, is the only version
+   guaranteed never to blend with whatever content happens to be underneath. */
+header{background:var(--navy); position:sticky; top:0; left:0; right:0; z-index:40;}
+header.solid{box-shadow:0 2px 12px rgba(0,0,0,0.25);}
 header .bar{display:flex; align-items:center; justify-content:space-between; height:88px;}
 .logo{display:flex; align-items:center; gap:10px; color:#fff; font-family:'Oswald',sans-serif; font-weight:600; font-size:19px; text-transform:uppercase; letter-spacing:0.02em;}
 .logo-mark{width:30px; height:30px; background:var(--gold); clip-path:polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); transition:transform .5s ease;}
@@ -83,11 +90,9 @@ body[data-page] nav.dnav a[data-page].active, body[data-page] .mnav a[data-page]
   nav.dnav, .header-right .lang-sm:first-child, .header-right > .lang-sm{display:none;}
   .header-right .btn-gold{display:none;}
   .nav-toggle{display:flex;}
-  header.solid{position:sticky; top:0;}
 }
 
 .tilt{transform-style:preserve-3d; transition:transform .15s ease-out;}
 
 #bg3d-canvas{position:fixed; inset:0; z-index:0; pointer-events:none;}
 body > main, body > footer, .mega-title, .ruler{position:relative; z-index:1;}
-body > header{position:relative; z-index:40;}

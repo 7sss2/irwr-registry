@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return `
       <div class="hcard reveal in tilt">
         <div class="hface">
-          <div class="hph"><img class="photo" src="https://picsum.photos/seed/${encodeURIComponent(r.photoSeed)}-holder/500/700" alt=""></div>
+          <div class="hph"><img class="photo" src="${IRWR.photoUrl(r, '-holder', 500, 700)}" alt=""></div>
           <div class="hname">${IRWR.escapeHtml(name)}</div>
           <div class="hmeta">${IRWR.escapeHtml(r.country)} · ${IRWR.escapeHtml(r.category)} · ${IRWR.escapeHtml(r.id)}</div>
         </div>

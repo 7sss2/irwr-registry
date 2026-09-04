@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const featured = IRWR_RECORDS.filter((r) => r.featured);
   grid.innerHTML = featured.map((r) => `
     <div class="ccard reveal in">
-      <div class="cph"><img class="photo" src="https://picsum.photos/seed/${encodeURIComponent(r.photoSeed)}/700/700" alt=""></div>
+      <div class="cph"><img class="photo" src="${IRWR.photoUrl(r, '', 700, 700)}" alt=""></div>
       <div class="ctags"><span class="ctag">${IRWR.escapeHtml(r.category)}</span><span class="ctag">Verified</span></div>
       <div class="cbottom">
         <h3>${IRWR.escapeHtml(r.title)}</h3>

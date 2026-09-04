@@ -7,6 +7,13 @@ const path = require('path');
 
 const extracted = require('./real-records-extracted.js');
 
+// Maps a subset of IRWR IDs to a real photo verified to depict that specific
+// record (sourced from the GBR PDF book and globalbestrecords.org's own
+// per-category pages — see docs/superpowers/ ledger for the extraction and
+// verification method). Records not in this map have no verified real photo
+// and fall back to their picsum.photos placeholder at render time.
+const PHOTO_MANIFEST = require('./photo-manifest.json');
+
 const CATEGORY_ORDER = ['sport', 'economy', 'culture', 'education', 'transport', 'cooking', 'architecture', 'military', 'humanbody', 'extreme'];
 const CATEGORIES = [
   { slug: 'sport', label: 'Sport' },
@@ -69,6 +76,7 @@ CATEGORY_ORDER.forEach((slug) => {
       status: 'verified',
       description: `${r.description} Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID ${irwrId}.`,
       photoSeed: `irwr-${slug}-${slugify(r.title)}`.slice(0, 60),
+      photo: PHOTO_MANIFEST[irwrId] || null,
       featured: false,
     });
   });
