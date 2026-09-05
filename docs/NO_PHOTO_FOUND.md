@@ -1,7 +1,46 @@
-# IRWR records with NO verified real photo (163 of 303)
+# IRWR records with NO verified real photo (160 of 303)
 
-Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf and globalbestrecords.org category pages.
+Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
+(2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-05: News-section pass (+3 found, 163 -> 160)
+
+Fetched all 137 `/tpost/...` articles from globalbestrecords.org/news (via `fetch()` in-page,
+https-forced to dodge mixed-content blocks), stripped each post's Tilda widget JS/CSS boilerplate
+down to real article prose, then matched every one of the then-163 missing records' `holderName`
+(parenthetical stripped) as an exact case-insensitive substring against all 137 articles' title+body.
+Every hit was opened and the candidate photo visually inspected before acceptance (no title-only or
+generic-word matches accepted — same discipline as the earlier PDF/category-page pass, which found
+2 of 4 title-based matches to be wrong).
+
+Result: only 3 of 163 had a genuine hit. This is expected, not a shortfall in the search — the News
+section covers GBR's own press releases for records *it organized or announced* (heavily Kazakhstan /
+Central Asia ethnosport, agriculture, and civic-event records), while most of the remaining 160 are
+generic world-record facts (Leonardo da Vinci paintings, Walmart, ICBC, IBM quantum chips, Robert
+Wadlow, national crop harvests, etc.) that GBR's own site never had occasion to cover — there is no
+article to find because the underlying event isn't a GBR-organized one.
+
+Found:
+- **IRWR-00049** — Heaviest Ram on Record (Kuanysh Myktybayev, ram "Million") — article "Kazakhstan
+  once again proves its agricultural strength on the global stage." names the ram (231kg, Sary-Agash)
+  and farmer by name; photo shows the actual ram in its pen.
+- **IRWR-00113** — Largest Collection of Traditional Kazakh Patchwork Quilts (Nurgul Abaykhan,
+  "Alaman Kurak" project) — article "THE ALAMAN KURAK PROJECT" is a GBR-commissioned announcement
+  graphic naming "Nurgul Abaykhan" and "The ALAMAN KURAK project" verbatim.
+- **IRWR-00301** — Farthest Manual Tow of Two Pickup Trucks (Women Over 55) (Aigul Yerzhanova) —
+  article "CHALLENGE TO THE WORLD!" names Yerzhanova (55, Astana) manually towing a heavy vehicle
+  for a GBR record; photo shows her at the tow site. Note: the article's vehicle (a 13,500kg city
+  bus) differs from this record's "two pickup trucks" description — same real person and record
+  category (manual vehicle tow, women 55+, Kazakhstan/GBR), photo assigned on that identity match
+  per the project's existing holder-identity convention, but flagging the vehicle-detail mismatch
+  for anyone auditing this entry later.
+
+Rejected candidates (real GBR mention, but no record-specific photo available):
+- IRWR-00119 (ROMANTIK Company / rose bouquet) — the company is a named nominee in "Nominees for the
+  GBR AWARD OF THE YEAR 2025 Announced!", but that post's only image is a generic AI-generated award
+  graphic shared across all 5 nominees, not a rose-bouquet-specific photo — excluded as a generic
+  filler image under the same rule that dropped multi-record-claimed images in the prior pass.
 
 ## architecture (9)
 - IRWR-00229 — Tallest Modern Skyscraper in Historic London (The Shard (architect Renzo Piano))
@@ -28,7 +67,7 @@ These records keep their picsum.photos placeholder image.
 - IRWR-00220 — Largest Sushi Roll (OKADZAKI sushi restaurant chain)
 - IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company)
 
-## culture (39)
+## culture (38)
 - IRWR-00067 — Most Expensive Painting Sold at Auction (Leonardo da Vinci ("Salvator Mundi"))
 - IRWR-00068 — Largest Painting in the World (Sacha Jafri ("The Journey of Humanity"))
 - IRWR-00070 — Longest-Running Art Exhibition (Documenta Fifteen)
@@ -61,7 +100,6 @@ These records keep their picsum.photos placeholder image.
 - IRWR-00109 — Fastest Fast-Fashion Production Cycle (ZARA (Inditex))
 - IRWR-00111 — Highest-Altitude Fashion Show (Turkish Airlines)
 - IRWR-00112 — Most Expensive Jacket Sold at Auction (Michael Jackson (gold-embroidered jacket))
-- IRWR-00113 — Largest Collection of Traditional Kazakh Patchwork Quilts (Nurgul Abaykhan ("Alaman Kurak" project))
 - IRWR-00114 — Longest Wedding Dress Train (Anne Andrews)
 - IRWR-00115 — Most Expensive Handbag (The House of Mouawad)
 - IRWR-00116 — Largest Pair of Shoes (Nike Turkey)
@@ -69,7 +107,7 @@ These records keep their picsum.photos placeholder image.
 - IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech)
 - IRWR-00119 — Largest Rose Bouquet in a Single Basket (ROMANTIK Company (Izbasarova G.))
 
-## economy (19)
+## economy (18)
 - IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC))
 - IRWR-00032 — Largest Retail Chain by Turnover (Walmart)
 - IRWR-00033 — Most Expensive Construction Project (Dubai World Central (Dubai International Airport))
@@ -78,7 +116,6 @@ These records keep their picsum.photos placeholder image.
 - IRWR-00045 — Largest Annual Wheat Harvest (China (national wheat harvest))
 - IRWR-00046 — Largest Annual Corn Harvest (United States (national corn harvest))
 - IRWR-00047 — Largest Annual Rice Harvest (India (national rice harvest))
-- IRWR-00049 — Heaviest Ram on Record (Kuanysh Myktybayev (ram "Million"))
 - IRWR-00050 — Largest Milk Production (India (national milk production))
 - IRWR-00051 — Largest Tomato Harvest (China (national tomato harvest))
 - IRWR-00052 — Largest Peanut Exports (United States (peanut exports))
@@ -126,7 +163,7 @@ These records keep their picsum.photos placeholder image.
 - IRWR-00166 — First Digital Model of Human Brain Activity (Human Brain Project (Blue Brain Project))
 - IRWR-00169 — Fastest Quantum Computer for AI Problems (University of Science and Technology of China (Jiuzhang 2.0))
 
-## extreme (11)
+## extreme (10)
 - IRWR-00285 — Fastest Power Stairs Climb (Mikhail Shivlyakov)
 - IRWR-00286 — Fastest Everest Ascent Without Supplemental Oxygen (Josh Albert)
 - IRWR-00287 — Longest Plank Hold (Julia Bachmann)
@@ -137,7 +174,6 @@ These records keep their picsum.photos placeholder image.
 - IRWR-00296 — Fastest Vertical Wall Climb (Kenji Saito)
 - IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez)
 - IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi)
-- IRWR-00301 — Farthest Manual Tow of Two Pickup Trucks (Women Over 55) (Aigul Yerzhanova)
 
 ## humanbody (4)
 - IRWR-00273 — Tallest Man in Recorded History (Robert Wadlow)

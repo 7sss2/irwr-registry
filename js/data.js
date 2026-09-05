@@ -683,7 +683,7 @@
     "status": "verified",
     "description": "A ram named \"Million,\" owned by Kuanysh Myktybayev of Kazakhstan, weighed 231 kilograms in 2023, the heaviest ram on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00049.",
     "photoSeed": "irwr-economy-heaviest-ram-on-record",
-    "photo": null,
+    "photo": "images/records/IRWR-00049.jpg",
     "featured": false
   },
   {
@@ -1579,7 +1579,7 @@
     "status": "verified",
     "description": "Designer Nurgul Abaykhan led 660 artisans in the \"Alaman Kurak\" project, assembling traditional Kazakh patchwork quilts covering 1,366.8 square meters, in Almaty in 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00113.",
     "photoSeed": "irwr-culture-largest-collection-of-traditional-kazakh-patchw",
-    "photo": null,
+    "photo": "images/records/IRWR-00113.jpg",
     "featured": false
   },
   {
@@ -4211,7 +4211,7 @@
     "status": "verified",
     "description": "Aigul Yerzhanova of Kazakhstan, aged over 55, manually towed two pickup trucks with a combined weight of 8 tons a distance of 58 meters on October 5, 2025, in Astana, Kazakhstan. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00301.",
     "photoSeed": "irwr-extreme-farthest-manual-tow-of-two-pickup-trucks-women-",
-    "photo": null,
+    "photo": "images/records/IRWR-00301.jpg",
     "featured": false
   },
   {
