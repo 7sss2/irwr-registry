@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const records = byHolder[name];
     const r = records[0];
     return `
-      <div class="hcard reveal in tilt">
+      <div class="hcard reveal in tilt" data-holder="${IRWR.escapeHtml(name)}">
         <div class="hface">
           <div class="hph"><img class="photo" src="${IRWR.photoUrl(r, '-holder', 500, 700)}" alt=""></div>
           <div class="hname">${IRWR.escapeHtml(name)}</div>
@@ -22,4 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
     `;
   }).join('');
   IRWR.initTilt('.hcard');
+
+  grid.addEventListener('click', (e) => {
+    const card = e.target.closest('.hcard');
+    if (!card) return;
+    IRWR.openHolderModal(card.dataset.holder);
+  });
+
+  // a "Holder profile" link from records.html arrives as holders.html?holder=NAME —
+  // open that holder's detail straight away instead of landing on the plain grid.
+  const requestedHolder = new URLSearchParams(location.search).get('holder');
+  if (requestedHolder && byHolder[requestedHolder]) IRWR.openHolderModal(requestedHolder);
 });

@@ -3,14 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!grid) return;
   const featured = IRWR_RECORDS.filter((r) => r.featured);
   grid.innerHTML = featured.map((r) => `
-    <div class="ccard reveal in">
+    <div class="ccard reveal in" data-id="${IRWR.escapeHtml(r.id)}">
       <div class="cph"><img class="photo" src="${IRWR.photoUrl(r, '', 700, 700)}" alt=""></div>
       <div class="ctags"><span class="ctag">${IRWR.escapeHtml(r.category)}</span><span class="ctag">Verified</span></div>
       <div class="cbottom">
         <h3>${IRWR.escapeHtml(r.title)}</h3>
         <p>${IRWR.escapeHtml(r.description)}</p>
-        <div class="crow"><a href="holders.html" class="btn-line">Holder profile</a><a href="records.html" class="btn-gold" data-ripple>View entry</a></div>
+        <div class="crow"><a href="holders.html?holder=${encodeURIComponent(r.holderName)}" class="btn-line">Holder profile</a><button type="button" class="btn-gold" data-ripple data-view-entry>View entry</button></div>
       </div>
     </div>
   `).join('');
+
+  grid.addEventListener('click', (e) => {
+    if (e.target.closest('a')) return; // let the "Holder profile" link navigate normally
+    const card = e.target.closest('.ccard');
+    if (!card) return;
+    const record = IRWR.byId(card.dataset.id);
+    if (record) IRWR.openRecordModal(record);
+  });
 });

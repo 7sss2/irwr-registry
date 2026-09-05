@@ -33,6 +33,7 @@ nav.dnav a:hover{color:var(--gold);}
   padding:13px 22px; transition:background .25s ease; position:relative; overflow:hidden;
 }
 .btn-gold:hover{background:#fff;}
+button.btn-gold{border:none; cursor:pointer; font-family:inherit;}
 .ripple{position:absolute; border-radius:50%; background:rgba(21,27,38,0.3); transform:scale(0); animation:rippleAnim .6s ease-out; pointer-events:none;}
 @keyframes rippleAnim{ to{transform:scale(3); opacity:0;} }
 
@@ -96,3 +97,28 @@ body[data-page] nav.dnav a[data-page].active, body[data-page] .mnav a[data-page]
 
 #bg3d-canvas{position:fixed; inset:0; z-index:0; pointer-events:none;}
 body > main, body > footer, .mega-title, .ruler{position:relative; z-index:1;}
+
+/* record detail modal — shared component injected via shell.html on every page */
+body.modal-open{overflow:hidden;}
+.irwr-modal-overlay[hidden]{display:none;}
+.irwr-modal-overlay{position:fixed; inset:0; z-index:500; background:rgba(13,17,25,0.72); display:flex; align-items:flex-start; justify-content:center; padding:60px 20px; overflow-y:auto;}
+.irwr-modal{position:relative; background:var(--bg); max-width:640px; width:100%; padding:36px; margin:auto 0;}
+.irwr-modal-close{position:absolute; top:14px; right:14px; z-index:2; width:36px; height:36px; border:none; background:var(--panel); color:var(--navy); font-size:22px; line-height:1; cursor:pointer; display:flex; align-items:center; justify-content:center;}
+.irwr-modal-close:hover{background:var(--navy); color:#fff;}
+.irwr-modal-photo{margin:-36px -36px 20px; height:280px; overflow:hidden;}
+.irwr-modal-photo img{width:100%; height:100%; object-fit:cover;}
+.irwr-modal-tags{display:flex; gap:8px; margin-bottom:14px;}
+.irwr-modal-tags .ctag{border:1px solid var(--line); padding:4px 10px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.04em; color:var(--ink-soft);}
+.irwr-modal h2{font-size:26px; color:var(--navy); margin-bottom:10px;}
+.irwr-modal-meta{font-size:13.5px; color:var(--ink-soft); margin-bottom:6px;}
+.irwr-modal-desc{font-size:14.5px; line-height:1.6; color:var(--ink); margin-top:16px;}
+.irwr-modal-record-list{display:flex; flex-direction:column; gap:2px; margin-top:18px;}
+.irwr-modal-record-link{display:flex; flex-direction:column; gap:4px; text-align:left; padding:14px 0; border-bottom:1px solid var(--line); background:none; border-left:none; border-right:none; border-top:none; cursor:pointer; font-family:inherit;}
+.irwr-modal-record-link:hover strong{color:var(--gold-deep);}
+.irwr-modal-record-link strong{color:var(--navy); font-size:15px;}
+.irwr-modal-record-link span{font-size:12px; color:var(--ink-soft);}
+@media (max-width:600px){
+  .irwr-modal-overlay{padding:0;}
+  .irwr-modal{max-width:none; min-height:100%; padding:28px 20px;}
+  .irwr-modal-photo{margin:-28px -20px 18px; height:200px;}
+}

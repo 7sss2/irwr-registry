@@ -102,7 +102,75 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   IRWR.initCounters('.num[data-count]');
+
+  // record detail modal — shared across every page via shell.html
+  const modalOverlay = document.getElementById('irwrModalOverlay');
+  const modalClose = document.getElementById('irwrModalClose');
+  if (modalOverlay && modalClose) {
+    modalClose.addEventListener('click', IRWR.closeModal);
+    modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) IRWR.closeModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') IRWR.closeModal(); });
+    modalOverlay.addEventListener('click', (e) => {
+      const link = e.target.closest('.irwr-modal-record-link');
+      if (!link) return;
+      const record = IRWR.byId(link.dataset.id);
+      if (record) IRWR.openRecordModal(record);
+    });
+  }
 });
+
+// Full record detail — every field shown comes straight from IRWR_RECORDS
+// (itself sourced only from the GBR PDF book / globalbestrecords.org, see
+// scripts/build-real-data.js), nothing added here.
+IRWR.openRecordModal = function (record) {
+  const overlay = document.getElementById('irwrModalOverlay');
+  const body = document.getElementById('irwrModalBody');
+  if (!overlay || !body || !record) return;
+  const photo = IRWR.photoUrl(record, '-modal', 900, 600);
+  body.innerHTML = `
+    <div class="irwr-modal-photo"><img class="photo" src="${photo}" alt=""></div>
+    <div class="irwr-modal-tags"><span class="ctag">${IRWR.escapeHtml(record.category)}</span><span class="ctag">${IRWR.escapeHtml(record.status)}</span></div>
+    <h2 id="irwrModalTitle">${IRWR.escapeHtml(record.title)}</h2>
+    <p class="irwr-modal-meta"><strong>${IRWR.escapeHtml(record.holderName)}</strong> · ${IRWR.escapeHtml(record.country || 'International')}</p>
+    <p class="irwr-modal-meta">${IRWR.escapeHtml(record.date || 'Date not specified')} · IRWR index <strong>${IRWR.escapeHtml(record.id)}</strong></p>
+    <p class="irwr-modal-desc">${IRWR.escapeHtml(record.description)}</p>
+  `;
+  overlay.hidden = false;
+  document.body.classList.add('modal-open');
+};
+
+// A holder card can represent several records — list them, each opening its
+// own full detail via .irwr-modal-record-link (handled by the delegated
+// click listener set up in the DOMContentLoaded block above).
+IRWR.openHolderModal = function (holderName) {
+  const records = IRWR_RECORDS.filter((r) => r.holderName === holderName);
+  if (!records.length) return;
+  if (records.length === 1) { IRWR.openRecordModal(records[0]); return; }
+  const overlay = document.getElementById('irwrModalOverlay');
+  const body = document.getElementById('irwrModalBody');
+  if (!overlay || !body) return;
+  body.innerHTML = `
+    <h2 id="irwrModalTitle">${IRWR.escapeHtml(holderName)}</h2>
+    <p class="irwr-modal-meta">${records.length} records on file</p>
+    <div class="irwr-modal-record-list">
+      ${records.map((r) => `
+        <button class="irwr-modal-record-link" data-id="${IRWR.escapeHtml(r.id)}">
+          <strong>${IRWR.escapeHtml(r.title)}</strong>
+          <span>${IRWR.escapeHtml(r.category)} · ${IRWR.escapeHtml(r.date || 'undated')} · ${IRWR.escapeHtml(r.id)}</span>
+        </button>
+      `).join('')}
+    </div>
+  `;
+  overlay.hidden = false;
+  document.body.classList.add('modal-open');
+};
+
+IRWR.closeModal = function () {
+  const overlay = document.getElementById('irwrModalOverlay');
+  if (!overlay) return;
+  overlay.hidden = true;
+  document.body.classList.remove('modal-open');
+};
 
 // animated count-up, triggered on scroll-into-view
 IRWR.initCounters = function (selector) {
