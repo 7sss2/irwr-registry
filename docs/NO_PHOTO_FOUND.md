@@ -286,7 +286,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC)) — the only image on globalbestrecords.org/economyrecords near this record is the page's own category-hero collage (Walmart/ICBC/Saudi Aramco/etc. logos mixed together), not a photo specific to ICBC; rejected rather than accepted on proximity alone.
 - IRWR-00041 — Largest Venture Capital Fund (SoftBank Vision Fund 2)
 
-## education (18)
+## education (19)
 - IRWR-00124 — One of the World's Highest Literacy Rates (Latvia)
 - IRWR-00125 — Fastest Growth in Higher Education Enrollment (China (higher education expansion))
 - IRWR-00126 — Largest Distance Learning Platform (China's National Open University)
