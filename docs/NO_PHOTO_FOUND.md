@@ -1,8 +1,37 @@
-# IRWR records with NO verified real photo (122 of 295)
+# IRWR records with NO verified real photo (109 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: education-category photo pass (122 -> 109 without photo)
+
+Same method: `curl -L https://globalbestrecords.org/educationrecords`. This page covers the
+source book's combined "Education, Science, Medicine, Digital Technologies" chapter, so it
+also carries the site's own repeat of the 8 human-body facts that were deduplicated out of our
+`education` category earlier this session (see the dedup entry below) — those repeats let two
+more of `humanbody`'s remaining without-photo records get resolved from this same page.
+One image per record on this page (simpler layout than culture/economy's two-per-block), plus
+one recurring generic placeholder (`photo_52044602423882.png`, 21 occurrences, excluded).
+Downloaded and visually inspected all 15 apparent hits before accepting:
+- **13 confirmed and added:** IRWR-00120 (IGNOU campus — a second nearby image was this page's
+  own category-hero collage and was rejected, same failure mode as economy's IRWR-00031),
+  00122 (Lycée International building), 00130 (the Purdue team photo, a Rubik's cube visible in
+  their robot), 00132 (LUMI supercomputer, name printed on the cabinets), 00134 (IBM Osprey
+  chip, name etched on it), 00135 (IBM Eagle chip, name etched on it), 00139 (SDSN's own
+  logo), 00141 (University of Bologna courtyard), 00144 (World Education Summit Chennai event
+  graphic), 00156 (a period-appropriate portrait matching Dr. Christiaan Barnard's era), 00161
+  (an autonomous surgical robot photo for STAR), 00169 (a photonic quantum-computing lab,
+  matching Jiuzhang 2.0's design), and humanbody's 00273 (the well-known Robert
+  Wadlow-next-to-an-average-height-man photo).
+- **1 rejected despite proximity:** IRWR-00145's nearby image, captioned "largest reading
+  lesson," shows a stadium-scale crowd of thousands in China — doesn't match this record at all
+  (614 people, a waltz lesson in Kosshy, Kazakhstan), so rejected as a wrong match.
+- **1 category-hero collage rejected:** IRWR-00120's first candidate (see above).
+
+13 images copied into `images/records/` (12 education-category + 1 humanbody), added to
+`scripts/photo-manifest.json`, dataset rebuilt (295 records, ids unchanged), both test suites
+pass. Education: 31 -> 18 records still without a photo; humanbody: 3 -> 2.
 
 ## 2026-09-06: economy-category photo pass (138 -> 122 without photo)
 
@@ -168,38 +197,26 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC)) — the only image on globalbestrecords.org/economyrecords near this record is the page's own category-hero collage (Walmart/ICBC/Saudi Aramco/etc. logos mixed together), not a photo specific to ICBC; rejected rather than accepted on proximity alone.
 - IRWR-00041 — Largest Venture Capital Fund (SoftBank Vision Fund 2)
 
-## education (31)
-- IRWR-00120 — Largest University by Enrollment (Indira Gandhi National Open University (IGNOU))
-- IRWR-00122 — Most Multilingual Educational Institution (Lycee International de Saint-Germain-en-Laye)
+## education (18)
 - IRWR-00124 — One of the World's Highest Literacy Rates (Latvia)
 - IRWR-00125 — Fastest Growth in Higher Education Enrollment (China (higher education expansion))
 - IRWR-00126 — Largest Distance Learning Platform (China's National Open University)
 - IRWR-00128 — Most Online Courses from a Single Institution (Stanford University)
-- IRWR-00130 — Fastest Robot to Solve a Rubik's Cube (Purdue University team (Ota, Hurd, Patrohay, Berta))
-- IRWR-00132 — Most Powerful European Supercomputer (LUMI supercomputer (EuroHPC / CSC))
 - IRWR-00133 — Top-Ranked ARM-Based Supercomputer (Microsoft "Eagle" supercomputer)
-- IRWR-00134 — Most Powerful Quantum Processor at Launch (IBM (Osprey quantum processor))
-- IRWR-00135 — First Quantum Chip to Exceed 100 Qubits (IBM (Eagle quantum processor))
 - IRWR-00136 — Largest Superconducting Quantum Chip (IBM (Condor quantum processor))
 - IRWR-00138 — Most Educators on a Distance-Learning Platform (Coursera)
-- IRWR-00139 — Largest Sustainability Education Network (UN Sustainable Development Solutions Network (SDSN))
 - IRWR-00140 — Largest University AI Training Program (University of Science and Technology of China (USTC))
-- IRWR-00141 — Oldest Continuously Operating University (University of Bologna)
 - IRWR-00142 — Largest School for Children with Special Needs (Special Education School 518)
-- IRWR-00144 — Largest International Education Conference (World Education Summit)
-- IRWR-00145 — Largest Dance Lesson (Kosshy village organizers)
+- IRWR-00145 — Largest Dance Lesson (Kosshy village organizers) — globalbestrecords.org/educationrecords carries an image near this record's text captioned "largest reading lesson," showing a stadium-scale crowd of thousands in what appears to be China; the actual record (614 people, a waltz lesson in Kosshy, Kazakhstan) doesn't match either the event type or scale, so rejected as a wrong match rather than accepted on proximity.
 - IRWR-00146 — Largest Education Data Assessment Project (OECD (PISA program))
 - IRWR-00147 — Most Online Diplomas Issued in a Year (University of Phoenix)
-- IRWR-00156 — First Successful Heart Transplant (Dr. Christiaan Barnard)
 - IRWR-00157 — First Partial Face Transplant (Isabelle Dinoire)
 - IRWR-00158 — Youngest Surgeon to Perform an Operation (Akiande Jade Essa)
 - IRWR-00159 — Most Expensive Medical Treatment (Zolgensma (Novartis))
 - IRWR-00160 — First Disease Eradicated by Vaccination (World Health Organization (Smallpox Eradication Program))
-- IRWR-00161 — First Operation by a Fully Autonomous Robot (Smart Tissue Autonomous Robot (STAR))
 - IRWR-00164 — First AI to Pass a US Oral Legal Exam (GPT-4 (OpenAI))
 - IRWR-00165 — Largest Smart City IoT Network (Shenzhen (smart city IoT network))
 - IRWR-00166 — First Digital Model of Human Brain Activity (Human Brain Project (Blue Brain Project))
-- IRWR-00169 — Fastest Quantum Computer for AI Problems (University of Science and Technology of China (Jiuzhang 2.0))
 
 ## extreme (10)
 - IRWR-00285 — Fastest Power Stairs Climb (Mikhail Shivlyakov)
@@ -213,8 +230,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez)
 - IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi)
 
-## humanbody (3)
-- IRWR-00273 — Tallest Man in Recorded History (Robert Wadlow)
+## humanbody (2)
 - IRWR-00274 — Heaviest Man in Medical History (John Brower Minnoch)
 - IRWR-00276 — First Person Cured of HIV (Timothy Ray Brown)
 

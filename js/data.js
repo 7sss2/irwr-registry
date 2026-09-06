@@ -1677,7 +1677,7 @@
     "status": "verified",
     "description": "IGNOU enrolled more than 4 million students as of 2023, mostly through distance learning, making it the largest university in the world by student count. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00120.",
     "photoSeed": "irwr-education-largest-university-by-enrollment",
-    "photo": null,
+    "photo": "images/records/IRWR-00120.png",
     "featured": true
   },
   {
@@ -1705,7 +1705,7 @@
     "status": "verified",
     "description": "The Lycee International de Saint-Germain-en-Laye offers instruction in more than 15 languages as of 2023, making it the most multilingual school in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00122.",
     "photoSeed": "irwr-education-most-multilingual-educational-institution",
-    "photo": null,
+    "photo": "images/records/IRWR-00122.jpg",
     "featured": false
   },
   {
@@ -1817,7 +1817,7 @@
     "status": "verified",
     "description": "A Purdue University team built a robot that solved a Rubik's Cube in 0.103 seconds at the SPARK Competition in December 2024, the fastest solve on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00130.",
     "photoSeed": "irwr-education-fastest-robot-to-solve-a-rubik-s-cube",
-    "photo": null,
+    "photo": "images/records/IRWR-00130.jpg",
     "featured": false
   },
   {
@@ -1845,7 +1845,7 @@
     "status": "verified",
     "description": "The LUMI supercomputer, launched in Kajaani, Finland, in June 2022 by the EuroHPC Joint Undertaking, uses 362,496 CPU cores and 10,240 GPUs to reach a peak of 531 petaflops, making it Europe's most powerful supercomputer. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00132.",
     "photoSeed": "irwr-education-most-powerful-european-supercomputer",
-    "photo": null,
+    "photo": "images/records/IRWR-00132.jpg",
     "featured": false
   },
   {
@@ -1873,7 +1873,7 @@
     "status": "verified",
     "description": "IBM unveiled its 433-qubit Osprey quantum processor in New York in November 2022, more than three times the qubit count of its previous Eagle chip and the most powerful quantum processor at the time. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00134.",
     "photoSeed": "irwr-education-most-powerful-quantum-processor-at-launch",
-    "photo": null,
+    "photo": "images/records/IRWR-00134.png",
     "featured": false
   },
   {
@@ -1887,7 +1887,7 @@
     "status": "verified",
     "description": "IBM introduced its 127-qubit Eagle processor in November 2021, the company's first quantum chip to exceed 100 qubits, using a \"heavy-hex lattice\" architecture. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00135.",
     "photoSeed": "irwr-education-first-quantum-chip-to-exceed-100-qubits",
-    "photo": null,
+    "photo": "images/records/IRWR-00135.jpg",
     "featured": false
   },
   {
@@ -1943,7 +1943,7 @@
     "status": "verified",
     "description": "The UN Sustainable Development Solutions Network connected more than 500 universities across 150 countries as of 2023, the largest network of its kind focused on sustainability education and research. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00139.",
     "photoSeed": "irwr-education-largest-sustainability-education-network",
-    "photo": null,
+    "photo": "images/records/IRWR-00139.png",
     "featured": false
   },
   {
@@ -1971,7 +1971,7 @@
     "status": "verified",
     "description": "Founded in 1088, the University of Bologna is the oldest university in the world still in continuous operation. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00141.",
     "photoSeed": "irwr-education-oldest-continuously-operating-university",
-    "photo": null,
+    "photo": "images/records/IRWR-00141.jpeg",
     "featured": false
   },
   {
@@ -2013,7 +2013,7 @@
     "status": "verified",
     "description": "The World Education Summit in India drew more than 10,000 specialists from 150 countries in 2023, the largest international gathering of its kind focused on education. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00144.",
     "photoSeed": "irwr-education-largest-international-education-conference",
-    "photo": null,
+    "photo": "images/records/IRWR-00144.jpg",
     "featured": false
   },
   {
@@ -2069,7 +2069,7 @@
     "status": "verified",
     "description": "Dr. Christiaan Barnard performed the world's first successful human heart transplant in South Africa in 1967. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00156.",
     "photoSeed": "irwr-education-first-successful-heart-transplant",
-    "photo": null,
+    "photo": "images/records/IRWR-00156.jpg",
     "featured": false
   },
   {
@@ -2139,7 +2139,7 @@
     "status": "verified",
     "description": "The Smart Tissue robot performed the first surgical operation carried out by a fully autonomous robot in the United States in 2016. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00161.",
     "photoSeed": "irwr-education-first-operation-by-a-fully-autonomous-robot",
-    "photo": null,
+    "photo": "images/records/IRWR-00161.jpg",
     "featured": false
   },
   {
@@ -2251,7 +2251,7 @@
     "status": "verified",
     "description": "The Jiuzhang 2.0 quantum computer, developed at the University of Science and Technology of China, solves certain AI-related computations up to 10^24 times faster than classical computers. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00169.",
     "photoSeed": "irwr-education-fastest-quantum-computer-for-ai-problems",
-    "photo": null,
+    "photo": "images/records/IRWR-00169.jpg",
     "featured": false
   },
   {
@@ -3707,7 +3707,7 @@
     "status": "verified",
     "description": "Robert Wadlow of the United States reached a height of 2.72 meters as a result of acromegaly (gigantism), making him the tallest man ever medically documented. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00273.",
     "photoSeed": "irwr-humanbody-tallest-man-in-recorded-history",
-    "photo": null,
+    "photo": "images/records/IRWR-00273.jpg",
     "featured": false
   },
   {
