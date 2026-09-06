@@ -1,8 +1,21 @@
-# IRWR records with NO verified real photo (84 of 295)
+# IRWR records with NO verified real photo (77 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: military-category photo pass (84 -> 77 without photo)
+
+`curl -L https://globalbestrecords.org/militaryrecords` carries the same GBR-branded
+record-infographic pattern established during the transport pass (vector illustration +
+headline number/model + GBR logo watermark) — applying that precedent directly per the
+standing rule, no need to re-ask. All 7 missing records had a card on this page.
+**7 confirmed, zero rejected:** IRWR-00253 (F-35 Lightning II), 00255 (Project 941 "Akula"),
+00257 (Chinese PLA), 00258 (USS Gerald R. Ford), 00260 (Siege of Sarajevo), 00268 (ISS
+program cost), 00270 (Sojourner rover).
+7 images copied into `images/records/`, added to `scripts/photo-manifest.json`, dataset
+rebuilt (295 records, ids unchanged), both test suites pass. Military: 7 -> 0 without photo —
+second category (after transport) to reach full coverage.
 
 ## 2026-09-06: cooking-category photo pass (87 -> 84 without photo)
 
@@ -279,14 +292,9 @@ matches found; all 10 show only the site's own generic placeholder image there.
 - IRWR-00274 — Heaviest Man in Medical History (John Brower Minnoch)
 - IRWR-00276 — First Person Cured of HIV (Timothy Ray Brown)
 
-## military (7)
-- IRWR-00253 — Most Expensive Military Aviation Program (F-35 Lightning II program)
-- IRWR-00255 — Largest Submarine Ever Built (Project 941 "Akula" submarine)
-- IRWR-00257 — Largest Army by Personnel (Chinese People's Liberation Army)
-- IRWR-00258 — Largest Aircraft Carrier (USS Gerald R. Ford (CVN-78))
-- IRWR-00260 — Longest Artillery Siege of a City in the 20th Century (Siege of Sarajevo)
-- IRWR-00268 — Most Expensive Space Program (International Space Station program)
-- IRWR-00270 — First Successful Planetary Rover (Sojourner rover (NASA))
+## military (0)
+All 7 previously-missing military records now carry GBR's own branded record-infographic
+graphic (see the 2026-09-06 military pass entry below) — none remain without an image.
 
 ## sport (10) — checked 2026-09-06 against globalbestrecords.org/sportrecords, no new matches
 found; IRWR-00001 isn't mentioned on that page at all, and the other 9 show only the site's

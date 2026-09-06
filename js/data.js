@@ -3427,7 +3427,7 @@
     "status": "verified",
     "description": "The F-35 Lightning II fighter jet program has cost more than USD 1.7 trillion over its lifetime, the most expensive military aviation project in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00253.",
     "photoSeed": "irwr-military-most-expensive-military-aviation-program",
-    "photo": null,
+    "photo": "images/records/IRWR-00253.png",
     "featured": false
   },
   {
@@ -3455,7 +3455,7 @@
     "status": "verified",
     "description": "The Soviet-built Project 941 \"Akula\" (Typhoon-class) submarine measures 175 meters long with a displacement of about 48,000 tons, the largest submarine class ever constructed. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00255.",
     "photoSeed": "irwr-military-largest-submarine-ever-built",
-    "photo": null,
+    "photo": "images/records/IRWR-00255.png",
     "featured": false
   },
   {
@@ -3483,7 +3483,7 @@
     "status": "verified",
     "description": "The Chinese People's Liberation Army has more than 2 million active personnel as of 2025, the largest standing army in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00257.",
     "photoSeed": "irwr-military-largest-army-by-personnel",
-    "photo": null,
+    "photo": "images/records/IRWR-00257.png",
     "featured": false
   },
   {
@@ -3497,7 +3497,7 @@
     "status": "verified",
     "description": "The USS Gerald R. Ford (CVN-78), built in the United States, displaces about 100,000 tons and measures 337 meters long, the largest aircraft carrier ever built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00258.",
     "photoSeed": "irwr-military-largest-aircraft-carrier",
-    "photo": null,
+    "photo": "images/records/IRWR-00258.png",
     "featured": false
   },
   {
@@ -3525,7 +3525,7 @@
     "status": "verified",
     "description": "The siege of Sarajevo lasted 1,425 days from 1992 to 1996, the longest sustained artillery siege of a city in the 20th century. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00260.",
     "photoSeed": "irwr-military-longest-artillery-siege-of-a-city-in-the-20th-",
-    "photo": null,
+    "photo": "images/records/IRWR-00260.png",
     "featured": false
   },
   {
@@ -3637,7 +3637,7 @@
     "status": "verified",
     "description": "The International Space Station has cost an estimated USD 150 billion to build and operate, making it the most expensive space program in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00268.",
     "photoSeed": "irwr-military-most-expensive-space-program",
-    "photo": null,
+    "photo": "images/records/IRWR-00268.png",
     "featured": false
   },
   {
@@ -3665,7 +3665,7 @@
     "status": "verified",
     "description": "NASA's Sojourner rover, part of the 1997 Pathfinder mission, was the first rover to successfully operate on another planet. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00270.",
     "photoSeed": "irwr-military-first-successful-planetary-rover",
-    "photo": null,
+    "photo": "images/records/IRWR-00270.png",
     "featured": false
   },
   {
