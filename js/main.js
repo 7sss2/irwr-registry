@@ -15,6 +15,24 @@ IRWR.photoUrl = function (record, seedSuffix, w, h) {
   return `https://picsum.photos/seed/${seed}/${w}/${h}`;
 };
 
+// Subtle sitewide background tint as the page scrolls, built entirely from
+// the existing design tokens (cream --bg -> a gold-warmed cream -> a
+// navy-cooled neutral) so it reads as "the same page breathing", never a
+// hard cut or an off-palette color.
+const SCROLL_TINT_STOPS = [
+  [0xF4, 0xF2, 0xEC], // 0%  — var(--bg)
+  [0xEF, 0xE8, 0xD6], // 50% — gold-warmed
+  [0xE4, 0xE3, 0xDE], // 100% — navy-cooled
+];
+IRWR.scrollTintColor = function (t) {
+  const clamped = Math.min(Math.max(t || 0, 0), 1);
+  const seg = clamped < 0.5 ? 0 : 1;
+  const localT = seg === 0 ? clamped / 0.5 : (clamped - 0.5) / 0.5;
+  const a = SCROLL_TINT_STOPS[seg], b = SCROLL_TINT_STOPS[seg + 1];
+  const mix = (i) => Math.round(a[i] + (b[i] - a[i]) * localT);
+  return `rgb(${mix(0)}, ${mix(1)}, ${mix(2)})`;
+};
+
 document.addEventListener('DOMContentLoaded', () => {
   // ruler ticks
   const rulerTrack = document.getElementById('rulerTrack');
@@ -30,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
     megaTrack.innerHTML = `<span style="display:flex;">${half}</span><span style="display:flex;">${half}</span>`;
   }
 
-  // scroll progress, sticky header, hero parallax, to-top
+  // scroll progress, sticky header, hero parallax, to-top, background tint
   const progressBar = document.getElementById('scrollProgress');
   const toTop = document.getElementById('toTop');
   const header = document.getElementById('siteHeader');
@@ -42,6 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (toTop) toTop.classList.toggle('show', h.scrollTop > 700);
     if (header) header.classList.toggle('solid', h.scrollTop > 60);
     if (heroBg) heroBg.style.transform = `translateY(${h.scrollTop * 0.15}px) scale(1.05)`;
+    document.body.style.backgroundColor = IRWR.scrollTintColor(pct / 100);
   });
   if (toTop) toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
