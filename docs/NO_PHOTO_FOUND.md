@@ -1,8 +1,37 @@
-# IRWR records with NO verified real photo (156 of 295)
+# IRWR records with NO verified real photo (138 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: culture-category photo pass (156 -> 138 without photo)
+
+Re-fetched globalbestrecords.org/culturerecords directly via `curl` (a plain GET returns full
+static HTML including every `data-original` attribute — Tilda serves this category page
+server-rendered, so no browser/JS execution was needed). Each `#recNNNNNN` block on the page
+pairs two records with two images in document order; one recurring image
+(`photo_52044602423882.png`, seen 12 times) is Tilda's own generic unfilled-slot placeholder
+and was excluded, matching the project's existing >2-claims-means-generic rule. Every other
+image on the page appears exactly once, uniquely tied to one specific record's caption text.
+Cross-referenced all 38 of culture's missing-photo holders/titles against this page, downloaded
+every apparent hit, and visually inspected each before accepting it (per the project's existing
+discipline — the previous session's PDF/site pass caught 2 of 4 title-based matches as wrong,
+so nothing here was accepted on caption/filename match alone):
+- **18 confirmed and added:** IRWR-00070 (Documenta Fifteen, matched via a second on-page
+  mention with a filename referencing "d15"/Ottoneum, a real Kassel exhibition venue), 00071
+  (Louvre), 00072 (The Scream), 00073 (snow figures), 00074 (The Mousetrap), 00075 (The Lion
+  King), 00076 (National Centre for the Performing Arts), 00077 (Ramayana performance), 00084
+  (Korkyt ensemble — the photo itself is a GBR award-ceremony banner naming the group), 00088
+  (Codex Leicester — a designed book-cover graphic naming the manuscript, same "commissioned
+  graphic" category as Task 19's Voyager 1/Neil Armstrong precedent), 00090 (Mao's "Red Book"),
+  00091 (the Bible), 00092 (Shiki no Kusabana), 00094 (Bay Psalm Book), 00095 (Diamond Sutra),
+  00098 (IKEA catalogue), 00102 (Balmain/Olivier Rousteing), 00115 (Mouawad diamond purse).
+- **2 rejected despite an on-page caption match**, kept in the list below with the reason:
+  00096 (image was a different Agatha Christie book entirely) and 00107 (generic bridal stock
+  photo, no sign of the dress's signature 150-carat diamond bodice).
+All 18 accepted images copied into `images/records/`, added to `scripts/photo-manifest.json`,
+`scripts/build-real-data.js` re-run, both test suites pass, rebuilt, deployed, and spot-checked
+live (curl against the deployed `js/data.js` and two of the new image URLs, both 200).
 
 ## 2026-09-06: education/humanbody dedup (303 -> 295 records, 160 -> 156 without photo)
 
@@ -83,41 +112,23 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00220 — Largest Sushi Roll (OKADZAKI sushi restaurant chain)
 - IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company)
 
-## culture (38)
+## culture (20)
 - IRWR-00067 — Most Expensive Painting Sold at Auction (Leonardo da Vinci ("Salvator Mundi"))
 - IRWR-00068 — Largest Painting in the World (Sacha Jafri ("The Journey of Humanity"))
-- IRWR-00070 — Longest-Running Art Exhibition (Documenta Fifteen)
-- IRWR-00071 — Largest Art Gallery by Exhibition Space (The Louvre)
-- IRWR-00072 — Best-Selling Art Reproduction (Edvard Munch ("The Scream"))
-- IRWR-00073 — Most Snow Figures Built (Akimat of Kamysty District, Kostanay Region)
-- IRWR-00074 — Longest-Running Theatrical Production ("The Mousetrap" (Agatha Christie))
-- IRWR-00075 — Highest-Grossing Musical ("The Lion King" (Disney))
-- IRWR-00076 — Largest Performance Stage (National Centre for the Performing Arts)
-- IRWR-00077 — Largest Cast in a Theatrical Production (Ramayana production)
 - IRWR-00078 — Most People Dancing Ballet Simultaneously (Buenos Aires ballet mass event)
 - IRWR-00081 — Youngest Composer of a Symphony (Eitan Matlis)
-- IRWR-00084 — Longest Unscripted Ethnic Music Performance (State Philharmonic Ethno-ensemble "Korkyt")
-- IRWR-00088 — Most Expensive Manuscript Sold (Leonardo da Vinci (Codex Leicester))
-- IRWR-00090 — Most Published Non-Religious Book ("Quotes from Chairman Mao Zedong" (the "Red Book"))
-- IRWR-00091 — Most Translated Book (The Bible)
-- IRWR-00092 — Smallest Printed Book (Toppan Printing ("Shiki no Kusabana"))
-- IRWR-00094 — Most Expensive Printed Book Sold at Auction (The Bay Psalm Book)
-- IRWR-00095 — Oldest Printed Book Held in a Library (Diamond Sutra (British Library copy))
-- IRWR-00096 — Longest Single Printed Publication (HarperCollins ("Agatha Christie Collection"))
-- IRWR-00098 — Most-Printed Advertising Catalogue (IKEA)
+- IRWR-00096 — Longest Single Printed Publication (HarperCollins ("Agatha Christie Collection")) — a candidate image existed on globalbestrecords.org/culturerecords but visually depicted a *different* Agatha Christie book ("Capital Christie: Twelve London Mysteries"), not the 7232-page HarperCollins collection this record describes; rejected as a wrong match rather than accepted on a title-only hit.
 - IRWR-00099 — Fastest Printing Press (Canon Group (Oce JetStream 4300))
 - IRWR-00100 — Most Expensive Dress Ever Sold (Marilyn Monroe (dress by Jean Louis))
 - IRWR-00101 — Largest Traditional Kazakh Women's Headdress (Gulyaim Akumbayeva (Kimeshek headdress))
-- IRWR-00102 — Fastest Haute Couture Collection Produced (Balmain (Olivier Rousteing))
 - IRWR-00103 — Longest Wedding Veil (Maria Paraskevopoulou)
 - IRWR-00104 — Largest Traditional Kazakh Wedding Headdress (Akmaral Dauylbayeva (Saukele headdress))
 - IRWR-00106 — Largest Fashion Show by Model Count (Ajio Luxe (Reliance))
-- IRWR-00107 — Most Expensive Wedding Dress (Rene Strauss and Martin Katz)
+- IRWR-00107 — Most Expensive Wedding Dress (Rene Strauss and Martin Katz) — globalbestrecords.org/culturerecords carries an image captioned for this record, but it's a generic bridal-editorial photo with no sign of the dress's signature 150-carat diamond bodice; rejected as unverified rather than accepted on caption match alone.
 - IRWR-00109 — Fastest Fast-Fashion Production Cycle (ZARA (Inditex))
 - IRWR-00111 — Highest-Altitude Fashion Show (Turkish Airlines)
 - IRWR-00112 — Most Expensive Jacket Sold at Auction (Michael Jackson (gold-embroidered jacket))
 - IRWR-00114 — Longest Wedding Dress Train (Anne Andrews)
-- IRWR-00115 — Most Expensive Handbag (The House of Mouawad)
 - IRWR-00116 — Largest Pair of Shoes (Nike Turkey)
 - IRWR-00117 — Wedding Dress with the Most Rhinestones (Nina Khan)
 - IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech)

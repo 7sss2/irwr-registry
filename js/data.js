@@ -977,7 +977,7 @@
     "status": "verified",
     "description": "Documenta Fifteen ran continuously in Germany in 2022, featuring more than 1,500 artists over what the source describes as its longest run of any major art exhibition. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00070.",
     "photoSeed": "irwr-culture-longest-running-art-exhibition",
-    "photo": null,
+    "photo": "images/records/IRWR-00070.jpg",
     "featured": false
   },
   {
@@ -991,7 +991,7 @@
     "status": "verified",
     "description": "The Louvre in Paris has 72,735 square meters of exhibition space, making it the largest art gallery in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00071.",
     "photoSeed": "irwr-culture-largest-art-gallery-by-exhibition-space",
-    "photo": null,
+    "photo": "images/records/IRWR-00071.jpg",
     "featured": false
   },
   {
@@ -1005,7 +1005,7 @@
     "status": "verified",
     "description": "More than 1 million reproductions of Edvard Munch's \"The Scream\" have been sold, more than any other single work of art. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00072.",
     "photoSeed": "irwr-culture-best-selling-art-reproduction",
-    "photo": null,
+    "photo": "images/records/IRWR-00072.jpg",
     "featured": false
   },
   {
@@ -1019,7 +1019,7 @@
     "status": "verified",
     "description": "Organizers in Kamysty village, Kostanay region, built 2,301 snow figures over 6 days in December 2023, the largest number of snow sculptures created for a single project. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00073.",
     "photoSeed": "irwr-culture-most-snow-figures-built",
-    "photo": null,
+    "photo": "images/records/IRWR-00073.jpg",
     "featured": false
   },
   {
@@ -1033,7 +1033,7 @@
     "status": "verified",
     "description": "Agatha Christie's play \"The Mousetrap\" has run continuously in Britain since 1952, making it the longest-running theatrical production in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00074.",
     "photoSeed": "irwr-culture-longest-running-theatrical-production",
-    "photo": null,
+    "photo": "images/records/IRWR-00074.jpg",
     "featured": false
   },
   {
@@ -1047,7 +1047,7 @@
     "status": "verified",
     "description": "\"The Lion King\" has earned more than USD 1.8 billion on Broadway, making it the highest-grossing musical in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00075.",
     "photoSeed": "irwr-culture-highest-grossing-musical",
-    "photo": null,
+    "photo": "images/records/IRWR-00075.jpg",
     "featured": false
   },
   {
@@ -1061,7 +1061,7 @@
     "status": "verified",
     "description": "The National Centre for the Performing Arts in China has a stage covering 12,000 square meters, the largest performance stage in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00076.",
     "photoSeed": "irwr-culture-largest-performance-stage",
-    "photo": null,
+    "photo": "images/records/IRWR-00076.jpg",
     "featured": false
   },
   {
@@ -1075,7 +1075,7 @@
     "status": "verified",
     "description": "A 2005 staging of the Ramayana in Indonesia involved 8,000 performers, the largest number of participants ever assembled for a single theatrical production. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00077.",
     "photoSeed": "irwr-culture-largest-cast-in-a-theatrical-production",
-    "photo": null,
+    "photo": "images/records/IRWR-00077.jpg",
     "featured": false
   },
   {
@@ -1173,7 +1173,7 @@
     "status": "verified",
     "description": "The Rakhmadiyev State Philharmonic Ethno-ensemble \"Korkyt,\" led by Sholpan Korganbek, performed 80 pieces of world ethnic music continuously for 4 hours and 20 minutes without sheet music or a conductor, in Astana in 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00084.",
     "photoSeed": "irwr-culture-longest-unscripted-ethnic-music-performance",
-    "photo": null,
+    "photo": "images/records/IRWR-00084.jpg",
     "featured": false
   },
   {
@@ -1229,7 +1229,7 @@
     "status": "verified",
     "description": "Leonardo da Vinci's Codex Leicester sold for USD 30.8 million to Bill Gates, making it the most expensive manuscript ever sold. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00088.",
     "photoSeed": "irwr-culture-most-expensive-manuscript-sold",
-    "photo": null,
+    "photo": "images/records/IRWR-00088.png",
     "featured": false
   },
   {
@@ -1257,7 +1257,7 @@
     "status": "verified",
     "description": "More than 6.5 billion copies of \"Quotes from Chairman Mao Zedong,\" known as the \"Red Book,\" have been published in China, making it the most-printed book in history apart from religious texts. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00090.",
     "photoSeed": "irwr-culture-most-published-non-religious-book",
-    "photo": null,
+    "photo": "images/records/IRWR-00090.jpg",
     "featured": false
   },
   {
@@ -1271,7 +1271,7 @@
     "status": "verified",
     "description": "The Bible has been fully translated into more than 700 languages and partially into more than 3,000 languages, more than any other book. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00091.",
     "photoSeed": "irwr-culture-most-translated-book",
-    "photo": null,
+    "photo": "images/records/IRWR-00091.jpg",
     "featured": false
   },
   {
@@ -1285,7 +1285,7 @@
     "status": "verified",
     "description": "Toppan Printing produced \"Shiki no Kusabana\" (\"Flowers of the Four Seasons\") in Japan in 2013, measuring just 0.75 by 0.75 millimeters, the smallest printed book on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00092.",
     "photoSeed": "irwr-culture-smallest-printed-book",
-    "photo": null,
+    "photo": "images/records/IRWR-00092.jpg",
     "featured": false
   },
   {
@@ -1313,7 +1313,7 @@
     "status": "verified",
     "description": "The Bay Psalm Book, the first book printed in colonial America (1640), sold for USD 14.2 million at auction in 2013, the highest price ever paid for a printed book. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00094.",
     "photoSeed": "irwr-culture-most-expensive-printed-book-sold-at-auction",
-    "photo": null,
+    "photo": "images/records/IRWR-00094.jpg",
     "featured": false
   },
   {
@@ -1327,7 +1327,7 @@
     "status": "verified",
     "description": "The British Library holds a copy of the woodcut-printed Diamond Sutra from 868 AD, cataloged as the oldest known printed book. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00095.",
     "photoSeed": "irwr-culture-oldest-printed-book-held-in-a-library",
-    "photo": null,
+    "photo": "images/records/IRWR-00095.jpg",
     "featured": false
   },
   {
@@ -1369,7 +1369,7 @@
     "status": "verified",
     "description": "The IKEA catalogue was printed in more than 200 million copies annually until it was discontinued in 2020, making it the most widely distributed print advertising campaign in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00098.",
     "photoSeed": "irwr-culture-most-printed-advertising-catalogue",
-    "photo": null,
+    "photo": "images/records/IRWR-00098.jpg",
     "featured": false
   },
   {
@@ -1425,7 +1425,7 @@
     "status": "verified",
     "description": "Balmain designer Olivier Rousteing conceived and staged a full haute couture collection in 48 hours in 2018 as part of the #BalmainArmyChallenge, the fastest turnaround from idea to catwalk in the industry. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00102.",
     "photoSeed": "irwr-culture-fastest-haute-couture-collection-produced",
-    "photo": null,
+    "photo": "images/records/IRWR-00102.jpg",
     "featured": false
   },
   {
@@ -1607,7 +1607,7 @@
     "status": "verified",
     "description": "The House of Mouawad's \"1001 Nights Diamond Purse,\" hand-set with more than 4,500 diamonds, is valued at USD 3.8 million, the most expensive handbag ever made. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00115.",
     "photoSeed": "irwr-culture-most-expensive-handbag",
-    "photo": null,
+    "photo": "images/records/IRWR-00115.jpeg",
     "featured": false
   },
   {
@@ -3777,7 +3777,7 @@
     "status": "verified",
     "description": "A baby girl named Kekubi, born in Japan in 2018 weighing just 245 grams, is the lightest infant known to have survived and been successfully discharged from hospital. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00278.",
     "photoSeed": "irwr-humanbody-lightest-surviving-infant",
-    "photo": null,
+    "photo": "images/records/IRWR-00278.jpg",
     "featured": false
   },
   {
