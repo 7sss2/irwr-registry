@@ -2825,7 +2825,7 @@
     "status": "verified",
     "description": "A team of pizzaiolos known as \"Big Mama\" made a pizza covering 1,261.65 square meters in Naples, Italy, in 2012, the largest pizza on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00210.",
     "photoSeed": "irwr-cooking-largest-pizza-ever-made",
-    "photo": null,
+    "photo": "images/records/IRWR-00210.jpg",
     "featured": true
   },
   {
@@ -2951,7 +2951,7 @@
     "status": "verified",
     "description": "Black Bear Lodge restaurant in Sydney made a 1,164-kilogram cheeseburger in 2017, the largest cheeseburger on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00219.",
     "photoSeed": "irwr-cooking-largest-cheeseburger",
-    "photo": null,
+    "photo": "images/records/IRWR-00219.jpg",
     "featured": false
   },
   {
@@ -2965,7 +2965,7 @@
     "status": "verified",
     "description": "The OKADZAKI sushi restaurant chain made a Philadelphia-style sushi roll over 200 meters long in Astana, Kazakhstan, in 2024, the largest sushi roll on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00220.",
     "photoSeed": "irwr-cooking-largest-sushi-roll",
-    "photo": null,
+    "photo": "images/records/IRWR-00220.jpg",
     "featured": false
   },
   {

@@ -1,8 +1,19 @@
-# IRWR records with NO verified real photo (87 of 295)
+# IRWR records with NO verified real photo (84 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: cooking-category photo pass (87 -> 84 without photo)
+
+`curl -L https://globalbestrecords.org/cookingrecords`, same method (one image per record, one
+recurring generic placeholder `photo_52044602423882.png`, 9 occurrences, excluded). Of the 12
+missing records, only 3 had a distinct non-generic image on this page.
+**3 confirmed, zero rejected:** IRWR-00210 (the giant Naples pizza — a visible "Lungomare
+Caracciolo" banner confirms the location), 00219 (the giant cheeseburger), 00220 (the giant
+sushi roll, an outdoor group-rolling event).
+3 images copied into `images/records/`, added to `scripts/photo-manifest.json`, dataset
+rebuilt (295 records, ids unchanged), both test suites pass. Cooking: 12 -> 9 without photo.
 
 ## 2026-09-06: architecture-category photo pass (91 -> 87 without photo)
 
@@ -193,8 +204,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00246 — Longest Steel Central Arch Span (Varazdin Bridge (Hrvatske Ceste, architect Marko Muzina))
 - IRWR-00251 — Longest Bridge Built Entirely of Wood (John Carroll Bridge (Timberworks, architect James Hudson))
 
-## cooking (12)
-- IRWR-00210 — Largest Pizza Ever Made ("Big Mama" (Italian pizzaiolos))
+## cooking (9)
 - IRWR-00211 — Longest Line of Sushi (Japan Sushi Association)
 - IRWR-00212 — Largest Caprese Salad (Bagration-ULAN)
 - IRWR-00213 — Largest Chocolate Sculpture (Chocoversum (Chocolate Museum))
@@ -203,8 +213,6 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00216 — World's Largest Birthday Cake (Guatemalan pastry chefs)
 - IRWR-00217 — Longest Sausage (Rome meat processing plant)
 - IRWR-00218 — Longest Hot Dog (Balkhash Health and Medical Sanatorium / HICHGARDEN Coffee Shop)
-- IRWR-00219 — Largest Cheeseburger (Black Bear Lodge restaurant)
-- IRWR-00220 — Largest Sushi Roll (OKADZAKI sushi restaurant chain)
 - IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company)
 
 ## culture (20)
