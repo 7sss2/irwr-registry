@@ -1,8 +1,24 @@
-# IRWR records with NO verified real photo (160 of 303)
+# IRWR records with NO verified real photo (156 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: education/humanbody dedup (303 -> 295 records, 160 -> 156 without photo)
+
+8 records filed under `education` (IRWR-00148..00155) turned out to be word-for-word
+duplicates of facts already recorded under `humanbody` (IRWR-00272..00279) — the source
+book's combined "Education, Science, Medicine, Digital Technologies" chapter briefly
+previews these 8 facts before the dedicated "Human Body With Patients" chapter covers
+each in full; extraction picked both up as separate records. The education-side echoes
+were removed (user-confirmed); IDs were not renumbered, so IRWR-00148..00155 are now
+retired gaps rather than being reused or causing every later ID to shift.
+Of the 3 real-world facts that had no photo on either side (Robert Wadlow, John Brower
+Minnoch, Timothy Ray Brown), removing the education duplicate collapses two "no photo"
+entries into one — same underlying gap, listed once now instead of twice.
+One fact (Kekubi/Kecubi, the surviving 245g newborn) had a verified photo only on its
+education-side entry (IRWR-00154); that photo was reused for the surviving humanbody
+entry (IRWR-00278), which previously had none — net one more record gains a photo.
 
 ## 2026-09-05: News-section pass (+3 found, 163 -> 160)
 
@@ -127,7 +143,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00062 — Longest River Cruise Ship (AmaMagna (AmaWaterways))
 - IRWR-00064 — Largest Shipyard by Area (Hyundai Heavy Industries)
 
-## education (34)
+## education (31)
 - IRWR-00120 — Largest University by Enrollment (Indira Gandhi National Open University (IGNOU))
 - IRWR-00122 — Most Multilingual Educational Institution (Lycee International de Saint-Germain-en-Laye)
 - IRWR-00124 — One of the World's Highest Literacy Rates (Latvia)
@@ -149,9 +165,6 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00145 — Largest Dance Lesson (Kosshy village organizers)
 - IRWR-00146 — Largest Education Data Assessment Project (OECD (PISA program))
 - IRWR-00147 — Most Online Diplomas Issued in a Year (University of Phoenix)
-- IRWR-00149 — Tallest Person in Recorded History (Robert Wadlow)
-- IRWR-00150 — Heaviest Person on Record (John Brower Minnoch)
-- IRWR-00152 — First Person Cured of HIV (Timothy Ray Brown)
 - IRWR-00156 — First Successful Heart Transplant (Dr. Christiaan Barnard)
 - IRWR-00157 — First Partial Face Transplant (Isabelle Dinoire)
 - IRWR-00158 — Youngest Surgeon to Perform an Operation (Akiande Jade Essa)
@@ -175,11 +188,10 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez)
 - IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi)
 
-## humanbody (4)
+## humanbody (3)
 - IRWR-00273 — Tallest Man in Recorded History (Robert Wadlow)
 - IRWR-00274 — Heaviest Man in Medical History (John Brower Minnoch)
 - IRWR-00276 — First Person Cured of HIV (Timothy Ray Brown)
-- IRWR-00278 — Lightest Surviving Infant (Kekubi)
 
 ## military (7)
 - IRWR-00253 — Most Expensive Military Aviation Program (F-35 Lightning II program)

@@ -82,6 +82,25 @@ CATEGORY_ORDER.forEach((slug) => {
   });
 });
 
+// 8 records filed under 'education' are word-for-word duplicates of facts
+// already recorded under 'humanbody' (IRWR-00272..00279) — the source book's
+// combined "Education, Science, Medicine, Digital Technologies" chapter
+// briefly previews these 8 facts (Jeanne Calment, Robert Wadlow, John Brower
+// Minnoch, Edward O'Bara, Timothy Ray Brown, Bella Hunter, Kecubi, the
+// Chicago hospital team) before the dedicated "Human Body With Patients"
+// chapter covers each in full. Extraction picked both up as separate
+// records. Removing the education-side echoes so each real-world fact has
+// exactly one IRWR entry. IDs are NOT renumbered afterward — IRWR-00148
+// through IRWR-00155 are retired rather than shifting every later record.
+const EDUCATION_HUMANBODY_DUPES = new Set([
+  'IRWR-00148', 'IRWR-00149', 'IRWR-00150', 'IRWR-00151',
+  'IRWR-00152', 'IRWR-00153', 'IRWR-00154', 'IRWR-00155',
+]);
+const removed = records.filter((r) => EDUCATION_HUMANBODY_DUPES.has(r.id));
+const dedupedRecords = records.filter((r) => !EDUCATION_HUMANBODY_DUPES.has(r.id));
+console.log(`Removed ${removed.length} education/humanbody duplicate records:`);
+removed.forEach((r) => console.log(`  ${r.id} ${r.title}`));
+
 // Pick one strong, recognizable record per pinned category as featured.
 const FEATURED_PICKS = {
   sport: 'Fastest 100 Meter Sprint',
@@ -90,14 +109,14 @@ const FEATURED_PICKS = {
   cooking: null,
 };
 function markFeatured(slug, matchTitle) {
-  const pool = records.filter((r) => r.category === slug);
+  const pool = dedupedRecords.filter((r) => r.category === slug);
   const pick = (matchTitle && pool.find((r) => r.title === matchTitle)) || pool[0];
   if (pick) pick.featured = true;
 }
 ['sport', 'culture', 'education', 'cooking'].forEach((slug) => markFeatured(slug, FEATURED_PICKS[slug]));
 
 const out = `(function () {
-  const IRWR_RECORDS = ${JSON.stringify(records, null, 2)};
+  const IRWR_RECORDS = ${JSON.stringify(dedupedRecords, null, 2)};
 
   const CATEGORIES = ${JSON.stringify(CATEGORIES, null, 2)};
 
@@ -137,4 +156,4 @@ const out = `(function () {
 `;
 
 fs.writeFileSync(path.join(__dirname, '..', 'js', 'data.js'), out);
-console.log(`Wrote js/data.js: ${records.length} records across ${CATEGORY_ORDER.length} categories.`);
+console.log(`Wrote js/data.js: ${dedupedRecords.length} records across ${CATEGORY_ORDER.length} categories.`);
