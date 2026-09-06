@@ -1,5 +1,37 @@
 # IRWR records with NO verified real photo (77 of 295)
 
+## 2026-09-06: re-mined /tmp/gbr-extract (surviving PDF extraction), zero new matches
+
+The source PDF itself was deleted earlier this session (not by this session — see the
+2026-09-05 entry below), but its extracted images/text survived in `/tmp/gbr-extract` from
+that prior session. Re-examined it end to end for any candidate not already applied:
+- Filtered all 315 extracted image files by pixel size (>=200x200) down to ~24 that are
+  plausible real photos rather than rule/gradient artifacts; cross-referenced against
+  `final_matches.json` (15 entries) to find ones never actually applied to the manifest.
+- **2 unapplied "final" matches found, both rejected on visual inspection:** IRWR-00293
+  (Anita Kovacs, extreme) was matched to `book-90_1.jpg` — opened it and it's a horse wearing
+  a "ҰЛЫ АЛАМАН 140 ШАҚЫРЫМ 1-ОРЫН" (Great Alaman, 140km, 1st place) banner, i.e. the Kazakh
+  horse-ultramarathon photo, not a photo of Kovacs — this is the exact same trap the prior
+  session's own notes warned about ("an image nearest 'Anita Kovacs' by raw distance was
+  actually the Kazakh horse-ultramarathon photo further down the same paragraph"), confirming
+  it was never applied for good reason. IRWR-00274 (John Brower Minnoch, humanbody) was
+  matched to `book-85_1.jpg` — a black-and-white headshot with no visible obesity consistent
+  with history's heaviest documented man and no caption/name in the image itself; rejected as
+  unverifiable rather than accepted on a distance-based name match alone.
+- **Checked the other unused size-filtered images:** `book-27_2.png` (a cropped Adidas-kit
+  shirt/torso, apparently a leftover Ronaldo-page fragment, not pull-ups/trampoline/synchro
+  swimming — none of page 27's other missing facts), `book-69_1.jpg` (a pile of dough
+  pieces against a Kazakh-pattern backdrop — almost certainly the already-resolved Bauyrsak
+  photo, IRWR-00222, not any of the still-missing cooking records), `book-38_15.png` (a solid
+  color rectangle, decorative), and `book-31_1.png` / `book-96_1.png` (both are the same
+  category-hero collage pattern already identified and rejected during the live-site economy
+  pass — one per PDF chapter, mixing several companies'/records' imagery together, not
+  specific to any single record).
+- **Net result: zero new photos added.** The prior session's PDF pass (2026-09-05) was
+  already thorough; nothing usable was left un-mined. This re-check is recorded here so a
+  future session doesn't re-open the same leftover JSON files expecting an easy win.
+
+
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
