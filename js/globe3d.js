@@ -3,57 +3,20 @@
   const host = document.getElementById('globeHost');
   if (!host) return;
 
-  const isMobile = window.innerWidth <= 414;
-
-  const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: !isMobile });
-  renderer.setPixelRatio(isMobile ? 1 : Math.min(window.devicePixelRatio, 2));
+  const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setSize(host.clientWidth, host.clientHeight);
-  renderer.shadowMap.enabled = !isMobile;
-  renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   host.appendChild(renderer.domElement);
 
   const scene = new THREE.Scene();
-  const camera = new THREE.PerspectiveCamera(42, host.clientWidth / host.clientHeight, 0.1, 100);
-  camera.position.set(0, 0.4, 6.2);
+  const camera = new THREE.PerspectiveCamera(45, host.clientWidth / host.clientHeight, 0.1, 100);
+  camera.position.z = 5.5;
 
-  scene.add(new THREE.HemisphereLight(0x8fa3c9, 0x05070b, 0.65));
-  const key = new THREE.DirectionalLight(0xfff1d6, 1.1);
-  key.position.set(4, 4, 4);
-  if (!isMobile) {
-    key.castShadow = true;
-    key.shadow.mapSize.set(1024, 1024);
-    key.shadow.radius = 5;
-  }
-  scene.add(key);
-  const rim = new THREE.PointLight(0xD9A73B, 0.7, 15);
-  rim.position.set(-4, 1, -3);
-  scene.add(rim);
-
-  // solid globe — dark navy sphere with a faint gold graticule overlay,
-  // replacing the old flat wireframe with a shaded, premium-feeling object
-  const globeGroup = new THREE.Group();
-  const seg = isMobile ? 40 : 48;
   const globe = new THREE.Mesh(
-    new THREE.SphereGeometry(2, seg, seg),
-    new THREE.MeshStandardMaterial({ color: 0x151B26, metalness: 0.35, roughness: 0.55 })
+    new THREE.SphereGeometry(2, 32, 32),
+    new THREE.MeshBasicMaterial({ color: 0x151B26, wireframe: true, transparent: true, opacity: 0.5 })
   );
-  globe.castShadow = !isMobile;
-  globeGroup.add(globe);
-
-  if (!isMobile) {
-    const wire = new THREE.Mesh(
-      new THREE.SphereGeometry(2.01, 24, 16),
-      new THREE.MeshBasicMaterial({ color: 0xD9A73B, wireframe: true, transparent: true, opacity: 0.12 })
-    );
-    globeGroup.add(wire);
-
-    const catcher = new THREE.Mesh(new THREE.PlaneGeometry(20, 20), new THREE.ShadowMaterial({ opacity: 0.25 }));
-    catcher.rotation.x = -Math.PI / 2;
-    catcher.position.y = -2.4;
-    catcher.receiveShadow = true;
-    scene.add(catcher);
-  }
-  scene.add(globeGroup);
+  scene.add(globe);
 
   // Approximate country centroids for every single-country value in the
   // real GBR-sourced dataset (js/data.js). Combo values ("Japan / USA")
@@ -87,13 +50,14 @@
 
   const byCountry = IRWR.groupBy('country');
   const markers = [];
-  const markerGeo = new THREE.SphereGeometry(0.05, 8, 8);
-  const markerMat = new THREE.MeshStandardMaterial({ color: 0xD9A73B, emissive: 0x6b4d15, metalness: 0.4, roughness: 0.4 });
   Object.keys(coords).forEach((country) => {
     if (!byCountry[country]) return;
     const [lat, lng] = coords[country];
     const pos = toVector3(lat, lng, 2.05);
-    const marker = new THREE.Mesh(markerGeo, markerMat);
+    const marker = new THREE.Mesh(
+      new THREE.SphereGeometry(0.045, 8, 8),
+      new THREE.MeshBasicMaterial({ color: 0xD9A73B })
+    );
     marker.position.copy(pos);
     marker.userData.country = country;
     globe.add(marker);
@@ -115,7 +79,7 @@
   renderer.domElement.addEventListener('mousemove', (e) => {
     setPointer(e);
     if (dragging) {
-      globeGroup.rotation.y += (e.clientX - lastX) * 0.005;
+      globe.rotation.y += (e.clientX - lastX) * 0.005;
       lastX = e.clientX;
       return;
     }
@@ -140,21 +104,9 @@
     renderer.setSize(host.clientWidth, host.clientHeight);
   });
 
-  // gentle scroll parallax — a slow tilt as the section scrolls through view,
-  // on top of the existing auto-rotate/drag behavior
-  let scrollTilt = 0;
-  function onScroll() {
-    const rect = host.getBoundingClientRect();
-    const progress = 1 - Math.min(Math.max(rect.top / window.innerHeight, 0), 1);
-    scrollTilt = (progress - 0.5) * 0.5;
-  }
-  onScroll();
-  window.addEventListener('scroll', onScroll, { passive: true });
-
   function animate() {
     requestAnimationFrame(animate);
-    if (autoRotate) globeGroup.rotation.y += 0.0015;
-    globeGroup.rotation.x += (scrollTilt - globeGroup.rotation.x) * 0.03;
+    if (autoRotate) globe.rotation.y += 0.0015;
     renderer.render(scene, camera);
   }
   requestAnimationFrame(animate);

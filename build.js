@@ -13,7 +13,7 @@ const pages = [
   { slug: 'records',    src: 'records.html',    title: 'World Records',   page: 'records',    scripts: ['records.js'] },
   { slug: 'holders',    src: 'holders.html',    title: 'Record Holders',  page: 'holders',    scripts: ['holders.js'] },
   { slug: 'countries',  src: 'countries.html',  title: 'Countries',       page: 'countries',  scripts: ['countries.js', 'globe3d.js'] },
-  { slug: 'categories', src: 'categories.html', title: 'Categories',      page: 'categories', scripts: [] },
+  { slug: 'categories', src: 'categories.html', title: 'Categories',      page: 'categories', scripts: ['categoryIcons3d.js'] },
   { slug: 'search',     src: 'search.html',     title: 'Search',         page: 'search',      scripts: ['search.js'] },
   { slug: 'verify',     src: 'verify.html',     title: 'Verify a Record', page: 'verify',     scripts: ['verify.js'] },
   { slug: 'archive',    src: 'archive.html',    title: 'Archive',         page: 'archive',    scripts: ['archive.js'] },
