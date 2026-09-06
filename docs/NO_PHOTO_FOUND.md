@@ -262,7 +262,8 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00165 — Largest Smart City IoT Network (Shenzhen (smart city IoT network))
 - IRWR-00166 — First Digital Model of Human Brain Activity (Human Brain Project (Blue Brain Project))
 
-## extreme (10)
+## extreme (10) — checked 2026-09-06 against globalbestrecords.org/extremerecords, no new
+matches found; all 10 show only the site's own generic placeholder image there.
 - IRWR-00285 — Fastest Power Stairs Climb (Mikhail Shivlyakov)
 - IRWR-00286 — Fastest Everest Ascent Without Supplemental Oxygen (Josh Albert)
 - IRWR-00287 — Longest Plank Hold (Julia Bachmann)
@@ -287,7 +288,9 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00268 — Most Expensive Space Program (International Space Station program)
 - IRWR-00270 — First Successful Planetary Rover (Sojourner rover (NASA))
 
-## sport (10)
+## sport (10) — checked 2026-09-06 against globalbestrecords.org/sportrecords, no new matches
+found; IRWR-00001 isn't mentioned on that page at all, and the other 9 show only the site's
+own generic placeholder image there.
 - IRWR-00001 — Longest Continuous English Channel Swim (Wildmarie Guy)
 - IRWR-00005 — Longest Ice Swim Distance (Pavel Konovalov)
 - IRWR-00006 — Farthest Distance Run in 24 Hours (Thomas Freimut)
