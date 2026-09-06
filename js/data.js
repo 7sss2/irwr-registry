@@ -445,7 +445,7 @@
     "status": "verified",
     "description": "Walmart generated roughly USD 600 billion in annual turnover as of 2023, making it the world's largest retail hypermarket chain. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00032.",
     "photoSeed": "irwr-economy-largest-retail-chain-by-turnover",
-    "photo": null,
+    "photo": "images/records/IRWR-00032.jpg",
     "featured": false
   },
   {
@@ -459,7 +459,7 @@
     "status": "verified",
     "description": "Dubai World Central, a project begun in 2006 and slated for completion in 2030, has cost more than USD 33 billion, making it the most expensive construction project underway. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00033.",
     "photoSeed": "irwr-economy-most-expensive-construction-project",
-    "photo": null,
+    "photo": "images/records/IRWR-00033.jpeg",
     "featured": false
   },
   {
@@ -487,7 +487,7 @@
     "status": "verified",
     "description": "Walmart employed more than 2.3 million people worldwide in 2024, more than any other company. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00035.",
     "photoSeed": "irwr-economy-largest-company-by-employee-count",
-    "photo": null,
+    "photo": "images/records/IRWR-00035.jpg",
     "featured": false
   },
   {
@@ -627,7 +627,7 @@
     "status": "verified",
     "description": "China produced about 136 million tons of wheat in 2023, roughly 17% of global output, led by Henan, Hebei, and Shandong provinces, making it the world's top wheat producer. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00045.",
     "photoSeed": "irwr-economy-largest-annual-wheat-harvest",
-    "photo": null,
+    "photo": "images/records/IRWR-00045.jpeg",
     "featured": false
   },
   {
@@ -641,7 +641,7 @@
     "status": "verified",
     "description": "The United States produced about 400 million tons of corn in 2023, primarily from Iowa, Illinois, and Nebraska, for both food and bioethanol use, the largest corn harvest of any country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00046.",
     "photoSeed": "irwr-economy-largest-annual-corn-harvest",
-    "photo": null,
+    "photo": "images/records/IRWR-00046.jpg",
     "featured": false
   },
   {
@@ -655,7 +655,7 @@
     "status": "verified",
     "description": "India produced about 131 million tons of rice in 2023, led by Punjab, Uttar Pradesh, and Bihar, the largest rice harvest of any country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00047.",
     "photoSeed": "irwr-economy-largest-annual-rice-harvest",
-    "photo": null,
+    "photo": "images/records/IRWR-00047.webp",
     "featured": false
   },
   {
@@ -697,7 +697,7 @@
     "status": "verified",
     "description": "India produced about 200 million tons of milk in 2023, driven by its White Revolution dairy program and large cattle and buffalo population, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00050.",
     "photoSeed": "irwr-economy-largest-milk-production",
-    "photo": null,
+    "photo": "images/records/IRWR-00050.webp",
     "featured": false
   },
   {
@@ -711,7 +711,7 @@
     "status": "verified",
     "description": "China produced about 65 million tons of tomatoes in 2023, led by Shandong and Henan provinces, the largest tomato harvest of any country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00051.",
     "photoSeed": "irwr-economy-largest-tomato-harvest",
-    "photo": null,
+    "photo": "images/records/IRWR-00051.JPG",
     "featured": false
   },
   {
@@ -725,7 +725,7 @@
     "status": "verified",
     "description": "The United States exported about 0.7 million tons of peanuts in 2023, led by Georgia, Texas, and Alabama, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00052.",
     "photoSeed": "irwr-economy-largest-peanut-exports",
-    "photo": null,
+    "photo": "images/records/IRWR-00052.png",
     "featured": false
   },
   {
@@ -753,7 +753,7 @@
     "status": "verified",
     "description": "China produced about 500,000 tons of honey in 2023, with beekeeping concentrated in Sichuan, Yunnan, and Henan provinces, making it the world leader in honey output. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00054.",
     "photoSeed": "irwr-economy-largest-honey-production",
-    "photo": null,
+    "photo": "images/records/IRWR-00054.jpg",
     "featured": false
   },
   {
@@ -767,7 +767,7 @@
     "status": "verified",
     "description": "The United States produced roughly 370 million cubic meters of wood for agricultural and construction use in 2023, mainly softwood from the Pacific Northwest and Southeast, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00055.",
     "photoSeed": "irwr-economy-largest-wood-production",
-    "photo": null,
+    "photo": "images/records/IRWR-00055.jpg",
     "featured": false
   },
   {
@@ -781,7 +781,7 @@
     "status": "verified",
     "description": "India had about 7 million agricultural tractors in operation as of 2024, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00056.",
     "photoSeed": "irwr-economy-largest-agricultural-tractor-fleet",
-    "photo": null,
+    "photo": "images/records/IRWR-00056.jpg",
     "featured": false
   },
   {
@@ -809,7 +809,7 @@
     "status": "verified",
     "description": "Wonder of the Seas, built in France and operated by Royal Caribbean, measures 362 meters and can carry up to 6,980 passengers, making it the world's largest cruise ship upon its 2022 commissioning. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00058.",
     "photoSeed": "irwr-economy-largest-cruise-ship",
-    "photo": null,
+    "photo": "images/records/IRWR-00058.jpg",
     "featured": false
   },
   {
@@ -837,7 +837,7 @@
     "status": "verified",
     "description": "The Knock Nevis, built in Norway in 1979 and decommissioned in 2009, measured 458.45 meters with a deadweight of 564,763 tons, making it the largest oil tanker ever built by deadweight. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00060.",
     "photoSeed": "irwr-economy-largest-oil-tanker-by-deadweight",
-    "photo": null,
+    "photo": "images/records/IRWR-00060.jpg",
     "featured": false
   },
   {
@@ -865,7 +865,7 @@
     "status": "verified",
     "description": "The AmaMagna, launched in 2019, is 144 meters long and carries up to 196 passengers, roughly twice the length of a conventional river cruise ship and purpose-built for European rivers. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00062.",
     "photoSeed": "irwr-economy-longest-river-cruise-ship",
-    "photo": null,
+    "photo": "images/records/IRWR-00062.jpg",
     "featured": false
   },
   {
@@ -893,7 +893,7 @@
     "status": "verified",
     "description": "Hyundai Heavy Industries operates a shipyard covering more than 1.5 million square meters, the largest in the world, capable of building several major ships simultaneously. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00064.",
     "photoSeed": "irwr-economy-largest-shipyard-by-area",
-    "photo": null,
+    "photo": "images/records/IRWR-00064.jpg",
     "featured": false
   },
   {

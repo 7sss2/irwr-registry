@@ -1,8 +1,38 @@
-# IRWR records with NO verified real photo (138 of 295)
+# IRWR records with NO verified real photo (122 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: economy-category photo pass (138 -> 122 without photo)
+
+Same method as the culture pass below: `curl -L https://globalbestrecords.org/economyrecords`
+returns full static HTML, parsed the same way (18-record page, two records per `#recNNNNNN`
+block, two images each). No recurring generic-placeholder image this time (only `noroot.png`,
+Tilda's own broken-image marker, and one legitimate 2x reuse of `Amazon-logo.png` across two
+different Amazon-related record mentions). Downloaded and visually inspected all 17 apparent
+hits against the 18 missing economy records before accepting any:
+- **16 confirmed and added:** IRWR-00032 (Walmart storefront), 00033 (Dubai World Central
+  airport render), 00035 (a second, different Walmart storefront photo), 00045 (Chinese wheat
+  harvest), 00046 (US corn harvest), 00047 (Indian rice harvest, farmer holding grain), 00050
+  (milk production — generic but on-topic farm stock photo, same treatment as the other
+  national-statistic agriculture records already in the manifest), 00051 (tomato harvest), 00052
+  (peanut export containers), 00054 (honey production), 00055 (stacked timber), 00056 (Indian
+  tractor), 00058 (Wonder of the Seas, Royal Caribbean branding visible), 00060 (Knock Nevis —
+  ship's name painted on the hull), 00062 (AmaMagna — ship's name painted on the hull), 00064
+  (Hyundai Heavy Industries shipyard, signage visible).
+- **1 rejected despite proximity:** IRWR-00031's only nearby image was the page's own
+  category-hero collage (a mosaic mixing Walmart/ICBC/Saudi Aramco/iPhone/ship photos together
+  for the whole "Economy, Industry" chapter banner) — not a photo specific to ICBC, so rejected
+  rather than accepted on proximity alone. This is a new failure mode worth flagging for future
+  category passes: a page's own hero/cover image can sit right next to the first record's text
+  without actually depicting that record.
+- **1 with no candidate at all:** IRWR-00041 (SoftBank Vision Fund 2) — the site itself shows
+  `noroot.png` (its own missing-image placeholder) there.
+
+16 images copied into `images/records/`, added to `scripts/photo-manifest.json`, dataset
+rebuilt (295 records, ids unchanged), both test suites pass. Economy: 18 -> 2 records still
+without a photo — the best per-category result so far.
 
 ## 2026-09-06: culture-category photo pass (156 -> 138 without photo)
 
@@ -134,25 +164,9 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech)
 - IRWR-00119 — Largest Rose Bouquet in a Single Basket (ROMANTIK Company (Izbasarova G.))
 
-## economy (18)
-- IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC))
-- IRWR-00032 — Largest Retail Chain by Turnover (Walmart)
-- IRWR-00033 — Most Expensive Construction Project (Dubai World Central (Dubai International Airport))
-- IRWR-00035 — Largest Company by Employee Count (Walmart)
+## economy (2)
+- IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC)) — the only image on globalbestrecords.org/economyrecords near this record is the page's own category-hero collage (Walmart/ICBC/Saudi Aramco/etc. logos mixed together), not a photo specific to ICBC; rejected rather than accepted on proximity alone.
 - IRWR-00041 — Largest Venture Capital Fund (SoftBank Vision Fund 2)
-- IRWR-00045 — Largest Annual Wheat Harvest (China (national wheat harvest))
-- IRWR-00046 — Largest Annual Corn Harvest (United States (national corn harvest))
-- IRWR-00047 — Largest Annual Rice Harvest (India (national rice harvest))
-- IRWR-00050 — Largest Milk Production (India (national milk production))
-- IRWR-00051 — Largest Tomato Harvest (China (national tomato harvest))
-- IRWR-00052 — Largest Peanut Exports (United States (peanut exports))
-- IRWR-00054 — Largest Honey Production (China (national honey production))
-- IRWR-00055 — Largest Wood Production (United States (timber production))
-- IRWR-00056 — Largest Agricultural Tractor Fleet (India (agricultural tractor fleet))
-- IRWR-00058 — Largest Cruise Ship (Wonder of the Seas (Royal Caribbean International))
-- IRWR-00060 — Largest Oil Tanker by Deadweight (Knock Nevis (formerly Seawise Giant))
-- IRWR-00062 — Longest River Cruise Ship (AmaMagna (AmaWaterways))
-- IRWR-00064 — Largest Shipyard by Area (Hyundai Heavy Industries)
 
 ## education (31)
 - IRWR-00120 — Largest University by Enrollment (Indira Gandhi National Open University (IGNOU))
