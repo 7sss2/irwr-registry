@@ -1,8 +1,22 @@
-# IRWR records with NO verified real photo (91 of 295)
+# IRWR records with NO verified real photo (87 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: architecture-category photo pass (91 -> 87 without photo)
+
+`curl -L https://globalbestrecords.org/architecturerecords`, same method (one image per record,
+one recurring generic placeholder `photo_52044602423882.png`, 6 occurrences, excluded).
+Of the 9 missing records, only 4 had a distinct non-generic image on this page; the other 5
+(00233, 00234, 00245, 00246, 00251) show only the generic placeholder — no candidate available.
+**4 confirmed:** IRWR-00229 (The Shard, London Bridge Hospital signage visible alongside it),
+00236 (Guggenheim New York, "THE SOLOMON R GUGGENHEIM MUSEUM" legible on the facade), 00237
+(Burj Al Arab), 00252 (Twist Bridge, an opening-ceremony photo with visitors walking through
+the underpass). Zero rejected.
+4 images copied into `images/records/`, added to `scripts/photo-manifest.json`, dataset
+rebuilt (295 records, ids unchanged), both test suites pass. Architecture: 9 -> 5 without
+photo.
 
 ## 2026-09-06: transport-category photo pass (109 -> 91 without photo) — new source type
 
@@ -172,16 +186,12 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
   graphic shared across all 5 nominees, not a rose-bouquet-specific photo — excluded as a generic
   filler image under the same rule that dropped multi-record-claimed images in the prior pass.
 
-## architecture (9)
-- IRWR-00229 — Tallest Modern Skyscraper in Historic London (The Shard (architect Renzo Piano))
+## architecture (5)
 - IRWR-00233 — Largest Glass Greenhouse Dome Complex (Gardens by the Bay (Grant Associates and Wilkinson Eyre))
 - IRWR-00234 — Tallest Building Engineered for Extreme Northern Climate (Lakhta Center Tower (architect Gordon Bennett, RMJM))
-- IRWR-00236 — First Museum Built Around a Spiral Ramp (Guggenheim Museum New York (architect Frank Lloyd Wright))
-- IRWR-00237 — First All-Suite Hotel on an Artificial Island (Burj Al Arab (architect Tom Wright))
 - IRWR-00245 — Highest Railway Bridge of Its Era (Rendsburg High Bridge (Deutsche Bahn, engineer Fritz Leonhardt))
 - IRWR-00246 — Longest Steel Central Arch Span (Varazdin Bridge (Hrvatske Ceste, architect Marko Muzina))
 - IRWR-00251 — Longest Bridge Built Entirely of Wood (John Carroll Bridge (Timberworks, architect James Hudson))
-- IRWR-00252 — Steepest Pedestrian Bridge (Twist Bridge (COWI, Bjarke Ingels Group))
 
 ## cooking (12)
 - IRWR-00210 — Largest Pizza Ever Made ("Big Mama" (Italian pizzaiolos))

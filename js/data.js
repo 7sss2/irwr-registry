@@ -3091,7 +3091,7 @@
     "status": "verified",
     "description": "Renzo Piano's glass-clad Shard, completed in London in 2012, rises 310 meters and is considered the first modern spire-shaped skyscraper in the city's historic core, engineered to manage wind load and light reflection. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00229.",
     "photoSeed": "irwr-architecture-tallest-modern-skyscraper-in-historic-lond",
-    "photo": null,
+    "photo": "images/records/IRWR-00229.jpg",
     "featured": false
   },
   {
@@ -3189,7 +3189,7 @@
     "status": "verified",
     "description": "Frank Lloyd Wright's Guggenheim Museum in New York, completed in 1959, is built around an internal spiral ramp, an engineering solution for a stable structure with an open interior. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00236.",
     "photoSeed": "irwr-architecture-first-museum-built-around-a-spiral-ramp",
-    "photo": null,
+    "photo": "images/records/IRWR-00236.jpg",
     "featured": false
   },
   {
@@ -3203,7 +3203,7 @@
     "status": "verified",
     "description": "The Burj Al Arab in Dubai, designed by Tom Wright and completed in 1999, stands 321 meters tall on its own artificial island and offers only luxury suite accommodations. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00237.",
     "photoSeed": "irwr-architecture-first-all-suite-hotel-on-an-artificial-isl",
-    "photo": null,
+    "photo": "images/records/IRWR-00237.jpg",
     "featured": false
   },
   {
@@ -3413,7 +3413,7 @@
     "status": "verified",
     "description": "The Twist Bridge in Denmark, designed by Bjarke Ingels Group with engineer COWI and opened in 2015, tilts at a 45-degree angle, the steepest pedestrian bridge design on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00252.",
     "photoSeed": "irwr-architecture-steepest-pedestrian-bridge",
-    "photo": null,
+    "photo": "images/records/IRWR-00252.jpg",
     "featured": false
   },
   {
