@@ -2293,7 +2293,7 @@
     "status": "verified",
     "description": "Eric Cline drove his Tesla Model S 150,000 kilometers on its original battery without a replacement by 2021, the highest recorded mileage on an unreplaced electric car battery. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00172.",
     "photoSeed": "irwr-transport-highest-mileage-on-an-original-ev-battery",
-    "photo": null,
+    "photo": "images/records/IRWR-00172.png",
     "featured": false
   },
   {
@@ -2307,7 +2307,7 @@
     "status": "verified",
     "description": "A UK team replaced the engine of a Lamborghini Huracan in just 20 minutes in 2020, the fastest recorded engine swap. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00173.",
     "photoSeed": "irwr-transport-fastest-car-engine-replacement",
-    "photo": null,
+    "photo": "images/records/IRWR-00173.png",
     "featured": false
   },
   {
@@ -2321,7 +2321,7 @@
     "status": "verified",
     "description": "Tesla's Model S Plaid battery pack, built from 4680-format cells, holds about 100 kWh of capacity, the largest production EV battery as of 2021. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00174.",
     "photoSeed": "irwr-transport-largest-electric-car-battery",
-    "photo": null,
+    "photo": "images/records/IRWR-00174.png",
     "featured": false
   },
   {
@@ -2391,7 +2391,7 @@
     "status": "verified",
     "description": "The Rolls-Royce Boat Tail was valued at USD 28 million upon its 2021 release, the most expensive new car ever sold. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00179.",
     "photoSeed": "irwr-transport-most-expensive-car",
-    "photo": null,
+    "photo": "images/records/IRWR-00179.png",
     "featured": false
   },
   {
@@ -2419,7 +2419,7 @@
     "status": "verified",
     "description": "The 2020 Toyota Prius Prime was rated at 22 grams of CO2 per kilometer, the lowest emissions rating among cars in its class. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00181.",
     "photoSeed": "irwr-transport-lowest-co2-emissions-rating",
-    "photo": null,
+    "photo": "images/records/IRWR-00181.png",
     "featured": false
   },
   {
@@ -2461,7 +2461,7 @@
     "status": "verified",
     "description": "More than 1.7 million Tesla Model 3 vehicles had been sold by 2023, making it the best-selling electric car model in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00184.",
     "photoSeed": "irwr-transport-best-selling-electric-car",
-    "photo": null,
+    "photo": "images/records/IRWR-00184.png",
     "featured": false
   },
   {
@@ -2475,7 +2475,7 @@
     "status": "verified",
     "description": "Toyota Motor Corporation produced more than 10.5 million vehicles in 2023, more than any other automaker. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00185.",
     "photoSeed": "irwr-transport-world-s-largest-car-manufacturer",
-    "photo": null,
+    "photo": "images/records/IRWR-00185.png",
     "featured": false
   },
   {
@@ -2517,7 +2517,7 @@
     "status": "verified",
     "description": "The Porsche 911 GT2 RS set a production-car lap record at the Nurburgring of 6 minutes 43.3 seconds in 2017. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00188.",
     "photoSeed": "irwr-transport-fastest-production-car-lap-at-the-nurburgring",
-    "photo": null,
+    "photo": "images/records/IRWR-00188.png",
     "featured": false
   },
   {
@@ -2573,7 +2573,7 @@
     "status": "verified",
     "description": "Tesla's Gigafactory in Shanghai, opened in 2019 and continuously expanded, runs more than 80% of its production processes through robotics, making it the most automated car factory in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00192.",
     "photoSeed": "irwr-transport-most-automated-car-factory",
-    "photo": null,
+    "photo": "images/records/IRWR-00192.png",
     "featured": false
   },
   {
@@ -2587,7 +2587,7 @@
     "status": "verified",
     "description": "Tesla's V4 Supercharger, introduced in 2023, can charge an electric vehicle to 80% capacity in 15 minutes, the fastest charging rate available. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00193.",
     "photoSeed": "irwr-transport-fastest-ev-charging-technology",
-    "photo": null,
+    "photo": "images/records/IRWR-00193.png",
     "featured": false
   },
   {
@@ -2601,7 +2601,7 @@
     "status": "verified",
     "description": "China had more than 12 million electric vehicles on its roads as of 2023, more than any other country. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00194.",
     "photoSeed": "irwr-transport-largest-national-electric-vehicle-fleet",
-    "photo": null,
+    "photo": "images/records/IRWR-00194.png",
     "featured": false
   },
   {
@@ -2615,7 +2615,7 @@
     "status": "verified",
     "description": "BMW's Dingolfing plant operated more than 1,600 industrial robots as of 2023, making it one of the most heavily automated car factories in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00195.",
     "photoSeed": "irwr-transport-most-robotic-car-factory",
-    "photo": null,
+    "photo": "images/records/IRWR-00195.png",
     "featured": false
   },
   {
@@ -2657,7 +2657,7 @@
     "status": "verified",
     "description": "A Toyota factory achieved a robotic vehicle-mounting time of 9 minutes per vehicle in 2022, among the fastest such assembly steps recorded. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00198.",
     "photoSeed": "irwr-transport-fastest-robotic-vehicle-assembly-step",
-    "photo": null,
+    "photo": "images/records/IRWR-00198.png",
     "featured": false
   },
   {
@@ -2671,7 +2671,7 @@
     "status": "verified",
     "description": "The Tesla Supercharger network reached more than 40,000 charging points worldwide by 2024, the largest EV fast-charging network in operation. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00199.",
     "photoSeed": "irwr-transport-largest-ev-charging-network",
-    "photo": null,
+    "photo": "images/records/IRWR-00199.png",
     "featured": false
   },
   {
@@ -2699,7 +2699,7 @@
     "status": "verified",
     "description": "China's CRH high-speed train formation, made up of 16 carriages spanning about 415 meters, is the longest high-speed train in regular service, as of 2021. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00201.",
     "photoSeed": "irwr-transport-longest-high-speed-train",
-    "photo": null,
+    "photo": "images/records/IRWR-00201.png",
     "featured": false
   },
   {
@@ -2727,7 +2727,7 @@
     "status": "verified",
     "description": "Mining company BHP operated a 682-wagon freight train roughly 7.3 kilometers long in Australia in 2022, the longest freight train on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00203.",
     "photoSeed": "irwr-transport-longest-freight-train",
-    "photo": null,
+    "photo": "images/records/IRWR-00203.png",
     "featured": false
   },
   {
@@ -2755,7 +2755,7 @@
     "status": "verified",
     "description": "The Shanghai Maglev, launched in 2004, runs at speeds up to 431 km/h, the fastest scheduled commercial train service in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00205.",
     "photoSeed": "irwr-transport-fastest-commercial-train-service",
-    "photo": null,
+    "photo": "images/records/IRWR-00205.png",
     "featured": false
   },
   {
@@ -2797,7 +2797,7 @@
     "status": "verified",
     "description": "The California High-Speed Rail project, under construction since 2015, has a projected cost exceeding USD 80 billion, making it the most expensive rail project in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00208.",
     "photoSeed": "irwr-transport-most-expensive-rail-project",
-    "photo": null,
+    "photo": "images/records/IRWR-00208.png",
     "featured": false
   },
   {

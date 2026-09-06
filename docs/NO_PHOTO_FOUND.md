@@ -1,8 +1,34 @@
-# IRWR records with NO verified real photo (109 of 295)
+# IRWR records with NO verified real photo (91 of 295)
 
 Checked against: GBR-BOOK-NEW-PRINT-vers3.pdf, globalbestrecords.org category pages, and
 (2026-09-05) globalbestrecords.org's News section (all 137 posts).
 These records keep their picsum.photos placeholder image.
+
+## 2026-09-06: transport-category photo pass (109 -> 91 without photo) — new source type
+
+`curl -L https://globalbestrecords.org/transportrecords` revealed a different pattern from
+every prior category page: instead of candid/stock photographs, nearly every transport record
+carries a GBR-branded record-infographic graphic — a vector car/train silhouette, the record's
+headline number, and the record holder/model/country, watermarked with the GBR logo (filename
+pattern `Gemini_Generated_Ima.png`, suggesting the underlying art was AI-generated but the card
+layout, copy, and branding are GBR's own commissioned design, not a random stock image).
+**User-confirmed decision (asked explicitly given the scale of this call — it applies to ~30
+records in this category alone and will likely recur elsewhere):** treat these branded cards as
+verified record photos, same principle as the earlier-accepted "commissioned graphic" category
+(Codex Leicester's book cover, Voyager 1/Neil Armstrong's GBR graphics from an earlier session)
+— apply this pattern wherever it appears in future category passes too.
+Downloaded and visually inspected all 18 apparent hits (one card per record on this page,
+simplest layout yet) against the labeled model/number/holder in each — **all 18 confirmed**,
+zero rejected: IRWR-00172 (Eric Cline/Tesla Model S), 00173 (Lamborghini Huracan engine swap),
+00174 (Tesla Model S Plaid battery), 00179 (Rolls-Royce Boat Tail), 00181 (Toyota Prius
+Prime), 00184 (Tesla Model 3), 00185 (Toyota Motor Corporation), 00188 (Porsche 911 GT2 RS),
+00192 (Tesla Gigafactory Shanghai), 00193 (Tesla V4 Supercharger), 00194 (China's EV fleet),
+00195 (BMW Dingolfing), 00198 (Toyota robotic mounting), 00199 (Tesla Supercharger network),
+00201 (China Railway High-speed/CRH), 00203 (BHP freight train), 00205 (Shanghai Maglev),
+00208 (California High-Speed Rail).
+18 images copied into `images/records/`, added to `scripts/photo-manifest.json`, dataset
+rebuilt (295 records, ids unchanged), both test suites pass. Transport: 18 -> 0 without photo
+— first category to reach full coverage.
 
 ## 2026-09-06: education-category photo pass (122 -> 109 without photo)
 
@@ -255,22 +281,6 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00026 — Longest Continuous Skateboarding Session (Simon Baker)
 - IRWR-00028 — Highest Snowboard Ramp Jump (Robert Vaughn)
 
-## transport (18)
-- IRWR-00172 — Highest Mileage on an Original EV Battery (Eric Cline)
-- IRWR-00173 — Fastest Car Engine Replacement (UK repair team (Lamborghini Huracan))
-- IRWR-00174 — Largest Electric Car Battery (Tesla (Model S Plaid battery))
-- IRWR-00179 — Most Expensive Car (Rolls-Royce Boat Tail)
-- IRWR-00181 — Lowest CO2 Emissions Rating (Toyota Prius Prime)
-- IRWR-00184 — Best-Selling Electric Car (Tesla Model 3)
-- IRWR-00185 — World's Largest Car Manufacturer (Toyota Motor Corporation)
-- IRWR-00188 — Fastest Production Car Lap at the Nurburgring (Porsche 911 GT2 RS)
-- IRWR-00192 — Most Automated Car Factory (Tesla Gigafactory Shanghai)
-- IRWR-00193 — Fastest EV Charging Technology (Tesla (V4 Supercharger))
-- IRWR-00194 — Largest National Electric Vehicle Fleet (China (national EV fleet))
-- IRWR-00195 — Most Robotic Car Factory (BMW (Dingolfing plant))
-- IRWR-00198 — Fastest Robotic Vehicle Assembly Step (Toyota (robotic vehicle mounting))
-- IRWR-00199 — Largest EV Charging Network (Tesla Supercharger network)
-- IRWR-00201 — Longest High-Speed Train (China State Railway Corporation (CRH))
-- IRWR-00203 — Longest Freight Train (BHP)
-- IRWR-00205 — Fastest Commercial Train Service (Shanghai Maglev Transportation Development Co.)
-- IRWR-00208 — Most Expensive Rail Project (California High-Speed Rail Authority)
+## transport (0)
+All 18 previously-missing transport records now carry GBR's own branded record-infographic
+graphic (see the 2026-09-06 transport pass entry below) — none remain without an image.
