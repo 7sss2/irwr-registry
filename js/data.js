@@ -3721,7 +3721,7 @@
     "status": "verified",
     "description": "John Brower Minnoch of the United States weighed 635 kilograms at his peak, the heaviest weight ever documented in medical history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00274.",
     "photoSeed": "irwr-humanbody-heaviest-man-in-medical-history",
-    "photo": null,
+    "photo": "images/records/IRWR-00274.jpg",
     "featured": false
   },
   {

@@ -1,4 +1,25 @@
-# IRWR records with NO verified real photo (77 of 295)
+# IRWR records with NO verified real photo (76 of 295)
+
+## 2026-09-07: humanbodyrecords dedicated page (+1) and full News re-check (0 new)
+
+Had checked education's page for humanbody's chapter-preview duplicates but never fetched
+`globalbestrecords.org/humanbodyrecords` itself — it's a distinct URL with its own images, not
+just a re-serve of the education page. Fetched it directly: **1 confirmed** — IRWR-00274 (John
+Brower Minnoch, heaviest man in medical history) — the page has a dedicated photo
+(`Jon_Brower_Minnoch.jpg`) showing a very heavy seated man, consistent with the 635 kg record;
+copied in, added to the manifest. IRWR-00276 (Timothy Ray Brown) still shows only the generic
+placeholder there.
+
+Also fully re-crawled globalbestrecords.org's News section (140 posts now, up from 137 at the
+2026-09-05 pass) and searched every post's full text against all 37 person/org names still
+missing a photo across every category — same in-page-fetch method as the prior News pass.
+**2 posts matched on "Kosshy"** (candidates for IRWR-00145, the 614-person Kosshy dance
+lesson) but both turned out to be about a *different* Kosshy event — a 555/562-person
+traditional wool-spinning masterclass on the same date, not the dance lesson. Rejected as a
+wrong match, same discipline as the earlier "largest reading lesson" rejection for the same
+record. Net: 0 new matches from the News re-check.
+
+Humanbody: 2 -> 1 without photo.
 
 ## 2026-09-06: re-mined /tmp/gbr-extract (surviving PDF extraction), zero new matches
 
@@ -320,9 +341,9 @@ matches found; all 10 show only the site's own generic placeholder image there.
 - IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez)
 - IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi)
 
-## humanbody (2)
-- IRWR-00274 — Heaviest Man in Medical History (John Brower Minnoch)
-- IRWR-00276 — First Person Cured of HIV (Timothy Ray Brown)
+## humanbody (1)
+- IRWR-00276 — First Person Cured of HIV (Timothy Ray Brown) — only the generic placeholder
+  appears on globalbestrecords.org/humanbodyrecords for this record.
 
 ## military (0)
 All 7 previously-missing military records now carry GBR's own branded record-infographic
