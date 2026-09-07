@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     results.innerHTML = matches.map((r) => `
       <div class="search-row" data-id="${IRWR.escapeHtml(r.id)}">
         <img class="photo" src="${IRWR.photoUrl(r, '', 120, 120)}" alt="">
-        <div><strong>${IRWR.escapeHtml(r.title)}</strong><div>${IRWR.escapeHtml(r.holderName)} · ${IRWR.escapeHtml(r.country)}</div></div>
+        <div><strong>${IRWR.escapeHtml(r.title)}</strong><div>${IRWR.escapeHtml(r.holderName)} · ${IRWR.escapeHtml(r.country || 'International')}</div></div>
         <div>${IRWR.escapeHtml(r.category)}</div>
         <div>${IRWR.escapeHtml(r.id)}</div>
       </div>

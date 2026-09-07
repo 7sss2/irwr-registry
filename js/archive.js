@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentPage = page;
 
     body.innerHTML = items.map((r) => `
-      <tr data-id="${IRWR.escapeHtml(r.id)}"><td>${IRWR.escapeHtml(r.id)}</td><td>${IRWR.escapeHtml(r.title)}</td><td>${IRWR.escapeHtml(r.holderName)}</td><td>${IRWR.escapeHtml(r.country)}</td><td>${IRWR.escapeHtml(r.category)}</td><td>${IRWR.escapeHtml(r.date)}</td><td>${IRWR.escapeHtml(r.status)}</td></tr>
+      <tr data-id="${IRWR.escapeHtml(r.id)}"><td>${IRWR.escapeHtml(r.id)}</td><td>${IRWR.escapeHtml(r.title)}</td><td>${IRWR.escapeHtml(r.holderName)}</td><td>${IRWR.escapeHtml(r.country || 'International')}</td><td>${IRWR.escapeHtml(r.category)}</td><td>${IRWR.escapeHtml(r.date || '—')}</td><td>${IRWR.escapeHtml(r.status)}</td></tr>
     `).join('') || '<tr><td colspan="7">No records match these filters.</td></tr>';
 
     let pageButtons = `<button ${page === 1 ? 'disabled' : ''} data-page="${page - 1}">Prev</button>`;

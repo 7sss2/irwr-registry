@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="hface">
           <div class="hph"><img class="photo" src="${IRWR.photoUrl(r, '-holder', 500, 700)}" alt=""></div>
           <div class="hname">${IRWR.escapeHtml(name)}</div>
-          <div class="hmeta">${IRWR.escapeHtml(r.country)} · ${IRWR.escapeHtml(r.category)} · ${IRWR.escapeHtml(r.id)}</div>
+          <div class="hmeta">${IRWR.escapeHtml(r.country || 'International')} · ${IRWR.escapeHtml(r.category)} · ${IRWR.escapeHtml(r.id)}</div>
         </div>
         <div class="hface hback">
           <div>
