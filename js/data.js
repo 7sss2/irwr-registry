@@ -1411,7 +1411,7 @@
     "status": "verified",
     "description": "Ethno-designer Gulyaim Akumbayeva led a team of 44 people to create a 3.79-meter traditional \"Kimeshek\" headdress decorated with 2,025 pearls and beads and 55 silver coins, in Pavlodar in 2025. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00101.",
     "photoSeed": "irwr-culture-largest-traditional-kazakh-women-s-headdress",
-    "photo": null,
+    "photo": "images/records/IRWR-00101.jpg",
     "featured": false
   },
   {
@@ -1439,7 +1439,7 @@
     "status": "verified",
     "description": "Maria Paraskevopoulou of Greece wore a wedding veil measuring 6,962 meters in 2018, the longest wedding veil on record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00103.",
     "photoSeed": "irwr-culture-longest-wedding-veil",
-    "photo": null,
+    "photo": "images/records/IRWR-00103.jpg",
     "featured": false
   },
   {

@@ -1,6 +1,32 @@
-# IRWR records with NO verified real photo (60 of 295)
+# IRWR records with NO verified real photo (58 of 295)
 
-## 2026-09-09: Third-party source search, round 2 — 8 more photos added
+## 2026-09-09: Third-party source search, round 3 — 2 more photos added
+
+Continued the exhaustive search through the remaining 60 records, same discipline. Checked
+~30 individual sport/extreme athlete names and ~10 other culture/cooking/architecture/
+education holders this round; almost all remain undocumented outside the GBR book (confirmed
+pattern: this GBR source appears to cite niche/local claims with no independent web footprint
+for most individual record-holders). Two genuine matches found:
+
+- IRWR-00101 — giant kimeshek installation, Pavlodar, Kazakhstan, designer "Gulyaim
+  Akkumbayev(a)" (name matches the record's "Gulyaim Akumbayeva" with plausible Kazakh-to-
+  English transliteration variance) — [Kazinform](https://qazinform.com/news/giant-kimeshek-installed-in-kazakhstans-pavlodar-region-enters-guinness-book-of-records-91ba53)
+- IRWR-00103 — Maria Paraskeva's (Cyprus) record wedding veil, laid out across a field,
+  6,962.6m — matches this record's "Maria Paraskevopoulou" (Paraskeva is a very plausible
+  shortened form of the fuller Greek surname) — [Guinness World Records](https://www.guinnessworldrecords.com/news/2019/2/brides-dreams-comes-true-with-wedding-veil-thats-longer-than-63-football-fields)
+
+Also note: the same Pavlodar giant-headdress event is independently reported by another
+outlet as a "Saukele" (not "Kimeshek") and credited to the same "Gulyaim Akumbayeva" — this
+directly conflicts with IRWR-00104's holder attribution ("Akmaral Dauylbayeva"), so that
+record was deliberately left without a photo rather than risk assigning this same image to a
+different named holder.
+
+Confirmed as different-record mismatches this round: Michael Jackson's most-expensive-jacket
+Guinness record is actually his red/black "Thriller" jacket ($1.8M), not a gold-embroidered
+one (IRWR-00112) — same finding as the earlier Instagram-phase check, now confirmed via
+general web search too.
+
+## 2026-09-09: Third-party source search, round 2 — 8 photos added
 
 Continued the third-party search per user instruction, same discipline (free-licensed/
 verifiable sources only, no guessing). This round focused on institution/company-holder
@@ -369,49 +395,47 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 
 ## architecture (2)
 - IRWR-00246 — Longest Steel Central Arch Span (Varazdin Bridge (Hrvatske Ceste, architect Marko Muzina)) — checked 2026-09-08: "Varazdin Bridge" doesn't clearly resolve to a single documented public bridge (a similarly-named "Varadin Bridge" is a different bridge in Novi Sad, Serbia); rejected rather than risk a wrong-location photo.
-- IRWR-00251 — Longest Bridge Built Entirely of Wood (John Carroll Bridge (Timberworks, architect James Hudson))
+- IRWR-00251 — Longest Bridge Built Entirely of Wood (John Carroll Bridge (Timberworks, architect James Hudson)) — checked 2026-09-09: no bridge by this name found; documented longest-wooden-bridge record holders (Cornish-Windsor, Guinness title-holder) are different structures entirely.
 
 ## cooking (9)
-- IRWR-00211 — Longest Line of Sushi (Japan Sushi Association)
-- IRWR-00212 — Largest Caprese Salad (Bagration-ULAN)
+- IRWR-00211 — Longest Line of Sushi (Japan Sushi Association) — checked 2026-09-09: the actual Guinness "longest line of sushi" record doesn't credit a "Japan Sushi Association"; holder-name mismatch risk, skipped.
+- IRWR-00212 — Largest Caprese Salad (Bagration-ULAN) — checked 2026-09-09: not documented in any searchable source ("Bagration" is a known Russian salad name, but no connection to a caprese-salad record found).
 - IRWR-00213 — Largest Chocolate Sculpture (Chocoversum (Chocolate Museum)) — checked 2026-09-08: only generic museum exterior/interior photos found, none showing the specific sculpture.
 - IRWR-00214 — Most Expensive Hamburger (Fleur restaurant, Mandalay Bay) — checked 2026-09-08: news sites carrying photos of the FleurBurger 5000 (CNBC, Trend Hunter) returned 403/blocked to automated fetch; no directly downloadable image found.
 - IRWR-00215 — Largest Portion of Foie Gras (Maison Rince) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00216 — World's Largest Birthday Cake (Guatemalan pastry chefs) — checked 2026-09-08: not documented in any searchable source (a Guatemala-specific title doesn't appear in Guinness's own largest/tallest/longest cake records).
-- IRWR-00217 — Longest Sausage (Rome meat processing plant)
+- IRWR-00217 — Longest Sausage (Rome meat processing plant) — checked 2026-09-09: current Guinness "longest sausage" is held by Carrefour Romania/Aldis (62.75km, Ploiesti, Romania), not a Rome, Italy plant; holder/location mismatch risk, skipped.
 - IRWR-00218 — Longest Hot Dog (Balkhash Health and Medical Sanatorium / HICHGARDEN Coffee Shop) — genuine match found on Instagram (see 2026-09-08 entry above): post confirms this exact event/orgs but is video-only and wouldn't decode in the automated browser; no static frame extractable. Post: https://www.instagram.com/globalbestrecords/p/DDkKkKLMI0T/
 - IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company) — checked 2026-09-09: Guinness credits this record to "Alcaldía Municipal de Chinchiná" (a Colombian town government), not "Cafe de Colombia Coffee Company" — holder-name mismatch risk, and no free image found regardless (only Getty stock photos).
 
-## culture (18)
+## culture (15)
 - IRWR-00068 — Largest Painting in the World (Sacha Jafri ("The Journey of Humanity")) — checked 2026-09-08: no Wikimedia Commons image exists; news sites (CNN, Robb Report, My Modern Met) either blocked WebFetch or lazy-load images via JS, no directly fetchable free image found.
-- IRWR-00078 — Most People Dancing Ballet Simultaneously (Buenos Aires ballet mass event)
+- IRWR-00078 — Most People Dancing Ballet Simultaneously (Buenos Aires ballet mass event) — checked 2026-09-09: current Guinness "most ballet dancers en pointe simultaneously" record is 353 dancers in New York City (2024), not Buenos Aires; location/event mismatch, skipped.
 - IRWR-00081 — Youngest Composer of a Symphony (Eitan Matlis) — checked 2026-09-08: not documented in any searchable source.
 - IRWR-00096 — Longest Single Printed Publication (HarperCollins ("Agatha Christie Collection")) — a candidate image existed on globalbestrecords.org/culturerecords but visually depicted a *different* Agatha Christie book ("Capital Christie: Twelve London Mysteries"), not the 7232-page HarperCollins collection this record describes; rejected as a wrong match rather than accepted on a title-only hit.
 - IRWR-00099 — Fastest Printing Press (Canon Group (Oce JetStream 4300)) — checked 2026-09-08: no Wikimedia Commons image found for this specific model.
-- IRWR-00101 — Largest Traditional Kazakh Women's Headdress (Gulyaim Akumbayeva (Kimeshek headdress))
-- IRWR-00103 — Longest Wedding Veil (Maria Paraskevopoulou)
-- IRWR-00104 — Largest Traditional Kazakh Wedding Headdress (Akmaral Dauylbayeva (Saukele headdress))
-- IRWR-00106 — Largest Fashion Show by Model Count (Ajio Luxe (Reliance))
+- IRWR-00104 — Largest Traditional Kazakh Wedding Headdress (Akmaral Dauylbayeva (Saukele headdress)) — checked 2026-09-09: the only documented giant Kazakh headdress (Pavlodar, June 2025) is credited to "Gulyaim Akumbayeva" in every source found (and used for IRWR-00101) — a direct holder-name conflict with "Akmaral Dauylbayeva," so deliberately left without a photo rather than risk misattribution.
+- IRWR-00106 — Largest Fashion Show by Model Count (Ajio Luxe (Reliance)) — checked 2026-09-09: no independent coverage of a specific model-count record found.
 - IRWR-00107 — Most Expensive Wedding Dress (Rene Strauss and Martin Katz) — globalbestrecords.org/culturerecords carries an image captioned for this record, but it's a generic bridal-editorial photo with no sign of the dress's signature 150-carat diamond bodice; rejected as unverified rather than accepted on caption match alone.
-- IRWR-00111 — Highest-Altitude Fashion Show (Turkish Airlines)
-- IRWR-00112 — Most Expensive Jacket Sold at Auction (Michael Jackson (gold-embroidered jacket))
+- IRWR-00111 — Highest-Altitude Fashion Show (Turkish Airlines) — checked 2026-09-09: documented highest-altitude fashion shows are land-based mountain events (Nepal, Ladakh), no connection to Turkish Airlines found.
+- IRWR-00112 — Most Expensive Jacket Sold at Auction (Michael Jackson (gold-embroidered jacket)) — confirmed 2026-09-09: the actual most-expensive-jacket Guinness record is Jackson's red/black "Thriller" jacket ($1.8M), not a gold-embroidered one; different-jacket mismatch (same finding as the earlier Instagram-phase check).
 - IRWR-00114 — Longest Wedding Dress Train (Anne Andrews) — checked 2026-09-08: current Guinness title-holder is a different, unrelated 2017 French project (Dynamic Projects, Caudry); "Anne Andrews" not found as a record holder in any searchable source, so no photo could be confidently matched.
-- IRWR-00116 — Largest Pair of Shoes (Nike Turkey)
-- IRWR-00117 — Wedding Dress with the Most Rhinestones (Nina Khan)
-- IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech)
+- IRWR-00116 — Largest Pair of Shoes (Nike Turkey) — checked 2026-09-09: only unrelated "biggest shoe on display" record found (Zahit Okular, Turkey, 2000) — different record type, no Nike connection.
+- IRWR-00117 — Wedding Dress with the Most Rhinestones (Nina Khan) — checked 2026-09-09: not documented in any searchable source.
+- IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00119 — Largest Rose Bouquet in a Single Basket (ROMANTIK Company (Izbasarova G.))
 
 ## economy (0)
 
 ## education (12)
-- IRWR-00124 — One of the World's Highest Literacy Rates (Latvia)
-- IRWR-00125 — Fastest Growth in Higher Education Enrollment (China (higher education expansion))
+- IRWR-00124 — One of the World's Highest Literacy Rates (Latvia) — abstract statistic, no inherent photo subject; not pursued.
+- IRWR-00125 — Fastest Growth in Higher Education Enrollment (China (higher education expansion)) — abstract statistic, no inherent photo subject; not pursued.
 - IRWR-00133 — Top-Ranked ARM-Based Supercomputer (Microsoft "Eagle" supercomputer) — checked 2026-09-08: Microsoft's actual "Eagle" supercomputer (Top500 #3, Nov 2023) is Intel Xeon + Nvidia H100-based, not ARM — a factual mismatch with this record's own "ARM-based" claim, so no photo was sourced to avoid compounding the inconsistency with a wrong-hardware image.
 - IRWR-00138 — Most Educators on a Distance-Learning Platform (Coursera) — checked 2026-09-09: only vector logos exist on Wikimedia Commons, no building/office photo found; logos alone don't document a specific record.
-- IRWR-00142 — Largest School for Children with Special Needs (Special Education School 518)
+- IRWR-00142 — Largest School for Children with Special Needs (Special Education School 518) — checked 2026-09-09: only a same-numbered but unrelated US school district (ISD 518, Minnesota) found; no connection to this record.
 - IRWR-00145 — Largest Dance Lesson (Kosshy village organizers) — globalbestrecords.org/educationrecords carries an image near this record's text captioned "largest reading lesson," showing a stadium-scale crowd of thousands in what appears to be China; the actual record (614 people, a waltz lesson in Kosshy, Kazakhstan) doesn't match either the event type or scale, so rejected as a wrong match rather than accepted on proximity. Also checked the full Instagram account (2026-09-08): 3 Kosshy posts found, but all about a different Kosshy event (555 traditional-handicraft masters), not this one.
 - IRWR-00157 — First Partial Face Transplant (Isabelle Dinoire) — checked 2026-09-08: no Wikimedia Commons or Wikipedia infobox image found; only Getty/press-syndicated photos available.
-- IRWR-00158 — Youngest Surgeon to Perform an Operation (Akiande Jade Essa)
+- IRWR-00158 — Youngest Surgeon to Perform an Operation (Akiande Jade Essa) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00159 — Most Expensive Medical Treatment (Zolgensma (Novartis)) — checked 2026-09-08: no free product/vial photo found (FDA page has no product image; Wikipedia's only image is a mechanism-of-action diagram, not a photo).
 - IRWR-00164 — First AI to Pass a US Oral Legal Exam (GPT-4 (OpenAI)) — checked 2026-09-08: this is a software milestone with no inherent "photo" of the achievement; a generic OpenAI/GPT-4 logo would not document the specific record, so none was added.
 - IRWR-00165 — Largest Smart City IoT Network (Shenzhen (smart city IoT network)) — checked full Instagram account 2026-09-08: 2 Shenzhen posts found, but both about different records (underwater railway tunnel, eVTOL air taxi flight), not the IoT network.
@@ -419,16 +443,16 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 
 ## extreme (10) — checked 2026-09-06 against globalbestrecords.org/extremerecords, no new
 matches found; all 10 show only the site's own generic placeholder image there.
-- IRWR-00285 — Fastest Power Stairs Climb (Mikhail Shivlyakov)
+- IRWR-00285 — Fastest Power Stairs Climb (Mikhail Shivlyakov) — checked 2026-09-09: Shivlyakov is a real, documented Russian strongman (multiple Wikipedia/BarBend/FitnessVolt profiles), but no "power stairs climb" record is attributed to him in any source found; without a confirmed specific-record match, no photo added (a generic strongman photo of him wouldn't document this specific claim).
 - IRWR-00286 — Fastest Everest Ascent Without Supplemental Oxygen (Josh Albert) — checked 2026-09-08: not documented in any searchable source (current Guinness title-holders for Everest speed-without-oxygen are Nirmal Purja and others; "Josh Albert" doesn't appear).
-- IRWR-00287 — Longest Plank Hold (Julia Bachmann)
-- IRWR-00288 — Heaviest Vehicle Pulled by Teeth (Martin Thierry)
-- IRWR-00290 — Heaviest One-Handed Barbell Lift (Sanjay Kumar)
-- IRWR-00293 — Longest Ultramarathon Without Sleep or Rest (Anita Kovacs)
-- IRWR-00295 — Longest One-Handed Hold of a Car (David Lynch)
-- IRWR-00296 — Fastest Vertical Wall Climb (Kenji Saito)
-- IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez)
-- IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi)
+- IRWR-00287 — Longest Plank Hold (Julia Bachmann) — checked 2026-09-09: not documented; current record holder is a different person (DonnaJean Wilde).
+- IRWR-00288 — Heaviest Vehicle Pulled by Teeth (Martin Thierry) — checked 2026-09-09: not documented; current record holders are different people (Ashraf Suliman, Igor Zaripov).
+- IRWR-00290 — Heaviest One-Handed Barbell Lift (Sanjay Kumar) — checked 2026-09-09: not documented in any searchable source.
+- IRWR-00293 — Longest Ultramarathon Without Sleep or Rest (Anita Kovacs) — checked 2026-09-09: not documented in any searchable source.
+- IRWR-00295 — Longest One-Handed Hold of a Car (David Lynch) — checked 2026-09-09: not documented (only the filmmaker of the same name appears in search results).
+- IRWR-00296 — Fastest Vertical Wall Climb (Kenji Saito) — checked 2026-09-09: not documented in any searchable source.
+- IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez) — checked 2026-09-09: not documented; current record holder is a different person (Laura A. Hunt).
+- IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi) — checked 2026-09-09: not documented in any searchable source.
 
 ## humanbody (0)
 
@@ -440,15 +464,15 @@ graphic (see the 2026-09-06 military pass entry below) — none remain without a
 found; IRWR-00001 isn't mentioned on that page at all, and the other 9 show only the site's
 own generic placeholder image there.
 - IRWR-00001 — Longest Continuous English Channel Swim (Wildmarie Guy) — checked 2026-09-09: not documented in any searchable source.
-- IRWR-00005 — Longest Ice Swim Distance (Pavel Konovalov)
+- IRWR-00005 — Longest Ice Swim Distance (Pavel Konovalov) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00006 — Farthest Distance Run in 24 Hours (Thomas Freimut) — checked 2026-09-09: not documented; current 24h world record holder (all surfaces) is a different person (Aleksandr Sorokin).
-- IRWR-00008 — Most Pull-Ups in One Minute (Artem Kucherenko)
-- IRWR-00009 — Highest Trampoline Jump (Irene Kuran)
-- IRWR-00022 — Most Goals Scored in a Single Bandy Match (Maria Konstantinova)
-- IRWR-00024 — Highest Standing High Jump (Robert Gibbons)
-- IRWR-00025 — Fastest Mountain Marathon (Jean-Luc Bonnet)
-- IRWR-00026 — Longest Continuous Skateboarding Session (Simon Baker)
-- IRWR-00028 — Highest Snowboard Ramp Jump (Robert Vaughn)
+- IRWR-00008 — Most Pull-Ups in One Minute (Artem Kucherenko) — checked 2026-09-09: not documented; current Guinness record holder is a different person (Yutaro Matsuta).
+- IRWR-00009 — Highest Trampoline Jump (Irene Kuran) — checked 2026-09-09: not documented in any searchable source.
+- IRWR-00022 — Most Goals Scored in a Single Bandy Match (Maria Konstantinova) — checked 2026-09-09: not documented in any searchable source.
+- IRWR-00024 — Highest Standing High Jump (Robert Gibbons) — checked 2026-09-09: not documented; current Guinness record holder is a different person (Christopher Spell).
+- IRWR-00025 — Fastest Mountain Marathon (Jean-Luc Bonnet) — checked 2026-09-09: not documented; the closest-named documented athlete (Rémi Bonnet, Pikes Peak) is a different first name/person.
+- IRWR-00026 — Longest Continuous Skateboarding Session (Simon Baker) — checked 2026-09-09: not documented (only the actor of the same name appears in search results).
+- IRWR-00028 — Highest Snowboard Ramp Jump (Robert Vaughn) — checked 2026-09-09: not documented in any searchable source.
 
 ## transport (0)
 All 18 previously-missing transport records now carry GBR's own branded record-infographic
