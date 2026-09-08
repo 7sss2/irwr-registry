@@ -1,4 +1,80 @@
-# IRWR records with NO verified real photo (76 of 295)
+# IRWR records with NO verified real photo (68 of 295)
+
+## 2026-09-08: Third-party source search (news/Wikipedia/Wikimedia Commons) — 8 photos added
+
+Per user instruction, after Instagram was exhausted (see entry below), searched third-party
+sources for the 76 records still missing photos, with a 100%-certainty bar. Worked through a
+curated shortlist prioritizing records tied to well-documented public facts/entities (famous
+artworks, historical events, physical landmarks) where a genuine, confidently-matched photo
+was more likely to exist, rather than attempting all 76 exhaustively in one pass.
+
+**8 photos added, all visually verified before wiring in:**
+- IRWR-00067 — Salvator Mundi painting — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_or_Boltraffio_(attrib)_Salvator_Mundi_circa_1500.jpg)
+- IRWR-00100 — Marilyn Monroe's "Happy Birthday" dress (period photo, Madison Square Garden, 19 May 1962) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Marilyn_Monroe_Happy_Birthday_Mr_President_1962.jpg)
+- IRWR-00136 — IBM Condor quantum chip (official IBM keynote slide, explicitly labeled "CONDOR 1121 QUBITS") — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Keynote_-_Entering_the_Era_of_Quantum_Utility_(IBM_Research)_16.png)
+- IRWR-00160 — WHO Smallpox Eradication Programme (Mali Prospection Team, 1968, public domain) — [CDC PHIL](https://wwwn.cdc.gov/phil/Details.aspx?pid=5661)
+- IRWR-00233 — Gardens by the Bay glass dome (Cloud Forest interior) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cloud_Forest,_Gardens_by_the_bay.jpg)
+- IRWR-00234 — Lakhta Center Tower — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Saint_Petersburg_Lakhta_center.jpg)
+- IRWR-00245 — Rendsburg High Bridge — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Rendsburgerhochbruecke.jpg)
+- IRWR-00276 — Timothy Ray Brown ("Berlin Patient") — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Timothy_Ray_Brown.jpg)
+
+Many other records checked in this pass were rejected or skipped — see inline notes next to
+each remaining entry below (dated 2026-09-08) for the specific reason: no free/fetchable
+image found, subject not independently documented, or a genuine risk of mismatch (wrong
+person/building/project sharing a name). Extreme-sport and niche local-competition records
+(most of `extreme` and several in `cooking`) proved largely undocumented outside the GBR
+book/website itself — no independent web footprint exists to verify a photo against.
+
+## 2026-09-08: Full Instagram account scan (@globalbestrecords) — 0 photos added
+
+Per explicit user instruction, did a complete pass of the @globalbestrecords Instagram
+account (not selective) via GraphQL response interception while triggering real scroll
+events, using an authenticated Chrome session (claude-in-chrome). Captured 1,804 of the
+account's ~1,818 posts (~99%) — the feed stopped returning new content at 1,804 across
+multiple consecutive scroll rounds, indicating the end of the account's history was
+reached. Ran a name/keyword match against all 1,804 captions using the specific
+holder/company/institution names from every one of the 76 missing-photo records (not
+generic category words, which produced false positives on an earlier pass).
+
+**Result: 8 caption hits, 0 usable new photos.**
+
+- **Kosshy** (3 posts: DbEPXIusqR_, Da9Za8WsYZB, Da51JgYjCBb) — all about a different
+  Kosshy, Kazakhstan event (555 traditional-handicraft masters / wool-spinning), already
+  identified and rejected in an earlier session pass; not a match for IRWR-00145 (the
+  waltz-lesson record, 614 people).
+- **Shenzhen** (2 posts: DW76B3cjON2, DUkPYX_jIAH) — one is a deepest-underwater-railway-
+  tunnel record (Shenzhen–Jiangmen line), the other an eVTOL air-taxi flight
+  (Shenzhen–Zhuhai). Neither is IRWR-00165 (Largest Smart City IoT Network); rejected as
+  different records that merely mention the same city.
+- **Michael Jackson** (1 post: DQf9o4gDL2s) — about his best-selling MUSIC ALBUM being a
+  GBR record, not the gold-embroidered jacket auction (IRWR-00112); rejected, same finding
+  as an earlier session pass.
+- **HICHGARDEN** (1 post: DDkKkKLMI0T, 2024-12-14) — **genuine content match** for
+  IRWR-00218 (Longest Hot Dog): caption confirms the 36m hot dog record made in Priozersk,
+  Karaganda region, by "Оздоровительно-лечебный санаторий БАЛХАШ" and кофейня "HICHGARDEN"
+  — the exact two organizations named in this record. However the post is **video-only**
+  (2 video clips, no static image) and the video would not render/decode in the automated
+  browser session (readyState stuck at 0, canvas frame-grab returned 0×0, no poster
+  attribute, network requests didn't surface a separate thumbnail image) — so no static
+  photo could be extracted. Documented here for a future manual follow-up
+  (https://www.instagram.com/globalbestrecords/p/DDkKkKLMI0T/) but not added to the site,
+  per the discipline of only wiring in visually-verified static images.
+- **ROMANTIK** (1 post: C7d5oLisUGP) — caption confirms this is the correct record/company
+  (ROMANTIK flower-market chain, 10,000-rose / 1600kg bouquet, Astana, organized with KINES)
+  for IRWR-00119, but the single image is a **pre-event promotional graphic** (text +
+  generic floral background) with no actual bouquet shown — not documentation of the
+  achieved record, so rejected per the "no generic/promotional images" rule.
+
+No other captions in the full 1,804-post set matched any of the 76 missing records' holder
+names, company names, or institution names (Salvator Mundi, Zolgensma, Stanford, GPT-4,
+ICBC, individual athletes, etc.) — the account's content is dominated by GBR brand/PR
+material, Kazakhstan/Central-Asian ethnosport, and the account owner's personal posts, not
+the international/Western trivia facts that make up most of the still-missing records.
+
+Per the user's instructions, since Instagram is now exhausted, any further photo hunting
+for the 76 records would move to third-party sources (news sites, Wikipedia, etc.) with a
+100%-certainty bar — not yet attempted this session pending user direction, given the scale
+(76 individual records).
 
 ## 2026-09-07: humanbodyrecords dedicated page (+1) and full News re-check (0 new)
 
@@ -263,32 +339,27 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
   graphic shared across all 5 nominees, not a rose-bouquet-specific photo — excluded as a generic
   filler image under the same rule that dropped multi-record-claimed images in the prior pass.
 
-## architecture (5)
-- IRWR-00233 — Largest Glass Greenhouse Dome Complex (Gardens by the Bay (Grant Associates and Wilkinson Eyre))
-- IRWR-00234 — Tallest Building Engineered for Extreme Northern Climate (Lakhta Center Tower (architect Gordon Bennett, RMJM))
-- IRWR-00245 — Highest Railway Bridge of Its Era (Rendsburg High Bridge (Deutsche Bahn, engineer Fritz Leonhardt))
-- IRWR-00246 — Longest Steel Central Arch Span (Varazdin Bridge (Hrvatske Ceste, architect Marko Muzina))
+## architecture (2)
+- IRWR-00246 — Longest Steel Central Arch Span (Varazdin Bridge (Hrvatske Ceste, architect Marko Muzina)) — checked 2026-09-08: "Varazdin Bridge" doesn't clearly resolve to a single documented public bridge (a similarly-named "Varadin Bridge" is a different bridge in Novi Sad, Serbia); rejected rather than risk a wrong-location photo.
 - IRWR-00251 — Longest Bridge Built Entirely of Wood (John Carroll Bridge (Timberworks, architect James Hudson))
 
 ## cooking (9)
 - IRWR-00211 — Longest Line of Sushi (Japan Sushi Association)
 - IRWR-00212 — Largest Caprese Salad (Bagration-ULAN)
-- IRWR-00213 — Largest Chocolate Sculpture (Chocoversum (Chocolate Museum))
-- IRWR-00214 — Most Expensive Hamburger (Fleur restaurant, Mandalay Bay)
+- IRWR-00213 — Largest Chocolate Sculpture (Chocoversum (Chocolate Museum)) — checked 2026-09-08: only generic museum exterior/interior photos found, none showing the specific sculpture.
+- IRWR-00214 — Most Expensive Hamburger (Fleur restaurant, Mandalay Bay) — checked 2026-09-08: news sites carrying photos of the FleurBurger 5000 (CNBC, Trend Hunter) returned 403/blocked to automated fetch; no directly downloadable image found.
 - IRWR-00215 — Largest Portion of Foie Gras (Maison Rince)
-- IRWR-00216 — World's Largest Birthday Cake (Guatemalan pastry chefs)
+- IRWR-00216 — World's Largest Birthday Cake (Guatemalan pastry chefs) — checked 2026-09-08: not documented in any searchable source (a Guatemala-specific title doesn't appear in Guinness's own largest/tallest/longest cake records).
 - IRWR-00217 — Longest Sausage (Rome meat processing plant)
-- IRWR-00218 — Longest Hot Dog (Balkhash Health and Medical Sanatorium / HICHGARDEN Coffee Shop)
+- IRWR-00218 — Longest Hot Dog (Balkhash Health and Medical Sanatorium / HICHGARDEN Coffee Shop) — genuine match found on Instagram (see 2026-09-08 entry above): post confirms this exact event/orgs but is video-only and wouldn't decode in the automated browser; no static frame extractable. Post: https://www.instagram.com/globalbestrecords/p/DDkKkKLMI0T/
 - IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company)
 
-## culture (20)
-- IRWR-00067 — Most Expensive Painting Sold at Auction (Leonardo da Vinci ("Salvator Mundi"))
-- IRWR-00068 — Largest Painting in the World (Sacha Jafri ("The Journey of Humanity"))
+## culture (18)
+- IRWR-00068 — Largest Painting in the World (Sacha Jafri ("The Journey of Humanity")) — checked 2026-09-08: no Wikimedia Commons image exists; news sites (CNN, Robb Report, My Modern Met) either blocked WebFetch or lazy-load images via JS, no directly fetchable free image found.
 - IRWR-00078 — Most People Dancing Ballet Simultaneously (Buenos Aires ballet mass event)
-- IRWR-00081 — Youngest Composer of a Symphony (Eitan Matlis)
+- IRWR-00081 — Youngest Composer of a Symphony (Eitan Matlis) — checked 2026-09-08: not documented in any searchable source.
 - IRWR-00096 — Longest Single Printed Publication (HarperCollins ("Agatha Christie Collection")) — a candidate image existed on globalbestrecords.org/culturerecords but visually depicted a *different* Agatha Christie book ("Capital Christie: Twelve London Mysteries"), not the 7232-page HarperCollins collection this record describes; rejected as a wrong match rather than accepted on a title-only hit.
-- IRWR-00099 — Fastest Printing Press (Canon Group (Oce JetStream 4300))
-- IRWR-00100 — Most Expensive Dress Ever Sold (Marilyn Monroe (dress by Jean Louis))
+- IRWR-00099 — Fastest Printing Press (Canon Group (Oce JetStream 4300)) — checked 2026-09-08: no Wikimedia Commons image found for this specific model.
 - IRWR-00101 — Largest Traditional Kazakh Women's Headdress (Gulyaim Akumbayeva (Kimeshek headdress))
 - IRWR-00103 — Longest Wedding Veil (Maria Paraskevopoulou)
 - IRWR-00104 — Largest Traditional Kazakh Wedding Headdress (Akmaral Dauylbayeva (Saukele headdress))
@@ -297,7 +368,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00109 — Fastest Fast-Fashion Production Cycle (ZARA (Inditex))
 - IRWR-00111 — Highest-Altitude Fashion Show (Turkish Airlines)
 - IRWR-00112 — Most Expensive Jacket Sold at Auction (Michael Jackson (gold-embroidered jacket))
-- IRWR-00114 — Longest Wedding Dress Train (Anne Andrews)
+- IRWR-00114 — Longest Wedding Dress Train (Anne Andrews) — checked 2026-09-08: current Guinness title-holder is a different, unrelated 2017 French project (Dynamic Projects, Caudry); "Anne Andrews" not found as a record holder in any searchable source, so no photo could be confidently matched.
 - IRWR-00116 — Largest Pair of Shoes (Nike Turkey)
 - IRWR-00117 — Wedding Dress with the Most Rhinestones (Nina Khan)
 - IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech)
@@ -307,26 +378,24 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC)) — the only image on globalbestrecords.org/economyrecords near this record is the page's own category-hero collage (Walmart/ICBC/Saudi Aramco/etc. logos mixed together), not a photo specific to ICBC; rejected rather than accepted on proximity alone.
 - IRWR-00041 — Largest Venture Capital Fund (SoftBank Vision Fund 2)
 
-## education (19)
+## education (17)
 - IRWR-00124 — One of the World's Highest Literacy Rates (Latvia)
 - IRWR-00125 — Fastest Growth in Higher Education Enrollment (China (higher education expansion))
 - IRWR-00126 — Largest Distance Learning Platform (China's National Open University)
 - IRWR-00128 — Most Online Courses from a Single Institution (Stanford University)
-- IRWR-00133 — Top-Ranked ARM-Based Supercomputer (Microsoft "Eagle" supercomputer)
-- IRWR-00136 — Largest Superconducting Quantum Chip (IBM (Condor quantum processor))
+- IRWR-00133 — Top-Ranked ARM-Based Supercomputer (Microsoft "Eagle" supercomputer) — checked 2026-09-08: Microsoft's actual "Eagle" supercomputer (Top500 #3, Nov 2023) is Intel Xeon + Nvidia H100-based, not ARM — a factual mismatch with this record's own "ARM-based" claim, so no photo was sourced to avoid compounding the inconsistency with a wrong-hardware image.
 - IRWR-00138 — Most Educators on a Distance-Learning Platform (Coursera)
 - IRWR-00140 — Largest University AI Training Program (University of Science and Technology of China (USTC))
 - IRWR-00142 — Largest School for Children with Special Needs (Special Education School 518)
-- IRWR-00145 — Largest Dance Lesson (Kosshy village organizers) — globalbestrecords.org/educationrecords carries an image near this record's text captioned "largest reading lesson," showing a stadium-scale crowd of thousands in what appears to be China; the actual record (614 people, a waltz lesson in Kosshy, Kazakhstan) doesn't match either the event type or scale, so rejected as a wrong match rather than accepted on proximity.
+- IRWR-00145 — Largest Dance Lesson (Kosshy village organizers) — globalbestrecords.org/educationrecords carries an image near this record's text captioned "largest reading lesson," showing a stadium-scale crowd of thousands in what appears to be China; the actual record (614 people, a waltz lesson in Kosshy, Kazakhstan) doesn't match either the event type or scale, so rejected as a wrong match rather than accepted on proximity. Also checked the full Instagram account (2026-09-08): 3 Kosshy posts found, but all about a different Kosshy event (555 traditional-handicraft masters), not this one.
 - IRWR-00146 — Largest Education Data Assessment Project (OECD (PISA program))
 - IRWR-00147 — Most Online Diplomas Issued in a Year (University of Phoenix)
-- IRWR-00157 — First Partial Face Transplant (Isabelle Dinoire)
+- IRWR-00157 — First Partial Face Transplant (Isabelle Dinoire) — checked 2026-09-08: no Wikimedia Commons or Wikipedia infobox image found; only Getty/press-syndicated photos available.
 - IRWR-00158 — Youngest Surgeon to Perform an Operation (Akiande Jade Essa)
-- IRWR-00159 — Most Expensive Medical Treatment (Zolgensma (Novartis))
-- IRWR-00160 — First Disease Eradicated by Vaccination (World Health Organization (Smallpox Eradication Program))
-- IRWR-00164 — First AI to Pass a US Oral Legal Exam (GPT-4 (OpenAI))
-- IRWR-00165 — Largest Smart City IoT Network (Shenzhen (smart city IoT network))
-- IRWR-00166 — First Digital Model of Human Brain Activity (Human Brain Project (Blue Brain Project))
+- IRWR-00159 — Most Expensive Medical Treatment (Zolgensma (Novartis)) — checked 2026-09-08: no free product/vial photo found (FDA page has no product image; Wikipedia's only image is a mechanism-of-action diagram, not a photo).
+- IRWR-00164 — First AI to Pass a US Oral Legal Exam (GPT-4 (OpenAI)) — checked 2026-09-08: this is a software milestone with no inherent "photo" of the achievement; a generic OpenAI/GPT-4 logo would not document the specific record, so none was added.
+- IRWR-00165 — Largest Smart City IoT Network (Shenzhen (smart city IoT network)) — checked full Instagram account 2026-09-08: 2 Shenzhen posts found, but both about different records (underwater railway tunnel, eVTOL air taxi flight), not the IoT network.
+- IRWR-00166 — First Digital Model of Human Brain Activity (Human Brain Project (Blue Brain Project)) — checked 2026-09-08: Wikipedia's only image for "Blue Brain Project" is of the unrelated Cajal Blue Brain (Spain) sub-project's supercomputer hardware, not a brain-activity visualization; rejected as a different-project mismatch.
 
 ## extreme (10) — checked 2026-09-06 against globalbestrecords.org/extremerecords, no new
 matches found; all 10 show only the site's own generic placeholder image there.
@@ -341,9 +410,7 @@ matches found; all 10 show only the site's own generic placeholder image there.
 - IRWR-00297 — Most Push-Ups in One Hour (Women) (Marina Gonzalez)
 - IRWR-00299 — Heaviest Bench Press (Vladimir Mbassi)
 
-## humanbody (1)
-- IRWR-00276 — First Person Cured of HIV (Timothy Ray Brown) — only the generic placeholder
-  appears on globalbestrecords.org/humanbodyrecords for this record.
+## humanbody (0)
 
 ## military (0)
 All 7 previously-missing military records now carry GBR's own branded record-infographic

@@ -935,7 +935,7 @@
     "status": "verified",
     "description": "Leonardo da Vinci's \"Salvator Mundi\" sold for USD 450.3 million at Christie's auction house in 2017, the highest price ever paid for a painting at auction. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00067.",
     "photoSeed": "irwr-culture-most-expensive-painting-sold-at-auction",
-    "photo": null,
+    "photo": "images/records/IRWR-00067.jpg",
     "featured": true
   },
   {
@@ -1397,7 +1397,7 @@
     "status": "verified",
     "description": "The hand-sewn, crystal-covered \"Happy Birthday, Mr. President\" dress worn by Marilyn Monroe in 1962 and designed by Jean Louis sold for USD 4.8 million at Julien's Auctions in 2016, the highest price paid for a dress. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00100.",
     "photoSeed": "irwr-culture-most-expensive-dress-ever-sold",
-    "photo": null,
+    "photo": "images/records/IRWR-00100.jpg",
     "featured": false
   },
   {
@@ -1901,7 +1901,7 @@
     "status": "verified",
     "description": "IBM unveiled its 1,121-qubit Condor processor in December 2023, more than double the qubit count of Osprey and, at the time, the largest superconducting quantum chip built. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00136.",
     "photoSeed": "irwr-education-largest-superconducting-quantum-chip",
-    "photo": null,
+    "photo": "images/records/IRWR-00136.png",
     "featured": false
   },
   {
@@ -2125,7 +2125,7 @@
     "status": "verified",
     "description": "The WHO's Smallpox Eradication Program, completed in 1980, made smallpox the first infectious disease ever eradicated through vaccination, one of the largest vaccination campaigns in history. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00160.",
     "photoSeed": "irwr-education-first-disease-eradicated-by-vaccination",
-    "photo": null,
+    "photo": "images/records/IRWR-00160.jpg",
     "featured": false
   },
   {
@@ -3147,7 +3147,7 @@
     "status": "verified",
     "description": "Gardens by the Bay, designed by Grant Associates and Wilkinson Eyre and completed in 2012, spans 101 hectares and includes artificial \"supertrees\" and climate-controlled glass domes, the largest greenhouse dome complex of its kind. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00233.",
     "photoSeed": "irwr-architecture-largest-glass-greenhouse-dome-complex",
-    "photo": null,
+    "photo": "images/records/IRWR-00233.jpg",
     "featured": false
   },
   {
@@ -3161,7 +3161,7 @@
     "status": "verified",
     "description": "The Lakhta Center Tower in St. Petersburg, designed by Gordon Bennett of RMJM and completed in 2018, rises 462 meters and was engineered to withstand the region's severe climate and strong winds. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00234.",
     "photoSeed": "irwr-architecture-tallest-building-engineered-for-extreme-no",
-    "photo": null,
+    "photo": "images/records/IRWR-00234.jpg",
     "featured": false
   },
   {
@@ -3315,7 +3315,7 @@
     "status": "verified",
     "description": "A 178-meter-high railway viaduct in Germany, opened in 1916 and associated with engineer Fritz Leonhardt's later structural work for Deutsche Bahn, is recognized as a historic engineering landmark for its height. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00245.",
     "photoSeed": "irwr-architecture-highest-railway-bridge-of-its-era",
-    "photo": null,
+    "photo": "images/records/IRWR-00245.jpg",
     "featured": false
   },
   {
@@ -3749,7 +3749,7 @@
     "status": "verified",
     "description": "Timothy Ray Brown, known as \"The Berlin Patient,\" was the first person cured of HIV, following a bone marrow transplant in 2007. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00276.",
     "photoSeed": "irwr-humanbody-first-person-cured-of-hiv",
-    "photo": null,
+    "photo": "images/records/IRWR-00276.jpg",
     "featured": false
   },
   {
