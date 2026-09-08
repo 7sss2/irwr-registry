@@ -1,0 +1,13 @@
+{
+  "name": "irwr-site",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node --test tests/build.test.mjs tests/data.test.mjs"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "terser": "^5.51.2"
+  }
+}

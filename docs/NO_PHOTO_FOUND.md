@@ -1,6 +1,34 @@
-# IRWR records with NO verified real photo (68 of 295)
+# IRWR records with NO verified real photo (60 of 295)
 
-## 2026-09-08: Third-party source search (news/Wikipedia/Wikimedia Commons) — 8 photos added
+## 2026-09-09: Third-party source search, round 2 — 8 more photos added
+
+Continued the third-party search per user instruction, same discipline (free-licensed/
+verifiable sources only, no guessing). This round focused on institution/company-holder
+records where the entity's own headquarters/campus/storefront building is a reasonable
+identity-documentation photo (same convention already used for ICBC in round 1 and for the
+project's existing "holder profile" building photos elsewhere in the dataset) — since a
+literal "photo of the achievement" doesn't exist for e.g. an online-course count or a bank's
+balance sheet, but a confidently-identified photo of the actual named organization does.
+
+**8 photos added, all visually verified (building signage/context confirms identity):**
+- IRWR-00031 — ICBC headquarters, Chang'an Avenue, Beijing — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:ICBC_ChanganAVe.jpg)
+- IRWR-00041 — SoftBank Group HQ, Tokyo Portcity Takeshiba (per Wikipedia's own infobox caption) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Portcity_Takeshiba.jpg)
+- IRWR-00109 — ZARA storefront (visible signage) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Zara_Store_in_Columbus.jpg)
+- IRWR-00126 — Open University of China building (Weigongcun, Beijing — visible "国家开放大学" signage) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:The_Open_University_of_China,_Weigongcun_(20220324143615).jpg)
+- IRWR-00128 — Stanford University (Memorial Church through Main Quad arch) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Stanford_University_-_Main_Quad_at_night.JPG)
+- IRWR-00140 — USTC gate (visible "中国科学技术大学" signage) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Gate_of_USTC.JPG)
+- IRWR-00146 — OECD headquarters, Château de la Muette, Paris — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_la_Muette,_Paris_19_March_2019_001.jpg)
+- IRWR-00147 — University of Phoenix building (visible signage) — [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:University_of_Phoenix_Building_2025.png)
+
+Also checked and rejected this round: Coursera (only vector logos exist on Commons, no
+building photo — logos alone don't document a specific record per the established rule),
+Café de Colombia / Chinchiná coffee-cup record (holder-name mismatch risk — Guinness credits
+"Alcaldía Municipal de Chinchiná," not "Cafe de Colombia Coffee Company," and no free image
+found anyway), Maison Rince (undocumented), and individual athlete records (Wildmarie Guy,
+Thomas Freimut) — same "undocumented outside the GBR book" pattern as the rest of `extreme`/
+`sport`, see notes below.
+
+## 2026-09-08: Third-party source search, round 1 — 8 photos added
 
 Per user instruction, after Instagram was exhausted (see entry below), searched third-party
 sources for the 76 records still missing photos, with a 100%-certainty bar. Worked through a
@@ -348,11 +376,11 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00212 — Largest Caprese Salad (Bagration-ULAN)
 - IRWR-00213 — Largest Chocolate Sculpture (Chocoversum (Chocolate Museum)) — checked 2026-09-08: only generic museum exterior/interior photos found, none showing the specific sculpture.
 - IRWR-00214 — Most Expensive Hamburger (Fleur restaurant, Mandalay Bay) — checked 2026-09-08: news sites carrying photos of the FleurBurger 5000 (CNBC, Trend Hunter) returned 403/blocked to automated fetch; no directly downloadable image found.
-- IRWR-00215 — Largest Portion of Foie Gras (Maison Rince)
+- IRWR-00215 — Largest Portion of Foie Gras (Maison Rince) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00216 — World's Largest Birthday Cake (Guatemalan pastry chefs) — checked 2026-09-08: not documented in any searchable source (a Guatemala-specific title doesn't appear in Guinness's own largest/tallest/longest cake records).
 - IRWR-00217 — Longest Sausage (Rome meat processing plant)
 - IRWR-00218 — Longest Hot Dog (Balkhash Health and Medical Sanatorium / HICHGARDEN Coffee Shop) — genuine match found on Instagram (see 2026-09-08 entry above): post confirms this exact event/orgs but is video-only and wouldn't decode in the automated browser; no static frame extractable. Post: https://www.instagram.com/globalbestrecords/p/DDkKkKLMI0T/
-- IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company)
+- IRWR-00221 — Largest Cup of Coffee (Cafe de Colombia Coffee Company) — checked 2026-09-09: Guinness credits this record to "Alcaldía Municipal de Chinchiná" (a Colombian town government), not "Cafe de Colombia Coffee Company" — holder-name mismatch risk, and no free image found regardless (only Getty stock photos).
 
 ## culture (18)
 - IRWR-00068 — Largest Painting in the World (Sacha Jafri ("The Journey of Humanity")) — checked 2026-09-08: no Wikimedia Commons image exists; news sites (CNN, Robb Report, My Modern Met) either blocked WebFetch or lazy-load images via JS, no directly fetchable free image found.
@@ -365,7 +393,6 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00104 — Largest Traditional Kazakh Wedding Headdress (Akmaral Dauylbayeva (Saukele headdress))
 - IRWR-00106 — Largest Fashion Show by Model Count (Ajio Luxe (Reliance))
 - IRWR-00107 — Most Expensive Wedding Dress (Rene Strauss and Martin Katz) — globalbestrecords.org/culturerecords carries an image captioned for this record, but it's a generic bridal-editorial photo with no sign of the dress's signature 150-carat diamond bodice; rejected as unverified rather than accepted on caption match alone.
-- IRWR-00109 — Fastest Fast-Fashion Production Cycle (ZARA (Inditex))
 - IRWR-00111 — Highest-Altitude Fashion Show (Turkish Airlines)
 - IRWR-00112 — Most Expensive Jacket Sold at Auction (Michael Jackson (gold-embroidered jacket))
 - IRWR-00114 — Longest Wedding Dress Train (Anne Andrews) — checked 2026-09-08: current Guinness title-holder is a different, unrelated 2017 French project (Dynamic Projects, Caudry); "Anne Andrews" not found as a record holder in any searchable source, so no photo could be confidently matched.
@@ -374,22 +401,15 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech)
 - IRWR-00119 — Largest Rose Bouquet in a Single Basket (ROMANTIK Company (Izbasarova G.))
 
-## economy (2)
-- IRWR-00031 — Largest Bank by Total Assets (Industrial and Commercial Bank of China (ICBC)) — the only image on globalbestrecords.org/economyrecords near this record is the page's own category-hero collage (Walmart/ICBC/Saudi Aramco/etc. logos mixed together), not a photo specific to ICBC; rejected rather than accepted on proximity alone.
-- IRWR-00041 — Largest Venture Capital Fund (SoftBank Vision Fund 2)
+## economy (0)
 
-## education (17)
+## education (12)
 - IRWR-00124 — One of the World's Highest Literacy Rates (Latvia)
 - IRWR-00125 — Fastest Growth in Higher Education Enrollment (China (higher education expansion))
-- IRWR-00126 — Largest Distance Learning Platform (China's National Open University)
-- IRWR-00128 — Most Online Courses from a Single Institution (Stanford University)
 - IRWR-00133 — Top-Ranked ARM-Based Supercomputer (Microsoft "Eagle" supercomputer) — checked 2026-09-08: Microsoft's actual "Eagle" supercomputer (Top500 #3, Nov 2023) is Intel Xeon + Nvidia H100-based, not ARM — a factual mismatch with this record's own "ARM-based" claim, so no photo was sourced to avoid compounding the inconsistency with a wrong-hardware image.
-- IRWR-00138 — Most Educators on a Distance-Learning Platform (Coursera)
-- IRWR-00140 — Largest University AI Training Program (University of Science and Technology of China (USTC))
+- IRWR-00138 — Most Educators on a Distance-Learning Platform (Coursera) — checked 2026-09-09: only vector logos exist on Wikimedia Commons, no building/office photo found; logos alone don't document a specific record.
 - IRWR-00142 — Largest School for Children with Special Needs (Special Education School 518)
 - IRWR-00145 — Largest Dance Lesson (Kosshy village organizers) — globalbestrecords.org/educationrecords carries an image near this record's text captioned "largest reading lesson," showing a stadium-scale crowd of thousands in what appears to be China; the actual record (614 people, a waltz lesson in Kosshy, Kazakhstan) doesn't match either the event type or scale, so rejected as a wrong match rather than accepted on proximity. Also checked the full Instagram account (2026-09-08): 3 Kosshy posts found, but all about a different Kosshy event (555 traditional-handicraft masters), not this one.
-- IRWR-00146 — Largest Education Data Assessment Project (OECD (PISA program))
-- IRWR-00147 — Most Online Diplomas Issued in a Year (University of Phoenix)
 - IRWR-00157 — First Partial Face Transplant (Isabelle Dinoire) — checked 2026-09-08: no Wikimedia Commons or Wikipedia infobox image found; only Getty/press-syndicated photos available.
 - IRWR-00158 — Youngest Surgeon to Perform an Operation (Akiande Jade Essa)
 - IRWR-00159 — Most Expensive Medical Treatment (Zolgensma (Novartis)) — checked 2026-09-08: no free product/vial photo found (FDA page has no product image; Wikipedia's only image is a mechanism-of-action diagram, not a photo).
@@ -400,7 +420,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 ## extreme (10) — checked 2026-09-06 against globalbestrecords.org/extremerecords, no new
 matches found; all 10 show only the site's own generic placeholder image there.
 - IRWR-00285 — Fastest Power Stairs Climb (Mikhail Shivlyakov)
-- IRWR-00286 — Fastest Everest Ascent Without Supplemental Oxygen (Josh Albert)
+- IRWR-00286 — Fastest Everest Ascent Without Supplemental Oxygen (Josh Albert) — checked 2026-09-08: not documented in any searchable source (current Guinness title-holders for Everest speed-without-oxygen are Nirmal Purja and others; "Josh Albert" doesn't appear).
 - IRWR-00287 — Longest Plank Hold (Julia Bachmann)
 - IRWR-00288 — Heaviest Vehicle Pulled by Teeth (Martin Thierry)
 - IRWR-00290 — Heaviest One-Handed Barbell Lift (Sanjay Kumar)
@@ -419,9 +439,9 @@ graphic (see the 2026-09-06 military pass entry below) — none remain without a
 ## sport (10) — checked 2026-09-06 against globalbestrecords.org/sportrecords, no new matches
 found; IRWR-00001 isn't mentioned on that page at all, and the other 9 show only the site's
 own generic placeholder image there.
-- IRWR-00001 — Longest Continuous English Channel Swim (Wildmarie Guy)
+- IRWR-00001 — Longest Continuous English Channel Swim (Wildmarie Guy) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00005 — Longest Ice Swim Distance (Pavel Konovalov)
-- IRWR-00006 — Farthest Distance Run in 24 Hours (Thomas Freimut)
+- IRWR-00006 — Farthest Distance Run in 24 Hours (Thomas Freimut) — checked 2026-09-09: not documented; current 24h world record holder (all surfaces) is a different person (Aleksandr Sorokin).
 - IRWR-00008 — Most Pull-Ups in One Minute (Artem Kucherenko)
 - IRWR-00009 — Highest Trampoline Jump (Irene Kuran)
 - IRWR-00022 — Most Goals Scored in a Single Bandy Match (Maria Konstantinova)

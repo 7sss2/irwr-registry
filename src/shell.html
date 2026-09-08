@@ -4,13 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{TITLE}} — IRWR</title>
+<meta name="description" content="{{DESCRIPTION}}">
+<link rel="canonical" href="https://irwr-registry.netlify.app/{{URL_PATH}}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{TITLE}} — IRWR">
+<meta property="og:description" content="{{DESCRIPTION}}">
+<meta property="og:url" content="https://irwr-registry.netlify.app/{{URL_PATH}}">
+<meta property="og:site_name" content="IRWR">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{TITLE}} — IRWR">
+<meta name="twitter:description" content="{{DESCRIPTION}}">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/tokens.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/pages.css">
+{{CSS_LINKS}}
 </head>
 <body data-page="{{PAGE}}">
 <div class="scroll-progress" id="scrollProgress"></div>
@@ -27,9 +35,7 @@
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="js/data.js"></script>
-<script src="js/main.js"></script>
-<script src="js/bg3d.js"></script>
+{{CORE_SCRIPTS}}
 {{PAGE_SCRIPTS}}
 </body>
 </html>

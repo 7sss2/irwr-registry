@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!matches.length) { results.innerHTML = `<div class="search-empty">No records match "${IRWR.escapeHtml(query)}".</div>`; return; }
     results.innerHTML = matches.map((r) => `
       <div class="search-row" data-id="${IRWR.escapeHtml(r.id)}">
-        <img class="photo" src="${IRWR.photoUrl(r, '', 120, 120)}" alt="">
+        <img class="photo" src="${IRWR.photoUrl(r, '', 120, 120)}" alt="${IRWR.escapeHtml(r.title)}" loading="lazy" width="120" height="120">
         <div><strong>${IRWR.escapeHtml(r.title)}</strong><div>${IRWR.escapeHtml(r.holderName)} · ${IRWR.escapeHtml(r.country || 'International')}</div></div>
         <div>${IRWR.escapeHtml(r.category)}</div>
         <div>${IRWR.escapeHtml(r.id)}</div>

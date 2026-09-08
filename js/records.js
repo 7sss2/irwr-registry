@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const records = IRWR.filterRecords(IRWR_RECORDS, { category: category || undefined });
     grid.innerHTML = records.map((r) => `
       <article class="rcard reveal in" data-id="${IRWR.escapeHtml(r.id)}">
-        <div class="rph"><img class="photo" src="${IRWR.photoUrl(r, '', 700, 500)}" alt=""></div>
+        <div class="rph"><img class="photo" src="${IRWR.photoUrl(r, '', 700, 500)}" alt="${IRWR.escapeHtml(r.title)}" loading="lazy" width="700" height="500"></div>
         <div class="rmeta"><span>${IRWR.escapeHtml(r.category)}</span><span>${IRWR.escapeHtml(r.country || 'International')}</span><span>${IRWR.escapeHtml(r.status)}</span></div>
         <h3>${IRWR.escapeHtml(r.title)}</h3>
         <p>${IRWR.escapeHtml(r.description)}</p>

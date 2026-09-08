@@ -431,7 +431,7 @@
     "status": "verified",
     "description": "ICBC holds over USD 5.5 trillion in total assets as of 2024, making it the largest bank in the world by that measure. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00031.",
     "photoSeed": "irwr-economy-largest-bank-by-total-assets",
-    "photo": null,
+    "photo": "images/records/IRWR-00031.jpg",
     "featured": false
   },
   {
@@ -571,7 +571,7 @@
     "status": "verified",
     "description": "SoftBank Vision Fund 2 managed roughly USD 30 billion in capital between 2020 and 2024, making it the largest venture capital fund in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00041.",
     "photoSeed": "irwr-economy-largest-venture-capital-fund",
-    "photo": null,
+    "photo": "images/records/IRWR-00041.jpg",
     "featured": false
   },
   {
@@ -1523,7 +1523,7 @@
     "status": "verified",
     "description": "Spanish retailer ZARA can take a garment from design concept to store shelves in as little as 5 days, the fastest production and distribution cycle in the fashion industry. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00109.",
     "photoSeed": "irwr-culture-fastest-fast-fashion-production-cycle",
-    "photo": null,
+    "photo": "images/records/IRWR-00109.jpg",
     "featured": false
   },
   {
@@ -1761,7 +1761,7 @@
     "status": "verified",
     "description": "China's National Open University online platform served more than 30 million users as of 2023, making it the largest distance-learning program in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00126.",
     "photoSeed": "irwr-education-largest-distance-learning-platform",
-    "photo": null,
+    "photo": "images/records/IRWR-00126.jpg",
     "featured": false
   },
   {
@@ -1789,7 +1789,7 @@
     "status": "verified",
     "description": "Stanford University offered more than 2,000 online courses (MOOCs) as of 2023, more than any other single institution. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00128.",
     "photoSeed": "irwr-education-most-online-courses-from-a-single-institution",
-    "photo": null,
+    "photo": "images/records/IRWR-00128.jpg",
     "featured": false
   },
   {
@@ -1957,7 +1957,7 @@
     "status": "verified",
     "description": "USTC enrolled more than 10,000 students in AI-focused programs as of 2023, making it one of Asia's largest centers for artificial intelligence education. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00140.",
     "photoSeed": "irwr-education-largest-university-ai-training-program",
-    "photo": null,
+    "photo": "images/records/IRWR-00140.jpg",
     "featured": false
   },
   {
@@ -2041,7 +2041,7 @@
     "status": "verified",
     "description": "The OECD's Programme for International Student Assessment (PISA) tests the reading, math, and science skills of 15-year-olds across more than 80 countries, the largest such data project in education. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00146.",
     "photoSeed": "irwr-education-largest-education-data-assessment-project",
-    "photo": null,
+    "photo": "images/records/IRWR-00146.jpg",
     "featured": false
   },
   {
@@ -2055,7 +2055,7 @@
     "status": "verified",
     "description": "The University of Phoenix issued more than 40,000 online diplomas in 2023, more than any other American online university. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00147.",
     "photoSeed": "irwr-education-most-online-diplomas-issued-in-a-year",
-    "photo": null,
+    "photo": "images/records/IRWR-00147.png",
     "featured": false
   },
   {

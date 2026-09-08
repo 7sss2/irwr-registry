@@ -128,7 +128,7 @@ IRWR.openRecordModal = function (record) {
   if (!overlay || !body || !record) return;
   const photo = IRWR.photoUrl(record, '-modal', 900, 600);
   body.innerHTML = `
-    <div class="irwr-modal-photo"><img class="photo" src="${photo}" alt=""></div>
+    <div class="irwr-modal-photo"><img class="photo" src="${photo}" alt="${IRWR.escapeHtml(record.title)}" loading="eager" width="900" height="600"></div>
     <div class="irwr-modal-tags"><span class="ctag">${IRWR.escapeHtml(record.category)}</span><span class="ctag">${IRWR.escapeHtml(record.status)}</span></div>
     <h2 id="irwrModalTitle">${IRWR.escapeHtml(record.title)}</h2>
     <p class="irwr-modal-meta"><strong>${IRWR.escapeHtml(record.holderName)}</strong> · ${IRWR.escapeHtml(record.country || 'International')}</p>
