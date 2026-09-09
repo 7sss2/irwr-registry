@@ -80,8 +80,22 @@
 </section>
 <section class="reveal">
   <div class="wrap">
-    <div class="filter-row" id="filterRow">
-      <button class="chip active" data-category="">All</button>
+    <div class="filter-bar">
+      <div class="filter-row" id="filterRow">
+        <button class="chip active" data-category="">All</button>
+      </div>
+      <div class="sort-row">
+        <span class="results-count" id="resultsCount"></span>
+        <label class="sort-select-wrap">Sort
+          <select id="sortSelect">
+            <option value="id">Registry order</option>
+            <option value="title">Title A–Z</option>
+            <option value="newest">Newest first</option>
+            <option value="oldest">Oldest first</option>
+            <option value="country">Country A–Z</option>
+          </select>
+        </label>
+      </div>
     </div>
     <div class="rgrid" id="recordsGrid"></div>
   </div>

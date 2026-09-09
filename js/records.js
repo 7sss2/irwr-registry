@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const filterRow = document.getElementById('filterRow');
   const grid = document.getElementById('recordsGrid');
+  const sortSelect = document.getElementById('sortSelect');
+  const resultsCount = document.getElementById('resultsCount');
 
   IRWR.CATEGORIES.forEach((c) => {
     const btn = document.createElement('button');
@@ -10,8 +12,25 @@ document.addEventListener('DOMContentLoaded', () => {
     filterRow.appendChild(btn);
   });
 
+  function sortRecords(records, mode) {
+    const sorted = records.slice();
+    switch (mode) {
+      case 'title':
+        return sorted.sort((a, b) => a.title.localeCompare(b.title));
+      case 'newest':
+        return sorted.sort((a, b) => (parseInt(b.date, 10) || 0) - (parseInt(a.date, 10) || 0));
+      case 'oldest':
+        return sorted.sort((a, b) => (parseInt(a.date, 10) || 9999) - (parseInt(b.date, 10) || 9999));
+      case 'country':
+        return sorted.sort((a, b) => (a.country || 'zzz').localeCompare(b.country || 'zzz'));
+      default:
+        return sorted; // already in registry (IRWR ID) order
+    }
+  }
+
   function render(category) {
-    const records = IRWR.filterRecords(IRWR_RECORDS, { category: category || undefined });
+    const records = sortRecords(IRWR.filterRecords(IRWR_RECORDS, { category: category || undefined }), sortSelect.value);
+    resultsCount.textContent = `${records.length} record${records.length === 1 ? '' : 's'}`;
     grid.innerHTML = records.map((r) => `
       <article class="rcard reveal in" data-id="${IRWR.escapeHtml(r.id)}">
         <div class="rph"><img class="photo" src="${IRWR.photoUrl(r, '', 700, 500)}" alt="${IRWR.escapeHtml(r.title)}" loading="lazy" width="700" height="500"></div>
@@ -22,6 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
       </article>
     `).join('');
     IRWR.initTilt('.rcard');
+  }
+
+  function activeCategory() {
+    return filterRow.querySelector('.chip.active')?.dataset.category || '';
   }
 
   grid.addEventListener('click', (e) => {
@@ -39,6 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.classList.add('active');
     render(btn.dataset.category);
   });
+
+  sortSelect.addEventListener('change', () => render(activeCategory()));
 
   // a category tile (categories.html) links here as records.html?category=slug —
   // pre-select the matching chip so the grid opens already filtered instead of

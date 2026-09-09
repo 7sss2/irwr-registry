@@ -1,4 +1,14 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // keep the stat row honest — it's easy for a hand-typed number here to
+  // drift from the real dataset after a dedup/scale change (it did: this
+  // used to hardcode 303 records after 8 were retired as duplicates).
+  const statRecords = document.getElementById('statHomeRecords');
+  const statCountries = document.getElementById('statHomeCountries');
+  const statCategories = document.getElementById('statHomeCategories');
+  if (statRecords) statRecords.dataset.count = IRWR_RECORDS.length;
+  if (statCountries) statCountries.dataset.count = new Set(IRWR_RECORDS.map((r) => r.country).filter(Boolean)).size;
+  if (statCategories) statCategories.dataset.count = IRWR.CATEGORIES.length;
+
   const grid = document.getElementById('catalogGrid');
   if (!grid) return;
   const featured = IRWR_RECORDS.filter((r) => r.featured);
