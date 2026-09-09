@@ -95,7 +95,27 @@ body[data-page] nav.dnav a[data-page].active, body[data-page] .mnav a[data-page]
 
 .tilt{transform-style:preserve-3d; transition:transform .15s ease-out;}
 
-#bg3d-canvas{position:fixed; inset:0; z-index:0; pointer-events:none;}
+.bg-deco{position:fixed; inset:0; z-index:0; pointer-events:none; overflow:hidden; color:var(--ink-faint);}
+.bg-shape{position:absolute; width:180px; height:180px; opacity:.45; animation:bgSpin linear infinite;}
+.bg-shape-1{top:8%; right:6%; width:220px; height:220px; color:var(--gold); animation-duration:90s;}
+.bg-shape-2{top:52%; left:-40px; width:150px; height:150px; color:var(--navy); animation-duration:70s; animation-direction:reverse;}
+.bg-shape-3{bottom:10%; right:14%; width:130px; height:130px; color:var(--gold); animation-duration:60s;}
+.bg-shape-4{top:26%; left:8%; width:90px; height:90px; color:var(--navy); animation-duration:50s; animation-direction:reverse;}
+@keyframes bgSpin{to{transform:rotate(360deg);}}
+@media (max-width:900px){.bg-shape-2,.bg-shape-4{display:none;}}
+
+/* Respect the user's motion preference: kill decorative/ambient animation
+   entirely (spins, scrolling marquees, ripple, reveal-on-scroll slide-in,
+   tilt) but keep opacity-only fades since those don't trigger vestibular
+   discomfort and losing them would make content pop in with no transition
+   at all. */
+@media (prefers-reduced-motion:reduce){
+  .bg-shape, .ruler-track, .mega-track, .ripple{animation:none;}
+  .reveal{transition:opacity .3s ease; transform:none;}
+  .tilt{transition:none;}
+  .totop{transition:opacity .2s ease;}
+  *{scroll-behavior:auto !important;}
+}
 body > main, body > footer, .mega-title, .ruler{position:relative; z-index:1;}
 
 /* record detail modal — shared component injected via shell.html on every page */

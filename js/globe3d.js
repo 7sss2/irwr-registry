@@ -1,7 +1,22 @@
 (function () {
-  if (typeof THREE === 'undefined') return;
   const host = document.getElementById('globeHost');
   if (!host) return;
+
+  // Lazy-init: the globe is the only page on the site that still pays for
+  // three.js, so don't spend that budget until the rest of the page has
+  // already painted — schedule after the load event (all other resources
+  // settled) via requestIdleCallback, falling back to a short timeout on
+  // browsers without it (Safari).
+  function schedule(fn) {
+    if ('requestIdleCallback' in window) requestIdleCallback(fn, { timeout: 1500 });
+    else setTimeout(fn, 200);
+  }
+  if (document.readyState === 'complete') schedule(initGlobe);
+  else window.addEventListener('load', () => schedule(initGlobe));
+
+  function initGlobe() {
+  if (typeof THREE === 'undefined') return;
+  host.classList.add('globe-ready');
 
   const renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
@@ -110,4 +125,5 @@
     renderer.render(scene, camera);
   }
   requestAnimationFrame(animate);
+  }
 })();

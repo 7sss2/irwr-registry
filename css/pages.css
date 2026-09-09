@@ -10,6 +10,14 @@
 .hero-clients{color:rgba(255,255,255,0.75); font-size:13px; margin-bottom:20px; max-width:340px;}
 .hero h1{color:#fff; font-size:64px; font-weight:600; letter-spacing:0; line-height:1.02; max-width:820px; margin-bottom:34px;}
 
+.hero3d{position:absolute; inset:0; z-index:1; pointer-events:none; perspective:900px; transform:rotateY(calc(var(--tx, 0) * 1deg)) rotateX(calc(var(--ty, 0) * -1deg)); transition:transform .3s ease-out;}
+.hero3d-knot,.hero3d-ico{position:absolute; transform-style:preserve-3d;}
+.hero3d-knot{top:50%; right:8%; width:340px; height:340px; margin-top:-170px; color:var(--gold); opacity:.55; animation:heroKnotSpin 40s linear infinite;}
+.hero3d-ico{top:18%; right:26%; width:120px; height:120px; opacity:.4; animation:heroKnotSpin 55s linear infinite reverse;}
+@keyframes heroKnotSpin{to{transform:rotate(360deg);}}
+@media (max-width:900px){.hero3d{display:none;}}
+@media (prefers-reduced-motion:reduce){.hero3d-knot,.hero3d-ico{animation:none;} .hero3d{transform:none !important; transition:none;}}
+
 /* home: dark catalog section */
 .catalog{background:var(--navy-2); padding:100px 0; position:relative; overflow:hidden;}
 .compass{
@@ -173,7 +181,12 @@
   .country-row.podium .country-bar-track{position:absolute; left:0; right:0; bottom:0; height:4px; margin:0;}
   .country-board{grid-template-columns:1fr;}
 }
-#globeHost{width:100%; height:420px; margin:30px 0;}
+#globeHost{width:100%; height:420px; margin:30px 0; display:flex; align-items:center; justify-content:center;}
+#globeHost::before{content:'Loading globe…'; color:var(--ink-faint); font-size:13px; letter-spacing:.04em; text-transform:uppercase;}
+#globeHost.globe-ready::before{display:none;}
+#globeHost canvas{animation:globeFadeIn .5s ease;}
+@keyframes globeFadeIn{from{opacity:0;} to{opacity:1;}}
+@media (prefers-reduced-motion:reduce){#globeHost canvas{animation:none;}}
 
 /* categories: tile grid */
 .cat-grid{display:grid; grid-template-columns:repeat(5,1fr); gap:20px; padding:40px 0 100px;}
@@ -182,7 +195,11 @@
 .cat-tile .cph::after{content:''; position:absolute; inset:0; background:linear-gradient(0deg, rgba(13,17,25,0.85), transparent 65%);}
 .cat-tile .cph img{transition:transform .6s ease;}
 .cat-tile:hover .cph img{transform:scale(1.1);}
-.cat-tile .cat-icon-host{position:absolute; top:12px; right:12px; width:48px; height:48px; z-index:2;}
+.cat-tile .cat-icon-host{position:absolute; top:12px; right:12px; width:48px; height:48px; z-index:2; color:var(--gold);}
+.cat-icon{width:100%; height:100%; animation:catIconSpin 14s linear infinite;}
+.cat-tile:hover .cat-icon{animation-duration:2.2s;}
+@media (prefers-reduced-motion:reduce){.cat-icon{animation:none;}}
+@keyframes catIconSpin{to{transform:rotate(360deg);}}
 .cat-tile h2{position:relative; z-index:1; color:#fff; font-size:17px;}
 .cat-tile .cat-count{position:relative; z-index:1; color:rgba(255,255,255,0.7); font-size:12px;}
 @media (max-width:1100px){ .cat-grid{grid-template-columns:repeat(3,1fr);} }

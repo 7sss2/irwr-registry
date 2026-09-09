@@ -25,7 +25,12 @@
 <body data-page="records">
 <div class="scroll-progress" id="scrollProgress"></div>
 <div class="cursor-glow" id="cursorGlow"></div>
-<canvas id="bg3d-canvas"></canvas>
+<div class="bg-deco" aria-hidden="true">
+  <svg class="bg-shape bg-shape-1" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="0.6"/></svg>
+  <svg class="bg-shape bg-shape-2" viewBox="0 0 100 100"><polygon points="50,4 92,27 92,73 50,96 8,73 8,27" fill="none" stroke="currentColor" stroke-width="1"/><line x1="50" y1="4" x2="50" y2="96" stroke="currentColor" stroke-width="0.6"/><line x1="8" y1="27" x2="92" y2="73" stroke="currentColor" stroke-width="0.6"/><line x1="8" y1="73" x2="92" y2="27" stroke="currentColor" stroke-width="0.6"/></svg>
+  <svg class="bg-shape bg-shape-3" viewBox="0 0 100 100"><polygon points="50,4 96,50 50,96 4,50" fill="none" stroke="currentColor" stroke-width="1"/><line x1="4" y1="50" x2="96" y2="50" stroke="currentColor" stroke-width="0.6"/><line x1="50" y1="4" x2="50" y2="96" stroke="currentColor" stroke-width="0.6"/></svg>
+  <svg class="bg-shape bg-shape-4" viewBox="0 0 100 100"><circle cx="50" cy="50" r="38" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+</div>
 <header id="siteHeader">
   <div class="wrap">
     <div class="bar">
@@ -113,10 +118,9 @@
     <div class="irwr-modal-body" id="irwrModalBody"></div>
   </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+
 <script src="js/data.min.js" defer></script>
 <script src="js/main.min.js" defer></script>
-<script src="js/bg3d.min.js" defer></script>
 <script src="js/records.min.js" defer></script>
 </body>
 </html>

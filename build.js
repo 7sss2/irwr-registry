@@ -15,9 +15,9 @@ const pages = [
     description: 'Browse every verified world record in the IRWR registry, filterable by category, from sport and architecture to human body and extreme feats.' },
   { slug: 'holders',    src: 'holders.html',    title: 'Record Holders',  page: 'holders',    scripts: ['holders.js'],
     description: 'Meet the people, teams, and organizations behind IRWR-verified world records, with their full record history.' },
-  { slug: 'countries',  src: 'countries.html',  title: 'Countries',       page: 'countries',  scripts: ['countries.js', 'globe3d.js'],
+  { slug: 'countries',  src: 'countries.html',  title: 'Countries',       page: 'countries',  scripts: ['countries.js', 'globe3d.js'], threeJs: true,
     description: 'Explore IRWR world records by country of origin on an interactive globe.' },
-  { slug: 'categories', src: 'categories.html', title: 'Categories',      page: 'categories', scripts: ['categoryIcons3d.js'],
+  { slug: 'categories', src: 'categories.html', title: 'Categories',      page: 'categories', scripts: [],
     description: 'Browse IRWR world records by category: sport, economy, culture, education, transport, cooking, architecture, military, human body, and extreme.' },
   { slug: 'search',     src: 'search.html',     title: 'Search',         page: 'search',      scripts: ['search.js'],
     description: 'Search the IRWR registry for a specific world record, holder, or country.' },
@@ -84,9 +84,13 @@ function build() {
   const cssLinks = ['tokens.css', 'base.css', 'pages.css']
     .map((name) => `<link rel="stylesheet" href="css/${minPath('css', name)}">`)
     .join('\n');
-  const coreScripts = ['data.js', 'main.js', 'bg3d.js']
+  const coreScripts = ['data.js', 'main.js']
     .map((name) => `<script src="js/${minPath('js', name)}" defer></script>`)
     .join('\n');
+  // three.js (118KB) is only pulled in on pages that do real WebGL work (currently
+  // just the interactive countries globe) - everywhere else relies on CSS/SVG for
+  // decorative motion, so most pages never pay for the library at all.
+  const threeScript = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>';
 
   for (const p of pages) {
     const bodyPath = path.join(root, 'src/pages', p.src);
@@ -99,6 +103,7 @@ function build() {
       DESCRIPTION: p.description || DEFAULT_DESCRIPTION,
       URL_PATH: p.slug === 'index' ? '' : `${p.slug}.html`,
       CSS_LINKS: cssLinks,
+      THREE_SCRIPT: p.threeJs ? threeScript : '',
       CORE_SCRIPTS: coreScripts,
       HEADER: partials.header,
       FOOTER: partials.footer,
