@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const matches = IRWR.searchRecords(IRWR_RECORDS, query);
     if (!matches.length) { results.innerHTML = `<div class="search-empty">No records match "${IRWR.escapeHtml(query)}".</div>`; return; }
     results.innerHTML = matches.map((r) => `
-      <div class="search-row" data-id="${IRWR.escapeHtml(r.id)}">
+      <div class="search-row" data-id="${IRWR.escapeHtml(r.id)}" tabindex="0" role="button" aria-label="View details for ${IRWR.escapeHtml(r.title)}">
         <img class="photo" src="${IRWR.photoUrl(r, '', 120, 120)}" alt="${IRWR.escapeHtml(r.title)}" loading="lazy" width="120" height="120">
         <div><strong>${IRWR.escapeHtml(r.title)}</strong><div>${IRWR.escapeHtml(r.holderName)} · ${IRWR.escapeHtml(r.country || 'International')}</div></div>
         <div>${IRWR.escapeHtml(r.category)}</div>
@@ -19,6 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
   results.addEventListener('click', (e) => {
     const row = e.target.closest('.search-row');
     if (!row) return;
+    const record = IRWR.byId(row.dataset.id);
+    if (record) IRWR.openRecordModal(record);
+  });
+
+  results.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const row = e.target.closest('.search-row');
+    if (!row) return;
+    e.preventDefault();
     const record = IRWR.byId(row.dataset.id);
     if (record) IRWR.openRecordModal(record);
   });

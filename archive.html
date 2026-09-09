@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="css/pages.min.css">
 </head>
 <body data-page="archive">
+<a href="#main" class="skip-link">Skip to content</a>
 <div class="scroll-progress" id="scrollProgress"></div>
 <div class="cursor-glow" id="cursorGlow"></div>
 <div class="bg-deco" aria-hidden="true">
@@ -36,7 +37,7 @@
   <div class="wrap">
     <div class="bar">
       <a href="index.html" class="logo"><span class="logo-mark"></span> IRWR</a>
-      <nav class="dnav" id="dnav">
+      <nav class="dnav" id="dnav" aria-label="Primary">
         <a href="records.html" data-page="records">World Records</a>
         <a href="holders.html" data-page="holders">Record Holders</a>
         <a href="countries.html" data-page="countries">Countries</a>
@@ -54,7 +55,7 @@
       </button>
     </div>
   </div>
-  <nav class="mnav" id="mnav">
+  <nav class="mnav" id="mnav" aria-label="Mobile">
     <a href="records.html" data-page="records">World Records</a>
     <a href="holders.html" data-page="holders">Record Holders</a>
     <a href="countries.html" data-page="countries">Countries</a>
@@ -66,7 +67,7 @@
   </nav>
 </header>
 
-<main>
+<main id="main" tabindex="-1">
 <section class="mega-title">
   <div class="mega-track" id="megaTrack"></div>
 </section>
@@ -116,7 +117,7 @@
 
 <div class="totop" id="toTop">↑</div>
 <div class="irwr-modal-overlay" id="irwrModalOverlay" hidden>
-  <div class="irwr-modal" role="dialog" aria-modal="true" aria-labelledby="irwrModalTitle">
+  <div class="irwr-modal" role="dialog" aria-modal="true" aria-labelledby="irwrModalTitle" tabindex="-1">
     <button class="irwr-modal-close" id="irwrModalClose" aria-label="Close">&times;</button>
     <div class="irwr-modal-body" id="irwrModalBody"></div>
   </div>

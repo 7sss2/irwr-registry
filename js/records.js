@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const records = sortRecords(IRWR.filterRecords(IRWR_RECORDS, { category: category || undefined }), sortSelect.value);
     resultsCount.textContent = `${records.length} record${records.length === 1 ? '' : 's'}`;
     grid.innerHTML = records.map((r) => `
-      <article class="rcard reveal in" data-id="${IRWR.escapeHtml(r.id)}">
+      <article class="rcard reveal in" data-id="${IRWR.escapeHtml(r.id)}" tabindex="0" role="button" aria-label="View details for ${IRWR.escapeHtml(r.title)}">
         <div class="rph"><img class="photo" src="${IRWR.photoUrl(r, '', 700, 500)}" alt="${IRWR.escapeHtml(r.title)}" loading="lazy" width="700" height="500"></div>
         <div class="rmeta"><span>${IRWR.escapeHtml(r.category)}</span><span>${IRWR.escapeHtml(r.country || 'International')}</span><span>${IRWR.escapeHtml(r.status)}</span></div>
         <h2>${IRWR.escapeHtml(r.title)}</h2>
@@ -51,6 +51,20 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.target.closest('a')) return; // let the "Holder profile" link navigate normally
     const card = e.target.closest('.rcard');
     if (!card) return;
+    const record = IRWR.byId(card.dataset.id);
+    if (record) IRWR.openRecordModal(record);
+  });
+
+  // the card itself is tabindex="0"/role="button" (see render()) so keyboard
+  // users can reach and open it the same way a mouse click does - the nested
+  // "Holder profile" <a> already gets native Enter-activation, so it's
+  // excluded here the same way it's excluded from the click handler above.
+  grid.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    if (e.target.closest('a')) return;
+    const card = e.target.closest('.rcard');
+    if (!card) return;
+    e.preventDefault(); // stop Space from scrolling the page
     const record = IRWR.byId(card.dataset.id);
     if (record) IRWR.openRecordModal(record);
   });

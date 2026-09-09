@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const records = byHolder[name];
     const r = records[0];
     return `
-      <div class="hcard reveal in tilt" data-holder="${IRWR.escapeHtml(name)}">
+      <div class="hcard reveal in tilt" data-holder="${IRWR.escapeHtml(name)}" tabindex="0" role="button" aria-label="View records for ${IRWR.escapeHtml(name)}">
         <div class="hface">
           <div class="hph"><img class="photo" src="${IRWR.photoUrl(r, '-holder', 500, 700)}" alt="${IRWR.escapeHtml(name)}" loading="lazy" width="500" height="700"></div>
           <div class="hname">${IRWR.escapeHtml(name)}</div>
@@ -26,6 +26,14 @@ document.addEventListener('DOMContentLoaded', () => {
   grid.addEventListener('click', (e) => {
     const card = e.target.closest('.hcard');
     if (!card) return;
+    IRWR.openHolderModal(card.dataset.holder);
+  });
+
+  grid.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const card = e.target.closest('.hcard');
+    if (!card) return;
+    e.preventDefault();
     IRWR.openHolderModal(card.dataset.holder);
   });
 

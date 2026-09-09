@@ -119,6 +119,32 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+// Dialog (Modal) authoring-practice basics that `aria-modal="true"` alone
+// doesn't give you: move focus in when it opens, keep Tab cycling inside
+// while it's open, and give focus back to whatever opened it on close.
+// Without this, a keyboard/screen-reader user who triggers the modal keeps
+// tabbing through the page behind it - the overlay only *looks* modal.
+let irwrModalLastFocused = null;
+function irwrActivateModal(overlay) {
+  irwrModalLastFocused = document.activeElement;
+  const dialog = overlay.querySelector('.irwr-modal');
+  const closeBtn = document.getElementById('irwrModalClose');
+  overlay.hidden = false;
+  document.body.classList.add('modal-open');
+  (closeBtn || dialog).focus();
+  dialog.addEventListener('keydown', irwrModalTrapTab);
+}
+function irwrModalTrapTab(e) {
+  if (e.key !== 'Tab') return;
+  const items = [...e.currentTarget.querySelectorAll('button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])')]
+    .filter((el) => el.offsetParent !== null);
+  if (!items.length) return;
+  const first = items[0];
+  const last = items[items.length - 1];
+  if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+  else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+}
+
 // Full record detail — every field shown comes straight from IRWR_RECORDS
 // (itself sourced only from the GBR PDF book / globalbestrecords.org, see
 // scripts/build-real-data.js), nothing added here.
@@ -135,8 +161,7 @@ IRWR.openRecordModal = function (record) {
     <p class="irwr-modal-meta">${IRWR.escapeHtml(record.date || 'Date not specified')} · IRWR index <strong>${IRWR.escapeHtml(record.id)}</strong></p>
     <p class="irwr-modal-desc">${IRWR.escapeHtml(record.description)}</p>
   `;
-  overlay.hidden = false;
-  document.body.classList.add('modal-open');
+  irwrActivateModal(overlay);
 };
 
 // A holder card can represent several records — list them, each opening its
@@ -161,15 +186,17 @@ IRWR.openHolderModal = function (holderName) {
       `).join('')}
     </div>
   `;
-  overlay.hidden = false;
-  document.body.classList.add('modal-open');
+  irwrActivateModal(overlay);
 };
 
 IRWR.closeModal = function () {
   const overlay = document.getElementById('irwrModalOverlay');
   if (!overlay) return;
+  overlay.querySelector('.irwr-modal')?.removeEventListener('keydown', irwrModalTrapTab);
   overlay.hidden = true;
   document.body.classList.remove('modal-open');
+  if (irwrModalLastFocused && document.body.contains(irwrModalLastFocused)) irwrModalLastFocused.focus();
+  irwrModalLastFocused = null;
 };
 
 // animated count-up, triggered on scroll-into-view

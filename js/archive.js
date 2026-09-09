@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentPage = page;
 
     body.innerHTML = items.map((r) => `
-      <tr data-id="${IRWR.escapeHtml(r.id)}"><td>${IRWR.escapeHtml(r.id)}</td><td>${IRWR.escapeHtml(r.title)}</td><td>${IRWR.escapeHtml(r.holderName)}</td><td>${IRWR.escapeHtml(r.country || 'International')}</td><td>${IRWR.escapeHtml(r.category)}</td><td>${IRWR.escapeHtml(r.date || '—')}</td><td>${IRWR.escapeHtml(r.status)}</td></tr>
+      <tr data-id="${IRWR.escapeHtml(r.id)}" tabindex="0" role="button" aria-label="View details for ${IRWR.escapeHtml(r.title)}"><td>${IRWR.escapeHtml(r.id)}</td><td>${IRWR.escapeHtml(r.title)}</td><td>${IRWR.escapeHtml(r.holderName)}</td><td>${IRWR.escapeHtml(r.country || 'International')}</td><td>${IRWR.escapeHtml(r.category)}</td><td>${IRWR.escapeHtml(r.date || '—')}</td><td>${IRWR.escapeHtml(r.status)}</td></tr>
     `).join('') || '<tr><td colspan="7">No records match these filters.</td></tr>';
 
     let pageButtons = `<button ${page === 1 ? 'disabled' : ''} data-page="${page - 1}">Prev</button>`;
@@ -32,6 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
   body.addEventListener('click', (e) => {
     const row = e.target.closest('tr[data-id]');
     if (!row) return;
+    const record = IRWR.byId(row.dataset.id);
+    if (record) IRWR.openRecordModal(record);
+  });
+
+  body.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const row = e.target.closest('tr[data-id]');
+    if (!row) return;
+    e.preventDefault();
     const record = IRWR.byId(row.dataset.id);
     if (record) IRWR.openRecordModal(record);
   });
