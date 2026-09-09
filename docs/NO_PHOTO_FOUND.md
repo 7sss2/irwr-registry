@@ -423,7 +423,7 @@ Rejected candidates (real GBR mention, but no record-specific photo available):
 - IRWR-00116 — Largest Pair of Shoes (Nike Turkey) — checked 2026-09-09: only unrelated "biggest shoe on display" record found (Zahit Okular, Turkey, 2000) — different record type, no Nike connection.
 - IRWR-00117 — Wedding Dress with the Most Rhinestones (Nina Khan) — checked 2026-09-09: not documented in any searchable source.
 - IRWR-00118 — Fastest Sewing Machine (Samsung Textile Tech) — checked 2026-09-09: not documented in any searchable source.
-- IRWR-00119 — Largest Rose Bouquet in a Single Basket (ROMANTIK Company (Izbasarova G.))
+- IRWR-00119 — Largest Rose Bouquet in a Single Basket (ROMANTIK Company (Izbasarova G.)) — checked via Instagram (see 2026-09-08 entry above): a genuine ROMANTIK post exists confirming the correct record/company, but the only image is a pre-event promotional graphic (text + generic floral background) with no actual bouquet shown; rejected as not documentation of the achieved record.
 
 ## economy (0)
 
