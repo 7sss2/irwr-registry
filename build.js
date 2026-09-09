@@ -10,6 +10,7 @@ const shell = fs.readFileSync(path.join(root, 'src/shell.html'), 'utf8');
 
 const pages = [
   { slug: 'index',      src: 'home.html',       title: 'Home',            page: 'home',       scripts: ['home.js', 'hero3d.js'],
+    preload: 'images/hero-library.jpg',
     description: 'IRWR is the International Register World Record — a verified, source-cited registry of world records spanning sport, science, culture, and more.' },
   { slug: 'records',    src: 'records.html',    title: 'World Records',   page: 'records',    scripts: ['records.js'],
     description: 'Browse every verified world record in the IRWR registry, filterable by category, from sport and architecture to human body and extreme feats.' },
@@ -103,6 +104,7 @@ function build() {
       DESCRIPTION: p.description || DEFAULT_DESCRIPTION,
       URL_PATH: p.slug === 'index' ? '' : `${p.slug}.html`,
       CSS_LINKS: cssLinks,
+      PRELOAD: p.preload ? `<link rel="preload" as="image" href="${p.preload}" fetchpriority="high">` : '',
       THREE_SCRIPT: p.threeJs ? threeScript : '',
       CORE_SCRIPTS: coreScripts,
       HEADER: partials.header,
