@@ -37,8 +37,9 @@ function fill(str, map) {
   return str.replace(/{{(\w+)}}/g, (m, key) => (key in map ? map[key] : m));
 }
 
-// Minifies css/*.css -> css/*.min.css and js/*.js -> js/*.min.js (js/data.js is a
-// generated data file, not source, and is skipped). Falls back to leaving only
+// Minifies css/*.css -> css/*.min.css and js/*.js -> js/*.min.js (including the
+// generated js/data.js, which is plain JS - always minified from whatever
+// scripts/build-real-data.js most recently wrote). Falls back to leaving only
 // unminified files in place if terser/clean-css aren't installed (e.g. `npm install`
 // was never run) so a bare-bones `node build.js` still produces a working site —
 // build() below always prefers a `.min` file when one exists on disk.
@@ -64,7 +65,7 @@ async function minifyAssets() {
 
   const jsDir = path.join(root, 'js');
   for (const name of fs.readdirSync(jsDir)) {
-    if (!name.endsWith('.js') || name.endsWith('.min.js') || name === 'data.js') continue;
+    if (!name.endsWith('.js') || name.endsWith('.min.js')) continue;
     const src = fs.readFileSync(path.join(jsDir, name), 'utf8');
     const result = await terser.minify(src, { compress: true, mangle: true });
     if (result.error) { console.error('minify js error', name, result.error); continue; }
@@ -84,14 +85,14 @@ function build() {
     .map((name) => `<link rel="stylesheet" href="css/${minPath('css', name)}">`)
     .join('\n');
   const coreScripts = ['data.js', 'main.js', 'bg3d.js']
-    .map((name) => `<script src="js/${name === 'data.js' ? name : minPath('js', name)}"></script>`)
+    .map((name) => `<script src="js/${minPath('js', name)}" defer></script>`)
     .join('\n');
 
   for (const p of pages) {
     const bodyPath = path.join(root, 'src/pages', p.src);
     if (!fs.existsSync(bodyPath)) continue;
     const body = fs.readFileSync(bodyPath, 'utf8');
-    const scripts = p.scripts.map((s) => `<script src="js/${minPath('js', s)}"></script>`).join('\n');
+    const scripts = p.scripts.map((s) => `<script src="js/${minPath('js', s)}" defer></script>`).join('\n');
     let html = fill(shell, {
       TITLE: p.title,
       PAGE: p.page,
