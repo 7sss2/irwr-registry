@@ -91,7 +91,7 @@ function build() {
   // three.js (118KB) is only pulled in on pages that do real WebGL work (currently
   // just the interactive countries globe) - everywhere else relies on CSS/SVG for
   // decorative motion, so most pages never pay for the library at all.
-  const threeScript = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>';
+  const threeScript = '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha384-CI3ELBVUz9XQO+97x6nwMDPosPR5XvsxW2ua7N1Xeygeh1IxtgqtCkGfQY9WWdHu" crossorigin="anonymous" defer></script>';
 
   for (const p of pages) {
     const bodyPath = path.join(root, 'src/pages', p.src);
@@ -116,6 +116,26 @@ function build() {
     fs.writeFileSync(path.join(root, `${p.slug}.html`), html);
     console.log('built', `${p.slug}.html`);
   }
+
+  buildSitemap();
+}
+
+// admin.html is excluded - it's marked noindex (see _headers) since it's an
+// internal-only stub with no real function, not a page search engines
+// should list.
+const SITE_ORIGIN = 'https://irwr-registry.netlify.app';
+function buildSitemap() {
+  const today = new Date().toISOString().slice(0, 10);
+  const urls = pages
+    .filter((p) => p.slug !== 'admin')
+    .map((p) => {
+      const loc = p.slug === 'index' ? `${SITE_ORIGIN}/` : `${SITE_ORIGIN}/${p.slug}.html`;
+      return `  <url><loc>${loc}</loc><lastmod>${today}</lastmod></url>`;
+    })
+    .join('\n');
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`;
+  fs.writeFileSync(path.join(root, 'sitemap.xml'), xml);
+  console.log('built sitemap.xml');
 }
 
 async function main() {

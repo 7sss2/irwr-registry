@@ -1,0 +1,27 @@
+# Security + caching headers for Netlify's edge. See:
+# https://docs.netlify.com/platform/caching/
+# https://docs.netlify.com/manage/security/secure-access-to-sites/custom-headers/
+
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://picsum.photos https://fastly.picsum.photos; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  X-XSS-Protection: 0
+
+# HTML must always be revalidated - Netlify's default (max-age=0, must-revalidate)
+# is already correct, no override needed here.
+
+# Static assets aren't content-hashed (same filename across deploys), so a long
+# immutable cache would serve stale files after a redeploy - a moderate cache
+# with revalidation is the safe middle ground given the current build setup.
+/css/*
+  Cache-Control: public, max-age=3600, must-revalidate
+/js/*
+  Cache-Control: public, max-age=3600, must-revalidate
+/images/*
+  Cache-Control: public, max-age=86400, must-revalidate
+
+/admin.html
+  X-Robots-Tag: noindex, nofollow
