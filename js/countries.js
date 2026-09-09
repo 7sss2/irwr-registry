@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="country-row podium rank-${rank}" data-country="${IRWR.escapeHtml(country)}">
           <div class="podium-medal">${rank}</div>
           <div class="podium-flag">${flagFor(country)}</div>
-          <h3 class="podium-name">${IRWR.escapeHtml(country)}</h3>
+          <h2 class="podium-name">${IRWR.escapeHtml(country)}</h2>
           <div class="podium-count num" data-count="${records.length}">0</div>
           <div class="podium-label">records</div>
           <div class="country-bar-track"><div class="country-bar" data-pct="${pct}"></div></div>
