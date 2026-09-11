@@ -36,6 +36,8 @@ header .bar{display:flex; align-items:center; justify-content:space-between; hei
 .logo{display:flex; align-items:center; gap:10px; color:#fff; font-family:'Oswald',sans-serif; font-weight:600; font-size:19px; text-transform:uppercase; letter-spacing:0.02em;}
 .logo-mark{width:30px; height:30px; background:var(--gold); clip-path:polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%); transition:transform .5s ease;}
 .logo:hover .logo-mark{transform:rotate(180deg);}
+.logo-img{height:56px; width:auto; display:block;}
+@media (max-width:480px){.logo-img{height:46px;}}
 nav.dnav{display:flex; gap:2px;}
 nav.dnav a{color:rgba(255,255,255,0.82); font-size:13px; font-weight:600; letter-spacing:0.04em; text-transform:uppercase; padding:10px 14px; transition:color .2s ease;}
 nav.dnav a:hover{color:var(--gold);}
