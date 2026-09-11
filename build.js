@@ -123,7 +123,7 @@ function build() {
 // admin.html is excluded - it's marked noindex (see _headers) since it's an
 // internal-only stub with no real function, not a page search engines
 // should list.
-const SITE_ORIGIN = 'https://irwr-registry.netlify.app';
+const SITE_ORIGIN = 'https://irwr-registry.com';
 function buildSitemap() {
   const today = new Date().toISOString().slice(0, 10);
   const urls = pages

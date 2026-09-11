@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "http://irwr-registry.com/*"
+  to = "https://irwr-registry.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.irwr-registry.com/*"
+  to = "https://irwr-registry.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.irwr-registry.com/*"
+  to = "https://irwr-registry.com/:splat"
+  status = 301
+  force = true
