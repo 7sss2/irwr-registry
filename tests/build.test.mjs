@@ -4,7 +4,7 @@ import { readFileSync, existsSync } from 'node:fs';
 
 execSync('node build.js', { cwd: process.cwd() });
 
-const slugs = ['index', 'records', 'holders', 'countries', 'categories', 'search', 'verify', 'archive', 'about', 'admin'];
+const slugs = ['index', 'records', 'holders', 'countries', 'categories', 'search', 'archive', 'about', 'admin'];
 for (const slug of slugs) {
   assert.ok(existsSync(`${slug}.html`), `${slug}.html was not generated`);
   const html = readFileSync(`${slug}.html`, 'utf8');

@@ -259,11 +259,6 @@
 .admin-form input:focus{outline:none; border-color:var(--gold);}
 .admin-form button{width:100%;}
 
-/* verify: index number lookup */
-.verify-form{padding:150px 0 40px; text-align:center;}
-.verify-form input{font-size:22px; font-family:'IBM Plex Mono', monospace; text-align:center; border:2px solid var(--line); padding:16px 20px; width:320px; max-width:100%;}
-.verify-form input:focus{border-color:var(--gold); outline:2px solid var(--gold); outline-offset:2px;}
-.verify-result{padding:0 0 100px; display:flex; justify-content:center;}
 .cert-card{border:2px solid var(--gold-deep); padding:40px; max-width:520px; text-align:center; background:var(--panel);}
 .cert-card .cert-status{font-family:'Oswald',sans-serif; text-transform:uppercase; letter-spacing:0.08em; color:var(--gold-deep); font-size:13px; margin-bottom:14px;}
 .cert-card h2{font-size:26px; margin-bottom:10px;}

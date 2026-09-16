@@ -15,3 +15,10 @@
   to = "https://irwr-registry.com/:splat"
   status = 301
   force = true
+
+# Public verification was removed; send old links to the registry.
+[[redirects]]
+  from = "/verify.html"
+  to = "/records.html"
+  status = 301
+  force = true

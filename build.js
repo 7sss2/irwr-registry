@@ -22,8 +22,6 @@ const pages = [
     description: 'Browse IRWR world records by category: sport, economy, culture, education, transport, cooking, architecture, military, human body, and extreme.' },
   { slug: 'search',     src: 'search.html',     title: 'Search',         page: 'search',      scripts: ['search.js'],
     description: 'Search the IRWR registry for a specific world record, holder, or country.' },
-  { slug: 'verify',     src: 'verify.html',     title: 'Verify a Record', page: 'verify',     scripts: ['verify.js'],
-    description: 'Verify the authenticity of an IRWR world record certificate by its registry ID.' },
   { slug: 'archive',    src: 'archive.html',    title: 'Archive',         page: 'archive',    scripts: ['archive.js'],
     description: 'A full sortable archive of every record in the IRWR registry.' },
   { slug: 'about',      src: 'about.html',      title: 'About IRWR',      page: 'about',      scripts: ['about.js'],
