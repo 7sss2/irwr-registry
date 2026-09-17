@@ -59,26 +59,30 @@ function slugify(str) {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
+// Records added later from globalbestrecords.org/news. Appended after the
+// book records so existing IDs (and the photo manifest keyed on them) never shift.
+const newsRecords = require('./news-records-extracted.js');
+
 let id = 0;
 const records = [];
-CATEGORY_ORDER.forEach((slug) => {
-  extracted[slug].forEach((r) => {
-    id += 1;
-    const irwrId = `IRWR-${String(id).padStart(5, '0')}`;
-    records.push({
-      id: irwrId,
-      title: r.title,
-      category: r.category,
-      holderName: r.holderName,
-      country: canonicalCountry(r.country),
-      countryCode: countryCode(canonicalCountry(r.country)),
-      date: r.date,
-      status: 'verified',
-      description: `${r.description} Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID ${irwrId}.`,
-      photoSeed: `irwr-${slug}-${slugify(r.title)}`.slice(0, 60),
-      photo: PHOTO_MANIFEST[irwrId] || null,
-      featured: false,
-    });
+const sources = CATEGORY_ORDER.flatMap((slug) => extracted[slug]).concat(newsRecords);
+sources.forEach((r) => {
+  const slug = r.category;
+  id += 1;
+  const irwrId = `IRWR-${String(id).padStart(5, '0')}`;
+  records.push({
+    id: irwrId,
+    title: r.title,
+    category: r.category,
+    holderName: r.holderName,
+    country: canonicalCountry(r.country),
+    countryCode: countryCode(canonicalCountry(r.country)),
+    date: r.date,
+    status: 'verified',
+    description: `${r.description} Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID ${irwrId}.`,
+    photoSeed: `irwr-${slug}-${slugify(r.title)}`.slice(0, 60),
+    photo: PHOTO_MANIFEST[irwrId] || null,
+    featured: false,
   });
 });
 
