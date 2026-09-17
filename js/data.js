@@ -4141,7 +4141,7 @@
     "status": "verified",
     "description": "At Wuhu Open 2026 in Wuhu, Anhui, China, 13-year-old Chinese speedcuber Zhen Chen achieved an average time of 6.99 seconds in the 3x3x3 One-Handed discipline, officially recorded by the World Cube Association as a World Record Average. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00304.",
     "photoSeed": "irwr-sport-fastest-3x3x3-one-handed-speedcubing-average",
-    "photo": null,
+    "photo": "images/records/IRWR-00304.jpg",
     "featured": false
   },
   {
@@ -4155,7 +4155,7 @@
     "status": "verified",
     "description": "Romanian master caricaturist Gogu Neagoe drew 246 caricature portraits in 6 consecutive hours without a break in Bucharest, Romania, officially entered into the GBR World Book of Records as a demonstration of artistic speed, precision and endurance. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00305.",
     "photoSeed": "irwr-culture-fastest-caricature-portrait-drawing-marathon",
-    "photo": null,
+    "photo": "images/records/IRWR-00305.jpg",
     "featured": false
   },
   {
@@ -4169,7 +4169,7 @@
     "status": "verified",
     "description": "The Association of Legal Entities \"Zhappai Kokpar Federation of the Republic of Kazakhstan\" was registered by GBR for holding 273 official Zhappai Kokpar tournaments in one calendar year, the largest number of official competitions in a single sport in one year. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00306.",
     "photoSeed": "irwr-sport-most-official-sports-competitions-held-in-one-cal",
-    "photo": null,
+    "photo": "images/records/IRWR-00306.jpeg",
     "featured": false
   },
   {
@@ -4183,7 +4183,7 @@
     "status": "verified",
     "description": "Raúl Tayzon Flores of Mexico deadlifted 511 kilograms in a single lift, registered by GBR (Global Best of Records) as a new world record in strength sports. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00307.",
     "photoSeed": "irwr-extreme-heaviest-deadlift",
-    "photo": null,
+    "photo": "images/records/IRWR-00307.jpg",
     "featured": false
   },
   {
@@ -4197,7 +4197,7 @@
     "status": "verified",
     "description": "At the Wanda Diamond League Final in Brussels, Belgium, Birhanu Balew of Bahrain won the men's 5000 metres in 12:45.70, setting a new Asian Record and improving his own continental record by 2.03 seconds, recognized by GBR as one of the outstanding athletics records of Asia. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00308.",
     "photoSeed": "irwr-sport-asian-record-men-s-5000-metres",
-    "photo": null,
+    "photo": "images/records/IRWR-00308.png",
     "featured": false
   },
   {
@@ -4211,7 +4211,7 @@
     "status": "verified",
     "description": "Masai Russell set a new world record in the women's 100 metres hurdles with a time of 12.09 seconds at Weltklasse Zürich, Switzerland, improving on Tobi Amusan's previous record of 12.12 seconds; GBR recognized the world record and included it in its Global Records register. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00309.",
     "photoSeed": "irwr-sport-world-record-women-s-100-metres-hurdles",
-    "photo": null,
+    "photo": "images/records/IRWR-00309.jpg",
     "featured": false
   },
   {
@@ -4225,7 +4225,7 @@
     "status": "verified",
     "description": "GBR officially registered the Zhappai Kokpar Federation of Kazakhstan's national horseback sport tradition, in which Zhappai Kokpar competitions held within a single competition day can involve several thousand participants, as a world record for the most mass-participation sport involving sport horses. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00310.",
     "photoSeed": "irwr-sport-world-s-most-mass-participation-sport-involving-s",
-    "photo": null,
+    "photo": "images/records/IRWR-00310.png",
     "featured": false
   },
   {
@@ -4239,7 +4239,7 @@
     "status": "verified",
     "description": "Artyk Dossaliyev of Kazakhstan set a new world record of 17,600 kg in his strength category, surpassing the previous 15,730 kg record held by Ashraf Mahrus Mahmoud Suleiman of Egypt since 2021, becoming first in the world in his category. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00311.",
     "photoSeed": "irwr-extreme-new-world-record-in-weighted-strength-category-",
-    "photo": null,
+    "photo": "images/records/IRWR-00311.png",
     "featured": false
   },
   {
@@ -4253,7 +4253,7 @@
     "status": "verified",
     "description": "Sofia Fiorini of Italy established the first World Record in the women's marathon race walk (42.195 km) in 3 hours 15 minutes 11 seconds in Birmingham, United Kingdom, marking the inaugural World Record in this newly official World Athletics discipline, included by GBR in its World Records database. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00312.",
     "photoSeed": "irwr-sport-first-world-record-women-s-marathon-race-walk",
-    "photo": null,
+    "photo": "images/records/IRWR-00312.png",
     "featured": false
   },
   {
@@ -4267,7 +4267,7 @@
     "status": "verified",
     "description": "An Airbus A350-1000ULR flew nonstop from Melbourne, Australia to Toulouse, France, covering 23,075 kilometres in 24 hours 24 minutes, surpassing the previous benchmark of 21,601 km set by a Boeing 777-200LR, recognized by GBR as a new milestone in ultra-long-haul civil aviation. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00313.",
     "photoSeed": "irwr-transport-longest-nonstop-flight-in-civil-aviation-hist",
-    "photo": null,
+    "photo": "images/records/IRWR-00313.png",
     "featured": false
   },
   {
@@ -4281,7 +4281,7 @@
     "status": "verified",
     "description": "Veteran athlete Murat Nurgazin, while holding the traditional wrestling \"bridge\" position in Kazhymukan village, Akmola Region, Kazakhstan, took the impact of a 120 kg concrete block broken by a 10 kg sledgehammer strike, registered by GBR as a new World Record in extreme power as part of celebrations for the 155th anniversary of wrestler Qazhymuqan Munaitpasov. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00314.",
     "photoSeed": "irwr-extreme-extreme-power-concrete-block-break-while-holdin",
-    "photo": null,
+    "photo": "images/records/IRWR-00314.jpg",
     "featured": false
   },
   {
@@ -4295,7 +4295,7 @@
     "status": "verified",
     "description": "The Geely Galaxy A7 EM achieved 2,608.36 km on a single tank of fuel and single battery charge, setting a new world record for driving range among production plug-in hybrid sedans and surpassing the previous record of 2,369.915 km, officially included by GBR in its International Register of World Records. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00315.",
     "photoSeed": "irwr-transport-world-record-driving-range-production-plug-in",
-    "photo": null,
+    "photo": "images/records/IRWR-00315.jpg",
     "featured": false
   },
   {
@@ -4309,7 +4309,7 @@
     "status": "verified",
     "description": "British engineer Allen Millyard hand-built a one-of-a-kind motorcycle powered by a Dodge Viper V10 engine (8.0 L, 500 hp, 630 kg), reaching a top speed of 333 km/h, included by GBR as the fastest road-legal hand-built motorcycle. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00316.",
     "photoSeed": "irwr-transport-fastest-road-legal-hand-built-motorcycle",
-    "photo": null,
+    "photo": "images/records/IRWR-00316.jpg",
     "featured": false
   },
   {
@@ -4323,7 +4323,7 @@
     "status": "verified",
     "description": "The WONTANARA, built by CSSC Chengxi Shipyard for Rio Tinto's Simandou mining project in Guinea, was delivered as the world's first double-sided self-unloading vessel (41,800 DWT, 215 m length, 12,000 t/h unloading rate), included by GBR in the World Book of Records for Asia and Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00317.",
     "photoSeed": "irwr-transport-world-s-first-double-sided-self-unloading-ves",
-    "photo": null,
+    "photo": "images/records/IRWR-00317.jpg",
     "featured": false
   },
   {
@@ -4337,7 +4337,7 @@
     "status": "verified",
     "description": "Kazakh musician Bakhyt Shagyrbayev performed 114 traditional songs continuously for 6 hours 21 minutes entirely from memory in Taraz, Kazakhstan, while accompanying himself on the bayan, officially registered by GBR as a world record in Traditional Music. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00318.",
     "photoSeed": "irwr-culture-longest-solo-traditional-music-marathon",
-    "photo": null,
+    "photo": "images/records/IRWR-00318.jpg",
     "featured": false
   },
   {
@@ -4351,7 +4351,7 @@
     "status": "verified",
     "description": "In Kosshy, Kazakhstan, 562 craftswomen simultaneously conducted a masterclass in the traditional art of hand wool spinning, officially registered as a World Record by GBR's International Registration Officers Service. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00319.",
     "photoSeed": "irwr-culture-largest-simultaneous-traditional-wool-spinning-",
-    "photo": null,
+    "photo": "images/records/IRWR-00319.jpg",
     "featured": false
   },
   {
@@ -4365,7 +4365,7 @@
     "status": "verified",
     "description": "At Kobylandy Batyr Stadium in Aktobe, Kazakhstan, a mass scene simulating football spectators was filmed for the feature film \"13 Sector,\" officially registered by GBR as the largest number of extras simultaneously participating in the filming of a single mass scene simulating football spectators in Central Asia. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00320.",
     "photoSeed": "irwr-culture-largest-mass-filming-of-football-fans-in-a-feat",
-    "photo": null,
+    "photo": "images/records/IRWR-00320.jpg",
     "featured": false
   },
   {
@@ -4379,7 +4379,7 @@
     "status": "verified",
     "description": "The Eysturoy Tunnel in the Faroe Islands contains the world's first and only underwater roundabout, approximately 72 metres below sea level within an 11.2 km subsea tunnel system connecting three routes, recognized by GBR as an outstanding engineering achievement. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00321.",
     "photoSeed": "irwr-architecture-world-s-first-and-only-underwater-roundabo",
-    "photo": null,
+    "photo": "images/records/IRWR-00321.jpg",
     "featured": false
   },
   {
@@ -4393,7 +4393,7 @@
     "status": "verified",
     "description": "Chery introduced the Kunpeng Tianqing Hybrid Engine, achieving 48.57% thermal efficiency, one of the highest figures ever announced for a mass-production hybrid internal combustion engine, welcomed by GBR as an outstanding technological achievement. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00322.",
     "photoSeed": "irwr-transport-highest-thermal-efficiency-mass-production-hy",
-    "photo": null,
+    "photo": "images/records/IRWR-00322.png",
     "featured": false
   },
   {
@@ -4407,7 +4407,7 @@
     "status": "verified",
     "description": "Ethnodesigner Aselina Batyr's \"Köshen Körpe\" project produced 1,031 traditional Kazakh quilted patchwork blankets (Quraq), officially registered by GBR at the Beibarys Complex, Akmola Region, Kazakhstan, as a world ethno record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00323.",
     "photoSeed": "irwr-culture-largest-collection-of-traditional-kazakh-quilte",
-    "photo": null,
+    "photo": "images/records/IRWR-00323.jpg",
     "featured": false
   },
   {
@@ -4421,7 +4421,7 @@
     "status": "verified",
     "description": "Ethnodesigner Aselina Batyr's \"Köshen Körpe\" project produced 1,006 traditional Kazakh patchwork pillows, officially registered by GBR at the Beibarys Complex, Akmola Region, Kazakhstan, as a second world ethno record alongside the project's patchwork blanket record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00324.",
     "photoSeed": "irwr-culture-largest-collection-of-traditional-kazakh-patchw",
-    "photo": null,
+    "photo": "images/records/IRWR-00324.jpg",
     "featured": false
   },
   {
@@ -4435,7 +4435,7 @@
     "status": "verified",
     "description": "The Bombardier Global 8000 was officially included by GBR as the world's fastest business jet, with a maximum speed of Mach 0.95 (1,160 km/h), a range of 8,000 nautical miles, and an operating altitude of 51,000 ft. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00325.",
     "photoSeed": "irwr-transport-world-s-fastest-business-jet",
-    "photo": null,
+    "photo": "images/records/IRWR-00325.jpeg",
     "featured": false
   },
   {
@@ -4449,7 +4449,7 @@
     "status": "verified",
     "description": "The Chinese motorcycle CFMOTO V4 SR-RR, powered by a V4 prototype engine delivering over 200 horsepower, reached 315.82 km/h during official testing, recognized by GBR as a speed milestone for China's motorcycle industry. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00326.",
     "photoSeed": "irwr-transport-speed-benchmark-for-high-performance-motorcyc",
-    "photo": null,
+    "photo": "images/records/IRWR-00326.jpg",
     "featured": false
   },
   {
@@ -4463,7 +4463,7 @@
     "status": "verified",
     "description": "GBR officially included the Congo River as the deepest river on Earth, with a maximum depth of over 220 metres, a length of about 4,700 km and a basin area of about 4 million km², recognizing it as one of Africa's greatest natural treasures. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00327.",
     "photoSeed": "irwr-culture-deepest-river-in-the-world",
-    "photo": null,
+    "photo": "images/records/IRWR-00327.jpg",
     "featured": false
   },
   {
@@ -4477,7 +4477,7 @@
     "status": "verified",
     "description": "GBR included the UNESCO World Heritage monument Hagia Sophia in its 2026 edition, recognized in three categories including fastest construction of a monumental domed cathedral of antiquity, built in approximately 5-6 years and completed in 537 AD. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00328.",
     "photoSeed": "irwr-architecture-fastest-construction-of-a-monumental-domed",
-    "photo": null,
+    "photo": "images/records/IRWR-00328.jpg",
     "featured": false
   },
   {
@@ -4491,7 +4491,7 @@
     "status": "verified",
     "description": "Servicemen Aibar Erzhanov and Erzhan Zhakayev pulled an electric locomotive weighing a total of 276 tons using only the strength of their hands on a level surface in Astana, Kazakhstan, officially approved by GBR as the National Record of Kazakhstan in the Extreme Strength World Record category. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00329.",
     "photoSeed": "irwr-extreme-extreme-strength-hand-pulled-locomotive-record",
-    "photo": null,
+    "photo": "images/records/IRWR-00329.jpg",
     "featured": false
   },
   {
@@ -4505,7 +4505,7 @@
     "status": "verified",
     "description": "The Crystal, atop the Raffles City Chongqing complex in China, situated approximately 250 metres above the ground and extending nearly 300 metres in length, was officially included by GBR in its International Register of Outstanding Architectural and Engineering Achievements as the world's highest horizontal skyscraper. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00330.",
     "photoSeed": "irwr-architecture-world-s-highest-horizontal-skyscraper",
-    "photo": null,
+    "photo": "images/records/IRWR-00330.jpg",
     "featured": false
   },
   {
@@ -4519,7 +4519,7 @@
     "status": "verified",
     "description": "Kazakh singer Kairat Kabyshev performed 102 traditional Kazakh vocal songs continuously for 5 hours 37 minutes without lyrics, notation or prompters at the Amre Kashaubayev State Philharmonic Concert Hall in Semey, Kazakhstan, officially confirmed and registered by GBR's International Registration Commission as a new World Record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00331.",
     "photoSeed": "irwr-culture-most-traditional-kazakh-vocal-songs-performed-c",
-    "photo": null,
+    "photo": "images/records/IRWR-00331.jpg",
     "featured": false
   },
   {
@@ -4533,7 +4533,7 @@
     "status": "verified",
     "description": "Aigul Yerzhanova, a 55-year-old primary school teacher from Astana, manually pulled a two-axle Yutong city bus weighing 13,500 kg for more than 13 metres at Bus Fleet No. 1 in Astana, setting a new world record under the aegis of GBR. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00332.",
     "photoSeed": "irwr-extreme-55-year-old-manually-pulls-a-city-bus",
-    "photo": null,
+    "photo": "images/records/IRWR-00332.jpeg",
     "featured": false
   },
   {
@@ -4547,7 +4547,7 @@
     "status": "verified",
     "description": "Chongqing East Railway Station in China, officially recognized by GBR, is one of the largest railway station complexes ever built, with a total complex area of 1.22 million m², 29 railway tracks, capacity for up to 500,000 passengers daily, and an estimated project value of over $7.8 billion. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00333.",
     "photoSeed": "irwr-architecture-world-s-largest-railway-station-complex",
-    "photo": null,
+    "photo": "images/records/IRWR-00333.jpeg",
     "featured": false
   },
   {
@@ -4561,7 +4561,7 @@
     "status": "verified",
     "description": "GBR officially registered the Huajiang Grand Canyon Bridge in China as the highest bridge in the world, rising about 625 metres above the canyon, higher than Moscow's Ostankino Tower and nearly equal to the height of Shanghai Tower. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00334.",
     "photoSeed": "irwr-architecture-highest-bridge-in-the-world",
-    "photo": null,
+    "photo": "images/records/IRWR-00334.jpeg",
     "featured": false
   },
   {
@@ -4575,7 +4575,7 @@
     "status": "verified",
     "description": "Collector Erbolat Kuanyshov of Aktobe, Kazakhstan, officially became a world record holder after collecting and processing 5,126 talus bones of cattle, a unique ethnocultural achievement registered by GBR preserving the traditional talus bone heritage of the Great Steppe. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00335.",
     "photoSeed": "irwr-culture-largest-collection-of-processed-talus-bones",
-    "photo": null,
+    "photo": "images/records/IRWR-00335.jpeg",
     "featured": false
   },
   {
@@ -4589,7 +4589,7 @@
     "status": "verified",
     "description": "The glass bridge Bach Long, at the Moc Chau Island Tourist Complex in Son La Province, Vietnam, officially entered the history of world records as the longest glass-bottom pedestrian bridge in the world, measuring 632 metres in length. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00336.",
     "photoSeed": "irwr-architecture-longest-glass-bottom-pedestrian-bridge",
-    "photo": null,
+    "photo": "images/records/IRWR-00336.jpeg",
     "featured": false
   },
   {
@@ -4603,7 +4603,7 @@
     "status": "verified",
     "description": "At the London 2012 Olympic Games, the Jamaican men's 4x100 m relay team of Usain Bolt, Yohan Blake, Michael Frater and Nesta Carter set a world record of 36.84 seconds, becoming the first team in history to run under 37 seconds, officially included by GBR into the world record history collection. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00337.",
     "photoSeed": "irwr-sport-world-record-men-s-4x100-metres-relay",
-    "photo": null,
+    "photo": "images/records/IRWR-00337.jpg",
     "featured": false
   },
   {
@@ -4617,7 +4617,7 @@
     "status": "verified",
     "description": "In Brazil, the elite cow Viatina-19 was sold for a record-breaking $4.8 million, becoming the most expensive cow in the world, highlighted by GBR as one of the most remarkable records in the global livestock industry. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00338.",
     "photoSeed": "irwr-economy-most-expensive-cow-in-the-world",
-    "photo": null,
+    "photo": "images/records/IRWR-00338.jpeg",
     "featured": false
   },
   {
@@ -4631,7 +4631,7 @@
     "status": "verified",
     "description": "China launched the GLOVIS LEADER, the world's largest car carrier vessel, capable of transporting up to 10,800 vehicles in a single voyage and equipped with a dual-fuel LNG propulsion system, delivered in Guangzhou and recognized by GBR as an outstanding engineering and logistics milestone of 2026. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00339.",
     "photoSeed": "irwr-transport-world-s-largest-car-carrier-vessel",
-    "photo": null,
+    "photo": "images/records/IRWR-00339.jpeg",
     "featured": false
   },
   {
@@ -4645,7 +4645,7 @@
     "status": "verified",
     "description": "China's BYD Yangwang U9 Xtreme hypercar set a new world benchmark of 496 km/h among production cars, officially included by GBR as a new world record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00340.",
     "photoSeed": "irwr-transport-new-world-speed-benchmark-production-car",
-    "photo": null,
+    "photo": "images/records/IRWR-00340.jpeg",
     "featured": false
   },
   {
@@ -4659,7 +4659,7 @@
     "status": "verified",
     "description": "Orazkhan Manabayeva of Ayagoz, Kazakhstan, age 81, was officially recognized by GBR as the oldest woman taxi driver in the world, surpassing the previous record held by Zahida Kazmi of Rawalpindi, Pakistan (age 67) by 14 years. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00341.",
     "photoSeed": "irwr-humanbody-oldest-woman-taxi-driver-in-the-world",
-    "photo": null,
+    "photo": "images/records/IRWR-00341.png",
     "featured": false
   },
   {
@@ -4673,7 +4673,7 @@
     "status": "verified",
     "description": "In Ayagoz, Kazakhstan, a monumental heart-shaped installation (6 metres high, 5.5 metres wide) inspired by the ancient Kazakh epic Kozy Korpesh-Bayan Sulu was officially registered by GBR as a new world ethno record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00342.",
     "photoSeed": "irwr-culture-largest-heart-shaped-ethno-installation",
-    "photo": null,
+    "photo": "images/records/IRWR-00342.png",
     "featured": false
   },
   {
@@ -4687,7 +4687,7 @@
     "status": "verified",
     "description": "The Makoko Floating School in Lagos, Nigeria, built on water to provide education access for children in flood-prone areas, was included by GBR into the international register of world achievements as a symbol of engineering courage and social responsibility. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00343.",
     "photoSeed": "irwr-architecture-notable-floating-school-architecture",
-    "photo": null,
+    "photo": "images/records/IRWR-00343.png",
     "featured": false
   },
   {
@@ -4701,7 +4701,7 @@
     "status": "verified",
     "description": "Kenya's Sabastian Sawe became the first athlete in history to run an official marathon under 2 hours at the London Marathon 2026, officially included by GBR as a new world marathon record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00344.",
     "photoSeed": "irwr-sport-first-official-marathon-run-under-2-hours",
-    "photo": null,
+    "photo": "images/records/IRWR-00344.png",
     "featured": false
   },
   {
@@ -4715,7 +4715,7 @@
     "status": "verified",
     "description": "In Shanghai, China, the world's first unmanned mining dump truck Shuanglin K7 (STD) was presented, a fully electric autonomous vehicle with a 90-ton payload and Level L4 intelligent control system, recognized by GBR as a milestone in industrial robotics. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00345.",
     "photoSeed": "irwr-transport-world-s-first-unmanned-mining-dump-truck",
-    "photo": null,
+    "photo": "images/records/IRWR-00345.jpg",
     "featured": false
   },
   {
@@ -4729,7 +4729,7 @@
     "status": "verified",
     "description": "The Chinese humanoid robot UNITREE H1 (2023 upgraded version) independently completed a 1.9 km multi-turn course in 4 minutes 13 seconds (7.51 m/s) at the Beijing Humanoid Robot Half Marathon Ranking Race, officially confirmed by GBR as a world record milestone in robotics and artificial intelligence. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00346.",
     "photoSeed": "irwr-education-world-record-autonomous-long-distance-running",
-    "photo": null,
+    "photo": "images/records/IRWR-00346.jpg",
     "featured": false
   },
   {
@@ -4743,7 +4743,7 @@
     "status": "verified",
     "description": "Within the Shenzhen–Jiangmen high-speed railway project in China, an underwater railway tunnel built using shield tunneling technology reached a depth of 113 metres beneath the seabed, officially registered by GBR in the World Records Registry of Asia and Africa as a new global benchmark in underwater tunnel construction. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00347.",
     "photoSeed": "irwr-architecture-deepest-underwater-railway-tunnel-built-us",
-    "photo": null,
+    "photo": "images/records/IRWR-00347.jpeg",
     "featured": false
   },
   {
@@ -4757,7 +4757,7 @@
     "status": "verified",
     "description": "In Pavlodar, Kazakhstan, artisans and craftswomen created a 5.85-metre ethno-installation of Kydyr Ata, a sacred figure in Kazakh culture, officially registered by GBR as the tallest representation of a mythological ethnocultural character in the world after on-site laser measurement and verification. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00348.",
     "photoSeed": "irwr-culture-tallest-ethno-installation-of-kydyr-ata-in-the-",
-    "photo": null,
+    "photo": "images/records/IRWR-00348.jpg",
     "featured": false
   },
   {
@@ -4771,7 +4771,7 @@
     "status": "verified",
     "description": "At the ethnocultural center \"Topzhargan\" in Almaty, Kazakhstan, Dinara Saidallina successfully hit 4 stationary targets using a traditional Kazakh bow while riding a camel at speed over a distance of 100 metres in 9.72 seconds, officially registered by GBR as a World Record in Extreme Ethnosport. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00349.",
     "photoSeed": "irwr-extreme-mounted-archery-on-camel",
-    "photo": null,
+    "photo": "images/records/IRWR-00349.jpg",
     "featured": false
   },
   {
@@ -4785,7 +4785,7 @@
     "status": "verified",
     "description": "At the ethnocultural center \"Topzhargan\" in Almaty, Kazakhstan, an athlete rode standing on a galloping horse without holding the reins over 500 metres in 41.5 seconds (43.333 km/h), timed with certified ALGE Timing equipment and officially registered by GBR as a World Record in Extreme Ethnosport. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00350.",
     "photoSeed": "irwr-extreme-standing-horseback-speed-ride",
-    "photo": null,
+    "photo": "images/records/IRWR-00350.jpg",
     "featured": false
   },
   {
@@ -4799,7 +4799,7 @@
     "status": "verified",
     "description": "In Aktobe, Kazakhstan, performers recited over 50,000 lines of Kazakh epic poetry from memory during an uninterrupted 24-hour Zhyrau traditional singing marathon, verified by an independent scientific committee and notarial supervision, officially recorded as a world achievement in traditional epic art. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00351.",
     "photoSeed": "irwr-culture-24-hour-continuous-marathon-of-kazakh-zhyrau-or",
-    "photo": null,
+    "photo": "images/records/IRWR-00351.jpg",
     "featured": false
   },
   {
@@ -4813,7 +4813,7 @@
     "status": "verified",
     "description": "The Temple of the Monarch in the Kingdom of Bhutan was officially included by GBR in its 2026 edition as the only temple in the world built and dedicated to rulers, distinguishing it from temples traditionally dedicated to gods and spiritual figures. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00352.",
     "photoSeed": "irwr-architecture-only-temple-in-the-world-built-and-dedicat",
-    "photo": null,
+    "photo": "images/records/IRWR-00352.png",
     "featured": false
   },
   {
@@ -4827,7 +4827,7 @@
     "status": "verified",
     "description": "In Chongqing, China, the longest pedestrian escalator system in the world was launched, reaching a total length of about 905 metres and connecting mountainous urban levels, officially registered by GBR as an engineering achievement. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00353.",
     "photoSeed": "irwr-architecture-longest-pedestrian-escalator-system",
-    "photo": null,
+    "photo": "images/records/IRWR-00353.jpg",
     "featured": false
   },
   {
@@ -4841,7 +4841,7 @@
     "status": "verified",
     "description": "In Lagos, Nigeria, Chef Hilda Baci prepared the largest pot of traditional Jollof Rice ever recorded in a single cooking vessel, exceeding 8,780 kilograms over a 9-hour preparation process, officially recognized and included by GBR in the World Ethno Gastro Record classification. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00354.",
     "photoSeed": "irwr-cooking-largest-pot-of-traditional-jollof-rice",
-    "photo": null,
+    "photo": "images/records/IRWR-00354.png",
     "featured": false
   },
   {
@@ -4855,7 +4855,7 @@
     "status": "verified",
     "description": "The art installation \"The Beauty of the Great Steppe,\" created under designer Rakhima Bergen in Astana, Kazakhstan (10.355 m tall, 154.5 kg, 3,250 handmade \"shanyrak squares\" in traditional quilt patchwork technique, made by hundreds of participants across all 17 regions of Kazakhstan), was officially registered by GBR as the best work in ethno-design and ethno-cultural art in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00355.",
     "photoSeed": "irwr-culture-best-ethno-design-art-installation-the-beauty-o",
-    "photo": null,
+    "photo": "images/records/IRWR-00355.jpeg",
     "featured": false
   },
   {
@@ -4869,7 +4869,7 @@
     "status": "verified",
     "description": "Valikhan Smagulov single-handedly created a feature film performing the roles of 21 specialists, including director, screenwriter, lighting engineer, designer and sound engineer, surpassing the 15 professional competencies combined by Jackie Chan, officially included by GBR in the World Book of Records for Asia and Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00356.",
     "photoSeed": "irwr-culture-most-professional-film-roles-performed-single-h",
-    "photo": null,
+    "photo": "images/records/IRWR-00356.jpg",
     "featured": false
   },
   {
@@ -4883,7 +4883,7 @@
     "status": "verified",
     "description": "GBR officially included the Sahara Desert, spanning Algeria, Chad, Egypt, Libya, Mali, Mauritania, Morocco, Niger, Sudan and Tunisia with an area of approximately 9.2 million km², as the largest hot desert in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00357.",
     "photoSeed": "irwr-culture-largest-hot-desert-in-the-world",
-    "photo": null,
+    "photo": "images/records/IRWR-00357.png",
     "featured": false
   },
   {
@@ -4897,7 +4897,7 @@
     "status": "verified",
     "description": "In Ust-Kamenogorsk, Kazakhstan, 5,201 participants each performed the composition \"Ak Bulak\" with individual live accompaniment on the traditional Kazakh dombra, officially verified and registered by GBR as the largest mass performance of a song with personal instrumental accompaniment. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00358.",
     "photoSeed": "irwr-culture-largest-mass-performance-of-a-song-with-persona",
-    "photo": null,
+    "photo": "images/records/IRWR-00358.jpg",
     "featured": false
   },
   {
@@ -4911,7 +4911,7 @@
     "status": "verified",
     "description": "During the Nauryz celebration in Almaty, Kazakhstan, on 21 March 2026, the monumental structure \"Alyp Shanyrak,\" standing over 11 metres tall and 20 metres in diameter, was officially registered by GBR as the largest shanyrak ever created worldwide. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00359.",
     "photoSeed": "irwr-culture-largest-shanyrak-in-history-alyp-shanyrak",
-    "photo": null,
+    "photo": "images/records/IRWR-00359.jpg",
     "featured": false
   },
   {
@@ -4925,7 +4925,7 @@
     "status": "verified",
     "description": "During the Nauryz celebration in Almaty, Kazakhstan, on 21 March 2026, a handmade Kazakh syrmak crafted in traditional ornamental style, measuring 112 metres in length, was officially registered by GBR as the longest syrmak in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00360.",
     "photoSeed": "irwr-culture-longest-traditional-syrmak",
-    "photo": null,
+    "photo": "images/records/IRWR-00360.jpg",
     "featured": false
   },
   {
@@ -4939,7 +4939,7 @@
     "status": "verified",
     "description": "Amateur skier Sergey Apenko reached 160.953 km/h in a downhill ski run at Shymbulak Mountain Resort, Almaty, Kazakhstan, timed with certified Austrian ALGE Timing equipment and officially registered by GBR as a Record of Asia and Africa and the Shymbulak amateur speed record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00361.",
     "photoSeed": "irwr-extreme-fastest-downhill-ski-run-among-amateur-skiers",
-    "photo": null,
+    "photo": "images/records/IRWR-00361.jpg",
     "featured": false
   },
   {
@@ -4953,7 +4953,7 @@
     "status": "verified",
     "description": "Amateur skier Sergey Apenko completed the first officially registered high-speed night downhill ski run among amateurs at Shymbulak Mountain Resort, Almaty, Kazakhstan, registered by GBR as a Record of Asia and Africa and the historic Shymbulak amateur night speed record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00362.",
     "photoSeed": "irwr-extreme-first-high-speed-night-downhill-run-among-amate",
-    "photo": null,
+    "photo": "images/records/IRWR-00362.jpg",
     "featured": false
   },
   {
@@ -4967,7 +4967,7 @@
     "status": "verified",
     "description": "A ram named MILLION, weighing over 231 kg and owned by farmer Kuanysh Myktybayev in Sary-Agash, Kazakhstan, was officially included in the World Book of Records for Asia and Africa by GBR as the largest ram in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00363.",
     "photoSeed": "irwr-economy-largest-ram-in-the-world",
-    "photo": null,
+    "photo": "images/records/IRWR-00363.jpg",
     "featured": false
   },
   {
@@ -4981,7 +4981,7 @@
     "status": "verified",
     "description": "Along the Beirut waterfront, Lebanon, a Ramadan Iftar table stretching approximately 3,255.8 metres was organized with more than 5,700 participants and around 700 volunteers, recognized by GBR in the category of Largest Community Ramadan Iftar Table. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00364.",
     "photoSeed": "irwr-culture-longest-community-ramadan-iftar-table",
-    "photo": null,
+    "photo": "images/records/IRWR-00364.jpg",
     "featured": false
   },
   {
@@ -4995,7 +4995,7 @@
     "status": "verified",
     "description": "The Great Ethiopian Run in Addis Ababa, founded by Olympic champion Haile Gebrselassie, gathered 55,000 participants, officially recognized by GBR as the largest mass road race participation in Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00365.",
     "photoSeed": "irwr-sport-largest-mass-running-event-in-africa",
-    "photo": null,
+    "photo": "images/records/IRWR-00365.jpg",
     "featured": false
   },
   {
@@ -5009,7 +5009,7 @@
     "status": "verified",
     "description": "TAU TUMAR, a horse from Southern Kazakhstan owned by Berik Sultan, built a social media fan base exceeding 100,000 followers across Instagram and TikTok and held an in-person fan meeting, officially included by GBR into the international registry as the first horse recognized as a digital-era phenomenon. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00366.",
     "photoSeed": "irwr-culture-first-horse-registered-as-a-digital-era-phenome",
-    "photo": null,
+    "photo": "images/records/IRWR-00366.jpg",
     "featured": false
   },
   {
@@ -5023,7 +5023,7 @@
     "status": "verified",
     "description": "Sofia Shulzhenko of Kazakhstan set a new Asian and World Record in 50m Small-bore Rifle 3 Positions (Women) at the Asian Championship in Delhi, scoring 358.2 points, officially recognized and included in GBR. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00367.",
     "photoSeed": "irwr-sport-asian-and-world-record-50m-small-bore-rifle-3-pos",
-    "photo": null,
+    "photo": "images/records/IRWR-00367.jpg",
     "featured": false
   },
   {
@@ -5037,7 +5037,7 @@
     "status": "verified",
     "description": "In Lagos, Nigeria, a team of five readers read aloud continuously for 431 hours 31 minutes 25 seconds, more than 18 days, officially included by GBR as a record of literacy and intellectual endurance. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00368.",
     "photoSeed": "irwr-education-longest-continuous-reading-aloud-marathon",
-    "photo": null,
+    "photo": "images/records/IRWR-00368.jpg",
     "featured": false
   },
   {
@@ -5051,7 +5051,7 @@
     "status": "verified",
     "description": "Kenyan long-distance runner Beatrice Chebet became the first woman to run 5000 metres under 14 minutes, recording 13:58.06, officially included by GBR as both a World Record and an African Record. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00369.",
     "photoSeed": "irwr-sport-world-record-and-african-record-5000-metres-women",
-    "photo": null,
+    "photo": "images/records/IRWR-00369.jpg",
     "featured": false
   },
   {
@@ -5065,7 +5065,7 @@
     "status": "verified",
     "description": "The Karakoram Highway, connecting Pakistan and China and reaching 4,693 metres at the Khunjerab Pass, was officially included by GBR as one of the highest permanently functioning international paved highways in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00370.",
     "photoSeed": "irwr-transport-highest-permanently-functioning-international",
-    "photo": null,
+    "photo": "images/records/IRWR-00370.jpg",
     "featured": false
   },
   {
@@ -5079,7 +5079,7 @@
     "status": "verified",
     "description": "The electric air taxi Prosperity (eVTOL) by AutoFlight completed the world's first inter-city flight, connecting Shenzhen and Zhuhai, China, in 20 minutes fully electric with zero emissions versus 3 hours by car, officially recognized and included by GBR. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00371.",
     "photoSeed": "irwr-transport-world-s-first-inter-city-evtol-flight",
-    "photo": null,
+    "photo": "images/records/IRWR-00371.jpg",
     "featured": false
   },
   {
@@ -5093,7 +5093,7 @@
     "status": "verified",
     "description": "In the Ömnögovi Aimag of Mongolia, 155,900 red (brown) Galbiin Bactrian camels are raised within a single administrative region, officially recognized and documented by GBR as the largest documented population of red Bactrian camels in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00372.",
     "photoSeed": "irwr-economy-largest-population-of-red-brown-bactrian-camels",
-    "photo": null,
+    "photo": "images/records/IRWR-00372.jpg",
     "featured": false
   },
   {
@@ -5107,7 +5107,7 @@
     "status": "verified",
     "description": "American endurance athlete Erin Ton completed the fastest ascent of Mount Aconcagua (6,961 m), reaching the summit and returning to Plaza de Mulas in approximately 6 hours 33 minutes, setting a new women's speed record officially included by GBR. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00373.",
     "photoSeed": "irwr-extreme-fastest-ascent-of-mount-aconcagua-women-s-speed",
-    "photo": null,
+    "photo": "images/records/IRWR-00373.jpg",
     "featured": false
   }
 ];
