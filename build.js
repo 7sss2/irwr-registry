@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const root = __dirname;
 
 const partials = {};
@@ -79,12 +80,29 @@ function minPath(dir, name) {
   return fs.existsSync(path.join(root, dir, minName)) ? minName : name;
 }
 
+// The browser (and Netlify's CDN edge) cache js/data.min.js under its plain
+// filename for up to an hour (see netlify.toml/default headers) - without a
+// cache-busting suffix, anyone who loaded the site earlier keeps seeing the
+// pre-deploy dataset (stale record count, missing photos, etc.) until that
+// cache expires, even though the server already has the new file. Appending
+// a short hash of data.js's own content forces a fresh URL - and therefore a
+// fresh fetch - every time the dataset actually changes, while leaving the
+// cache alone (and the URL stable) on deploys that don't touch the data.
+function dataContentHash() {
+  const src = fs.readFileSync(path.join(root, 'js', minPath('js', 'data.js')), 'utf8');
+  return crypto.createHash('sha256').update(src).digest('hex').slice(0, 10);
+}
+
 function build() {
   const cssLinks = ['tokens.css', 'base.css', 'pages.css']
     .map((name) => `<link rel="stylesheet" href="css/${minPath('css', name)}">`)
     .join('\n');
+  const dataHash = dataContentHash();
   const coreScripts = ['data.js', 'main.js']
-    .map((name) => `<script src="js/${minPath('js', name)}" defer></script>`)
+    .map((name) => {
+      const suffix = name === 'data.js' ? `?v=${dataHash}` : '';
+      return `<script src="js/${minPath('js', name)}${suffix}" defer></script>`;
+    })
     .join('\n');
   // three.js (118KB) is only pulled in on pages that do real WebGL work (currently
   // just the interactive countries globe) - everywhere else relies on CSS/SVG for
