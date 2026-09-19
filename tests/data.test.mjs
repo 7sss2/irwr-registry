@@ -7,7 +7,7 @@ vm.createContext(sandbox);
 vm.runInContext(readFileSync('js/data.js', 'utf8'), sandbox);
 const { IRWR_RECORDS, IRWR } = sandbox.window;
 
-assert.equal(IRWR_RECORDS.length, 365, 'expected 365 real GBR-sourced records (295 book records + 70 globalbestrecords.org/news records)');
+assert.equal(IRWR_RECORDS.length, 366, 'expected 366 real GBR-sourced records (295 book records + 71 globalbestrecords.org/news records)');
 assert.equal(IRWR.CATEGORIES.length, 10, 'expected 10 categories');
 const expectedSlugs = ['sport','economy','culture','education','transport','cooking','architecture','military','humanbody','extreme'];
 // Array.from() below normalizes the array to this module's realm before
@@ -31,7 +31,7 @@ assert.deepEqual(new Set(featured.map((r) => r.category)), new Set(['culture', '
 assert.equal(IRWR.byId('IRWR-00001').id, 'IRWR-00001');
 assert.equal(IRWR.byId('IRWR-99999'), undefined);
 
-const expectedCounts = { sport: 41, economy: 39, culture: 73, education: 44, transport: 52, cooking: 14, architecture: 40, military: 19, humanbody: 9, extreme: 34 };
+const expectedCounts = { sport: 42, economy: 39, culture: 73, education: 44, transport: 52, cooking: 14, architecture: 40, military: 19, humanbody: 9, extreme: 34 };
 expectedSlugs.forEach((slug) => assert.equal(IRWR.byCategory(slug).length, expectedCounts[slug], `${slug} should have ${expectedCounts[slug]} records`));
 
 // Every record must carry its GBR provenance, not imply IRWR's own discovery.
@@ -39,7 +39,7 @@ assert.ok(IRWR_RECORDS.every((r) => r.status === 'verified'), 'all real records 
 assert.ok(IRWR_RECORDS.every((r) => r.description.includes('Originally recognized by GBR')), 'description must credit GBR as the original source');
 
 const byCountry = IRWR.groupBy('country');
-assert.equal(Object.values(byCountry).reduce((sum, arr) => sum + arr.length, 0), 365);
+assert.equal(Object.values(byCountry).reduce((sum, arr) => sum + arr.length, 0), 366);
 
 const catFiltered = IRWR.filterRecords(IRWR_RECORDS, { category: 'culture' });
 assert.equal(catFiltered.length, 73);
@@ -57,7 +57,7 @@ const page1 = IRWR.paginate(IRWR_RECORDS, 1, 10);
 assert.equal(page1.items.length, 10);
 assert.equal(page1.totalPages, 37);
 const lastPage = IRWR.paginate(IRWR_RECORDS, 37, 10);
-assert.equal(lastPage.items.length, 5);
+assert.equal(lastPage.items.length, 6);
 const pageOverflow = IRWR.paginate(IRWR_RECORDS, 99, 10);
 assert.equal(pageOverflow.page, 37, 'page number clamps to last valid page');
 

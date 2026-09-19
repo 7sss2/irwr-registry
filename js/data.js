@@ -1929,7 +1929,7 @@
     "status": "verified",
     "description": "Coursera drew on more than 4,000 instructors from top universities worldwide as of 2023, more than any comparable distance-learning platform. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00138.",
     "photoSeed": "irwr-education-most-educators-on-a-distance-learning-platfor",
-    "photo": null,
+    "photo": "images/records/IRWR-00138.jpg",
     "featured": false
   },
   {
@@ -2881,7 +2881,7 @@
     "status": "verified",
     "description": "The Fleur restaurant at Mandalay Bay in Las Vegas sold a hamburger for USD 5,000 in 2011, the most expensive hamburger ever offered. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00214.",
     "photoSeed": "irwr-cooking-most-expensive-hamburger",
-    "photo": null,
+    "photo": "images/records/IRWR-00214.jpg",
     "featured": false
   },
   {
@@ -5108,6 +5108,20 @@
     "description": "American endurance athlete Erin Ton completed the fastest ascent of Mount Aconcagua (6,961 m), reaching the summit and returning to Plaza de Mulas in approximately 6 hours 33 minutes, setting a new women's speed record officially included by GBR. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00373.",
     "photoSeed": "irwr-extreme-fastest-ascent-of-mount-aconcagua-women-s-speed",
     "photo": "images/records/IRWR-00373.jpg",
+    "featured": false
+  },
+  {
+    "id": "IRWR-00374",
+    "title": "Fastest Men's 1000 Metres",
+    "category": "sport",
+    "holderName": "Emmanuel Wanyonyi",
+    "country": "Kenya",
+    "countryCode": "KEN",
+    "date": "11 July 2026",
+    "status": "verified",
+    "description": "At the Diamond League meeting in Monaco, Kenyan middle-distance runner Emmanuel Wanyonyi ran 1000 metres in 2:11.83, a new world record that improved a mark standing for nearly 27 years by 0.13 seconds, included by GBR in the World Book of Records for Asia and Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00374.",
+    "photoSeed": "irwr-sport-fastest-men-s-1000-metres",
+    "photo": "images/records/IRWR-00374.jpg",
     "featured": false
   }
 ];

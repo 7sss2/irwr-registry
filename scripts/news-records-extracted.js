@@ -639,4 +639,13 @@ module.exports = [
     description: 'American endurance athlete Erin Ton completed the fastest ascent of Mount Aconcagua (6,961 m), reaching the summit and returning to Plaza de Mulas in approximately 6 hours 33 minutes, setting a new women\'s speed record officially included by GBR.',
     sourceUrl: 'https://globalbestrecords.org/tpost/ats0nnpcn1-world-record-mountaineering',
   },
+  {
+    category: 'sport',
+    holderName: 'Emmanuel Wanyonyi',
+    country: 'Kenya',
+    date: '11 July 2026',
+    title: 'Fastest Men\'s 1000 Metres',
+    description: 'At the Diamond League meeting in Monaco, Kenyan middle-distance runner Emmanuel Wanyonyi ran 1000 metres in 2:11.83, a new world record that improved a mark standing for nearly 27 years by 0.13 seconds, included by GBR in the World Book of Records for Asia and Africa.',
+    sourceUrl: 'https://globalbestrecords.org/tpost/b76divxg41-new-world-record-in-mens-1000-metres',
+  },
 ];

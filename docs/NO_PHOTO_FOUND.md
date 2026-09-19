@@ -1,3 +1,16 @@
+## 2026-09-19: final pass — Wanyonyi record added, 3 photos (58 -> 56 without photo)
+
+Re-diffed all 152 globalbestrecords.org news posts against the extraction: one concrete,
+GBR-registered record had been missed — Emmanuel Wanyonyi's 2:11.83 men's 1000 m world record
+(11 July 2026, Monaco) — added as IRWR-00374 (photo: Wikimedia Commons, CC/GFDL). Items GBR only
+"will consider"/"is reviewing"/marks "pending" (Yomif Kejelcha half marathon, Istanbul Airport,
+Graham Sykes steam motorcycle, Cappadocia, Jeddah Tower, floating research island) stay excluded.
+Also added identity photos from Wikimedia Commons: IRWR-00214 (Mandalay Bay, home of Fleur) and
+IRWR-00138 (Coursera HQ). Rejected after visual check: Chocoversum shop shelf (00213), generic
+Shenzhen apartment blocks (00165), in-flight seat screen (00111).
+The 46 undated records are undated in the source book itself (career totals, institutions), so no
+date was invented.
+
 # IRWR records with NO verified real photo (58 of 295)
 
 ## 2026-09-09: Third-party source search, round 3 — 2 more photos added
