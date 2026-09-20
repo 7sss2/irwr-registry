@@ -5123,6 +5123,62 @@
     "photoSeed": "irwr-sport-fastest-men-s-1000-metres",
     "photo": "images/records/IRWR-00374.jpg",
     "featured": false
+  },
+  {
+    "id": "IRWR-00375",
+    "title": "Fastest Women's-Only Half Marathon",
+    "category": "sport",
+    "holderName": "Agnes Jebet Ngetich",
+    "country": "Kenya",
+    "countryCode": "KEN",
+    "date": "20 September 2026",
+    "status": "verified",
+    "description": "At the World Athletics Road Running Championships Copenhagen 26 in Denmark, Kenyan runner Agnes Jebet Ngetich ran the women's-only half marathon in 1:05:15, a new world record officially included by GBR in the World Book of Records for Asia and Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00375.",
+    "photoSeed": "irwr-sport-fastest-women-s-only-half-marathon",
+    "photo": "images/records/IRWR-00375.jpg",
+    "featured": false
+  },
+  {
+    "id": "IRWR-00376",
+    "title": "Deepest Mine in the World",
+    "category": "extreme",
+    "holderName": "Mponeng Gold Mine",
+    "country": "South Africa",
+    "countryCode": "ZAF",
+    "date": "2026",
+    "status": "verified",
+    "description": "Mponeng Gold Mine, operated by Harmony Gold in the West Wits area on the Gauteng/North West border of South Africa, reaches a depth of approximately 4,000 metres with rock temperatures of up to 60 °C, included by GBR as the deepest mine in the world. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00376.",
+    "photoSeed": "irwr-extreme-deepest-mine-in-the-world",
+    "photo": "images/records/IRWR-00376.jpg",
+    "featured": false
+  },
+  {
+    "id": "IRWR-00377",
+    "title": "World's First Two-Level Road Tunnel Under the Sea",
+    "category": "transport",
+    "holderName": "Eurasia Tunnel (Avrasya Tüneli)",
+    "country": "Turkey",
+    "countryCode": "TUR",
+    "date": "2016",
+    "status": "verified",
+    "description": "The Eurasia Tunnel in Istanbul, opened in 2016, links Europe and Asia under the Bosphorus with two levels and four lanes over a total length of 14.6 km, including a 5.4 km underwater section reaching a maximum depth of 106 m, recognized by GBR as the world's first two-level road tunnel. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00377.",
+    "photoSeed": "irwr-transport-world-s-first-two-level-road-tunnel-under-the",
+    "photo": "images/records/IRWR-00377.jpg",
+    "featured": false
+  },
+  {
+    "id": "IRWR-00378",
+    "title": "Most Powerful Phased Array Radar in the World",
+    "category": "military",
+    "holderName": "AN/FPS-85 Phased Array Radar",
+    "country": "USA",
+    "countryCode": "USA",
+    "date": "2026",
+    "status": "verified",
+    "description": "The AN/FPS-85, a large phased array radar facility in the United States, was recognized by GBR as the world's most powerful phased array radar. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00378.",
+    "photoSeed": "irwr-military-most-powerful-phased-array-radar-in-the-world",
+    "photo": "images/records/IRWR-00378.jpg",
+    "featured": false
   }
 ];
 
