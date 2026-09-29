@@ -5179,6 +5179,48 @@
     "photoSeed": "irwr-military-most-powerful-phased-array-radar-in-the-world",
     "photo": "images/records/IRWR-00378.jpg",
     "featured": false
+  },
+  {
+    "id": "IRWR-00379",
+    "title": "Fastest 3x3x3 Cube Average (Women's)",
+    "category": "sport",
+    "holderName": "Lian Yunzhi",
+    "country": "China",
+    "countryCode": "CHN",
+    "date": "14 September 2026",
+    "status": "verified",
+    "description": "On 14 September 2026 in Guangzhou, China, six-year-old Chinese speedcuber Lian Yunzhi achieved a world record average of 4.27 seconds in the 3x3x3 Cube event, included by GBR in the World Book of Records for Asia and Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00379.",
+    "photoSeed": "irwr-sport-fastest-3x3x3-cube-average-women-s",
+    "photo": "images/records/IRWR-00379.jpg",
+    "featured": false
+  },
+  {
+    "id": "IRWR-00380",
+    "title": "World's Largest Brick Bridge",
+    "category": "architecture",
+    "holderName": "Göltzschtalbrücke",
+    "country": "Germany",
+    "countryCode": "DEU",
+    "date": "1851",
+    "status": "verified",
+    "description": "Located in Saxony's Vogtland region, Germany, the historic Göltzschtalbrücke railway bridge, built between 1846 and 1851, is 574 metres long and 78 metres high and used approximately 26 million bricks, recognized by GBR as the world's largest brick bridge. It remains an active railway structure more than 170 years after completion. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00380.",
+    "photoSeed": "irwr-architecture-world-s-largest-brick-bridge",
+    "photo": "images/records/IRWR-00380.jpg",
+    "featured": false
+  },
+  {
+    "id": "IRWR-00381",
+    "title": "Highest Documented Landslide-Generated Wave Run-Up",
+    "category": "extreme",
+    "holderName": "Lituya Bay Megatsunami",
+    "country": "USA",
+    "countryCode": "USA",
+    "date": "9 July 1958",
+    "status": "verified",
+    "description": "On 9 July 1958, an earthquake in Alaska triggered a massive rockslide into Lituya Bay, generating a landslide-induced tsunami whose wave surged up the opposite mountainside to a maximum run-up elevation of 524 metres, the highest documented landslide-generated wave run-up in the world, included by GBR in the World Book of Records for Asia and Africa. Originally recognized by GBR (Global Best of Records). Registered in IRWR under ID IRWR-00381.",
+    "photoSeed": "irwr-extreme-highest-documented-landslide-generated-wave-run",
+    "photo": "images/records/IRWR-00381.jpg",
+    "featured": false
   }
 ];
 
