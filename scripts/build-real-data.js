@@ -59,17 +59,20 @@ function slugify(str) {
   return str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 }
 
-// Records added later from globalbestrecords.org/news. Appended after the
-// book records so existing IDs (and the photo manifest keyed on them) never shift.
+// The registry holds every GBR record from the book, the globalbestrecords.org site
+// (records catalog + records announced on /news) and GBR's Instagram. Site and
+// Instagram records are appended after the book records so existing IDs (and the
+// photo manifest keyed on them) never shift; Instagram records carry their own irwrId.
 const newsRecords = require('./news-records-extracted.js');
+const instagramRecords = require('./instagram-records-extracted.js');
 
 let id = 0;
 const records = [];
-const sources = CATEGORY_ORDER.flatMap((slug) => extracted[slug]).concat(newsRecords);
+const sources = CATEGORY_ORDER.flatMap((slug) => extracted[slug]).concat(newsRecords, instagramRecords);
 sources.forEach((r) => {
   const slug = r.category;
   id += 1;
-  const irwrId = `IRWR-${String(id).padStart(5, '0')}`;
+  const irwrId = r.irwrId || `IRWR-${String(id).padStart(5, '0')}`;
   records.push({
     id: irwrId,
     title: r.title,
